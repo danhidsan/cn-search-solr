@@ -6,7 +6,7 @@
     <groupId>com.condenast.search</groupId>
     <artifactId>cn-search-solr</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <properties>
         <solr-version>5.3.0</solr-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
             <artifactId>cn-search-corpus-utils</artifactId>
             <version>2.2.0</version>
         </dependency>
-        
+
         <dependency>
             <groupId>com.gistlabs</groupId>
             <artifactId>mechanize</artifactId>
