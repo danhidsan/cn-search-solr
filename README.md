@@ -22,7 +22,7 @@ You need the following:
 - Java (v1.8+)
 - Maven (v3+)
 
-## Testing unified in
+## Testing
 
 To run the tests:
 
