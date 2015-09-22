@@ -1,0 +1,43 @@
+{
+  "revisionAuthor":"Michele Zotos",
+  "hed":"Alex Lau",
+  "dek":"",
+  "tags":[],
+  "items":[],
+  "id":"55aff9cba188eea213e625ed",
+  "revision":2,
+  "createdAt":"2015-07-22T20:15:07.359Z",
+  "modifiedAt":"2015-07-22T20:16:12.005Z",
+  "revisionCreatedAt":"2015-07-22T20:16:12.005Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":true},
+  "_links":{
+    "self":{"href":"/curatedlists/55aff9cba188eea213e625ed/revisions/2"},
+    "rels":{"href":"/curatedlists/55aff9cba188eea213e625ed/revisions/2/rels"},
+    "relate":{
+      "href":"/curatedlists/55aff9cba188eea213e625ed/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/55aff9cba188eea213e625ed/revisions"},
+    "unarchive":{"href":"/curatedlists/55aff9cba188eea213e625ed/unarchive"},
+    "publish":{"href":"/curatedlists/55aff9cba188eea213e625ed/publish"},
+    "publishHistory":{"href":"/curatedlists/55aff9cba188eea213e625ed/publish/history"},
+    "next":{"href":"/curatedlists/55aff9cba188eea213e625ed/next"},
+    "previous":{"href":"/curatedlists/55aff9cba188eea213e625ed/previous"},
+    "more":{"href":"/curatedlists/published/more?id=55aff9cba188eea213e625ed"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55aff9cba188eea213e625ed",
+      "revision":1,
+      "uri":"alex-lau",
+      "pubDate":"2015-07-22T20:15:10.179Z",
+      "revisionAuthor":"Michele Zotos",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-07-22T20:15:14.101Z"}}}

@@ -1,0 +1,41 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "category":"tag",
+  "name":"Friday Night Nachos",
+  "id":"55f1ce61cf90d6663f728bc2",
+  "revision":0,
+  "createdAt":"2015-09-10T18:39:29.663Z",
+  "modifiedAt":"2015-09-10T18:39:29.663Z",
+  "revisionCreatedAt":"2015-09-10T18:39:29.663Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/revisions/0"},
+    "rels":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/revisions/0/rels"},
+    "relate":{
+      "href":"/taxonomies/55f1ce61cf90d6663f728bc2/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/revisions"},
+    "archive":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/archive"},
+    "publish":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/publish"},
+    "publishHistory":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/publish/history"},
+    "next":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/next"},
+    "previous":{"href":"/taxonomies/55f1ce61cf90d6663f728bc2/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55f1ce61cf90d6663f728bc2"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f1ce61cf90d6663f728bc2",
+      "revision":0,
+      "uri":"tag/friday-night-nachos",
+      "pubDate":"2015-09-10T18:39:29.938Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-10T18:39:35.082Z"}}}

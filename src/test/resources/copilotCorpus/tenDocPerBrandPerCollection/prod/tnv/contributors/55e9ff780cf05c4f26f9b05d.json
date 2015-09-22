@@ -1,0 +1,42 @@
+{
+  "revisionAuthor":"Sade Strehlke",
+  "name":"Miss New Foodie",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55e9ff780cf05c4f26f9b05d",
+  "revision":0,
+  "createdAt":"2015-09-04T20:30:48.757Z",
+  "modifiedAt":"2015-09-04T20:30:48.757Z",
+  "revisionCreatedAt":"2015-09-04T20:30:48.757Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/0"},
+    "rels":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/55e9ff780cf05c4f26f9b05d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions"},
+    "archive":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/archive"},
+    "publish":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/publish"},
+    "publishHistory":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/publish/history"},
+    "next":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/next"},
+    "previous":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/previous"},
+    "more":{"href":"/contributors/published/more?id=55e9ff780cf05c4f26f9b05d"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55e9ff780cf05c4f26f9b05d",
+      "revision":0,
+      "uri":"contributor/miss-new-foodie",
+      "pubDate":"2015-09-04T20:30:49.045Z",
+      "revisionAuthor":"Sade Strehlke",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-04T20:30:59.207Z"}}}

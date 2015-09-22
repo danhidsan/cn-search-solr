@@ -1,0 +1,91 @@
+{
+  "revisionAuthor":"Caitlin Morton",
+  "title":"Newsletter 2/10",
+  "date":"2015-02-10T17:05:57+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54d3efe2f743358e0c1de1c6",
+      "hed":"The Best U.S. Cities for Music Lovers",
+      "dek":"Blues, jazz, hip-hop, rock & roll—all are hugely influential and uniquely American. These 15 cities are some of the country's best destinations for any type of music lover."},
+    {
+      "relId":"53da708bdcd5888e145b462c",
+      "hed":"The Most Stunning Temples in Asia",
+      "dek":""},
+    {
+      "relId":"54d38115f743358e0c1dd438",
+      "hed":"10 Chocolate Shops Worth Traveling For",
+      "dek":""},
+    {
+      "relId":"54d922c9f743358e0c1e10a6",
+      "hed":"7 Reasons to Make Mexico Your Next Romantic Getaway",
+      "dek":""},
+    {
+      "relId":"54d551cad145542413451380",
+      "hed":"Hotels That Smell As Good As They Look",
+      "dek":""},
+    {
+      "relId":"53e2f581dddaa35c30f66d58",
+      "hed":"An Insider's Guide to the Grand Canyon",
+      "dek":""},
+    {
+      "relId":"540f9c3e0ac7976b508ccd2d",
+      "hed":"The Ultimate Carry-On Guide for Guys",
+      "dek":""},
+    {
+      "relId":"54d8d5dbd145542413451c18",
+      "hed":"What It Takes to Be an &quot;Engagement Concierge&quot;",
+      "dek":""},
+    {
+      "relId":"54d949f7f743358e0c1e1f5a",
+      "hed":"This Company Offers Four-Hour Hotel Stays",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54d3efe2f743358e0c1de1c6",
+      "hed":"Best Music Cities"},
+    {
+      "relId":"54d38115f743358e0c1dd438",
+      "hed":"Global Chocolate"},
+    {
+      "relId":"54d922c9f743358e0c1e10a6",
+      "hed":"Romantic Mexico"}],
+  "id":"54da3a7bf743358e0c1e283f",
+  "revision":3,
+  "createdAt":"2015-02-10T17:06:03.641Z",
+  "modifiedAt":"2015-02-10T17:07:09.763Z",
+  "revisionCreatedAt":"2015-02-10T17:07:09.763Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54da3a7bf743358e0c1e283f/revisions/3"},
+    "rels":{"href":"/newsletters/54da3a7bf743358e0c1e283f/revisions/3/rels"},
+    "relate":{
+      "href":"/newsletters/54da3a7bf743358e0c1e283f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54da3a7bf743358e0c1e283f/revisions"},
+    "archive":{"href":"/newsletters/54da3a7bf743358e0c1e283f/archive"},
+    "publish":{"href":"/newsletters/54da3a7bf743358e0c1e283f/publish"},
+    "publishHistory":{"href":"/newsletters/54da3a7bf743358e0c1e283f/publish/history"},
+    "next":{"href":"/newsletters/54da3a7bf743358e0c1e283f/next"},
+    "previous":{"href":"/newsletters/54da3a7bf743358e0c1e283f/previous"},
+    "more":{"href":"/newsletters/published/more?id=54da3a7bf743358e0c1e283f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54da3a7bf743358e0c1e283f",
+      "revision":3,
+      "uri":"newsletters/2015-02-10/newsletter-2-10",
+      "pubDate":"2015-02-10T17:07:08.713Z",
+      "revisionAuthor":"Caitlin Morton",
+      "searchable":true,
+      "template":"daily-traveler-weekday",
+      "expired":false,
+      "createdAt":"2015-02-10T17:07:16.331Z"}}}

@@ -1,0 +1,55 @@
+{
+  "name":"Power Station of Art",
+  "address":{
+    "street":"﻿﻿200 Huayuangang Road",
+    "city":"Shanghai",
+    "state":"",
+    "country":"China",
+    "postalCode":""},
+  "phone":["86-21-3127-8535"],
+  "url":["test.powerstationofart.org"],
+  "description":"One of the few buildings from the 2010 Shanghai World Expo site that has since been re-purposed, this is China's first state-run contemporary art museum. Housed in a stunning renovated power station dating back to the early 19th century, it overlooks the Huangpu River. It has been home to the 2012 Shanghai Biennale and an Andy Warhol retrospective. Its 165-metre-high chimney now towers as an urban thermometer displaying the day's temperature. ",
+  "editorsPick":true,
+  "tags":[
+    "Free",
+    "Unusual"],
+  "subtype":"museum",
+  "geoTags":[
+    "Asia",
+    "Asia/China",
+    "Asia/China/Shanghai",
+    "Asia/China/Shanghai/Huangpu"],
+  "id":"53eae579976f8f2d44d589fb",
+  "revision":0,
+  "createdAt":"2014-08-13T04:11:37.970Z",
+  "modifiedAt":"2014-08-13T04:11:37.970Z",
+  "revisionCreatedAt":"2014-08-13T04:11:37.970Z",
+  "meta":{
+    "collectionName":"activities",
+    "modelName":"activity",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/activities/53eae579976f8f2d44d589fb/revisions/0"},
+    "rels":{"href":"/activities/53eae579976f8f2d44d589fb/revisions/0/rels"},
+    "relate":{
+      "href":"/activities/53eae579976f8f2d44d589fb/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/activities/53eae579976f8f2d44d589fb/revisions"},
+    "archive":{"href":"/activities/53eae579976f8f2d44d589fb/archive"},
+    "publish":{"href":"/activities/53eae579976f8f2d44d589fb/publish"},
+    "publishHistory":{"href":"/activities/53eae579976f8f2d44d589fb/publish/history"},
+    "next":{"href":"/activities/53eae579976f8f2d44d589fb/next"},
+    "previous":{"href":"/activities/53eae579976f8f2d44d589fb/previous"},
+    "more":{"href":"/activities/published/more?id=53eae579976f8f2d44d589fb"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:11:38.022Z",
+      "entityId":"53eae579976f8f2d44d589fb",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"activities/shanghai/power-station-of-art"}}}

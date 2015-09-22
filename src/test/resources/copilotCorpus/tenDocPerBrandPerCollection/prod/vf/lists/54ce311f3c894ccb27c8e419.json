@@ -1,0 +1,76 @@
+{
+  "revisionAuthor":"Kia Makarechi",
+  "hed":"News: Main List",
+  "channel":"News",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "id":"54ce311f3c894ccb27c8e419",
+  "revision":152,
+  "createdAt":"2015-02-01T13:58:55.672Z",
+  "modifiedAt":"2015-09-10T20:32:21.872Z",
+  "revisionCreatedAt":"2015-09-10T20:32:21.872Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "items":[
+    {
+      "relId":"54d1b616ce0d679a1ae5a1af",
+      "hed":"Channel Links",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cf8b217b9b2416191a5238",
+      "hed":"Top Stories",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54ce31fc5e7a91c528242654",
+      "hed":"The Latest",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cf9f5bce0d679a1ae59ff3",
+      "hed":"Featured",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54ce4402fde9250a6c41a192",
+      "hed":"Photos",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cf89167b9b2416191a5230",
+      "hed":"Videos",
+      "dek":"",
+      "tags":[]}],
+  "_links":{
+    "self":{"href":"/lists/54ce311f3c894ccb27c8e419/revisions/152"},
+    "rels":{"href":"/lists/54ce311f3c894ccb27c8e419/revisions/152/rels"},
+    "relate":{
+      "href":"/lists/54ce311f3c894ccb27c8e419/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54ce311f3c894ccb27c8e419/revisions"},
+    "archive":{"href":"/lists/54ce311f3c894ccb27c8e419/archive"},
+    "publish":{"href":"/lists/54ce311f3c894ccb27c8e419/publish"},
+    "publishHistory":{"href":"/lists/54ce311f3c894ccb27c8e419/publish/history"},
+    "next":{"href":"/lists/54ce311f3c894ccb27c8e419/next"},
+    "previous":{"href":"/lists/54ce311f3c894ccb27c8e419/previous"},
+    "more":{"href":"/lists/published/more?id=54ce311f3c894ccb27c8e419"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54ce311f3c894ccb27c8e419",
+      "revision":152,
+      "uri":"news-list",
+      "pubDate":"2015-02-02T14:35:13.094Z",
+      "revisionAuthor":"Kia Makarechi",
+      "searchable":true,
+      "template":"channel-subchannel",
+      "expired":false,
+      "createdAt":"2015-09-10T20:32:24.138Z"}}}

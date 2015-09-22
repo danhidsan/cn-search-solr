@@ -1,0 +1,37 @@
+{
+  "name":"Deborah Dunn",
+  "id":"53d9ba4e6dec627b149cc963",
+  "revision":0,
+  "createdAt":"2014-07-31T03:38:54.228Z",
+  "modifiedAt":"2014-07-31T03:38:54.228Z",
+  "revisionCreatedAt":"2014-07-31T03:38:54.228Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/contributors/53d9ba4e6dec627b149cc963/revisions/0"},
+    "rels":{"href":"/contributors/53d9ba4e6dec627b149cc963/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/53d9ba4e6dec627b149cc963/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/53d9ba4e6dec627b149cc963/revisions"},
+    "archive":{"href":"/contributors/53d9ba4e6dec627b149cc963/archive"},
+    "publish":{"href":"/contributors/53d9ba4e6dec627b149cc963/publish"},
+    "publishHistory":{"href":"/contributors/53d9ba4e6dec627b149cc963/publish/history"},
+    "next":{"href":"/contributors/53d9ba4e6dec627b149cc963/next"},
+    "previous":{"href":"/contributors/53d9ba4e6dec627b149cc963/previous"},
+    "more":{"href":"/contributors/published/more?id=53d9ba4e6dec627b149cc963"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-07-31T03:38:54.488Z",
+      "entityId":"53d9ba4e6dec627b149cc963",
+      "expired":false,
+      "pubDate":"2014-07-31T03:38:54.307Z",
+      "revision":0,
+      "revisionAuthor":"migratatron2000",
+      "searchable":true,
+      "uri":"contributors/deborah-dunn"}}}

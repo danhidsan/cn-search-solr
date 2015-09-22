@@ -1,0 +1,9 @@
+{
+  "hed_en":".model > .hed",
+  "promoHed_en":".model > .promoHed",
+  "dek_en":".model > .dek",
+  "promoDek_en":".model > .promoDek",
+  "publisher_txt":".model > .publisher",
+  "copyright_en":".model > .copyrightDisplay",
+  "primaryChannel_s":".model > .primaryChannel",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

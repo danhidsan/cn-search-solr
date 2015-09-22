@@ -1,0 +1,41 @@
+{
+  "revisionAuthor":"Laura Wolfgang",
+  "category":"tag",
+  "name":"Sandwich Theory",
+  "id":"55e0796039bbc26c08a26920",
+  "revision":1,
+  "createdAt":"2015-08-28T15:08:16.922Z",
+  "modifiedAt":"2015-08-31T20:54:04.580Z",
+  "revisionCreatedAt":"2015-08-31T20:54:04.580Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55e0796039bbc26c08a26920/revisions/1"},
+    "rels":{"href":"/taxonomies/55e0796039bbc26c08a26920/revisions/1/rels"},
+    "relate":{
+      "href":"/taxonomies/55e0796039bbc26c08a26920/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55e0796039bbc26c08a26920/revisions"},
+    "archive":{"href":"/taxonomies/55e0796039bbc26c08a26920/archive"},
+    "publish":{"href":"/taxonomies/55e0796039bbc26c08a26920/publish"},
+    "publishHistory":{"href":"/taxonomies/55e0796039bbc26c08a26920/publish/history"},
+    "next":{"href":"/taxonomies/55e0796039bbc26c08a26920/next"},
+    "previous":{"href":"/taxonomies/55e0796039bbc26c08a26920/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55e0796039bbc26c08a26920"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55e0796039bbc26c08a26920",
+      "revision":0,
+      "uri":"tag/sandwich-theory",
+      "pubDate":"2015-08-28T15:08:17.367Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-08-28T15:08:21.022Z"}}}

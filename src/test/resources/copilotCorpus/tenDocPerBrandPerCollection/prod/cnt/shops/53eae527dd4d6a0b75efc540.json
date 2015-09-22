@@ -1,0 +1,52 @@
+{
+  "name":"Glebe Markets",
+  "address":{
+    "street":"9-25 Derwent Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2037"},
+  "url":["www.glebemarkets.com.au"],
+  "description":"Browse stalls full of arts and crafts, second-hand clothing, accessories, books, and furniture to the sounds of live music every Saturday. There are different stands every week, as well as numerous food stalls serving up cuisine from across Sydney's ethnic communities.",
+  "editorsPick":true,
+  "tags":["Eclectic"],
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "subtype":"market",
+  "id":"53eae527dd4d6a0b75efc540",
+  "revision":0,
+  "createdAt":"2014-08-13T04:10:15.872Z",
+  "modifiedAt":"2014-08-13T04:10:15.872Z",
+  "revisionCreatedAt":"2014-08-13T04:10:15.872Z",
+  "meta":{
+    "collectionName":"shops",
+    "modelName":"shop",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/shops/53eae527dd4d6a0b75efc540/revisions/0"},
+    "rels":{"href":"/shops/53eae527dd4d6a0b75efc540/revisions/0/rels"},
+    "relate":{
+      "href":"/shops/53eae527dd4d6a0b75efc540/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/shops/53eae527dd4d6a0b75efc540/revisions"},
+    "archive":{"href":"/shops/53eae527dd4d6a0b75efc540/archive"},
+    "publish":{"href":"/shops/53eae527dd4d6a0b75efc540/publish"},
+    "publishHistory":{"href":"/shops/53eae527dd4d6a0b75efc540/publish/history"},
+    "next":{"href":"/shops/53eae527dd4d6a0b75efc540/next"},
+    "previous":{"href":"/shops/53eae527dd4d6a0b75efc540/previous"},
+    "more":{"href":"/shops/published/more?id=53eae527dd4d6a0b75efc540"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:10:16.044Z",
+      "entityId":"53eae527dd4d6a0b75efc540",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"shops/sydney/glebe-markets"}}}

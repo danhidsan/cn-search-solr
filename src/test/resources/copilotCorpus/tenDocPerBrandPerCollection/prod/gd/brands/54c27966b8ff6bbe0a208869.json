@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Liz Bergren",
+  "name":"PING",
+  "description":"",
+  "id":"54c27966b8ff6bbe0a208869",
+  "revision":1,
+  "createdAt":"2015-01-23T16:40:06.498Z",
+  "modifiedAt":"2015-01-23T20:04:02.221Z",
+  "revisionCreatedAt":"2015-01-23T20:04:02.221Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54c27966b8ff6bbe0a208869/revisions/1"},
+    "rels":{"href":"/brands/54c27966b8ff6bbe0a208869/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54c27966b8ff6bbe0a208869/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54c27966b8ff6bbe0a208869/revisions"},
+    "archive":{"href":"/brands/54c27966b8ff6bbe0a208869/archive"},
+    "publish":{"href":"/brands/54c27966b8ff6bbe0a208869/publish"},
+    "publishHistory":{"href":"/brands/54c27966b8ff6bbe0a208869/publish/history"},
+    "next":{"href":"/brands/54c27966b8ff6bbe0a208869/next"},
+    "previous":{"href":"/brands/54c27966b8ff6bbe0a208869/previous"},
+    "more":{"href":"/brands/published/more?id=54c27966b8ff6bbe0a208869"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54c27966b8ff6bbe0a208869",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-ping",
+      "pubDate":"2015-01-23T20:04:12.399Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-01-23T20:04:59.121Z"}}}

@@ -1,0 +1,52 @@
+{
+  "name":"Kirribilli Markets",
+  "address":{
+    "street":"Corner of Alfred and Burton Streets",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2060"},
+  "url":["www.kirribillimarkets.com"],
+  "description":"With the Harbour Bridge as a backdrop, Kirribilli Markets features more than 220 stalls of fashion and accessories from emerging local designers, as well as pre-loved items from hip Sydney-siders emptying their wardrobes. Grab a designer bargain at the art and fashion market on the second Sunday of each month, or head to the general market held every fourth Saturday of each month.",
+  "editorsPick":true,
+  "tags":[],
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "subtype":"market",
+  "id":"53eae528dd4d6a0b75efc542",
+  "revision":0,
+  "createdAt":"2014-08-13T04:10:16.125Z",
+  "modifiedAt":"2014-08-13T04:10:16.125Z",
+  "revisionCreatedAt":"2014-08-13T04:10:16.125Z",
+  "meta":{
+    "collectionName":"shops",
+    "modelName":"shop",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/shops/53eae528dd4d6a0b75efc542/revisions/0"},
+    "rels":{"href":"/shops/53eae528dd4d6a0b75efc542/revisions/0/rels"},
+    "relate":{
+      "href":"/shops/53eae528dd4d6a0b75efc542/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/shops/53eae528dd4d6a0b75efc542/revisions"},
+    "archive":{"href":"/shops/53eae528dd4d6a0b75efc542/archive"},
+    "publish":{"href":"/shops/53eae528dd4d6a0b75efc542/publish"},
+    "publishHistory":{"href":"/shops/53eae528dd4d6a0b75efc542/publish/history"},
+    "next":{"href":"/shops/53eae528dd4d6a0b75efc542/next"},
+    "previous":{"href":"/shops/53eae528dd4d6a0b75efc542/previous"},
+    "more":{"href":"/shops/published/more?id=53eae528dd4d6a0b75efc542"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:10:16.206Z",
+      "entityId":"53eae528dd4d6a0b75efc542",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"shops/sydney/kirribilli-markets"}}}

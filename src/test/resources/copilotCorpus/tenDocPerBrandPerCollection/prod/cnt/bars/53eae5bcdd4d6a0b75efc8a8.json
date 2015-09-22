@@ -1,0 +1,53 @@
+{
+  "name":"Shady Pines Saloon",
+  "address":{
+    "street":"Shop 4, 256 Crown Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2010"},
+  "url":["www.shadypinessaloon.com"],
+  "description":"Tucked away in a Darlinghurst back alley, this country-and-western-style tavern serves American craft beer and boutique beers from around Australia. The walls are adorned with Western memorabilia and taxidermy, and there's an impressive bourbon and rye selection. The peanuts are on the house.",
+  "editorsPick":false,
+  "tags":["Great beer selection"],
+  "subtype":"bar",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Darlinghurst"],
+  "id":"53eae5bcdd4d6a0b75efc8a8",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:44.740Z",
+  "modifiedAt":"2014-08-13T04:12:44.740Z",
+  "revisionCreatedAt":"2014-08-13T04:12:44.740Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/revisions/0"},
+    "rels":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bcdd4d6a0b75efc8a8/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/revisions"},
+    "archive":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/archive"},
+    "publish":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/publish"},
+    "publishHistory":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/publish/history"},
+    "next":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/next"},
+    "previous":{"href":"/bars/53eae5bcdd4d6a0b75efc8a8/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bcdd4d6a0b75efc8a8"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:44.807Z",
+      "entityId":"53eae5bcdd4d6a0b75efc8a8",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/sydney/shady-pines-saloon"}}}

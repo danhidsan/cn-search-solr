@@ -1,0 +1,146 @@
+{
+  "hed":"Beauty: Main List",
+  "channel":"Beauty",
+  "revisionAuthor":"Andrea Navarro",
+  "items":[
+    {
+      "relId":"558207ab941a95530d03e7be",
+      "hed":"Beauty: Hero Center"},
+    {
+      "relId":"558207ab941a95530d03e7ca",
+      "hed":"Beauty: River"},
+    {
+      "relId":"55897c8e24e1804b227d9117",
+      "hed":"Beauty: Hero Mid-River",
+      "dek":""}],
+  "id":"558207ab941a95530d03e7d6",
+  "revision":6,
+  "createdAt":"2015-06-17T23:50:03.237Z",
+  "modifiedAt":"2015-09-02T14:38:34.161Z",
+  "revisionCreatedAt":"2015-09-02T14:38:34.161Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "dek":"",
+  "subChannel":"",
+  "tags":[
+    "beauty",
+    " makeup",
+    " hair",
+    " skincare"],
+  "seoTitle":"Beauty Tips and Trends - Teen Hairstyle and Makeup Ideas",
+  "seoDescription":"Find out how the hottest new hair and makeup trends, and how to recreate them!",
+  "_links":{
+    "self":{"href":"/curatedlists/558207ab941a95530d03e7d6/revisions/6"},
+    "rels":{"href":"/curatedlists/558207ab941a95530d03e7d6/revisions/6/rels"},
+    "relate":{
+      "href":"/curatedlists/558207ab941a95530d03e7d6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/558207ab941a95530d03e7d6/revisions"},
+    "archive":{"href":"/curatedlists/558207ab941a95530d03e7d6/archive"},
+    "publish":{"href":"/curatedlists/558207ab941a95530d03e7d6/publish"},
+    "publishHistory":{"href":"/curatedlists/558207ab941a95530d03e7d6/publish/history"},
+    "next":{"href":"/curatedlists/558207ab941a95530d03e7d6/next"},
+    "previous":{"href":"/curatedlists/558207ab941a95530d03e7d6/previous"},
+    "more":{"href":"/curatedlists/published/more?id=558207ab941a95530d03e7d6"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "tags":["http://www.teenvogue.com/images/contact/teen-vogue-contact.jpg"],
+          "caption":"**Ask the Editors**\n\n Want to get in touch with a specific member of the Teen Vogue team? [Email us!](http://www.teenvogue.com/contact/tellus)\n\n\n\n**Modeling Policy**\n\n Teen Vogue works with established modeling agencies to cast talent in our editorials. We do NOT recruit models via TeenVogue.com, Facebook, Twitter, Tumblr, email, or anywhere online. Please see our [model policy](http://www.teenvogue.com/magazine/2011/model-policy) and [send us an email](http://www.teenvogue.com/contact/tellus) if you’ve been contacted by a representative claiming they are from Teen Vogue.\n\n\n\n**Subscription Questions**\n\n If you have questions about your subscription, check out our [customer care](https://w1.buysub.com/pubs/N3/TNV/login_3_methods.jsp?cds_page_id=10531&cds_mag_code=TNV&id=1344392260198&lsid=22202117150023600&vid=2) page or e-mail [TNVcustserv@cdsfulfillment.com](mailto:TNVcustserv@cdsfulfillment.com).\n\n\n\n**Email the Webmaster**\n\n Having a technical problem with the site? Link down? [Let us know about it](http://www.teenvogue.com/contact/contact_tnv)! If you’re wondering about advertising or anything else, [send in a V-Mail](http://www.teenvogue.com/contact/tellus).\n\n\n\n**Press Inquiries**\n\n Contact our Senior Public Relations Director [Erin Kaplan](mailto:Erin_Kaplan@condenast.com).\n\n\n\n**Sweepstakes Inquiries**\n\n Interested in learning more about our Win It section? [Email us](mailto:sweepstakes@teenvogue.com)!",
+          "credit":"",
+          "description":"**Ask the Editors**\n\n Want to get in touch with a specific member of the Teen Vogue team? [Email us!](http://www.teenvogue.com/contact/tellus)\n\n\n\n**Modeling Policy**\n\n Teen Vogue works with established modeling agencies to cast talent in our editorials. We do NOT recruit models via TeenVogue.com, Facebook, Twitter, Tumblr, email, or anywhere online. Please see our [model policy](http://www.teenvogue.com/magazine/2011/model-policy) and [send us an email](http://www.teenvogue.com/contact/tellus) if you've been contacted by a representative claiming they are from Teen Vogue.\n\n\n\n**Subscription Questions**\n\n If you have questions about your subscription, check out our [customer care](https://w1.buysub.com/pubs/N3/TNV/login_3_methods.jsp?cds_page_id=10531&cds_mag_code=TNV&id=1344392260198&lsid=22202117150023600&vid=2) page or e-mail [TNVcustserv@cdsfulfillment.com](mailto:TNVcustserv@cdsfulfillment.com).\n\n\n\n**Email the Webmaster**\n\n Having a technical problem with the site? Link down? [Let us know about it](http://www.teenvogue.com/contact/contact_tnv)! If you're wondering about advertising or anything else, [send in a V-Mail](http://www.teenvogue.com/contact/tellus).\n\n\n\n**Press Inquiries**\n\n Contact our Senior Public Relations Director [Erin Kaplan](mailto:Erin_Kaplan@condenast.com).\n\n\n\n**Sweepstakes Inquiries**\n\n Interested in learning more about our Win It section? [Email us](mailto:sweepstakes@teenvogue.com)!",
+          "title":"**Have Questions for the _Teen Vogue_ Team?**",
+          "id":"5582ff4ffb1995762be2916c",
+          "revision":1,
+          "createdAt":"2015-06-18T17:26:39.595Z",
+          "modifiedAt":"2015-06-18T17:26:39.887Z",
+          "revisionCreatedAt":"2015-06-18T17:26:39.887Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"contact-teen-vogue-contact.jpg",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":300,
+              "height":200,
+              "format":"JPEG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/06/18/5582ff4ffb1995762be2916e_contact-teen-vogue-contact.jpg"},
+            "16:9":{
+              "modifications":{"crop":{
+                  "height":162,
+                  "width":288,
+                  "y":0,
+                  "x":6}},
+              "width":288,
+              "height":162,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_288,h_162,x_6,y_0/contact-teen-vogue-contact.jpg",
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":198,
+                  "width":264,
+                  "y":0,
+                  "x":18}},
+              "width":264,
+              "height":198,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_264,h_198,x_18,y_0/contact-teen-vogue-contact.jpg",
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "height":200,
+                  "width":200,
+                  "y":0,
+                  "x":50}},
+              "width":200,
+              "height":200,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_200,h_200,x_50,y_0/contact-teen-vogue-contact.jpg",
+              "override":false},
+            "5:2":{
+              "modifications":{"crop":{
+                  "height":120,
+                  "width":300,
+                  "y":0,
+                  "x":0}},
+              "width":300,
+              "height":120,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_300,h_120,x_0,y_0/contact-teen-vogue-contact.jpg",
+              "override":false},
+            "3:2":{
+              "modifications":{"crop":{
+                  "height":200,
+                  "width":300,
+                  "y":0,
+                  "x":0}},
+              "width":300,
+              "height":200,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_300,h_200,x_0,y_0/contact-teen-vogue-contact.jpg",
+              "override":false},
+            "2:3":{
+              "modifications":{"crop":{
+                  "height":198,
+                  "width":132,
+                  "y":0,
+                  "x":84}},
+              "width":132,
+              "height":198,
+              "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5582ff4ffb1995762be2916c/master/w_132,h_198,x_84,y_0/contact-teen-vogue-contact.jpg",
+              "override":false}}}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"558207ab941a95530d03e7d6",
+      "revision":6,
+      "uri":"beauty-list",
+      "pubDate":"2015-06-25T16:11:11.000Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "template":"default",
+      "expired":false,
+      "createdAt":"2015-09-02T14:38:38.472Z"}}}

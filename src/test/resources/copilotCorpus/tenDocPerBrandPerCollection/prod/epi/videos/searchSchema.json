@@ -1,0 +1,4 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

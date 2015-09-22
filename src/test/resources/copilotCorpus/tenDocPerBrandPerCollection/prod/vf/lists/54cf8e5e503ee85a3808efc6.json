@@ -1,0 +1,71 @@
+{
+  "revisionAuthor":"Matthew Lynch",
+  "hed":"Style: Top Stories Module",
+  "channel":"Style",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55f016ee200c343535918a07",
+      "hed":"My Baby Wore Kardashian Kids for 3 Days and Lived to Tell the Tale",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55ef27a0fad0d98d444cdad8",
+      "hed":"5 Must-Follow Fashion Illustrators on Instagram",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e8d34b200c343535916cab",
+      "hed":"A Brief History of Athletes at Fashion Week",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e70913669d2a14709fc8c3",
+      "hed":"How to Break Your Basic Streak in 10 Easy Steps",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55eee43c200c343535917ef8",
+      "hed":"Kate Middleton Reportedly Spent the Summer Drawing Portraits of Her Children",
+      "dek":"",
+      "tags":[]}],
+  "id":"54cf8e5e503ee85a3808efc6",
+  "revision":159,
+  "createdAt":"2015-02-02T14:49:02.032Z",
+  "modifiedAt":"2015-09-09T22:57:39.344Z",
+  "revisionCreatedAt":"2015-09-09T22:57:39.344Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/lists/54cf8e5e503ee85a3808efc6/revisions/159"},
+    "rels":{"href":"/lists/54cf8e5e503ee85a3808efc6/revisions/159/rels"},
+    "relate":{
+      "href":"/lists/54cf8e5e503ee85a3808efc6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54cf8e5e503ee85a3808efc6/revisions"},
+    "archive":{"href":"/lists/54cf8e5e503ee85a3808efc6/archive"},
+    "publish":{"href":"/lists/54cf8e5e503ee85a3808efc6/publish"},
+    "publishHistory":{"href":"/lists/54cf8e5e503ee85a3808efc6/publish/history"},
+    "next":{"href":"/lists/54cf8e5e503ee85a3808efc6/next"},
+    "previous":{"href":"/lists/54cf8e5e503ee85a3808efc6/previous"},
+    "more":{"href":"/lists/published/more?id=54cf8e5e503ee85a3808efc6"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54cf8e5e503ee85a3808efc6",
+      "revision":159,
+      "uri":"style-top-stories-module",
+      "pubDate":"2015-06-24T16:04:55.735Z",
+      "revisionAuthor":"Matthew Lynch",
+      "searchable":true,
+      "template":"b-photo-group-modules",
+      "expired":false,
+      "createdAt":"2015-09-09T22:57:41.685Z"}}}

@@ -1,0 +1,67 @@
+{
+  "hed":"Top Stories in Food & Drinks",
+  "dek":"",
+  "channel":"Food & Drinks",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"55d4ddbe37284fb1079cfcaa",
+      "hed":"How The Negroni Became Today's It Cocktail",
+      "dek":""},
+    {
+      "relId":"55d5d4d4c47ae13868aea7e7",
+      "hed":"Beyond the Beach: Exploring Sicily's Emerging Wine Scene",
+      "dek":""},
+    {
+      "relId":"55d4b00ec47ae13868ae8cbd",
+      "hed":"The Surprising Home of the World's Best Pistachios",
+      "dek":""},
+    {
+      "relId":"55d3355d37284fb1079cc532",
+      "hed":"Where We'd Travel for a Meal This Month",
+      "dek":""},
+    {
+      "relId":"55ce1eb137284fb1079c98c4",
+      "hed":"Chef José Andrés's Guide to Las Vegas",
+      "dek":""}],
+  "id":"53e0638ddcd5888e145ec559",
+  "revision":64,
+  "createdAt":"2014-08-05T04:54:37.619Z",
+  "modifiedAt":"2015-09-08T15:40:03.364Z",
+  "revisionCreatedAt":"2015-09-08T15:40:03.364Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Caitlin Morton",
+  "_links":{
+    "self":{"href":"/curatedlists/53e0638ddcd5888e145ec559/revisions/64"},
+    "rels":{"href":"/curatedlists/53e0638ddcd5888e145ec559/revisions/64/rels"},
+    "relate":{
+      "href":"/curatedlists/53e0638ddcd5888e145ec559/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e0638ddcd5888e145ec559/revisions"},
+    "archive":{"href":"/curatedlists/53e0638ddcd5888e145ec559/archive"},
+    "publish":{"href":"/curatedlists/53e0638ddcd5888e145ec559/publish"},
+    "publishHistory":{"href":"/curatedlists/53e0638ddcd5888e145ec559/publish/history"},
+    "next":{"href":"/curatedlists/53e0638ddcd5888e145ec559/next"},
+    "previous":{"href":"/curatedlists/53e0638ddcd5888e145ec559/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e0638ddcd5888e145ec559"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e0638ddcd5888e145ec559",
+      "revision":64,
+      "uri":"food-and-drinks/top-stories",
+      "pubDate":"2014-08-20T18:57:52.587Z",
+      "revisionAuthor":"Caitlin Morton",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-09-08T15:40:07.487Z"}}}

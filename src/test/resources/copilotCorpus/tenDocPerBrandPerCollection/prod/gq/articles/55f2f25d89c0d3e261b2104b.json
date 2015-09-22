@@ -1,0 +1,117 @@
+{
+  "revisionAuthor":"Mimi Vu",
+  "hed":"Chris Stamp Explains the Roots of His Self-Titled Brand in L.A.’s Street Culture",
+  "dek":"Stampd got its start as a sneaker-painting business, and from there expanded into a complete line of savvy, urban-utilitarian gear with a dose of avant-garde experimentalism. ",
+  "body":"",
+  "channel":"Style",
+  "subChannel":"Best New Menswear Designers of America",
+  "tags":[],
+  "contentSource":"web",
+  "id":"55f2f25d89c0d3e261b2104b",
+  "revision":7,
+  "createdAt":"2015-09-11T15:25:17.202Z",
+  "modifiedAt":"2015-09-11T22:09:06.314Z",
+  "revisionCreatedAt":"2015-09-11T22:09:06.314Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "socialTitle":"Chris Stamp Explains the Roots of His Self-Titled Brand in L.A.’s Street Culture",
+  "socialDescription":"Stampd started as a sneaker-painting business and expanded into a complete line of urban-utilitarian gear with a dose of avant-garde experimentalism. ",
+  "seoTitle":"Chris Stamp of Stampd Describes His Streetwear Label",
+  "seoDescription":"Stampd is a complete line of urban-utilitarian gear with a dose of avant-garde experimentalism. ",
+  "_links":{
+    "self":{"href":"/articles/55f2f25d89c0d3e261b2104b/revisions/7"},
+    "rels":{"href":"/articles/55f2f25d89c0d3e261b2104b/revisions/7/rels"},
+    "relate":{
+      "href":"/articles/55f2f25d89c0d3e261b2104b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/55f2f25d89c0d3e261b2104b/revisions"},
+    "archive":{"href":"/articles/55f2f25d89c0d3e261b2104b/archive"},
+    "publish":{"href":"/articles/55f2f25d89c0d3e261b2104b/publish"},
+    "publishHistory":{"href":"/articles/55f2f25d89c0d3e261b2104b/publish/history"},
+    "next":{"href":"/articles/55f2f25d89c0d3e261b2104b/next"},
+    "previous":{"href":"/articles/55f2f25d89c0d3e261b2104b/previous"},
+    "more":{"href":"/articles/published/more?id=55f2f25d89c0d3e261b2104b"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "revisionAuthor":"Genevieve Walker",
+          "title":"BNMDA Stampd",
+          "id":"55f34d73e4fe554f308877f6",
+          "revision":6,
+          "createdAt":"2015-09-11T21:53:55.900Z",
+          "modifiedAt":"2015-09-11T22:05:55.378Z",
+          "revisionCreatedAt":"2015-09-11T22:05:55.378Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"bnmda-stampd-lead.jpg",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":2000,
+              "height":1125,
+              "format":"JPEG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/gq/production/2015/09/11/55f34d73e4fe554f308877f8_bnmda-stampd-lead.jpg"},
+            "3:2":{
+              "modifications":{"crop":{
+                  "width":1363,
+                  "height":908,
+                  "x":269,
+                  "y":207}},
+              "width":1363,
+              "height":908,
+              "override":false},
+            "3:4":{
+              "modifications":{"crop":{
+                  "height":1124,
+                  "width":843,
+                  "x":578,
+                  "y":0}},
+              "width":843,
+              "height":1124,
+              "override":false},
+            "64:25":{
+              "modifications":{"crop":{
+                  "width":1983,
+                  "height":774,
+                  "x":3,
+                  "y":237}},
+              "width":1983,
+              "height":774,
+              "override":false},
+            "16:9":{
+              "modifications":{"crop":{
+                  "width":1999,
+                  "height":1125,
+                  "x":0,
+                  "y":0}},
+              "width":1999,
+              "height":1125,
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":1125,
+                  "width":1500,
+                  "x":250,
+                  "y":0}},
+              "width":1500,
+              "height":1125,
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "height":1125,
+                  "width":1125,
+                  "x":437,
+                  "y":0}},
+              "width":1125,
+              "height":1125,
+              "override":false}},
+          "caption":""}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

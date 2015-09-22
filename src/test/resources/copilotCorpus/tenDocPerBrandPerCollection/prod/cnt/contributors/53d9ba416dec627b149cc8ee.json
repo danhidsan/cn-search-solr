@@ -1,0 +1,37 @@
+{
+  "name":"Sanjay Surana",
+  "id":"53d9ba416dec627b149cc8ee",
+  "revision":0,
+  "createdAt":"2014-07-31T03:38:41.392Z",
+  "modifiedAt":"2014-07-31T03:38:41.392Z",
+  "revisionCreatedAt":"2014-07-31T03:38:41.392Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/contributors/53d9ba416dec627b149cc8ee/revisions/0"},
+    "rels":{"href":"/contributors/53d9ba416dec627b149cc8ee/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/53d9ba416dec627b149cc8ee/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/53d9ba416dec627b149cc8ee/revisions"},
+    "archive":{"href":"/contributors/53d9ba416dec627b149cc8ee/archive"},
+    "publish":{"href":"/contributors/53d9ba416dec627b149cc8ee/publish"},
+    "publishHistory":{"href":"/contributors/53d9ba416dec627b149cc8ee/publish/history"},
+    "next":{"href":"/contributors/53d9ba416dec627b149cc8ee/next"},
+    "previous":{"href":"/contributors/53d9ba416dec627b149cc8ee/previous"},
+    "more":{"href":"/contributors/published/more?id=53d9ba416dec627b149cc8ee"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-07-31T03:38:41.620Z",
+      "entityId":"53d9ba416dec627b149cc8ee",
+      "expired":false,
+      "pubDate":"2014-07-31T03:38:41.500Z",
+      "revision":0,
+      "revisionAuthor":"migratatron2000",
+      "searchable":true,
+      "uri":"contributors/sanjay-surana"}}}

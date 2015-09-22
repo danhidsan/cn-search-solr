@@ -1,0 +1,14 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "itemsHed_en":".model > .items > .hed",
+  "itemsDek_en":".model > .items > .dek",
+  "tags_ss":".model > .tags *",
+  "channel_s":".model > .channel",
+  "subChannel_s":".model > .subChannel",
+  "contributor_ss":".rels > .contributorsAuthor .name",
+  "geoTags_ss":".model > .geoTags *",
+  "relVenueType_ss":".rels .meta:has( .modelName:val(\"activity\"), .modelName:val(\"bar\"), .modelName:val(\"hotel\"), .modelName:val(\"restaurant\"), .modelName:val(\"ship\"), .modelName:val(\"shop\")) > .modelName",
+  "relVenueName_en":".rels :has( .meta > .modelName:val(\"activity\"), .meta > .modelName:val(\"bar\"), .meta > .modelName:val(\"hotel\"), .meta > .modelName:val(\"restaurant\"), .meta > .modelName:val(\"ship\"), .meta > .modelName:val(\"shop\")) > .name",
+  "relVenueTags_ss":".rels :has( .meta > .modelName:val(\"activity\"), .meta > .modelName:val(\"bar\"), .meta > .modelName:val(\"hotel\"), .meta > .modelName:val(\"restaurant\"), .meta > .modelName:val(\"ship\"), .meta > .modelName:val(\"shop\")) > .tags *",
+  "relVenueGeoTags_ss":".rels :has( .meta > .modelName:val(\"activity\"), .meta > .modelName:val(\"bar\"), .meta > .modelName:val(\"hotel\"), .meta > .modelName:val(\"restaurant\"), .meta > .modelName:val(\"ship\"), .meta > .modelName:val(\"shop\")) > .geoTags *"}

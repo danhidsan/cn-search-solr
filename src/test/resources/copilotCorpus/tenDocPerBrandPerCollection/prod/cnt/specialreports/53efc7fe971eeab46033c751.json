@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Brad Rickman",
+  "hed":"Citizens of the World old 2",
+  "dek":"presented by United",
+  "channel":"Travel Intel",
+  "subChannel":"Business Travel",
+  "tags":[],
+  "geoTags":[],
+  "items":[{
+      "relId":"53efc72bace4e0c2063d6672",
+      "hed":"Citizens of the World Top Stories",
+      "dek":""}],
+  "id":"53efc7fe971eeab46033c751",
+  "revision":3,
+  "createdAt":"2014-08-16T21:07:10.012Z",
+  "modifiedAt":"2014-09-03T16:15:30.267Z",
+  "revisionCreatedAt":"2014-09-03T16:15:30.267Z",
+  "meta":{
+    "collectionName":"specialreports",
+    "modelName":"specialreport",
+    "publishable":true,
+    "image":false},
+  "_links":{
+    "self":{"href":"/specialreports/53efc7fe971eeab46033c751/revisions/3"},
+    "rels":{"href":"/specialreports/53efc7fe971eeab46033c751/revisions/3/rels"},
+    "relate":{
+      "href":"/specialreports/53efc7fe971eeab46033c751/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/specialreports/53efc7fe971eeab46033c751/revisions"},
+    "archive":{"href":"/specialreports/53efc7fe971eeab46033c751/archive"},
+    "publish":{"href":"/specialreports/53efc7fe971eeab46033c751/publish"},
+    "publishHistory":{"href":"/specialreports/53efc7fe971eeab46033c751/publish/history"},
+    "next":{"href":"/specialreports/53efc7fe971eeab46033c751/next"},
+    "previous":{"href":"/specialreports/53efc7fe971eeab46033c751/previous"},
+    "more":{"href":"/specialreports/published/more?id=53efc7fe971eeab46033c751"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

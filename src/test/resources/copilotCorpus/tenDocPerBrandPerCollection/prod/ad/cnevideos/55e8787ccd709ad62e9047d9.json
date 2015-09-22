@@ -1,0 +1,38 @@
+{
+  "title":"Behind the Scenes of the 2015 Architectural Digest Oscar® Greenroom",
+  "description":"Design firm Commune gives you an exclusive look at the backstage area where A-listers gathered during the 2015 Academy Awards®\r\n",
+  "tags":[
+    "architectural digest",
+    "architecturaldigest.com"],
+  "categories":[
+    "celebrities",
+    "design"],
+  "premiereDate":"2015-05-06T16:46:44+00:00",
+  "canonicalUrl":"http://video.architecturaldigest.com/watch/behind-the-scenes-of-the-2015-architectural-digest-greenroom-at-the-oscars",
+  "embedUrl":"//player.cnevids.com/embed/554a457461646d38e1080000/550a1c8061646d75b80c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/554a457461646d38e1080000/550a1c8061646d75b80c0000.js",
+  "sceneUrl":"https://thescene.com/watch/architecturaldigest/behind-the-scenes-of-the-2015-architectural-digest-greenroom-at-the-oscars",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441742243/architecturaldigest_behind-the-scenes-of-the-2015-architectural-digest-greenroom-at-the-oscars.jpg",
+  "id":"55e8787ccd709ad62e9047d9",
+  "revision":1,
+  "createdAt":"2015-09-03T16:42:36.089Z",
+  "modifiedAt":"2015-09-08T19:57:26.406Z",
+  "revisionCreatedAt":"2015-09-08T19:57:26.406Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e8787ccd709ad62e9047d9/revisions/1"},
+    "rels":{"href":"/cnevideos/55e8787ccd709ad62e9047d9/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55e8787ccd709ad62e9047d9/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e8787ccd709ad62e9047d9/revisions"},
+    "archive":{"href":"/cnevideos/55e8787ccd709ad62e9047d9/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

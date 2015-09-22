@@ -1,0 +1,54 @@
+{
+  "name":"Mardi Gras",
+  "address":{
+    "street":"372 Xingguo Lu",
+    "city":"Shanghai",
+    "state":"",
+    "country":"China",
+    "postalCode":""},
+  "phone":["86-21-6280-7598"],
+  "description":"A Japanese-helmed restaurant set in a beautifully restored 80-year-old garden villa, their cocktails supersede the French fare in reputation and quality. The place to be is the cosy upstairs lounge, where their resident bartender mixes an assortment of drinks with precision and panache, rendering Mardi Gras an established favourite amongst its patrons. ",
+  "editorsPick":true,
+  "tags":[
+    "Romantic",
+    "Great cocktails"],
+  "subtype":"bar",
+  "geoTags":[
+    "Asia",
+    "Asia/China",
+    "Asia/China/Shanghai",
+    "Asia/China/Shanghai/Xuhui"],
+  "id":"53eae5bd976f8f2d44d58b83",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:45.139Z",
+  "modifiedAt":"2014-08-13T04:12:45.139Z",
+  "revisionCreatedAt":"2014-08-13T04:12:45.139Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bd976f8f2d44d58b83/revisions/0"},
+    "rels":{"href":"/bars/53eae5bd976f8f2d44d58b83/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bd976f8f2d44d58b83/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bd976f8f2d44d58b83/revisions"},
+    "archive":{"href":"/bars/53eae5bd976f8f2d44d58b83/archive"},
+    "publish":{"href":"/bars/53eae5bd976f8f2d44d58b83/publish"},
+    "publishHistory":{"href":"/bars/53eae5bd976f8f2d44d58b83/publish/history"},
+    "next":{"href":"/bars/53eae5bd976f8f2d44d58b83/next"},
+    "previous":{"href":"/bars/53eae5bd976f8f2d44d58b83/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bd976f8f2d44d58b83"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:45.195Z",
+      "entityId":"53eae5bd976f8f2d44d58b83",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/shanghai/mardi-gras"}}}

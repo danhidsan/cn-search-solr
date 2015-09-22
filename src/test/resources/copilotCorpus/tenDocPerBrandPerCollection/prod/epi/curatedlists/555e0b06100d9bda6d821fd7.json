@@ -1,0 +1,88 @@
+{
+  "revisionAuthor":"Michele Zotos",
+  "hed":"!!!! Newsletter - Cook this Now list",
+  "dek":"The greatest pastas of all time, homemade chocolate chip cookies, and more. ",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55e49cdccf90d6663f727931",
+      "hed":"Dark-Chocolate Mousse",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54b83e174bf78b800d898cd3",
+      "hed":"Our 10 Most Favorite Chocolate Chip Cookies",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54ff054dfe3762782ee2a301",
+      "hed":"Pudding Please! ",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55afb8446284773353bf30ed",
+      "hed":"The Greatest Pastas of All Time",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a4249719925f464b37a594",
+      "hed":"Salty Chocolate Chunk Cookies",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a41acc6529d92b2c006a83",
+      "hed":"Basic Method for Cooking Corn on the Cob",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55c38e47a9c6a0784e28f563",
+      "hed":"Summer Succotash Pasta Salad",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a43cb96529d92b2c01aa77",
+      "hed":"My Favorite Simple Roast Chicken",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a429b16529d92b2c00e714",
+      "hed":"Memphis-Style Ribs",
+      "dek":"",
+      "tags":[]}],
+  "id":"555e0b06100d9bda6d821fd7",
+  "revision":194,
+  "createdAt":"2015-05-21T16:42:46.945Z",
+  "modifiedAt":"2015-09-10T19:03:57.382Z",
+  "revisionCreatedAt":"2015-09-10T19:03:57.382Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/revisions/194"},
+    "rels":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/revisions/194/rels"},
+    "relate":{
+      "href":"/curatedlists/555e0b06100d9bda6d821fd7/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/revisions"},
+    "archive":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/archive"},
+    "publish":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/publish"},
+    "publishHistory":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/publish/history"},
+    "next":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/next"},
+    "previous":{"href":"/curatedlists/555e0b06100d9bda6d821fd7/previous"},
+    "more":{"href":"/curatedlists/published/more?id=555e0b06100d9bda6d821fd7"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"555e0b06100d9bda6d821fd7",
+      "revision":194,
+      "uri":"cook-this-now-galleries-list",
+      "pubDate":"2015-07-01T16:42:46.000Z",
+      "revisionAuthor":"Michele Zotos",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-09-10T19:04:01.861Z"}}}

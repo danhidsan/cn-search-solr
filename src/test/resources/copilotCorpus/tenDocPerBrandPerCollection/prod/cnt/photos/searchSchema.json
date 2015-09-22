@@ -1,0 +1,9 @@
+{
+  "title_en":".model > .title",
+  "description_en":".model > .description",
+  "caption_en":".model > .caption",
+  "contributor_ss":".rels > .contributorsAuthor .name",
+  "credit_en":".model > .credit",
+  "tags_ss":".model > .tags *",
+  "filename_s":".model > .filename",
+  "geoTags_ss":".model > .geoTags *"}

@@ -1,0 +1,91 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter Proof 2/4",
+  "date":"2015-02-04T19:04:27+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54cae04259d1aff07e155688",
+      "hed":"The Most Colorful Hotels in the World",
+      "dek":"From the Pantone Hotel in Brussels to the Hotel Crayon in Paris, these hotels are sure to brighten your next vacation."},
+    {
+      "relId":"54cff3d2c335146e4986582f",
+      "hed":"How to Live Like Royalty in Morocco",
+      "dek":""},
+    {
+      "relId":"54d1102b9abb8d533165e2a7",
+      "hed":"14 Photos of NYC That Will Make You Shiver",
+      "dek":""},
+    {
+      "relId":"54c8fa9b92232324246202d5",
+      "hed":"9 Romantic Traditions Around the World (That Aren&#39;t Valentine&#39;s Day)",
+      "dek":""},
+    {
+      "relId":"53e2f75adddaa35c30f6758f",
+      "hed":"Italian Port Towns Untouched By Tourists",
+      "dek":""},
+    {
+      "relId":"54d14a779abb8d533165eab2",
+      "hed":"10 Best Free Things to Do in Dublin",
+      "dek":""},
+    {
+      "relId":"53db2bb36dec627b14a1f9b5",
+      "hed":"The Best Airlines for Business Travelers",
+      "dek":""},
+    {
+      "relId":"54cfa45c9abb8d533165c9a0",
+      "hed":"What a Billion Kayak Searches Reveal About the Way We&#39;ll Travel in 2015",
+      "dek":""},
+    {
+      "relId":"53daa8816dec627b149f9983",
+      "hed":"Don’t Leave Tokyo Without Eating This One Dish",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54cae04259d1aff07e155688",
+      "hed":"Beautiful, Colorful Hotels to Brighten Your Next Vacation"},
+    {
+      "relId":"54cff3d2c335146e4986582f",
+      "hed":"How to Live Like Royalty in Morocco"},
+    {
+      "relId":"54d1102b9abb8d533165e2a7",
+      "hed":"An Instagram Celebrity&#39;s New York City Winter Wonderland"}],
+  "id":"54d26d44f743358e0c1dc220",
+  "revision":3,
+  "createdAt":"2015-02-04T19:04:36.077Z",
+  "modifiedAt":"2015-02-04T19:08:59.152Z",
+  "revisionCreatedAt":"2015-02-04T19:08:59.152Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d26d44f743358e0c1dc220/revisions/3"},
+    "rels":{"href":"/newsletters/54d26d44f743358e0c1dc220/revisions/3/rels"},
+    "relate":{
+      "href":"/newsletters/54d26d44f743358e0c1dc220/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d26d44f743358e0c1dc220/revisions"},
+    "archive":{"href":"/newsletters/54d26d44f743358e0c1dc220/archive"},
+    "publish":{"href":"/newsletters/54d26d44f743358e0c1dc220/publish"},
+    "publishHistory":{"href":"/newsletters/54d26d44f743358e0c1dc220/publish/history"},
+    "next":{"href":"/newsletters/54d26d44f743358e0c1dc220/next"},
+    "previous":{"href":"/newsletters/54d26d44f743358e0c1dc220/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d26d44f743358e0c1dc220"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d26d44f743358e0c1dc220",
+      "revision":3,
+      "uri":"newsletters/2015-02-04/newsletter-proof-2-4",
+      "pubDate":"2015-02-04T19:04:38.576Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekday",
+      "expired":false,
+      "createdAt":"2015-02-04T19:09:01.209Z"}}}

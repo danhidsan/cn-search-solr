@@ -1,0 +1,36 @@
+{
+  "title":"How to Char Tomatillos",
+  "description":"Make Charred Tomatillo Salsa with this quick how-to tip! ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-02T16:53:40+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-char-tomatillos",
+  "embedUrl":"//player.cnevids.com/embed/55e7299461646d7df9000005/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e7299461646d7df9000005/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-char-tomatillos",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441213177/epicurious_how-to-char-tomatillos.jpg",
+  "id":"55e7299aad4e361c200f6e1c",
+  "revision":3,
+  "createdAt":"2015-09-02T16:53:46.369Z",
+  "modifiedAt":"2015-09-02T16:59:39.352Z",
+  "revisionCreatedAt":"2015-09-02T16:59:39.352Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e7299aad4e361c200f6e1c/revisions/3"},
+    "rels":{"href":"/cnevideos/55e7299aad4e361c200f6e1c/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55e7299aad4e361c200f6e1c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e7299aad4e361c200f6e1c/revisions"},
+    "archive":{"href":"/cnevideos/55e7299aad4e361c200f6e1c/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

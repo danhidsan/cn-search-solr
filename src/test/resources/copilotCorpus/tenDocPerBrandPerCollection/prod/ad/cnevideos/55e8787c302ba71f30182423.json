@@ -1,0 +1,38 @@
+{
+  "title":"Inside the 2009 Oscars® Greenroom",
+  "description":"Stephen Shadley creates a stylish throwback to the 1970s for the Architectural Digest Greenroom at the 2009 Academy Awards®",
+  "tags":[
+    "architectural digest",
+    "architecturaldigest.com"],
+  "categories":[
+    "celebrities",
+    "design"],
+  "premiereDate":"2012-12-01T05:00:00+00:00",
+  "canonicalUrl":"http://video.architecturaldigest.com/watch/inside-the-2009-oscars-greenroom",
+  "embedUrl":"//player.cnevids.com/embed/554a8ade61646d3d6f090000/550a1c8061646d75b80c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/554a8ade61646d3d6f090000/550a1c8061646d75b80c0000.js",
+  "sceneUrl":"https://thescene.com/watch/architecturaldigest/inside-the-2009-oscars-greenroom",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441742096/architecturaldigest_inside-the-2009-oscars-greenroom.jpg",
+  "id":"55e8787c302ba71f30182423",
+  "revision":1,
+  "createdAt":"2015-09-03T16:42:36.216Z",
+  "modifiedAt":"2015-09-08T19:54:58.180Z",
+  "revisionCreatedAt":"2015-09-08T19:54:58.180Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e8787c302ba71f30182423/revisions/1"},
+    "rels":{"href":"/cnevideos/55e8787c302ba71f30182423/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55e8787c302ba71f30182423/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e8787c302ba71f30182423/revisions"},
+    "archive":{"href":"/cnevideos/55e8787c302ba71f30182423/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

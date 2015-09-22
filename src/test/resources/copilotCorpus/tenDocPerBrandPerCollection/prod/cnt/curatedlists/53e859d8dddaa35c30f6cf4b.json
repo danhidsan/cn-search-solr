@@ -1,0 +1,67 @@
+{
+  "hed":"Top Stories in Travel Awards",
+  "dek":"",
+  "channel":"Travel Awards",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"5436f17f8e3a4481661cba5b",
+      "hed":"Top 10 Hotels in Las Vegas",
+      "dek":""},
+    {
+      "relId":"54492398ccfacb514fec2856",
+      "hed":"The 25 Best Resorts in Mexico",
+      "dek":""},
+    {
+      "relId":"55bb813f6966466e2ce2ffec",
+      "hed":"The 2015 Friendliest and Unfriendliest Cities in the World",
+      "dek":""},
+    {
+      "relId":"54b46718fe7d961b378dc6ed",
+      "hed":"The 30 Best Small Cities in America",
+      "dek":""},
+    {
+      "relId":"54ab099b5b78c39a34afffb1",
+      "hed":"The Trip Everyone In Their 20s Should Take",
+      "dek":""}],
+  "id":"53e859d8dddaa35c30f6cf4b",
+  "revision":75,
+  "createdAt":"2014-08-11T05:51:20.042Z",
+  "modifiedAt":"2015-09-08T15:35:19.044Z",
+  "revisionCreatedAt":"2015-09-08T15:35:19.044Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Caitlin Morton",
+  "_links":{
+    "self":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/revisions/75"},
+    "rels":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/revisions/75/rels"},
+    "relate":{
+      "href":"/curatedlists/53e859d8dddaa35c30f6cf4b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/revisions"},
+    "archive":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/archive"},
+    "publish":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/publish"},
+    "publishHistory":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/publish/history"},
+    "next":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/next"},
+    "previous":{"href":"/curatedlists/53e859d8dddaa35c30f6cf4b/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e859d8dddaa35c30f6cf4b"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e859d8dddaa35c30f6cf4b",
+      "revision":75,
+      "uri":"travel-awards/top-stories",
+      "pubDate":"2014-10-20T05:00:00.000Z",
+      "revisionAuthor":"Caitlin Morton",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-09-08T15:35:23.103Z"}}}

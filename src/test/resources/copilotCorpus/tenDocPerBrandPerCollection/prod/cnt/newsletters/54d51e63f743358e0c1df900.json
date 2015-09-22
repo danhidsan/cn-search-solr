@@ -1,0 +1,79 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter 2/8",
+  "date":"2015-02-08T19:43:35+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"53da7c0b6dec627b149ed3c9",
+      "hed":"The World's Fanciest Airport Lounges",
+      "dek":"Are you fed up with cranky travelers, overpriced airport food, and the endless hunt for a power outlet? Check in to one of these swanky airport lounges, where amenities range from complimentary pajamas (for your slumber in a private nap room) to meals prepared by Michelin-starred chefs."},
+    {
+      "relId":"540760d78bbe61f25cdb80a6",
+      "hed":"These Cliff Views Rival The Grand Canyon",
+      "dek":"Daredevils, this one's for you. The views from spots like the White Cliffs of Dover, Half Dome, and the Cliffs of Moher are as beautiful as they are vertigo-inducing."},
+    {
+      "relId":"53e2f2e8dddaa35c30f661ca",
+      "hed":"10 Unusual Foods We Dare You to Eat",
+      "dek":"Unless you have really adventurous taste buds, it might take a dare before you’re willing to sample any of these delicacies."},
+    {
+      "relId":"54639ec8a969601417279cff",
+      "hed":"10 Travel Gear Fails: The're So Bad, They're Genius",
+      "dek":""},
+    {
+      "relId":"54d002639abb8d533165d9aa",
+      "hed":"5 Easy Escapes from the World’s Top Business Centers",
+      "dek":""},
+    {
+      "relId":"53e2f305dddaa35c30f66220",
+      "hed":"The One Dish to Eat in Venice",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"53da7c0b6dec627b149ed3c9",
+      "hed":"Fanciest Airport Lounges"},
+    {
+      "relId":"540760d78bbe61f25cdb80a6",
+      "hed":"Cliff Views"},
+    {
+      "relId":"53e2f2e8dddaa35c30f661ca",
+      "hed":"10 Unusual Foods We Dare You to Eat"}],
+  "id":"54d51e63f743358e0c1df900",
+  "revision":1,
+  "createdAt":"2015-02-06T20:04:51.262Z",
+  "modifiedAt":"2015-02-06T20:04:59.831Z",
+  "revisionCreatedAt":"2015-02-06T20:04:59.831Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d51e63f743358e0c1df900/revisions/1"},
+    "rels":{"href":"/newsletters/54d51e63f743358e0c1df900/revisions/1/rels"},
+    "relate":{
+      "href":"/newsletters/54d51e63f743358e0c1df900/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d51e63f743358e0c1df900/revisions"},
+    "archive":{"href":"/newsletters/54d51e63f743358e0c1df900/archive"},
+    "publish":{"href":"/newsletters/54d51e63f743358e0c1df900/publish"},
+    "publishHistory":{"href":"/newsletters/54d51e63f743358e0c1df900/publish/history"},
+    "next":{"href":"/newsletters/54d51e63f743358e0c1df900/next"},
+    "previous":{"href":"/newsletters/54d51e63f743358e0c1df900/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d51e63f743358e0c1df900"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d51e63f743358e0c1df900",
+      "revision":1,
+      "uri":"newsletters/2015-02-06/newsletter-2-8",
+      "pubDate":"2015-02-06T20:04:59.771Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekend",
+      "expired":false,
+      "createdAt":"2015-02-06T20:05:05.298Z"}}}

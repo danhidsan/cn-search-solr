@@ -1,0 +1,37 @@
+{
+  "revisionAuthor":"Andrea Navarro",
+  "hed":".",
+  "dek":"",
+  "body":"[#video: https://www.youtube.com/embed/8b2190GBunw](600x400)||||||\n\n\n\n\n\n",
+  "channel":"",
+  "subChannel":"",
+  "tags":[],
+  "contentSource":"",
+  "id":"55f32a5cceb4f8187e7aa4ad",
+  "revision":5,
+  "createdAt":"2015-09-11T19:24:12.281Z",
+  "modifiedAt":"2015-09-11T19:27:41.809Z",
+  "revisionCreatedAt":"2015-09-11T19:27:41.809Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/revisions/5"},
+    "rels":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/revisions/5/rels"},
+    "relate":{
+      "href":"/articles/55f32a5cceb4f8187e7aa4ad/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/revisions"},
+    "archive":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/archive"},
+    "publish":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/publish"},
+    "publishHistory":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/publish/history"},
+    "next":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/next"},
+    "previous":{"href":"/articles/55f32a5cceb4f8187e7aa4ad/previous"},
+    "more":{"href":"/articles/published/more?id=55f32a5cceb4f8187e7aa4ad"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

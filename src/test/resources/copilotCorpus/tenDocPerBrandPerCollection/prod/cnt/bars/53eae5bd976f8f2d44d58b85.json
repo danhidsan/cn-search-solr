@@ -1,0 +1,55 @@
+{
+  "name":"Bar Rouge",
+  "address":{
+    "street":"18 Zhongshan Dong Yi Road, 7th Floor",
+    "city":"Shanghai",
+    "state":"",
+    "country":"China",
+    "postalCode":""},
+  "phone":["86-21-6339-1199"],
+  "url":["www.bar-rouge-shanghai.com"],
+  "description":"Shanghai's classiest cocktail lounge draws a hip clientele with its sexy bordello-red décor and lively dancing. Behind the bar, skilled mixologists deftly toss and flip bottles as they pour mango mojitos and pepper-spiked vodka martinis. Be prepared for a lot of attention—Bar Rouge is known to be an international pickup joint (albeit an upmarket one). There's often a cover charge, and drinks are expensive... but the river view is priceless.",
+  "editorsPick":true,
+  "tags":[
+    "Live music",
+    "Dancing"],
+  "subtype":"club",
+  "geoTags":[
+    "Asia",
+    "Asia/China",
+    "Asia/China/Shanghai",
+    "Asia/China/Shanghai/Bund"],
+  "id":"53eae5bd976f8f2d44d58b85",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:45.264Z",
+  "modifiedAt":"2014-08-13T04:12:45.264Z",
+  "revisionCreatedAt":"2014-08-13T04:12:45.264Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bd976f8f2d44d58b85/revisions/0"},
+    "rels":{"href":"/bars/53eae5bd976f8f2d44d58b85/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bd976f8f2d44d58b85/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bd976f8f2d44d58b85/revisions"},
+    "archive":{"href":"/bars/53eae5bd976f8f2d44d58b85/archive"},
+    "publish":{"href":"/bars/53eae5bd976f8f2d44d58b85/publish"},
+    "publishHistory":{"href":"/bars/53eae5bd976f8f2d44d58b85/publish/history"},
+    "next":{"href":"/bars/53eae5bd976f8f2d44d58b85/next"},
+    "previous":{"href":"/bars/53eae5bd976f8f2d44d58b85/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bd976f8f2d44d58b85"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:45.334Z",
+      "entityId":"53eae5bd976f8f2d44d58b85",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/shanghai/bar-rouge"}}}

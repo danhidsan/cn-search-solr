@@ -1,0 +1,39 @@
+{
+  "title":"Tom Watson: Check Your Grip",
+  "description":"Is your grip too weak or too strong? Make it just right with this advice from Tom Watson.",
+  "tags":[
+    "golf instruction",
+    "golf digest",
+    "golf how to",
+    "golfing tips",
+    "tom watson"],
+  "categories":["Setup Basics"],
+  "premiereDate":"2013-03-19T00:00:00+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/tom-watson-check-your-grip-july-2012",
+  "embedUrl":"//player.cnevids.com/embed/52e80854c2b4c01058fa2d84/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/52e80854c2b4c01058fa2d84/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/tom-watson-check-your-grip-july-2012",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1390941349/golfdigest_tom-watson-check-your-grip-july-2012.jpg",
+  "id":"55a546c01bedf5e91fc0a524",
+  "revision":1,
+  "createdAt":"2015-07-14T17:28:32.315Z",
+  "modifiedAt":"2015-07-15T15:43:48.289Z",
+  "revisionCreatedAt":"2015-07-15T15:43:48.289Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55a546c01bedf5e91fc0a524/revisions/1"},
+    "rels":{"href":"/cnevideos/55a546c01bedf5e91fc0a524/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55a546c01bedf5e91fc0a524/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55a546c01bedf5e91fc0a524/revisions"},
+    "archive":{"href":"/cnevideos/55a546c01bedf5e91fc0a524/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

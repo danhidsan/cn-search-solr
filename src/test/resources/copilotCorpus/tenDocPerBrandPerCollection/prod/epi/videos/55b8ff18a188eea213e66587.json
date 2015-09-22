@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Laura Wolfgang",
+  "hed":"3 Ingredients Soufflé Cheesecake",
+  "dek":"",
+  "promoHed":"",
+  "link":"https://www.youtube.com/embed/dVvPOE-C7AE",
+  "id":"55b8ff18a188eea213e66587",
+  "revision":1,
+  "createdAt":"2015-07-29T16:28:08.193Z",
+  "modifiedAt":"2015-07-29T16:37:14.732Z",
+  "revisionCreatedAt":"2015-07-29T16:37:14.732Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/55b8ff18a188eea213e66587/revisions/1"},
+    "rels":{"href":"/videos/55b8ff18a188eea213e66587/revisions/1/rels"},
+    "relate":{
+      "href":"/videos/55b8ff18a188eea213e66587/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/55b8ff18a188eea213e66587/revisions"},
+    "archive":{"href":"/videos/55b8ff18a188eea213e66587/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

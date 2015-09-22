@@ -1,0 +1,93 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"!!!! Newsletter - Dinner in 10 list",
+  "dek":"Three fabulous French bread pizzas. The best Bloody Mary of all time. And a completely new way to eat grapes.",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55e849becf90d6663f727fd8",
+      "hed":"How to Make Parm (Chicken! Eggplant!) Without a Recipe",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55ef23ddad4e361c200f7797",
+      "hed":"3 Addictive French Bread Pizzas for Kids (and, Sure, Adults)",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e604f1ad4e361c200f6cb7",
+      "hed":"The Rosh Hashanah Honey Cake You'll Actually Love",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e5a7c6ad4e361c200f6a4b",
+      "hed":"How to Skip the Corn Syrup in Any Recipe",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e9953bcf90d6663f72818f",
+      "hed":"The Bloody Mary That Even Bloody Mary Haters Will Love ",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e4bd39ad4e361c200f6a03",
+      "hed":"Why You Should Be Roasting Your Grapes",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e8a631cf90d6663f72815f",
+      "hed":"The Simple Cake to Bake Before Summer Ends",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e7718fad4e361c200f6eef",
+      "hed":"We Asked, You Answered: 15 Best Cooking Tips from Epi Readers",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e469414430148f0d3b642f",
+      "hed":"Is Salting Eggplant Really Necessary?",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e4b0d5cf90d6663f7279f7",
+      "hed":"4 Foolproof Tricks for Extra Crispy Chicken",
+      "dek":"",
+      "tags":[]}],
+  "id":"555e0a87644d45515b759b62",
+  "revision":207,
+  "createdAt":"2015-05-21T16:40:39.116Z",
+  "modifiedAt":"2015-09-09T15:20:30.772Z",
+  "revisionCreatedAt":"2015-09-09T15:20:30.772Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/555e0a87644d45515b759b62/revisions/207"},
+    "rels":{"href":"/curatedlists/555e0a87644d45515b759b62/revisions/207/rels"},
+    "relate":{
+      "href":"/curatedlists/555e0a87644d45515b759b62/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/555e0a87644d45515b759b62/revisions"},
+    "archive":{"href":"/curatedlists/555e0a87644d45515b759b62/archive"},
+    "publish":{"href":"/curatedlists/555e0a87644d45515b759b62/publish"},
+    "publishHistory":{"href":"/curatedlists/555e0a87644d45515b759b62/publish/history"},
+    "next":{"href":"/curatedlists/555e0a87644d45515b759b62/next"},
+    "previous":{"href":"/curatedlists/555e0a87644d45515b759b62/previous"},
+    "more":{"href":"/curatedlists/published/more?id=555e0a87644d45515b759b62"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"555e0a87644d45515b759b62",
+      "revision":207,
+      "uri":"dinner-in-10-list",
+      "pubDate":"2015-09-09T15:00:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-09-09T15:20:42.761Z"}}}

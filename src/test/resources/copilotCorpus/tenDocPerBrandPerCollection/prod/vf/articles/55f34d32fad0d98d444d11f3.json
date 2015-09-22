@@ -1,0 +1,143 @@
+{
+  "revisionAuthor":"Julie Miller",
+  "hed":"Greek Billionaire Making Whitney Houston Hologram to Share With the World",
+  "dek":"",
+  "channel":"Hollywood",
+  "subChannel":"Celebrity News",
+  "seoTitle":"Greek Billionaire Making Whitney Houston Hologram to Share With the World",
+  "socialTitle":"Greek Billionaire Making Whitney Houston Hologram to Share With the World",
+  "body":"Three years after Whitney Houston [died suddenly under tragic circumstances](http://www.vanityfair.com/hollywood/2012/06/whitney-houston-death-bathtub-drugs-rehab), Houston’s mother, __Pat Houston__, has given a Greek billionaire permission to have her daughter's likeness recreated in holographic form. Houston won't be the first iconic musician to get the hologram treatment—in the past three years, Tupac Shakur [was resurrected for an eery cameo at Coachella](http://www.vanityfair.com/hollywood/2012/04/tupac-hologram-coachella-dr-dre-snoop-dogg) and plans were announced for [an Elvis Presley hologram](http://www.vanityfair.com/hollywood/2012/06/elvis-presley-hologram-tupac-marilyn-monroe).\n\nA Whitney Houston hologram is coming from Greek billionaire Alki David’s Hologram USA in partnership with the late singer’s estate. FilmOn Studios will create and distribute the virtual show to Houston fans worldwide.\n\nThe event, with no current premiere date, is set to feature a selection of her greatest hits as well as audience interaction and special guests.\n\n“It’s a great opportunity for her fans to see a reinvention of one the most celebrated female artists in history and to continue a legacy of performances that will not be forgotten in years to come. I look forward to the partnership,” Pat Houston said in a statement.\n\n\n\n“The opportunity to help share her spectacular gifts with the world again is exactly what I hoped for when I built the hologram business,” David added.\n\nIndeed — Hologram USA and FilmOn Studios are in development for similar shows featuring Patsy Cline, Buddy Holly, Bing Crosby and more. The technology has also been used to facilitate live appearances like beaming Jimmy Kimmel to the Country Music Awards in Nashville. They’ll also mount a Billie Holiday performance later this year at Harlem’s Apollo Theater.\n\n\n[#gallery: /galleries/55e70529669d2a14709fc841]||||||\n\n\n",
+  "tags":[
+    "whitney houston",
+    "hologram"],
+  "contentSource":"web",
+  "rubric":"",
+  "ledeCaption":"",
+  "id":"55f34d32fad0d98d444d11f3",
+  "revision":1,
+  "createdAt":"2015-09-11T21:52:50.738Z",
+  "modifiedAt":"2015-09-11T22:03:33.749Z",
+  "revisionCreatedAt":"2015-09-11T22:03:33.749Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/articles/55f34d32fad0d98d444d11f3/revisions/1"},
+    "rels":{"href":"/articles/55f34d32fad0d98d444d11f3/revisions/1/rels"},
+    "relate":{
+      "href":"/articles/55f34d32fad0d98d444d11f3/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/55f34d32fad0d98d444d11f3/revisions"},
+    "archive":{"href":"/articles/55f34d32fad0d98d444d11f3/archive"},
+    "publish":{"href":"/articles/55f34d32fad0d98d444d11f3/publish"},
+    "publishHistory":{"href":"/articles/55f34d32fad0d98d444d11f3/publish/history"},
+    "next":{"href":"/articles/55f34d32fad0d98d444d11f3/next"},
+    "previous":{"href":"/articles/55f34d32fad0d98d444d11f3/previous"},
+    "more":{"href":"/articles/published/more?id=55f34d32fad0d98d444d11f3"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "revisionAuthor":"Julie Miller",
+          "credit":"By Kevork Djansezian/Getty Images.",
+          "title":"whitney-houston-hologram.jpg",
+          "id":"55f34ccefad0d98d444d11ed",
+          "revision":3,
+          "createdAt":"2015-09-11T21:51:10.265Z",
+          "modifiedAt":"2015-09-11T21:51:40.236Z",
+          "revisionCreatedAt":"2015-09-11T21:51:40.236Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"whitney-houston-hologram.jpg",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":1440,
+              "height":960,
+              "format":"JPEG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/vf/production/2015/09/11/55f34ccefad0d98d444d11ef_whitney-houston-hologram.jpg"},
+            "16:9":{
+              "modifications":{"crop":{
+                  "height":810,
+                  "width":1440,
+                  "y":0,
+                  "x":0}},
+              "width":1440,
+              "height":810,
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":960,
+                  "width":1280,
+                  "y":0,
+                  "x":80}},
+              "width":1280,
+              "height":960,
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "height":960,
+                  "width":960,
+                  "y":0,
+                  "x":240}},
+              "width":960,
+              "height":960,
+              "override":false},
+            "3:2":{
+              "modifications":{"crop":{
+                  "height":960,
+                  "width":1440,
+                  "y":0,
+                  "x":0}},
+              "width":1440,
+              "height":960,
+              "override":false},
+            "5:3":{
+              "modifications":{"crop":{
+                  "height":864,
+                  "width":1440,
+                  "y":0,
+                  "x":0}},
+              "width":1440,
+              "height":864,
+              "override":false},
+            "2:3":{
+              "modifications":{"crop":{
+                  "height":960,
+                  "width":640,
+                  "y":0,
+                  "x":400}},
+              "width":640,
+              "height":960,
+              "override":false}},
+          "caption":"",
+          "description":"Getty 93311558"}}],
+    "contributorsAuthor":[{"fields":{
+          "bio":"Julie Miller is a Senior Hollywood writer for *Vanity Fair*'s website. She covers most things entertainment including awards season, film festivals, Hollywood events, and interesting celebrity news. She also provides original interviews. She lives in Los Angeles.",
+          "createdAt":"2014-01-07T17:59:52.587Z",
+          "email":"julie_miller@condenast.com",
+          "modifiedAt":"2015-07-02T00:48:44.751Z",
+          "name":"Julie Miller",
+          "socialMedia":[
+            {
+              "handle":"",
+              "network":"Facebook"},
+            {
+              "network":"Twitter",
+              "handle":"juliewmiller"}],
+          "id":"52cc4098110a545e44000002",
+          "revisionCreatedAt":"2015-07-02T00:48:44.751Z",
+          "revisionAuthor":"Julie Miller",
+          "revision":12,
+          "meta":{
+            "collectionName":"contributors",
+            "modelName":"contributor",
+            "publishable":true,
+            "image":false,
+            "archived":false}}}],
+    "contributorsPhotographer":[]}}

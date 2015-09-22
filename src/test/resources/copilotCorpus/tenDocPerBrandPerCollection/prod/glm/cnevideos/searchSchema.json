@@ -1,0 +1,7 @@
+{
+  "title_en":".model > .title",
+  "description_en":".model > .description",
+  "tags_ss":".model > .tags *",
+  "publishDate_tdt":{
+    "selector":".model > .premiereDate",
+    "converter":{"method":"toISOString"}}}

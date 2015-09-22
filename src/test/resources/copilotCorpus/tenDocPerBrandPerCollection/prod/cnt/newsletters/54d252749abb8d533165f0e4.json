@@ -1,0 +1,81 @@
+{
+  "revisionAuthor":"Zameer Mohamad",
+  "title":"Daily Traveler Newsletter Test",
+  "date":"2015-02-05T17:05:54+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"This is a Test",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54cff2bbc335146e4986581e",
+      "hed":"Lorem Ipsum Dolor",
+      "dek":"Vel eum iriure, dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore. "},
+    {
+      "relId":"54cfde9b9abb8d533165d38c",
+      "hed":"Est notare quam littera gothica quam nunc",
+      "dek":"\n"},
+    {
+      "relId":"54cfe7f19abb8d533165d486",
+      "hed":"Putamus parum claram anteposuerit",
+      "dek":""},
+    {
+      "relId":"54d2419a9abb8d533165edf0",
+      "hed":"Luptatum zzril delenit",
+      "dek":""},
+    {
+      "relId":"54d216a79abb8d533165ec66",
+      "hed":"Augue duis dolore te feugait",
+      "dek":""},
+    {
+      "relId":"54d0d0be9abb8d533165da7a",
+      "hed":"Nulla facilisi nam liber tempor",
+      "dek":""},
+    {
+      "relId":"53db1bc5dcd5888e145e45a6",
+      "hed":"Bahamas Vacation Deal at Atlantis",
+      "dek":""},
+    {
+      "relId":"53ea8e84976f8f2d44d55c33",
+      "hed":"Global Spas",
+      "dek":""},
+    {
+      "relId":"54d11e01c335146e49866554",
+      "hed":"Where to Watch the Patriots&#39; Super Bowl Parade in Boston",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54cff2bbc335146e4986581e",
+      "hed":"Short Link Uno"},
+    {
+      "relId":"54cfde9b9abb8d533165d38c",
+      "hed":"Second Shorty link"},
+    {
+      "relId":"54cfe7f19abb8d533165d486",
+      "hed":"Here's a third story"}],
+  "id":"54d252749abb8d533165f0e4",
+  "revision":0,
+  "createdAt":"2015-02-04T17:10:12.919Z",
+  "modifiedAt":"2015-02-04T17:10:12.919Z",
+  "revisionCreatedAt":"2015-02-04T17:10:12.919Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d252749abb8d533165f0e4/revisions/0"},
+    "rels":{"href":"/newsletters/54d252749abb8d533165f0e4/revisions/0/rels"},
+    "relate":{
+      "href":"/newsletters/54d252749abb8d533165f0e4/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d252749abb8d533165f0e4/revisions"},
+    "archive":{"href":"/newsletters/54d252749abb8d533165f0e4/archive"},
+    "publish":{"href":"/newsletters/54d252749abb8d533165f0e4/publish"},
+    "publishHistory":{"href":"/newsletters/54d252749abb8d533165f0e4/publish/history"},
+    "next":{"href":"/newsletters/54d252749abb8d533165f0e4/next"},
+    "previous":{"href":"/newsletters/54d252749abb8d533165f0e4/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d252749abb8d533165f0e4"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

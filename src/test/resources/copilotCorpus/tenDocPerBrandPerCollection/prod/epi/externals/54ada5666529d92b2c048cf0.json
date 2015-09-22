@@ -1,0 +1,25 @@
+{
+  "revisionAuthor":"Eric Gillin",
+  "hed":"Low-Fat Recipes",
+  "url":"http://www.epicurious.com/special-consideration/low-fat",
+  "id":"54ada5666529d92b2c048cf0",
+  "revision":2,
+  "createdAt":"2015-01-07T21:30:14.091Z",
+  "modifiedAt":"2015-01-31T13:05:43.884Z",
+  "revisionCreatedAt":"2015-01-31T13:05:43.884Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false},
+  "_links":{
+    "self":{"href":"/externals/54ada5666529d92b2c048cf0/revisions/2"},
+    "rels":{"href":"/externals/54ada5666529d92b2c048cf0/revisions/2/rels"},
+    "relate":{
+      "href":"/externals/54ada5666529d92b2c048cf0/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/54ada5666529d92b2c048cf0/revisions"},
+    "archive":{"href":"/externals/54ada5666529d92b2c048cf0/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

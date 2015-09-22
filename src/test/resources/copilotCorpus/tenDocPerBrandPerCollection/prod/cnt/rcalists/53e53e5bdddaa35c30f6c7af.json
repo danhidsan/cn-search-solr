@@ -1,0 +1,957 @@
+{
+  "hed":"Top 40 Resorts in Florida",
+  "dek":"Condé Nast Traveler readers rate the top resorts in Santa Rosa Beach, Orlando, Naples, Lake Buena Vista, Key West, Boca Raton, Fort Lauderdale, Miami Beach, Miami, Amelia Island, Palm Coast, and more",
+  "year":"2013",
+  "tags":["readers-choice-awards/united-states/best-resorts-florida"],
+  "geoTags":[
+    "north-america",
+    "north-america/united-states",
+    "north-america/united-states/florida",
+    "north-america/united-states/florida/amelia-island",
+    "north-america/united-states/florida/fort-lauderdale",
+    "north-america/united-states/florida/florida-keys",
+    "north-america/united-states/florida/florida-keys/key-west",
+    "north-america/united-states/florida/jacksonville",
+    "north-america/united-states/florida/palm-beach",
+    "north-america/united-states/florida/santa-rosa-beach"],
+  "region":"United States",
+  "channel":"Travel Awards",
+  "subChannel":"Readers' Choice Awards",
+  "secondaryChannels":[],
+  "secondarySubChannels":[],
+  "items":[
+    {
+      "relId":"53d9b41bdcd5888e145950c7",
+      "regionalRank":"36",
+      "ratingBlock":{
+        "rooms":83.6,
+        "service":82.2,
+        "food":82.2,
+        "location":87.4,
+        "design":84,
+        "activities":84.9,
+        "overall":84},
+      "memberComments":[
+        {
+          "comment":"\"Love sipping mojitos by the pool and enjoying the ocean views from the spacious rooms.\"",
+          "source":"Wendy Brann",
+          "location":"California"},
+        {
+          "comment":"\"Tucked away, golf, spa, restaurants and shopping close by.\"",
+          "source":"Susan Bennett",
+          "location":"Florida"}]},
+    {
+      "relId":"53d9b43adcd5888e1459513c",
+      "regionalRank":"12",
+      "ratingBlock":{
+        "rooms":88.5,
+        "service":90,
+        "food":83.4,
+        "location":95,
+        "design":86.3,
+        "activities":90.9,
+        "overall":89},
+      "memberComments":[
+        {
+          "comment":"\"An outstanding full service resort; wonderful accommodations beach or bayside, with full kitchens and in-suite laundry machines. The staff is outstanding, from check-in through bell and wait staff, restaurant and poolside and beach staff.  Many many tennis courts, some lit for evening play, multiple golf courses of varying degrees of difficulty, miles of white sandy beach and calm Gulf waters, a full indoor spa with fitness club, wonderful weather, nearby cosmopolitan Sarasota with arts, culture, theatre and music. A major airport is just 15 minutes away and a short 2 hour flight non stop from New York City.\"",
+          "source":"Evan Spelfogel",
+          "location":"New York"},
+        {
+          "comment":"\"Great Experience. They offered everything you would want on a vacation. The staff showed a high level of customer service.\"",
+          "source":"John Alberici",
+          "location":"Pennsylvania"}]},
+    {
+      "relId":"53d9b4456dec627b149cab95",
+      "regionalRank":"37",
+      "ratingBlock":{
+        "rooms":93.8,
+        "service":85.7,
+        "food":81.6,
+        "location":75.5,
+        "design":83.7,
+        "activities":83.3,
+        "overall":83.9},
+      "memberComments":[
+        {
+          "comment":"\"I've stayed in tons of hotels in Miami since I was a child, but the Acqualina Resort and Spa is by far the best hotel. The staff, resort and spa are the top of the line and I continue to go back multiple times a year with my family.\"",
+          "source":"Christina Iannaccone",
+          "location":"New Jersey"},
+        {
+          "comment":"\"Time and time again this property never fails...consistently excellent in all facets. Service, accommodations, friendliness, food...it's the best!\"",
+          "source":"I Jay Levitts",
+          "location":"Massachusetts"}]},
+    {
+      "relId":"53d9b4656dec627b149cac31",
+      "regionalRank":"2",
+      "ratingBlock":{
+        "rooms":90.3,
+        "service":100,
+        "food":90,
+        "location":90.6,
+        "design":87.5,
+        "activities":96.8,
+        "overall":92.6},
+      "memberComments":[
+        {
+          "comment":"\"If you play golf, you have to stay here.\"",
+          "source":"David Prince",
+          "location":"Maryland"},
+        {
+          "comment":"\"The Arnold Palmer Hotel was the best experience that we have ever had traveling. The price was excellent, the atmosphere was luxurious, the staff friendly and helpful, location was convenient. Top notch place!\"",
+          "source":"Carolyn Bellor",
+          "location":"Florida"}]},
+    {
+      "relId":"53d9b4666dec627b149cac37",
+      "regionalRank":"38",
+      "ratingBlock":{
+        "rooms":76.3,
+        "service":85.6,
+        "food":74.5,
+        "location":93.8,
+        "design":79.4,
+        "activities":93.6,
+        "overall":83.8},
+      "memberComments":[
+        {
+          "comment":"\"It's Disney! If I could, I'd visit every month to get my mouse fix. Love Ohana for breakfast & lunch. Beautiful grounds and great staff… and it's on the monorail route!\"",
+          "source":"Jennifer Cvelic",
+          "location":"North Carolina"},
+        {
+          "comment":"\"Fun resort lush and tropical for a central Florida location. Don't miss Ohana Disney character dining at this resort with Lilo and Stitch.\"",
+          "source":"Debbie Dutton",
+          "location":"Illinois"}]},
+    {
+      "relId":"53d9b47a6dec627b149caca8",
+      "regionalRank":"23",
+      "ratingBlock":{
+        "rooms":87.9,
+        "service":89.7,
+        "food":75,
+        "location":89.7,
+        "design":87.9,
+        "activities":89.1,
+        "overall":86.7},
+      "memberComments":[
+        {
+          "comment":"\"Staying at The Villas of Grand Cypress makes the Orlando experience. In a normally busy/hectic city this property is quiet and serene - you almost forget you are minutes away from the crowded theme parks.\"",
+          "source":"R. G.",
+          "location":"Florida"},
+        {
+          "comment":"\"Great golf. Very nice bar and restaurant.\"",
+          "source":"D. A.",
+          "location":"Florida"}]},
+    {
+      "relId":"53daf1addcd5888e145d7c58",
+      "regionalRank":"22",
+      "ratingBlock":{
+        "rooms":86.6,
+        "service":85.3,
+        "food":85.7,
+        "location":94.1,
+        "design":86.9,
+        "activities":83.1,
+        "overall":87.1},
+      "memberComments":[
+        {
+          "comment":"Nothing comes close to the ambience of the Vinoy in St. Pete. The staff is consistently friendly and helpful, the verandah is extremely popular, and the location cannot be beat. We stay here every time and it has never disappointed.",
+          "source":"Valerie Mills",
+          "location":"Virginia"},
+        {
+          "comment":"What a find, just like stepping back in time but with all the current amenities. Enjoyed the water view and the absolutely gorgeous architecture.",
+          "source":"Teresa C.",
+          "location":"California"}]},
+    {
+      "relId":"53dafeeb6dec627b14a116c9",
+      "regionalRank":"40",
+      "ratingBlock":{
+        "rooms":87.5,
+        "service":82.1,
+        "food":84.2,
+        "location":78.9,
+        "design":83.7,
+        "activities":84.1,
+        "overall":83.4},
+      "memberComments":[
+        {
+          "comment":"A classic. Excellent in every way. Pool area worthy of Esther Williams!",
+          "source":"Linda Cooney",
+          "location":"Florida"},
+        {
+          "comment":"Beautiful, historic, updated hotel with excellent service from front desk to fitness to room service.",
+          "source":"Andrea T.",
+          "location":"Michigan"}]},
+    {
+      "relId":"53db007edcd5888e145dc431",
+      "regionalRank":"17",
+      "ratingBlock":{
+        "rooms":87.4,
+        "service":88,
+        "food":81.2,
+        "location":86,
+        "design":92.9,
+        "activities":91.9,
+        "overall":87.9},
+      "memberComments":[
+        {
+          "comment":"Disney's Animal Kingdom Lodge is an oasis in the middle of a tourist area that can sometimes seem hectic and daunting. We booked a Savannah room, which had a balcony overlooking the savannah. Each moving, we woke up to the sun rising above the trees, and animals everywhere, roaming free. I spent a lot of time sitting on the balcony with a coffee as I watched zebras and giraffes meander through the savannah. After fun, but long, days in the Disney parks, coming back to the hotel was like being on a whole, separate vacation.",
+          "source":"Daniel Boyer",
+          "location":"Canada"},
+        {
+          "comment":"The views are spectacular! Having a Savannah room just can't be beat. Where else in the US can you see giraffes from your hotel balcony? Our five-year-old son loved it! And, Boma has one of the best buffets at Disney.",
+          "source":"Jean Marie Gard",
+          "location":"Massachusetts"}]},
+    {
+      "relId":"53db0086dcd5888e145dc448",
+      "regionalRank":"24",
+      "ratingBlock":{
+        "rooms":82.6,
+        "service":87,
+        "food":75.9,
+        "location":93.1,
+        "design":88,
+        "activities":92.4,
+        "overall":86.5},
+      "memberComments":[
+        {
+          "comment":"So nice to be able to park the car here and take Disney's transportation to-and-from the parks every day. Our kids loved the pools and white sand beach.",
+          "source":"Cynthia Douglass",
+          "location":"Florida"},
+        {
+          "comment":"A world within 'The World'—and just a short walk from Epcot and Hollywood Studios.",
+          "source":"Charlotte Troddyn",
+          "location":"New Hampshire"}]},
+    {
+      "relId":"53db0090dcd5888e145dc471",
+      "regionalRank":"31",
+      "ratingBlock":{
+        "rooms":80.2,
+        "service":84.6,
+        "food":78,
+        "location":92.4,
+        "design":85.9,
+        "activities":88.5,
+        "overall":84.9},
+      "memberComments":[
+        {
+          "comment":"Of all the Disney Resorts we've stayed at, the Boardwalk Inn is our favorite.  The location is supreme--just a walk or ferry ride to Epcot or Hollywood Studios; plus the restaurants in the Boardwalk area are the best--especially the New York Strip at the Flying Fish Cafe, one of the best kept secrets in the 'World.'",
+          "source":"Karen Boens",
+          "location":"Kentucky"},
+        {
+          "comment":"Gorgeous hotel, felt like the heyday of the Jersey Boardwalk, yet with all the modern accoutrements we don't want to live without. Wonderfully comfortable beds and cute Juliet balcony overlooking a serene grassy courtyard yet so close to Epcot.",
+          "source":"Debbie Y.",
+          "location":"Ohio"}]},
+    {
+      "relId":"53db00a4dcd5888e145dc4c0",
+      "regionalRank":"20",
+      "ratingBlock":{
+        "rooms":83.2,
+        "service":87.7,
+        "food":79.6,
+        "location":95,
+        "design":88.1,
+        "activities":91.1,
+        "overall":87.4},
+      "memberComments":[
+        {
+          "comment":"If you're going to Disney you can't beat the Grand Floridian. Location, location, location! Great pools and views of the Magic Kingdom.  Your can watch fireworks from you balcony and there's great entertainment in the lobby nightly.",
+          "source":"Darlene Stephenson",
+          "location":"Virginia"},
+        {
+          "comment":"Disney at its best.  Service, location to parks, restaurants are all top of the line.",
+          "source":"Chris Manfredi",
+          "location":"New York"}]},
+    {
+      "relId":"53db00b46dec627b14a1205c",
+      "regionalRank":"34",
+      "ratingBlock":{
+        "rooms":90,
+        "service":86.2,
+        "food":80,
+        "location":86.7,
+        "design":83.3,
+        "activities":80,
+        "overall":84.4},
+      "memberComments":[
+        {
+          "comment":"Great beach and facilities especially the kiddie pool. Excellent food and service.",
+          "source":"Donald Wilson",
+          "location":"Oklahoma"},
+        {
+          "comment":"Pool personnel were particularly wonderful especially with the kids.  Many activities available to occupy all ages. Food choices, however, were very limited.  If one stays there more than a day, you should leave the hotel to find different meal choices.",
+          "source":"MaryAlice B.",
+          "location":"Massachusetts"}]},
+    {
+      "relId":"53db00bedcd5888e145dc593",
+      "regionalRank":"17",
+      "ratingBlock":{
+        "rooms":83.9,
+        "service":89.1,
+        "food":77.9,
+        "location":91.9,
+        "design":92.3,
+        "activities":92.3,
+        "overall":87.9},
+      "memberComments":[
+        {
+          "comment":"A fun place to stay; the location is amazing! You can watch the water parade from the beach.  We stayed in a 2-bedroom villa and it was immaculate. Very spacious for our family of 5 and the washer and dryer were great to have.  We will definitely return.",
+          "source":"Kim Esakof",
+          "location":"Massachusetts"},
+        {
+          "comment":"This is an excellent Disney Resort located near the Contemporary and very close to the Magic Kingdom. It is modeled after the lodges of Yellowstone National Park.",
+          "source":"Sara Gill",
+          "location":"Florida"}]},
+    {
+      "relId":"53db00c6dcd5888e145dc5bb",
+      "regionalRank":"33",
+      "ratingBlock":{
+        "rooms":82.5,
+        "service":84.2,
+        "food":76.5,
+        "location":94.2,
+        "design":85,
+        "activities":85,
+        "overall":84.6},
+      "memberComments":[
+        {
+          "comment":"An experience you'll never forget. Our twins were greeted each morning by name and loved the sandy-bottom pool.",
+          "source":"Kitty Yuen",
+          "location":"Colorado"},
+        {
+          "comment":"Nothing compares to the elegance and comfort here—it's simply the best around.",
+          "source":"Michelle Lundquist",
+          "location":"Michigan"}]},
+    {
+      "relId":"53db01026dec627b14a121c0",
+      "regionalRank":"15",
+      "ratingBlock":{
+        "rooms":88.1,
+        "service":94.1,
+        "food":84.1,
+        "location":93.2,
+        "design":91.5,
+        "activities":79.3,
+        "overall":88.5},
+      "memberComments":[
+        {
+          "comment":"Friendly and right on the beach.  Delicious breakfasts in the morning and wine  and cheese in the evening.",
+          "source":"Joyce O.",
+          "location":"Georgia"},
+        {
+          "comment":"Excellent B&B. Inn keepers go out of their way to make you feel at home. Breakfasts are better than mom's.",
+          "source":"Bruce Y.",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0215dcd5888e145dcc5b",
+      "regionalRank":"10",
+      "ratingBlock":{
+        "rooms":88.8,
+        "service":92.8,
+        "food":88.2,
+        "location":92.2,
+        "design":88.9,
+        "activities":85.8,
+        "overall":89.5},
+      "memberComments":[
+        {
+          "comment":"Terrific serviceÑbut beware, a short trip to the pool might become an all-day pleasure!",
+          "source":"John Campbell",
+          "location":"Louisiana"},
+        {
+          "comment":"My 8-year-old grandson was given the Royal TreatmentÑthe staff is top-notch.",
+          "source":"Pat Bates",
+          "location":"Florida"}]},
+    {
+      "relId":"53e513fcc2d3f39d361117a4",
+      "regionalRank":"26",
+      "ratingBlock":{
+        "rooms":81.1,
+        "service":88.3,
+        "food":86.2,
+        "location":91,
+        "design":85.6,
+        "activities":84.1,
+        "overall":86.1},
+      "memberComments":[
+        {
+          "comment":"A quaint hotel with historical significance and a  beautiful setting.",
+          "source":"Jane Wason",
+          "location":"Florida"},
+        {}]},
+    {
+      "relId":"53db0316dcd5888e145dd195",
+      "regionalRank":"28",
+      "ratingBlock":{
+        "rooms":90.3,
+        "service":85.7,
+        "food":70,
+        "location":85.5,
+        "design":88.7,
+        "activities":89.8,
+        "overall":85.1},
+      "memberComments":[
+        {
+          "comment":"A beautiful property with an ideal location and amenities. There's even an indoor pool for the rare, cold day in Florida.",
+          "source":"Rhonda Raiford",
+          "location":"Florida"},
+        {
+          "comment":"The private, 'Adults Only' pool is so appreciated at this lovely resort with lots of activities for all.",
+          "source":"J.B.",
+          "location":"Florida"}]},
+    {
+      "relId":"53db08126dec627b14a141d1",
+      "regionalRank":"16",
+      "ratingBlock":{
+        "rooms":86.3,
+        "service":86.9,
+        "food":84.9,
+        "location":93.5,
+        "design":87.4,
+        "activities":89.3,
+        "overall":88.1},
+      "memberComments":[
+        {
+          "comment":"I have stayed at LaPlaya several times; it's a hospitable resort that offers easy access to fun beach activities. The food is delicious, even the business meeting catering had interesting and tasty snacks.  The staff are always attentive and professional.",
+          "source":"Mary Patchett",
+          "location":"Florida"},
+        {
+          "comment":"The service was phenomenal and the staff was extremely friendly and accommodating. The grounds are impeccably kept. The housekeeping staff was very, very efficient. It will be our only choice when in Naples.",
+          "source":"Joy Fabiano",
+          "location":"New York"}]},
+    {
+      "relId":"53db0866dcd5888e145de904",
+      "regionalRank":"1",
+      "ratingBlock":{
+        "rooms":95.9,
+        "service":94.1,
+        "food":92.1,
+        "location":95.4,
+        "design":96.1,
+        "activities":89.1,
+        "overall":93.8},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db08a0dcd5888e145de9c3",
+      "regionalRank":"30",
+      "ratingBlock":{
+        "rooms":84.8,
+        "service":97,
+        "food":71.9,
+        "location":90.9,
+        "design":81.8,
+        "activities":82.8,
+        "overall":85},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db08c66dec627b14a1452f",
+      "regionalRank":"32",
+      "ratingBlock":{
+        "rooms":86,
+        "service":81,
+        "food":81.3,
+        "location":91,
+        "design":84,
+        "activities":85.7,
+        "overall":84.8},
+      "memberComments":[
+        {
+          "comment":"This was a great find. When you stay here you get a pass to go on a fast lane for all the rides. There was a water taxi to the parks. Great theme pools too.",
+          "source":"Suzanne Taves",
+          "location":"California"},
+        {
+          "comment":"A great family resort with nice dining options and a fun pool complex. We are annual pass holders to Universal and enjoyed five trips this year to Loews Universal hotels. Take the rickshaw bike ride if the ferry is too crowded.",
+          "source":"Jason Zeller",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0971dcd5888e145ded27",
+      "regionalRank":"27",
+      "ratingBlock":{
+        "rooms":95.4,
+        "service":87.9,
+        "food":77.8,
+        "location":92.4,
+        "design":80,
+        "activities":82,
+        "overall":86},
+      "memberComments":[
+        {
+          "comment":"This a great hotel!  The facilities, the gardens, the beach area and pool are all perfectly pristine.  The feel is more of a private condominium and not that of a sterile hotel room.",
+          "source":"Kendyl Morgan",
+          "location":"Tennessee"},
+        {
+          "comment":"Beautiful location, great beach, best Italian food I've ever eaten at Sal e Pepe.",
+          "source":"Ginger M.",
+          "location":"Pennsylvania"}]},
+    {
+      "relId":"53db0979dcd5888e145ded52",
+      "regionalRank":"14",
+      "ratingBlock":{
+        "rooms":90.3,
+        "service":88.4,
+        "food":81.1,
+        "location":94.9,
+        "design":89.7,
+        "activities":88.3,
+        "overall":88.8},
+      "memberComments":[
+        {
+          "comment":"I went with my mother for my birthday (mother/daughter trip) and I had the time of my life!  The staff deserves many thanks because they were amazing.  On the first night, we walked into our room to find complimentary wine and sweet treats with a birthday card.  Absolutely, amazing!  My mother and I will be back and this time with the whole family.",
+          "source":"Brooke Watkins",
+          "location":"New York"},
+        {
+          "comment":"A one of a kind island experience. Spacious rooms, excellent dining options, an expansive spa and one of the best beaches in Florida.",
+          "source":"Austin Hamill",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0aa06dec627b14a14e55",
+      "regionalRank":"5",
+      "ratingBlock":{
+        "rooms":91.9,
+        "service":92.1,
+        "food":90.4,
+        "location":96.8,
+        "design":90.1,
+        "activities":87.4,
+        "overall":91.5},
+      "memberComments":[
+        {
+          "comment":"The staff has the right mix of customer service and efficiency. The rooms are beautiful. I have stayed there multiple times and have never been disappointed in either the service or the room. I don't stay anywhere else when I go to Key West and always recommend the Ocean Key to other travelers.",
+          "source":"Lenore Hanoka",
+          "location":"Massachusets"},
+        {
+          "comment":"A beautiful little hotel with great location and comfortable updated rooms.  We had a wonderful time enjoying happy hour by the pool.",
+          "source":"Maran Wiebe",
+          "location":"Texas"}]},
+    {
+      "relId":"53db0b12dcd5888e145df416",
+      "regionalRank":"35",
+      "ratingBlock":{
+        "rooms":85.4,
+        "service":86.5,
+        "food":83.3,
+        "location":87.5,
+        "design":83.5,
+        "activities":78.3,
+        "overall":84.2},
+      "memberComments":[
+        {
+          "comment":"Very 'retro' and visually pleasing with a fabulous restaurant, Azurea.",
+          "source":"Caron Wollman",
+          "location":"Maryland"},
+        {
+          "comment":"Would go back time and time again. Design is incredibly beautiful and innovative, service was impeccable, and the spa was beautiful.",
+          "source":"A.G.",
+          "location":"New Jersey"}]},
+    {
+      "relId":"53db0c5f6dec627b14a15703",
+      "regionalRank":"8",
+      "ratingBlock":{
+        "rooms":92.4,
+        "service":93.1,
+        "food":87.8,
+        "location":92.3,
+        "design":91,
+        "activities":89.3,
+        "overall":91},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0cbcdcd5888e145dfcd6",
+      "regionalRank":"19",
+      "ratingBlock":{
+        "rooms":92.3,
+        "service":90.1,
+        "food":85,
+        "location":91.5,
+        "design":85.3,
+        "activities":81.5,
+        "overall":87.7},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0cc8dcd5888e145dfd26",
+      "regionalRank":"11",
+      "ratingBlock":{
+        "rooms":91.1,
+        "service":92.6,
+        "food":88.8,
+        "location":84.3,
+        "design":88.9,
+        "activities":90.7,
+        "overall":89.4},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0ce3dcd5888e145dfd9e",
+      "regionalRank":"25",
+      "ratingBlock":{
+        "rooms":88.6,
+        "service":90.1,
+        "food":79.5,
+        "location":86,
+        "design":86.4,
+        "activities":86.5,
+        "overall":86.2},
+      "memberComments":[
+        {
+          "comment":"On the ocean; great views. Renovated rooms were very nice. Good spa, good restaurants, great staff.",
+          "source":"Bernice Spiegelman",
+          "location":"Florida"},
+        {
+          "comment":"Beautiful. We loved the location, beach, pool, etc.  Stayed on the Club Level which you can't top.",
+          "source":"Darlene Stephenson",
+          "location":"Virginia"}]},
+    {
+      "relId":"53db0cfd6dec627b14a15986",
+      "regionalRank":"4",
+      "ratingBlock":{
+        "rooms":93.6,
+        "service":93.9,
+        "food":90.1,
+        "location":94.9,
+        "design":90.2,
+        "activities":90.2,
+        "overall":92.2},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0d1ddcd5888e145dff0e",
+      "regionalRank":"9",
+      "ratingBlock":{
+        "rooms":95,
+        "service":93,
+        "food":85.3,
+        "location":81.8,
+        "design":91.5,
+        "activities":90.9,
+        "overall":89.6},
+      "memberComments":[
+        {
+          "comment":"Simply a terrific property. Great service, rooms, food and the spa is amazing. Highly recommended.",
+          "source":"Susan Bush",
+          "location":"Illinois"},
+        {
+          "comment":"Lovely property.  Club level amenities are unbeatable.",
+          "source":"Beverly Carrera",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0d3fdcd5888e145dff9b",
+      "regionalRank":"28",
+      "ratingBlock":{
+        "rooms":87.1,
+        "service":88.5,
+        "food":83.7,
+        "location":85.3,
+        "design":83,
+        "activities":82.3,
+        "overall":85.1},
+      "memberComments":[
+        {
+          "comment":"Excellent, beautiful, classy.  A real Ritz-Carlton experience. The Fazio golf course is amazing,  the pro shop staff and golf management staff more than accommodating.",
+          "source":"Margaret Ann F.",
+          "location":"New Jersey"},
+        {
+          "comment":"One of our favorite locations. Traditional Ritz service and environment with access to the beautiful beach club location on the key. Great, friendly service without a stuffy attitude.",
+          "source":"William S. Pennsylvania",
+          "location":""}]},
+    {
+      "relId":"53db0d8bdcd5888e145e0139",
+      "regionalRank":"40",
+      "ratingBlock":{
+        "rooms":77.7,
+        "service":80.6,
+        "food":75.3,
+        "location":96.1,
+        "design":84.3,
+        "activities":86.3,
+        "overall":83.4},
+      "memberComments":[
+        {
+          "comment":"We have stayed at the Royal Pacific Resort twice in the past year. The resort is stunning, service is great, food is excellent and you can't beat the ferry or walking path to both of the Universal parks.",
+          "source":"Sasha Koenig",
+          "location":"Pennsylvania"},
+        {
+          "comment":"Great place to stay while visiting Universal or Islands of Adventure theme parks.  You can't beat the ferry boat transportation and fast passes for rides.",
+          "source":"Darlene Elser",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0df2dcd5888e145e036a",
+      "regionalRank":"7",
+      "ratingBlock":{
+        "rooms":91.8,
+        "service":92,
+        "food":86.3,
+        "location":94.4,
+        "design":93.9,
+        "activities":89.1,
+        "overall":91.3},
+      "memberComments":[
+        {
+          "comment":"The epitome of luxury with superb customer care. Ring the 'Sunset Bell' at dusk, toast s'mores around the campfire, watch a movie by the pool, or play a game of life-size chess on the lawn.",
+          "source":"Charlene Paparizos",
+          "location":"Ohio"},
+        {
+          "comment":"An outstanding experience, from the moment you arrive to the moment you depart, regretfully. A memorable and special experience.",
+          "source":"Maria Johnston",
+          "location":"Florida"}]},
+    {
+      "relId":"53db0ff06dec627b14a16127",
+      "regionalRank":"19",
+      "ratingBlock":{
+        "rooms":95,
+        "service":86.7,
+        "food":81.7,
+        "location":95,
+        "design":86.7,
+        "activities":81.4,
+        "overall":87.7},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db106f6dec627b14a16401",
+      "regionalRank":"12",
+      "ratingBlock":{
+        "rooms":90.9,
+        "service":86,
+        "food":86.9,
+        "location":95,
+        "design":91,
+        "activities":84.2,
+        "overall":89},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db10c6dcd5888e145e0bc2",
+      "regionalRank":"6",
+      "ratingBlock":{
+        "rooms":86.8,
+        "service":91.6,
+        "food":88.1,
+        "location":96.3,
+        "design":92.9,
+        "activities":92.9,
+        "overall":91.4},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db15d9dcd5888e145e19cf",
+      "regionalRank":"3",
+      "ratingBlock":{
+        "rooms":93.4,
+        "service":88.4,
+        "food":87.6,
+        "location":96.8,
+        "design":92.3,
+        "activities":96,
+        "overall":92.4},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]}],
+  "id":"53e53e5bdddaa35c30f6c7af",
+  "revision":4,
+  "createdAt":"2014-08-08T21:17:15.997Z",
+  "modifiedAt":"2015-01-22T15:37:46.705Z",
+  "revisionCreatedAt":"2015-01-22T15:37:46.705Z",
+  "meta":{
+    "collectionName":"rcalists",
+    "modelName":"rcalist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Dara Pettinelli",
+  "_links":{
+    "self":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/revisions/4"},
+    "rels":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/revisions/4/rels"},
+    "relate":{
+      "href":"/rcalists/53e53e5bdddaa35c30f6c7af/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/revisions"},
+    "archive":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/archive"},
+    "publish":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/publish"},
+    "publishHistory":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/publish/history"},
+    "next":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/next"},
+    "previous":{"href":"/rcalists/53e53e5bdddaa35c30f6c7af/previous"},
+    "more":{"href":"/rcalists/published/more?id=53e53e5bdddaa35c30f6c7af"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "title":"[The Biltmore Hotel](http://www.biltmorehotel.com/)",
+          "id":"53e2f138dddaa35c30f65b52",
+          "revision":2,
+          "createdAt":"2014-08-07T03:23:36.629Z",
+          "modifiedAt":"2014-08-07T03:23:41.153Z",
+          "revisionCreatedAt":"2014-08-07T03:23:41.153Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":false},
+          "images":{
+            "original":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b54_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b54_fathers-day-travel-2014-2.jpg",
+              "width":3456,
+              "height":2592,
+              "format":"JPEG"},
+            "copilot-small":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b55_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b55_fathers-day-travel-2014-2.jpg",
+              "width":208,
+              "height":156,
+              "format":"JPEG"},
+            "copilot-medium":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b56_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b56_fathers-day-travel-2014-2.jpg",
+              "width":298,
+              "height":223,
+              "format":"JPEG"},
+            "copilot-large":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b57_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b57_fathers-day-travel-2014-2.jpg",
+              "width":957,
+              "height":718,
+              "format":"JPEG"},
+            "large_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b58_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b58_fathers-day-travel-2014-2.jpg",
+              "width":1051,
+              "height":788,
+              "format":"JPEG"},
+            "med_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b59_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b59_fathers-day-travel-2014-2.jpg",
+              "width":640,
+              "height":480,
+              "format":"JPEG"},
+            "small_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5a_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5a_fathers-day-travel-2014-2.jpg",
+              "width":465,
+              "height":349,
+              "format":"JPEG"},
+            "large_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5b_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5b_fathers-day-travel-2014-2.jpg",
+              "width":935,
+              "height":701,
+              "format":"JPEG"},
+            "med_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5c_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5c_fathers-day-travel-2014-2.jpg",
+              "width":620,
+              "height":465,
+              "format":"JPEG"},
+            "small_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5d_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5d_fathers-day-travel-2014-2.jpg",
+              "width":368,
+              "height":276,
+              "format":"JPEG"},
+            "xsmall_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5e_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5e_fathers-day-travel-2014-2.jpg",
+              "width":212,
+              "height":159,
+              "format":"JPEG"},
+            "large_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b5f_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b5f_fathers-day-travel-2014-2.jpg",
+              "width":344,
+              "height":258,
+              "format":"JPEG"},
+            "med_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b60_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b60_fathers-day-travel-2014-2.jpg",
+              "width":250,
+              "height":188,
+              "format":"JPEG"},
+            "small_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/06/53e2f138dddaa35c30f65b61_fathers-day-travel-2014-2.jpg",
+              "filename":"53e2f138dddaa35c30f65b61_fathers-day-travel-2014-2.jpg",
+              "width":169,
+              "height":127,
+              "format":"JPEG"}},
+          "tags":["http://www.cntraveler.com/dam/2014/06/fathers-day-2014/fathers-day-travel-2014-2.jpg"],
+          "caption":"This iconic Coral Gables resort has launched a “Fore Your Improvement” package that includes three hours of pro instruction, video swing analysis, and unlimited play on the Donald Ross Classic course. And since golf isn’t limited to dads, the package, which starts at $569 a night including breakfast, is open to anyone.",
+          "credit":"The Biltmore Hotel",
+          "description":"",
+          "filename":"fathers-day-travel-2014-2.jpg"}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e53e5bdddaa35c30f6c7af",
+      "revision":4,
+      "uri":"readers-choice-awards/2013/florida--top-40-resorts",
+      "pubDate":"2014-08-08T21:16:04.717Z",
+      "revisionAuthor":"Dara Pettinelli",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-01-22T15:37:56.869Z"}}}

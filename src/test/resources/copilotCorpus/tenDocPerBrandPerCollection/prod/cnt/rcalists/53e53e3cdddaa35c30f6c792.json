@@ -1,0 +1,561 @@
+{
+  "hed":"Top 20 Hotels in Florida: Readers' Choice 2013",
+  "dek":"Condé Nast Traveler readers rate the top hotels in Delray Beach, Orlando, Key West, St. Augustine, Fort Lauderdale, South Beach, Islamorada, Miami, South Beach, and Palm Beach",
+  "year":"2013",
+  "tags":[
+    "readers-choice-awards/united-states/best-hotels-florida",
+    "florida_travel"],
+  "geoTags":[
+    "north-america",
+    "north-america/united-states",
+    "north-america/united-states/florida",
+    "north-america/united-states/florida/st-augustine",
+    "north-america/united-states/florida/greater-miami",
+    "north-america/united-states/florida/greater-miami/miami",
+    "north-america/united-states/florida/palm-beach",
+    "north-america/united-states/florida/delray-beach",
+    "north-america/united-states/florida/florida-keys",
+    "north-america/united-states/florida/florida-keys/key-west",
+    "north-america/united-states/florida/orlando",
+    "north-america/united-states/florida/fort-lauderdale"],
+  "region":"United States",
+  "channel":"Travel Awards",
+  "subChannel":"Readers' Choice Awards",
+  "secondaryChannels":[],
+  "secondarySubChannels":[],
+  "items":[
+    {
+      "relId":"53d9b42b6dec627b149cab34",
+      "regionalRank":"18",
+      "ratingBlock":{
+        "rooms":82.6,
+        "service":87,
+        "food":62.5,
+        "location":91.3,
+        "design":87,
+        "activities":56.3,
+        "overall":83.3},
+      "memberComments":[
+        {
+          "comment":"\"Quaint, quiet and good location.\"",
+          "source":"T. D.",
+          "location":"Wisconsin"},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53d9b450dcd5888e145951b0",
+      "regionalRank":"16",
+      "ratingBlock":{
+        "rooms":86.9,
+        "service":86.9,
+        "food":86.3,
+        "location":79.5,
+        "design":80.7,
+        "activities":75,
+        "overall":84.1},
+      "memberComments":[
+        {
+          "comment":"\"Just about perfect. Lovely pool, great restaurant, helpful staff. We love staying in this property.\"",
+          "source":"Sylvia Guarino",
+          "location":"Florida"},
+        {
+          "comment":"\"We were there for the BCS National Championship Game in January 2013. Normally excellent Ritz Carlton service was elevated to an even higher level. Outstanding!\"",
+          "source":"Allion Kay",
+          "location":"Alabama"}]},
+    {
+      "relId":"53d9b471dcd5888e14595229",
+      "regionalRank":"18",
+      "ratingBlock":{
+        "rooms":88.3,
+        "service":86.2,
+        "food":76.7,
+        "location":86.2,
+        "design":78.7,
+        "activities":74.3,
+        "overall":83.3},
+      "memberComments":[
+        {
+          "comment":"\"The Grand Bohemian is a fabulous hotel—a feast for the senses. The decor and art are fabulous. The pianos and food are wonderful. Downtown Orlando has things to do.\"",
+          "source":"Susan Hayden",
+          "location":"Pennsylvania"},
+        {
+          "comment":"\"Very cool hotel. Had a lot of ambiance!\"",
+          "source":"Caron Bellestri",
+          "location":"Florida"}]},
+    {
+      "relId":"53d9b483dcd5888e1459529d",
+      "regionalRank":"18",
+      "ratingBlock":{
+        "rooms":85.4,
+        "service":85.4,
+        "food":71.8,
+        "location":90.2,
+        "design":82.9,
+        "activities":76.7,
+        "overall":83.3},
+      "memberComments":[
+        {
+          "comment":"\"Great for business and shopping.\"",
+          "source":"Marcey Lieberman",
+          "location":"Illinois"},
+        {
+          "comment":"\"Friendly staff and great set up. Golf within a few feet from your room. Huge pool to enjoy with refreshment stand serving something to keep you cool.\"",
+          "source":"T. L.",
+          "location":"Pennsylvania"}]},
+    {
+      "relId":"53d9b8b8dcd5888e14596968",
+      "regionalRank":"1",
+      "ratingBlock":{
+        "rooms":91.4,
+        "service":97.1,
+        "food":97.1,
+        "location":94.3,
+        "design":91.4,
+        "activities":72.7,
+        "overall":94.3},
+      "memberComments":[
+        {
+          "comment":"\"Welcome to paradise! Everything you ever dreamed of in a hotel - and all on two floors.\"",
+          "source":"Mark Saifer",
+          "location":"California"},
+        {
+          "comment":"\"From the decor to the food to the service and the staff, this hotel has done it up right and continues to serve it's clients the best of everything in sumptuous style.\"",
+          "source":"Elizabeth Schaper",
+          "location":"New York"}]},
+    {
+      "relId":"53daff976dec627b14a119d2",
+      "regionalRank":"15",
+      "ratingBlock":{
+        "rooms":83.9,
+        "service":83.6,
+        "food":80.7,
+        "location":91,
+        "design":84.7,
+        "activities":72.4,
+        "overall":84.8},
+      "memberComments":[
+        {
+          "comment":"Wonderful old world flavor and convenient to everything--park your car and enjoy St. Augustine.",
+          "source":"Judy M.",
+          "location":"Tennessee"},
+        {
+          "comment":"Loved the antiques and original artwork in this renovated historic hotel.  Great service. Location was perfect for exploring the oldest city in the US.",
+          "source":"Suzanne B.",
+          "location":"Kentucky"}]},
+    {
+      "relId":"53db012f6dec627b14a122b2",
+      "regionalRank":"7",
+      "ratingBlock":{
+        "rooms":95.5,
+        "service":91,
+        "food":84.1,
+        "location":82,
+        "design":91,
+        "activities":79.5,
+        "overall":88.8},
+      "memberComments":[
+        {
+          "comment":"This one's a real beauty.  Accommodations are well above average.  The roof top bar is spectacular!",
+          "source":"Lydia Stark",
+          "location":"United Kingdom"},
+        {
+          "comment":"I stayed at EPIC Hotel for about a week and thought it was absolutely the best. Free computer use (apparently there is one in every room), luxury service, great dining, great spa, great pool deck, great location.",
+          "source":"Gaelina Faerman",
+          "location":"New Jersey"}]},
+    {
+      "relId":"53db01e86dec627b14a12607",
+      "regionalRank":"11",
+      "ratingBlock":{
+        "rooms":92.4,
+        "service":90.5,
+        "food":84.7,
+        "location":77.2,
+        "design":86.6,
+        "activities":84.4,
+        "overall":86.3},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db02566dec627b14a127f3",
+      "regionalRank":"9",
+      "ratingBlock":{
+        "rooms":86.8,
+        "service":92.1,
+        "food":75,
+        "location":94.7,
+        "design":89.5,
+        "activities":76.7,
+        "overall":88.3},
+      "memberComments":[
+        {
+          "comment":"Day Manager, Roman, was the BEST! Extremely helpful with dining and activity suggestions; handled excursion bookings. Tasty & generous breakfast buffet.  Nice mix of guests.",
+          "source":"Barbara Roger",
+          "location":"California"},
+        {
+          "comment":"Elegant, with an island vibe.  Small and intimate. Brick paths through tropical gardens: orchids, orchids, orchids! Chat with Toby, the resident cockatiel.  Charming, helpful, friendly staff.  And only a short walk to the action on Duval Street.",
+          "source":"Sandra Cornell",
+          "location":"Delaware"}]},
+    {
+      "relId":"53db0604dcd5888e145dde34",
+      "regionalRank":"14",
+      "ratingBlock":{
+        "rooms":91.5,
+        "service":87.2,
+        "food":85.4,
+        "location":78.7,
+        "design":83,
+        "activities":67.5,
+        "overall":85.2},
+      "memberComments":[
+        {
+          "comment":"Would gladly go back. Loved the music playing in our room when we arrived, the staff was attentive, and views of the Intracoastal Waterway were gorgeous.",
+          "source":"Dawn Hieger",
+          "location":"Missouri"},
+        {
+          "comment":"Lovely suite with a gorgeous view water and boats. Pool is shaded by nearby buildings, but the beach is nearby for Florida sunshine.",
+          "source":"Robert Lamberg",
+          "location":"Missouri"}]},
+    {
+      "relId":"53db09356dec627b14a1472f",
+      "regionalRank":"4",
+      "ratingBlock":{
+        "rooms":95.2,
+        "service":92.3,
+        "food":95.3,
+        "location":81.5,
+        "design":98.5,
+        "activities":84,
+        "overall":92.5},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db098ddcd5888e145ded95",
+      "regionalRank":"6",
+      "ratingBlock":{
+        "rooms":87.2,
+        "service":89.6,
+        "food":88.6,
+        "location":95.8,
+        "design":91.5,
+        "activities":64.9,
+        "overall":90.6},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0a3c6dec627b14a14c89",
+      "regionalRank":"10",
+      "ratingBlock":{
+        "rooms":86.7,
+        "service":83.3,
+        "food":82.6,
+        "location":93.3,
+        "design":90,
+        "activities":82.8,
+        "overall":87.4},
+      "memberComments":[
+        {
+          "comment":"Nice location and very private.",
+          "source":"Alice P.",
+          "location":"Illinois"},
+        {}]},
+    {
+      "relId":"53db0b99dcd5888e145df69a",
+      "regionalRank":"3",
+      "ratingBlock":{
+        "rooms":92.6,
+        "service":92.6,
+        "food":88.9,
+        "location":100,
+        "design":92.6,
+        "activities":70.8,
+        "overall":93.3},
+      "memberComments":[
+        {
+          "comment":"We had a suite on the 2nd floor and loved it. Dining on the pier was wonderful and the food pretty terrific. We plan to be back in 2012 and have decided it is the only place we want to stay in Ft. Lauderdale.",
+          "source":"Nanette Cox",
+          "location":"Wisconsin"},
+        {
+          "comment":"A delightful, polished, intimate gem directly on the Intracoastal waterway.   The sunsets over the waterway are magic.",
+          "source":"Bill Brunner",
+          "location":"Connecticut"}]},
+    {
+      "relId":"53db0d49dcd5888e145dffe7",
+      "regionalRank":"12",
+      "ratingBlock":{
+        "rooms":84.1,
+        "service":86.2,
+        "food":83.3,
+        "location":93.7,
+        "design":81.9,
+        "activities":81.8,
+        "overall":85.9},
+      "memberComments":[
+        {
+          "comment":"Very nice hotel. Great pool area and beach services. Excellent hotel staff.",
+          "source":"Michelle Kelly",
+          "location":"Massachusetts"},
+        {
+          "comment":"Fun, lively pool area and easy access to the Lincoln Avenue Mall.",
+          "source":"Danielle B.",
+          "location":"California"}]},
+    {
+      "relId":"53db0e116dec627b14a15e87",
+      "regionalRank":"17",
+      "ratingBlock":{
+        "rooms":85.5,
+        "service":82.9,
+        "food":79.4,
+        "location":90.3,
+        "design":81.9,
+        "activities":81.8,
+        "overall":84},
+      "memberComments":[
+        {
+          "comment":"The Seagate Hotel and Spa has recently moved  from its old 'across from the beach' location to a spot in town. The location is about a mile from their 'Beach Club,' though the ocean is visible from the upper floor rooms on the east side of the hotel.  The hotel provides regular 'jitney' transportation to the beach.  The bar is a local Delray hot spot.  All is beautifully decorated, with huge, spectacular aquariums in the lobby.  Hotel service is friendly and professional.",
+          "source":"Andrew Lorenz",
+          "location":"California"},
+        {
+          "comment":"The Seagate was a wonderful experience.  The restaurant was top notch.  The location is excellent.  The staff was friendly and the rooms were roomy and spotless.  I loved the ocean area and the facilities were excellent.",
+          "source":"Lisa Hlavaty",
+          "location":"Connecticut"}]},
+    {
+      "relId":"53db12066dec627b14a16afa",
+      "regionalRank":"2",
+      "ratingBlock":{
+        "rooms":94.1,
+        "service":85.3,
+        "food":97.1,
+        "location":97.1,
+        "design":94.1,
+        "activities":87.1,
+        "overall":93.5},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db1243dcd5888e145e1418",
+      "regionalRank":"5",
+      "ratingBlock":{
+        "rooms":90.9,
+        "service":93.2,
+        "food":88.6,
+        "location":95.5,
+        "design":93.2,
+        "activities":70,
+        "overall":92.3},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db12ebdcd5888e145e17fd",
+      "regionalRank":"13",
+      "ratingBlock":{
+        "rooms":93.9,
+        "service":75.8,
+        "food":80.6,
+        "location":84.8,
+        "design":90.9,
+        "activities":86.7,
+        "overall":85.3},
+      "memberComments":[
+        {
+          "comment":"Unbelievable design that goes over the top in a very good way. This place is what I want a hotel experience to be like.",
+          "source":"Phillip Reid",
+          "location":"<p>                      Oklahoma   <br>\n</p>\n"},
+        {
+          "comment":"The staff is incredible! We stayed that night of our wedding and it was 5-star service all around. The room was incredible and the views from our balcony breathtaking.",
+          "source":"Brandon Janvion",
+          "location":"<p>                      Florida   <br>\n</p>\n"}]},
+    {
+      "relId":"53db15c5dcd5888e145e1967",
+      "regionalRank":"7",
+      "ratingBlock":{
+        "rooms":94.9,
+        "service":91.4,
+        "food":86.6,
+        "location":84,
+        "design":86.9,
+        "activities":89.9,
+        "overall":88.8},
+      "memberComments":[
+        {
+          "comment":"The rooms are so cozy and comfortable. The pools are excellent. Great service. The breakfast in the restaurant was very good. The best desserts in Orlando!",
+          "source":"Galina Kalinin",
+          "location":"Georgia"},
+        {
+          "comment":"Wow!  Beautiful grounds.  The staff couldn't do enough to make our stay wonderful.",
+          "source":"Mendy E.",
+          "location":"Nevada"}]}],
+  "id":"53e53e3cdddaa35c30f6c792",
+  "revision":5,
+  "createdAt":"2014-08-08T21:16:44.266Z",
+  "modifiedAt":"2015-02-06T15:25:39.473Z",
+  "revisionCreatedAt":"2015-02-06T15:25:39.473Z",
+  "meta":{
+    "collectionName":"rcalists",
+    "modelName":"rcalist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"David Jefferys",
+  "_links":{
+    "self":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/revisions/5"},
+    "rels":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/revisions/5/rels"},
+    "relate":{
+      "href":"/rcalists/53e53e3cdddaa35c30f6c792/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/revisions"},
+    "archive":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/archive"},
+    "publish":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/publish"},
+    "publishHistory":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/publish/history"},
+    "next":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/next"},
+    "previous":{"href":"/rcalists/53e53e3cdddaa35c30f6c792/previous"},
+    "more":{"href":"/rcalists/published/more?id=53e53e3cdddaa35c30f6c792"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "title":"",
+          "id":"53d9b445dcd5888e14595168",
+          "revision":2,
+          "createdAt":"2014-07-31T03:13:09.477Z",
+          "modifiedAt":"2014-07-31T03:13:11.073Z",
+          "revisionCreatedAt":"2014-07-31T03:13:11.073Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":false},
+          "images":{
+            "original":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516a_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516a_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "copilot-small":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516b_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516b_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":208,
+              "height":156,
+              "format":"JPEG"},
+            "copilot-medium":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516c_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516c_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":298,
+              "height":224,
+              "format":"JPEG"},
+            "copilot-large":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516d_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516d_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":957,
+              "height":718,
+              "format":"JPEG"},
+            "large_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516e_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516e_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "med_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e1459516f_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e1459516f_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":640,
+              "height":480,
+              "format":"JPEG"},
+            "small_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595170_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595170_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":465,
+              "height":349,
+              "format":"JPEG"},
+            "large_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595171_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595171_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":935,
+              "height":701,
+              "format":"JPEG"},
+            "med_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595172_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595172_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":620,
+              "height":465,
+              "format":"JPEG"},
+            "small_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595173_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595173_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":368,
+              "height":276,
+              "format":"JPEG"},
+            "xsmall_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595174_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595174_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":212,
+              "height":159,
+              "format":"JPEG"},
+            "large_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595175_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595175_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":344,
+              "height":258,
+              "format":"JPEG"},
+            "med_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595176_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595176_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":250,
+              "height":188,
+              "format":"JPEG"},
+            "small_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/30/53d9b445dcd5888e14595177_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "filename":"53d9b445dcd5888e14595177_ritz-carlton-coconut-grove-miami-florida-103580-1.jpg",
+              "width":169,
+              "height":127,
+              "format":"JPEG"}},
+          "tags":["http://www.cntraveler.com/dam/images/hotels/united-states/florida/103580/ritz-carlton-coconut-grove-miami-florida-103580-1.jpg"],
+          "caption":"",
+          "credit":"",
+          "description":"",
+          "filename":"ritz-carlton-coconut-grove-miami-florida-103580-1.jpg"}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e53e3cdddaa35c30f6c792",
+      "revision":5,
+      "uri":"readers-choice-awards/2013/florida--top-20-hotels",
+      "pubDate":"2014-08-08T21:16:04.717Z",
+      "revisionAuthor":"David Jefferys",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-06T15:25:43.555Z"}}}

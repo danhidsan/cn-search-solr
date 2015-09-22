@@ -1,0 +1,36 @@
+{
+  "title":"Shred Asparagus - Vertical Test Video",
+  "description":"Shred Asparagus test video for modal player vertical testing.",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"9999-01-01T00:00:00+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/shred-asparagus-vertical-test-video",
+  "embedUrl":"//player.cnevids.com/embed/55e7754f61646d7aeb000005/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e7754f61646d7aeb000005/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/shred-asparagus-vertical-test-video",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441308202/epicurious_test-video.jpg",
+  "id":"55e77557cf90d6663f727f86",
+  "revision":5,
+  "createdAt":"2015-09-02T22:16:55.483Z",
+  "modifiedAt":"2015-09-04T14:57:01.967Z",
+  "revisionCreatedAt":"2015-09-04T14:57:01.967Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e77557cf90d6663f727f86/revisions/5"},
+    "rels":{"href":"/cnevideos/55e77557cf90d6663f727f86/revisions/5/rels"},
+    "relate":{
+      "href":"/cnevideos/55e77557cf90d6663f727f86/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e77557cf90d6663f727f86/revisions"},
+    "archive":{"href":"/cnevideos/55e77557cf90d6663f727f86/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

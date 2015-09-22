@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"7 Ways to Make Tomato Toast",
+  "dek":"",
+  "promoHed":"",
+  "link":"http://player.cnevids.com/embed/51ffeed757af82ba91000001/video/55ae8d1b61646d2f8a000002",
+  "id":"55ae8ee9a188eea213e60326",
+  "revision":4,
+  "createdAt":"2015-07-21T18:26:49.735Z",
+  "modifiedAt":"2015-07-21T23:33:56.322Z",
+  "revisionCreatedAt":"2015-07-21T23:33:56.322Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/55ae8ee9a188eea213e60326/revisions/4"},
+    "rels":{"href":"/videos/55ae8ee9a188eea213e60326/revisions/4/rels"},
+    "relate":{
+      "href":"/videos/55ae8ee9a188eea213e60326/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/55ae8ee9a188eea213e60326/revisions"},
+    "archive":{"href":"/videos/55ae8ee9a188eea213e60326/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

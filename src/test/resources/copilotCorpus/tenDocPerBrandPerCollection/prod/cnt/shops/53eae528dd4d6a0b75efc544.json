@@ -1,0 +1,52 @@
+{
+  "name":"Pyrmont Growers Market",
+  "address":{
+    "street":"Pyrmont Bay Park, Pirrama Road",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":""},
+  "url":["www.growersmarketpyrmont.com.au"],
+  "description":"A pioneer on the Sydney farmers market scene before it bore the Sydney Morning Herald's namesake. It features more than 70 stalls selling everything from fresh fruit and to locally sourced venison, lamb, and seafood. Held the first Saturday of the month at the picturesque Pyrmont Bay Park by Sydney Harbour.",
+  "editorsPick":false,
+  "tags":["Food & drink"],
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "subtype":"market",
+  "id":"53eae528dd4d6a0b75efc544",
+  "revision":0,
+  "createdAt":"2014-08-13T04:10:16.283Z",
+  "modifiedAt":"2014-08-13T04:10:16.283Z",
+  "revisionCreatedAt":"2014-08-13T04:10:16.283Z",
+  "meta":{
+    "collectionName":"shops",
+    "modelName":"shop",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/shops/53eae528dd4d6a0b75efc544/revisions/0"},
+    "rels":{"href":"/shops/53eae528dd4d6a0b75efc544/revisions/0/rels"},
+    "relate":{
+      "href":"/shops/53eae528dd4d6a0b75efc544/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/shops/53eae528dd4d6a0b75efc544/revisions"},
+    "archive":{"href":"/shops/53eae528dd4d6a0b75efc544/archive"},
+    "publish":{"href":"/shops/53eae528dd4d6a0b75efc544/publish"},
+    "publishHistory":{"href":"/shops/53eae528dd4d6a0b75efc544/publish/history"},
+    "next":{"href":"/shops/53eae528dd4d6a0b75efc544/next"},
+    "previous":{"href":"/shops/53eae528dd4d6a0b75efc544/previous"},
+    "more":{"href":"/shops/published/more?id=53eae528dd4d6a0b75efc544"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:10:16.347Z",
+      "entityId":"53eae528dd4d6a0b75efc544",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"shops/sydney/pyrmont-growers-market"}}}

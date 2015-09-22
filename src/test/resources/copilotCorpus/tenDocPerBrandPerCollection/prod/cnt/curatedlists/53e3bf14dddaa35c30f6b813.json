@@ -1,0 +1,78 @@
+{
+  "hed":"Featured Contributors in Food & Drinks",
+  "dek":"",
+  "channel":"Food & Drinks",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"541359b6c709fd5475abcf39",
+      "hed":"Kathy YL Chan",
+      "dek":""},
+    {
+      "relId":"542ecfd7dd5a482d2f47dd9c",
+      "hed":"How to Try Some of the World’s Rarest Teas",
+      "dek":""},
+    {
+      "relId":"53e817aac2d3f39d36112203",
+      "hed":"Aran Goyoaga",
+      "dek":""},
+    {
+      "relId":"5433087f4710b0f12e9e2039",
+      "hed":"Food Photography Tips for Instagram and Smartphones",
+      "dek":""},
+    {
+      "relId":"5447c4b78cc807461a6bae6c",
+      "hed":"Elizabeth Stark and Brian Campbell",
+      "dek":""},
+    {
+      "relId":"54b5434fcf33717b2510794b",
+      "hed":"The Beer Lover&#39;s Guide to Europe",
+      "dek":""},
+    {
+      "relId":"53fca44bcdd7fa56765b9860",
+      "hed":"Lilit Marcus",
+      "dek":""},
+    {
+      "relId":"5438471776149ab73575ccc3",
+      "hed":"Weird Candy From Around The World",
+      "dek":""}],
+  "id":"53e3bf14dddaa35c30f6b813",
+  "revision":24,
+  "createdAt":"2014-08-07T18:01:56.123Z",
+  "modifiedAt":"2015-02-06T17:13:36.591Z",
+  "revisionCreatedAt":"2015-02-06T17:13:36.591Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Meredith Rosenberg",
+  "_links":{
+    "self":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/revisions/24"},
+    "rels":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/revisions/24/rels"},
+    "relate":{
+      "href":"/curatedlists/53e3bf14dddaa35c30f6b813/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/revisions"},
+    "archive":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/archive"},
+    "publish":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/publish"},
+    "publishHistory":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/publish/history"},
+    "next":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/next"},
+    "previous":{"href":"/curatedlists/53e3bf14dddaa35c30f6b813/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e3bf14dddaa35c30f6b813"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e3bf14dddaa35c30f6b813",
+      "revision":24,
+      "uri":"food-and-drinks/featured-contributors",
+      "pubDate":"2014-08-07T18:05:13.000Z",
+      "revisionAuthor":"Meredith Rosenberg",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-02-06T17:13:46.830Z"}}}

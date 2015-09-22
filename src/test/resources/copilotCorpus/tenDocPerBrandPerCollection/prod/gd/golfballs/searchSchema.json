@@ -1,0 +1,4 @@
+{
+  "hed_en":".model > .name",
+  "dek_en":".model > .manufacturerDescription",
+  "hotlistAward":".model > .hotlistAward"}

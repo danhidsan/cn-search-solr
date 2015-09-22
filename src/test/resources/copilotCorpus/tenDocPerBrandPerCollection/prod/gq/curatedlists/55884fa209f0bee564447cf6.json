@@ -1,0 +1,139 @@
+{
+  "revisionAuthor":"John Lockett",
+  "hed":"Homepage: Featured Trio",
+  "dek":"",
+  "channel":"Home",
+  "subChannel":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55f30833e4fe554f30886e28",
+      "hed":"You’re Zipping Your Jacket the Wrong Way",
+      "dek":""},
+    {
+      "relId":"55f3415889c0d3e261b21a53",
+      "hed":"Fall Layers, Totes, and More of the Best New Menswear",
+      "dek":""},
+    {
+      "relId":"55f0f787e4fe554f30885b93",
+      "hed":"The Bella Twins’ Secret to Picking Up Women at the Gym",
+      "dek":""}],
+  "id":"55884fa209f0bee564447cf6",
+  "revision":1505,
+  "createdAt":"2015-06-22T18:10:42.472Z",
+  "modifiedAt":"2015-09-11T22:05:54.785Z",
+  "revisionCreatedAt":"2015-09-11T22:05:54.785Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/55884fa209f0bee564447cf6/revisions/1505"},
+    "rels":{"href":"/curatedlists/55884fa209f0bee564447cf6/revisions/1505/rels"},
+    "relate":{
+      "href":"/curatedlists/55884fa209f0bee564447cf6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/55884fa209f0bee564447cf6/revisions"},
+    "archive":{"href":"/curatedlists/55884fa209f0bee564447cf6/archive"},
+    "publish":{"href":"/curatedlists/55884fa209f0bee564447cf6/publish"},
+    "publishHistory":{"href":"/curatedlists/55884fa209f0bee564447cf6/publish/history"},
+    "next":{"href":"/curatedlists/55884fa209f0bee564447cf6/next"},
+    "previous":{"href":"/curatedlists/55884fa209f0bee564447cf6/previous"},
+    "more":{"href":"/curatedlists/published/more?id=55884fa209f0bee564447cf6"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "revisionAuthor":"Clarence Kwei",
+          "title":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "id":"5585874e09f0bee564447c8a",
+          "revision":1,
+          "createdAt":"2015-06-20T15:31:26.576Z",
+          "modifiedAt":"2015-06-20T15:31:26.883Z",
+          "revisionCreatedAt":"2015-06-20T15:31:26.883Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":478,
+              "height":218,
+              "format":"PNG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/gq/production/2015/06/20/5585874e09f0bee564447c8c_Screen%20Shot%202015-06-20%20at%2011.31.17%20AM.png"},
+            "16:9":{
+              "modifications":{"crop":{
+                  "height":216,
+                  "width":384,
+                  "y":0,
+                  "x":47}},
+              "width":384,
+              "height":216,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_384,h_216,x_47,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":216,
+                  "width":288,
+                  "y":0,
+                  "x":95}},
+              "width":288,
+              "height":216,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_288,h_216,x_95,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "height":218,
+                  "width":218,
+                  "y":0,
+                  "x":130}},
+              "width":218,
+              "height":218,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_218,h_218,x_130,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false},
+            "3:2":{
+              "modifications":{"crop":{
+                  "height":218,
+                  "width":327,
+                  "y":0,
+                  "x":75}},
+              "width":327,
+              "height":218,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_327,h_218,x_75,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false},
+            "3:4":{
+              "modifications":{"crop":{
+                  "height":216,
+                  "width":162,
+                  "y":0,
+                  "x":158}},
+              "width":162,
+              "height":216,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_162,h_216,x_158,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false},
+            "64:25":{
+              "modifications":{"crop":{
+                  "height":175,
+                  "width":448,
+                  "y":0,
+                  "x":15}},
+              "width":448,
+              "height":175,
+              "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_448,h_175,x_15,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+              "override":false}}}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55884fa209f0bee564447cf6",
+      "revision":1505,
+      "uri":"homepage-featured-trio",
+      "pubDate":"2015-09-11T21:00:00.000Z",
+      "revisionAuthor":"John Lockett",
+      "searchable":true,
+      "template":"featured-trio-3",
+      "expired":false,
+      "createdAt":"2015-09-11T22:05:56.646Z"}}}

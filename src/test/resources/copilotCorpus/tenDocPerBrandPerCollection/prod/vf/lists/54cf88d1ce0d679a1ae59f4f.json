@@ -1,0 +1,71 @@
+{
+  "revisionAuthor":"Alyssa Karas",
+  "hed":"Homepage: Top Stories Module",
+  "channel":"Home",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55f1a260200c343535919eb8",
+      "hed":"The Oral History of Mike Nichols",
+      "dek":"Tom Hanks, Meryl Streep, Dustin Hoffman, and more remember the comic genius, groundbreaking director, and true bon vivant.",
+      "tags":[]},
+    {
+      "relId":"55f2f5d5200c34353591b0c2",
+      "hed":"Details on Kate’s Possible Big Royal Honor",
+      "dek":"The Duchess of Cambridge may soon receive the Royal Family Order of Queen Elizabeth II. Let us explain.",
+      "tags":[]},
+    {
+      "relId":"55f19f66fad0d98d444cf5bd",
+      "hed":"Do Millennials Really Deserve Their Bratty Reputation?",
+      "dek":"Those entitled “Millies” are a bunch of screen-obsessed divas in need of constant praise—right? James Wolcott takes a closer look. ",
+      "tags":[]},
+    {
+      "relId":"55f2db7cfad0d98d444d042e",
+      "hed":"Joe Biden Opens Up to Stephen Colbert About Son’s Death and His 2016 Thoughts",
+      "dek":"“I’d be lying if I said that I knew I was there,” the vice president said.",
+      "tags":[]},
+    {
+      "relId":"55f2216f200c34353591abbc",
+      "hed":"Johnny Depp Is Great in *Black Mass,* but Don’t Ignore These Incredible Co-Stars",
+      "dek":"Joel Edgerton, Peter Sarsgaard, and more terrific supporting players give *Black Mass* its dramatic heft.",
+      "tags":[]}],
+  "id":"54cf88d1ce0d679a1ae59f4f",
+  "revision":1694,
+  "createdAt":"2015-02-02T14:25:21.925Z",
+  "modifiedAt":"2015-09-11T19:26:44.875Z",
+  "revisionCreatedAt":"2015-09-11T19:26:44.875Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/revisions/1694"},
+    "rels":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/revisions/1694/rels"},
+    "relate":{
+      "href":"/lists/54cf88d1ce0d679a1ae59f4f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/revisions"},
+    "archive":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/archive"},
+    "publish":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/publish"},
+    "publishHistory":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/publish/history"},
+    "next":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/next"},
+    "previous":{"href":"/lists/54cf88d1ce0d679a1ae59f4f/previous"},
+    "more":{"href":"/lists/published/more?id=54cf88d1ce0d679a1ae59f4f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54cf88d1ce0d679a1ae59f4f",
+      "revision":1694,
+      "uri":"homepage-top-stories-module",
+      "pubDate":"2015-09-11T19:00:00.000Z",
+      "revisionAuthor":"Alyssa Karas",
+      "searchable":true,
+      "template":"a-carousel-modules",
+      "expired":false,
+      "createdAt":"2015-09-11T19:26:50.986Z"}}}

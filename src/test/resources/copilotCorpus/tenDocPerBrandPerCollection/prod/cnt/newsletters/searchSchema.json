@@ -1,0 +1,5 @@
+{
+  "title_en":".model > .title",
+  "dek_en":".model > .dek",
+  "newsletterType_s":".model > .newsletterType",
+  "contributor_ss":".rels > .contributorsAuthor .name"}

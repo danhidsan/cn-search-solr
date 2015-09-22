@@ -1,0 +1,68 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"!!!! Homepage Essential Guides",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"555a0a38100d9bda6d81ca86",
+      "hed":"Summer Cooking",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"558999be81ac1e502367a00b",
+      "hed":"Cook It Like a Camper",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55441710ff11a7f13ba80a25",
+      "hed":"Build Better Coffee",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"552ea745b329bd276d941904",
+      "hed":"Cookbook All-Stars",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54b04ee6a7baf2e46eefb46f",
+      "hed":"Blackboard Special",
+      "dek":"",
+      "tags":[]}],
+  "id":"54adb0a119925f464b3b9cb2",
+  "revision":26,
+  "createdAt":"2015-01-07T22:18:09.756Z",
+  "modifiedAt":"2015-07-21T13:09:20.499Z",
+  "revisionCreatedAt":"2015-07-21T13:09:20.499Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/revisions/26"},
+    "rels":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/revisions/26/rels"},
+    "relate":{
+      "href":"/curatedlists/54adb0a119925f464b3b9cb2/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/revisions"},
+    "archive":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/archive"},
+    "publish":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/publish"},
+    "publishHistory":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/publish/history"},
+    "next":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/next"},
+    "previous":{"href":"/curatedlists/54adb0a119925f464b3b9cb2/previous"},
+    "more":{"href":"/curatedlists/published/more?id=54adb0a119925f464b3b9cb2"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54adb0a119925f464b3b9cb2",
+      "revision":26,
+      "uri":"homepage-essential-guides-list",
+      "pubDate":"2015-07-21T10:01:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-07-21T13:09:31.556Z"}}}

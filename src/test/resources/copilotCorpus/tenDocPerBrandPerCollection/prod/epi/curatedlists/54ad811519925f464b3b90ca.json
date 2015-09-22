@@ -1,0 +1,47 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"!!!! Navigation Bar Link",
+  "dek":"",
+  "tags":[],
+  "id":"54ad811519925f464b3b90ca",
+  "revision":57,
+  "createdAt":"2015-01-07T18:55:17.881Z",
+  "modifiedAt":"2015-09-08T15:34:43.202Z",
+  "revisionCreatedAt":"2015-09-08T15:34:43.202Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "items":[{
+      "relId":"55e9cc06cf90d6663f72831a",
+      "hed":"ROSH HASHANAH",
+      "dek":"",
+      "tags":[]}],
+  "_links":{
+    "self":{"href":"/curatedlists/54ad811519925f464b3b90ca/revisions/57"},
+    "rels":{"href":"/curatedlists/54ad811519925f464b3b90ca/revisions/57/rels"},
+    "relate":{
+      "href":"/curatedlists/54ad811519925f464b3b90ca/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/54ad811519925f464b3b90ca/revisions"},
+    "archive":{"href":"/curatedlists/54ad811519925f464b3b90ca/archive"},
+    "publish":{"href":"/curatedlists/54ad811519925f464b3b90ca/publish"},
+    "publishHistory":{"href":"/curatedlists/54ad811519925f464b3b90ca/publish/history"},
+    "next":{"href":"/curatedlists/54ad811519925f464b3b90ca/next"},
+    "previous":{"href":"/curatedlists/54ad811519925f464b3b90ca/previous"},
+    "more":{"href":"/curatedlists/published/more?id=54ad811519925f464b3b90ca"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54ad811519925f464b3b90ca",
+      "revision":57,
+      "uri":"navigation-items-list",
+      "pubDate":"2015-09-08T15:00:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-08T15:34:55.723Z"}}}

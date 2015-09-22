@@ -1,0 +1,78 @@
+{
+  "hed":"Featured Contributors in Style & Design",
+  "dek":"",
+  "channel":"Style & Design",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"53e2ec73dddaa35c30f64adc",
+      "hed":"Molly Elizalde",
+      "dek":""},
+    {
+      "relId":"545277a653cb045d02e51918",
+      "hed":"How to Decorate Your Home Like a Parisian",
+      "dek":""},
+    {
+      "relId":"542b87df6a6e9088354be57a",
+      "hed":"Jinna Yang",
+      "dek":""},
+    {
+      "relId":"547659808303ec8a4b553ec1",
+      "hed":"Travel For Better Skin: 5 Destinations With All-Natural Healing Perks",
+      "dek":""},
+    {
+      "relId":"53da87fddcd5888e145ba518",
+      "hed":"Matt Hranek",
+      "dek":""},
+    {
+      "relId":"546a20df15fa044b14f2ae78",
+      "hed":"10 Packing Mistakes to Avoid ",
+      "dek":""},
+    {
+      "relId":"53d9baa4dcd5888e14597515",
+      "hed":"Hanya Yanagihara",
+      "dek":""},
+    {
+      "relId":"549485e1287bf30b36b42646",
+      "hed":"Where to Shop in Shanghai Now",
+      "dek":"From local marketplaces to mega malls, Shanghai is among the best shopping cities in the world. Here's where to go."}],
+  "id":"53e7ad40c2d3f39d36112063",
+  "revision":16,
+  "createdAt":"2014-08-10T17:34:56.060Z",
+  "modifiedAt":"2015-01-06T18:09:21.766Z",
+  "revisionCreatedAt":"2015-01-06T18:09:21.766Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Linh Tuyen Nguyen",
+  "_links":{
+    "self":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/revisions/16"},
+    "rels":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/revisions/16/rels"},
+    "relate":{
+      "href":"/curatedlists/53e7ad40c2d3f39d36112063/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/revisions"},
+    "archive":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/archive"},
+    "publish":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/publish"},
+    "publishHistory":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/publish/history"},
+    "next":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/next"},
+    "previous":{"href":"/curatedlists/53e7ad40c2d3f39d36112063/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e7ad40c2d3f39d36112063"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e7ad40c2d3f39d36112063",
+      "revision":16,
+      "uri":"style-and-design/featured-contributors",
+      "pubDate":"2014-09-19T04:00:00.000Z",
+      "revisionAuthor":"Linh Tuyen Nguyen",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-01-06T18:09:24.627Z"}}}

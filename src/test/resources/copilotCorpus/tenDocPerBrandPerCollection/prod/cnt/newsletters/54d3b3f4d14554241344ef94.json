@@ -1,0 +1,81 @@
+{
+  "revisionAuthor":"Zameer Mohamad",
+  "title":"How to Get Through an Airport in Record Time",
+  "date":"2015-02-05T18:18:25+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54c103b91e2097c41cec5e32",
+      "hed":"Top 30 Resorts in Florida",
+      "dek":"Golf, beaches, getaway islands—Florida has it all. Here are the 30 resorts named the best by Condé Nast Traveler's readers."},
+    {
+      "relId":"54d14a779abb8d533165eab2",
+      "hed":"10 Best Free Things to Do in Dublin",
+      "dek":""},
+    {
+      "relId":"54cfabe89abb8d533165ca98",
+      "hed":"8 Heart-Shaped Islands Around the World",
+      "dek":""},
+    {
+      "relId":"54c7ef77462f957603395926",
+      "hed":"Inside New York City’s Most Storied Hotel",
+      "dek":""},
+    {
+      "relId":"54cfa3409abb8d533165c986",
+      "hed":"10 Hotels for Chocolate Lovers",
+      "dek":""},
+    {
+      "relId":"54d24bccc335146e49867012",
+      "hed":"Tips for Taking Amazing Photos on a Cruise",
+      "dek":""},
+    {
+      "relId":"5474a93cf3cd9c7947d66255",
+      "hed":"How to Get Through an Airport in Record Time",
+      "dek":""},
+    {
+      "relId":"54cfe7f19abb8d533165d486",
+      "hed":"5 Romantic Travel Ideas Worth Stealing ",
+      "dek":""},
+    {
+      "relId":"54d29fd5f743358e0c1dc9a0",
+      "hed":"Hotels May Be Tracking You With a Towel Microchip",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54c103b91e2097c41cec5e32",
+      "hed":"Florida's Best Resorts"},
+    {
+      "relId":"54cfabe89abb8d533165ca98",
+      "hed":"Heart-Shaped Islands"},
+    {
+      "relId":"54d24bccc335146e49867012",
+      "hed":"Cruise Photo Tips"}],
+  "id":"54d3b3f4d14554241344ef94",
+  "revision":5,
+  "createdAt":"2015-02-05T18:18:28.391Z",
+  "modifiedAt":"2015-02-05T18:41:15.434Z",
+  "revisionCreatedAt":"2015-02-05T18:41:15.434Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d3b3f4d14554241344ef94/revisions/5"},
+    "rels":{"href":"/newsletters/54d3b3f4d14554241344ef94/revisions/5/rels"},
+    "relate":{
+      "href":"/newsletters/54d3b3f4d14554241344ef94/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d3b3f4d14554241344ef94/revisions"},
+    "archive":{"href":"/newsletters/54d3b3f4d14554241344ef94/archive"},
+    "publish":{"href":"/newsletters/54d3b3f4d14554241344ef94/publish"},
+    "publishHistory":{"href":"/newsletters/54d3b3f4d14554241344ef94/publish/history"},
+    "next":{"href":"/newsletters/54d3b3f4d14554241344ef94/next"},
+    "previous":{"href":"/newsletters/54d3b3f4d14554241344ef94/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d3b3f4d14554241344ef94"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

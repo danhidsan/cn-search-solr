@@ -1,0 +1,5 @@
+{
+  "name_s":".model > .name",
+  "contributorName_ngram":".model > .name",
+  "email_s":".model > .email",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

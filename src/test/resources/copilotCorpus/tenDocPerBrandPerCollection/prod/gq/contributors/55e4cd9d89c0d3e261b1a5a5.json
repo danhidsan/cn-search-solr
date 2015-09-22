@@ -1,0 +1,43 @@
+{
+  "revisionAuthor":"Stephen Aguila",
+  "name":"Adam Rapoport, for Bon Appétit",
+  "email":"Adam_Rapoport@condenast.com",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55e4cd9d89c0d3e261b1a5a5",
+  "revision":3,
+  "createdAt":"2015-08-31T21:56:45.686Z",
+  "modifiedAt":"2015-08-31T23:30:44.834Z",
+  "revisionCreatedAt":"2015-08-31T23:30:44.834Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/revisions/3"},
+    "rels":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/revisions/3/rels"},
+    "relate":{
+      "href":"/contributors/55e4cd9d89c0d3e261b1a5a5/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/revisions"},
+    "archive":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/archive"},
+    "publish":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/publish"},
+    "publishHistory":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/publish/history"},
+    "next":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/next"},
+    "previous":{"href":"/contributors/55e4cd9d89c0d3e261b1a5a5/previous"},
+    "more":{"href":"/contributors/published/more?id=55e4cd9d89c0d3e261b1a5a5"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55e4cd9d89c0d3e261b1a5a5",
+      "revision":2,
+      "uri":"contributor/adam-rapoport-for-bon-appetit",
+      "pubDate":"2015-08-31T21:57:46.000Z",
+      "revisionAuthor":"Stephen Aguila",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-08-31T23:30:41.502Z"}}}

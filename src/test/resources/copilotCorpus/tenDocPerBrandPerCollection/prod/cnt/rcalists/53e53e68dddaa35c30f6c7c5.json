@@ -1,0 +1,555 @@
+{
+  "hed":"Top 20 Resorts in the Southern U.S.",
+  "dek":"Condé Nast Traveler readers rate the top resorts in Georgia, Alabama, North Carolina, South Carolina, Virginia, and West Virginia",
+  "year":"2013",
+  "tags":["readers-choice-awards/united-states/best-resorts-south"],
+  "geoTags":[
+    "north-america",
+    "north-america/united-states",
+    "north-america/united-states/georgia",
+    "north-america/united-states/north-carolina",
+    "north-america/united-states/south-carolina",
+    "north-america/united-states/virginia",
+    "north-america/united-states/west-virginia",
+    "north-america/united-states/alabama"],
+  "region":"United States",
+  "channel":"Travel Awards",
+  "subChannel":"Readers' Choice Awards",
+  "secondaryChannels":[],
+  "secondarySubChannels":[],
+  "items":[
+    {
+      "relId":"53db064cdcd5888e145ddf9a",
+      "regionalRank":"1",
+      "ratingBlock":{
+        "rooms":99.1,
+        "service":99.1,
+        "food":94.9,
+        "location":97.2,
+        "design":98.1,
+        "activities":98.1,
+        "overall":97.7},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0876dcd5888e145de91d",
+      "regionalRank":"2",
+      "ratingBlock":{
+        "rooms":98.5,
+        "service":97.1,
+        "food":94.7,
+        "location":96.2,
+        "design":97.6,
+        "activities":96.5,
+        "overall":96.8},
+      "memberComments":[
+        {
+          "comment":"One of the most lovely, romantic and relaxing destinations in the Southeast. Fantastic for golfers or just enjoying the beautiful surroundings. Bagpiper at sunset makes the setting complete. There's access to the spa at its sister property, The Cloister.",
+          "source":"C.V.",
+          "location":"Texas"},
+        {}]},
+    {
+      "relId":"53db10ec6dec627b14a165cc",
+      "regionalRank":"3",
+      "ratingBlock":{
+        "rooms":95.7,
+        "service":95.7,
+        "food":94,
+        "location":96.8,
+        "design":95.7,
+        "activities":96,
+        "overall":95.7},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0dd4dcd5888e145e02b6",
+      "regionalRank":"4",
+      "ratingBlock":{
+        "rooms":97.1,
+        "service":94.9,
+        "food":92.2,
+        "location":96,
+        "design":96.6,
+        "activities":96.1,
+        "overall":95.5},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53d9b7b56dec627b149cbbe6",
+      "regionalRank":"5",
+      "ratingBlock":{
+        "rooms":97,
+        "service":97.1,
+        "food":94.1,
+        "location":91.2,
+        "design":97.1,
+        "activities":93.9,
+        "overall":95},
+      "memberComments":[
+        {
+          "comment":"\"Beautiful setting for a romantic weekend. The staff kept the bar open for our late arrival from New York and even had sandwiches waiting! World class dining and a wonderful spa. We still talk about the two-hour couples massage and can't wait to get back!\"",
+          "source":"Lawrence Barker",
+          "location":"New York"},
+        {
+          "comment":"\"Great for secluded get-away without missing all the amenities. Outstanding golf course, hiking, fishing, ATV, clay shooting. My kids—ages 13, 11, and 8—love it when we take them along. Great playroom and movie theater along with indoor pool to keep all three occupied.  Food and service are excellent. Have visited the Lodge multiple times in past two years.\"",
+          "source":"Stan Marion",
+          "location":"North Carolina"}]},
+    {
+      "relId":"53db000ddcd5888e145dc265",
+      "regionalRank":"6",
+      "ratingBlock":{
+        "rooms":93.8,
+        "service":92.5,
+        "food":94.6,
+        "location":97.5,
+        "design":93.8,
+        "activities":95.9,
+        "overall":94.6},
+      "memberComments":[
+        {
+          "comment":"Staying in the historical area added an extra dimension to our visit to Williamsburg.  In the evening we'd stroll the streets after the crowds had gone and dine in the taverns.  We really felt like we were back in the 1700s except with all the modern amenities.",
+          "source":"Laurie Enault",
+          "location":"California"},
+        {
+          "comment":"Staying in the Colonial Houses  is an amazing way to experience Colonial Williamsburg. Since we visited during the off season, there were times when we could walk out our door on Duke of Gloucester Street and actually feel as if it were 1774. It will be difficult to return there in the future and stay in 'regular' lodgings.",
+          "source":"Sue Ptak",
+          "location":"Illinois"}]},
+    {
+      "relId":"53db076bdcd5888e145de486",
+      "regionalRank":"7",
+      "ratingBlock":{
+        "rooms":94.4,
+        "service":95.8,
+        "food":94.4,
+        "location":91.7,
+        "design":93.1,
+        "activities":88.7,
+        "overall":93.1},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53d9b4846dec627b149cacd4",
+      "regionalRank":"13",
+      "ratingBlock":{
+        "rooms":84.4,
+        "service":89.8,
+        "food":87.5,
+        "location":92,
+        "design":87.6,
+        "activities":86.6,
+        "overall":88},
+      "memberComments":[
+        {
+          "comment":"\"Old Georgia meets modern cuisine! You have to play croquet!\"",
+          "source":"Ardene Clarke",
+          "location":"South Carolina"},
+        {
+          "comment":"\"Wonderful old-world feel. Celebrated family reunion/50th wedding anniversary there. Staff was superlative. Food excelled our imagination! Would recommend highly.\"",
+          "source":"Karla Heath",
+          "location":"New York"}]},
+    {
+      "relId":"53d9b4f3dcd5888e1459550e",
+      "regionalRank":"20",
+      "ratingBlock":{
+        "rooms":85,
+        "service":85,
+        "food":75,
+        "location":87.5,
+        "design":85,
+        "activities":84.8,
+        "overall":84},
+      "memberComments":[
+        {
+          "comment":"\"This is another place in Charleston that has a special place in my heart.  My husband and myself were able to spend our first Thanksgiving here as well as our first wedding anniversary upon his return from Afghanistan.  The hotel was so accommodating and such a  wonderful experience with both stays.  We were able to have views of the bay and drinks down on the makeshift beach.  Both visits were greeted by extremely kind staff and provided an amazing stay.  I hope to return soon!\"",
+          "source":"Anne Dietz",
+          "location":"Georgia"},
+        {
+          "comment":"\"Nice rooms and great view of harbor and downtown Charleston. Fantastic sunsets.\"",
+          "source":"Kacie Gobbel",
+          "location":"Georgia"}]},
+    {
+      "relId":"53dafea0dcd5888e145dbb59",
+      "regionalRank":"18",
+      "ratingBlock":{
+        "rooms":94.1,
+        "service":91.4,
+        "food":83.3,
+        "location":66.7,
+        "design":91.7,
+        "activities":80.6,
+        "overall":84.5},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db02a1dcd5888e145dcf40",
+      "regionalRank":"15",
+      "ratingBlock":{
+        "rooms":85.4,
+        "service":87,
+        "food":79.2,
+        "location":88.9,
+        "design":85.9,
+        "activities":88.8,
+        "overall":85.9},
+      "memberComments":[
+        {
+          "comment":"The Grand Hotel is a romantic getaway on the eastern shore of Mobile Bay.  A pure southern charm experience.  Fairhope has all the arts and good food, with southern hospitality.  A great destination to stay during Mardi Gras festivities in Fairhope and of course the Fat Tuesday parade in Mobile.",
+          "source":"R. H.",
+          "location":"Minnesota"},
+        {
+          "comment":"We love the setting of this hotel and the overall comfort. Very good food.",
+          "source":"Jim McCauley",
+          "location":"Mississippi"}]},
+    {
+      "relId":"53db062bdcd5888e145ddf0e",
+      "regionalRank":"11",
+      "ratingBlock":{
+        "rooms":88.8,
+        "service":90,
+        "food":79.3,
+        "location":93.3,
+        "design":88.9,
+        "activities":90.4,
+        "overall":88.5},
+      "memberComments":[
+        {
+          "comment":"Fabulous service away from the beach crowds but within walking distance of great shops and restaurants.",
+          "source":"D.H.",
+          "location":"South Carolina"},
+        {
+          "comment":"In a perfect location with much to do in surrounding area. Our condo had everything we needed.",
+          "source":"Joyce Anderson",
+          "location":"North Carolina"}]},
+    {
+      "relId":"53db0ba36dec627b14a153a7",
+      "regionalRank":"17",
+      "ratingBlock":{
+        "rooms":78.3,
+        "service":90.2,
+        "food":84.3,
+        "location":82.9,
+        "design":85,
+        "activities":91.3,
+        "overall":85.3},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0cef6dec627b14a1596c",
+      "regionalRank":"14",
+      "ratingBlock":{
+        "rooms":91.7,
+        "service":88.6,
+        "food":83.7,
+        "location":80.5,
+        "design":88.6,
+        "activities":88,
+        "overall":86.8},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0de4dcd5888e145e0319",
+      "regionalRank":"18",
+      "ratingBlock":{
+        "rooms":83.2,
+        "service":81.3,
+        "food":80,
+        "location":91.7,
+        "design":83.3,
+        "activities":88.1,
+        "overall":84.5},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db1117dcd5888e145e0da1",
+      "regionalRank":"10",
+      "ratingBlock":{
+        "rooms":94.1,
+        "service":92.8,
+        "food":89.9,
+        "location":82.4,
+        "design":94.1,
+        "activities":93.6,
+        "overall":91.1},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db1123dcd5888e145e0dca",
+      "regionalRank":"12",
+      "ratingBlock":{
+        "rooms":84.9,
+        "service":92,
+        "food":82.4,
+        "location":86.2,
+        "design":91,
+        "activities":92.9,
+        "overall":88.2},
+      "memberComments":[
+        {
+          "comment":"Traditional, gracious, Southern hospitality at its finest in a beautiful setting. The Homestead's best asset is its efficient, accommodating, and welcoming staff. A 'must place to visit' any time of year.",
+          "source":"Beth Williams",
+          "location":"Virginia"},
+        {
+          "comment":"An excellent experience, the facility is a little worn around the edges but wonderful service and great tradition.",
+          "source":"Stephen Holmes",
+          "location":"Washington"}]},
+    {
+      "relId":"53db164fdcd5888e145e1c4b",
+      "regionalRank":"16",
+      "ratingBlock":{
+        "rooms":85.5,
+        "service":82.9,
+        "food":79.8,
+        "location":89.5,
+        "design":87,
+        "activities":89.2,
+        "overall":85.7},
+      "memberComments":[
+        {
+          "comment":"Always a treat with gorgeous beachfront townhomes and plenty of amenities and activities to suit every member of any group. Food was excellent as well!",
+          "source":"S.A.",
+          "location":"South Carolina"},
+        {
+          "comment":"Wild Dunes is a wonderful all-inclusive resort that offers enough for a vacation that you would never have to leave the property except that it is outside another wonderful destination, Charleston.",
+          "source":"J.G.",
+          "location":"North Carolina"}]},
+    {
+      "relId":"53db1660dcd5888e145e1c9c",
+      "regionalRank":"8",
+      "ratingBlock":{
+        "rooms":92.5,
+        "service":93.4,
+        "food":90.5,
+        "location":93.4,
+        "design":93.3,
+        "activities":90.1,
+        "overall":92.2},
+      "memberComments":[
+        {
+          "comment":"The Williamsburg Inn is a beautifully kept inn that depicts upper scale life in colonial times yet with all the modern-day amenities and more. It is beautifully furnished and elegant. It is my favorite place to visit. We stay every year in the fall and enjoy the working fireplaces in the rooms, as well as Colonial Williamsburg.",
+          "source":"Elizabeth Ressin",
+          "location":"Maryland"},
+        {
+          "comment":"Elegant. Classic southern hospitality. Very well maintained.  Large comfortable rooms.  Beautiful interiors and gardens.  Helpful and attentive staff.  The perfect headquarters for a stay in 18th-century Williamsburg.",
+          "source":"Phillips Engelke",
+          "location":"Maryland"}]},
+    {
+      "relId":"53db1667dcd5888e145e1cc5",
+      "regionalRank":"9",
+      "ratingBlock":{
+        "rooms":93.2,
+        "service":91.8,
+        "food":85.4,
+        "location":96.8,
+        "design":89.5,
+        "activities":91.3,
+        "overall":91.4},
+      "memberComments":[
+        {
+          "comment":"One of best hotels we have ever stayed in.  The staff was outstanding, the food excellent, the grounds are beautiful and it's right next to Colonial Williamsburg.  The manager, Kate, is outstanding.  We will be back soon and often.",
+          "source":"Valerie Mills",
+          "location":"Virginia"},
+        {
+          "comment":"A home away from home--very comfortable and spacious rooms with a beautiful decor unlike other hotels. The service was spot on--very friendly and helpful and attentive. The food was wonderful, especially the expansive breakfast. My husband and I came to Williamsburg on our honeymoon 18 years ago. We liked it so much, we continue to come back and brought our daughter with us. She loves it there, too. The spa was calming, spacious, relaxing, comforting. The homemade tea sachets provided the finishing touch to an indulgent afternoon. I would totally recommend the hot stone massage--unlike any experience I have ever had.",
+          "source":"Julia Hunter",
+          "location":"Indiana"}]}],
+  "id":"53e53e68dddaa35c30f6c7c5",
+  "revision":3,
+  "createdAt":"2014-08-08T21:17:28.529Z",
+  "modifiedAt":"2014-08-17T17:39:58.681Z",
+  "revisionCreatedAt":"2014-08-17T17:39:58.681Z",
+  "meta":{
+    "collectionName":"rcalists",
+    "modelName":"rcalist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Brad Rickman",
+  "_links":{
+    "self":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/revisions/3"},
+    "rels":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/revisions/3/rels"},
+    "relate":{
+      "href":"/rcalists/53e53e68dddaa35c30f6c7c5/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/revisions"},
+    "archive":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/archive"},
+    "publish":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/publish"},
+    "publishHistory":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/publish/history"},
+    "next":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/next"},
+    "previous":{"href":"/rcalists/53e53e68dddaa35c30f6c7c5/previous"},
+    "more":{"href":"/rcalists/published/more?id=53e53e68dddaa35c30f6c7c5"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "title":"",
+          "id":"53db06486dec627b14a139c4",
+          "revision":2,
+          "createdAt":"2014-08-01T03:15:20.503Z",
+          "modifiedAt":"2014-08-01T03:15:22.359Z",
+          "revisionCreatedAt":"2014-08-01T03:15:22.359Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":false},
+          "images":{
+            "original":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139c6_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139c6_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "copilot-small":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139c7_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139c7_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":208,
+              "height":156,
+              "format":"JPEG"},
+            "copilot-medium":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139c8_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139c8_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":298,
+              "height":224,
+              "format":"JPEG"},
+            "copilot-large":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139c9_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139c9_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":957,
+              "height":718,
+              "format":"JPEG"},
+            "large_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139ca_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139ca_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "med_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139cb_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139cb_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":640,
+              "height":480,
+              "format":"JPEG"},
+            "small_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139cc_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139cc_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":465,
+              "height":349,
+              "format":"JPEG"},
+            "large_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139cd_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139cd_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":935,
+              "height":701,
+              "format":"JPEG"},
+            "med_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139ce_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139ce_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":620,
+              "height":465,
+              "format":"JPEG"},
+            "small_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139cf_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139cf_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":368,
+              "height":276,
+              "format":"JPEG"},
+            "xsmall_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139d0_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139d0_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":212,
+              "height":159,
+              "format":"JPEG"},
+            "large_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139d1_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139d1_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":344,
+              "height":258,
+              "format":"JPEG"},
+            "med_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139d2_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139d2_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":250,
+              "height":188,
+              "format":"JPEG"},
+            "small_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db06486dec627b14a139d3_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "filename":"53db06486dec627b14a139d3_inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg",
+              "width":169,
+              "height":127,
+              "format":"JPEG"}},
+          "tags":["http://www.cntraveler.com/dam/images/hotels/united-states/south-carolina/104680/inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg"],
+          "caption":"",
+          "credit":"",
+          "description":"",
+          "filename":"inn-at-palmetto-bluff-bluffton-bluffton-south-carolina-104680-1.jpg"}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-17T17:40:07.258Z",
+      "entityId":"53e53e68dddaa35c30f6c7c5",
+      "expired":false,
+      "pubDate":"2014-08-08T21:16:04.717Z",
+      "revision":3,
+      "revisionAuthor":"Brad Rickman",
+      "searchable":true,
+      "uri":"readers-choice-awards/2013/south-u-s---top-20-resorts"}}}

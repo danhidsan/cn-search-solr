@@ -1,0 +1,66 @@
+{
+  "revisionAuthor":"Kelly Butler",
+  "hed":"Style: Channel Links",
+  "channel":"Style",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "id":"54d1b69a6e0bb1eb13a6a29c",
+  "revision":7,
+  "createdAt":"2015-02-04T06:05:14.791Z",
+  "modifiedAt":"2015-09-09T22:03:07.836Z",
+  "revisionCreatedAt":"2015-09-09T22:03:07.836Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "items":[
+    {
+      "relId":"54d308066e0bb1eb13a6a593",
+      "hed":"Royals",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54d307c0503ee85a3808f407",
+      "hed":"The Beauty Blog",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55a67a449e9755183d971a79",
+      "hed":"Art of Entertaining",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55c2253d169027501c6ecc45",
+      "hed":"Best-Dressed List",
+      "dek":"",
+      "tags":[]}],
+  "_links":{
+    "self":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/revisions/7"},
+    "rels":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/revisions/7/rels"},
+    "relate":{
+      "href":"/lists/54d1b69a6e0bb1eb13a6a29c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/revisions"},
+    "archive":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/archive"},
+    "publish":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/publish"},
+    "publishHistory":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/publish/history"},
+    "next":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/next"},
+    "previous":{"href":"/lists/54d1b69a6e0bb1eb13a6a29c/previous"},
+    "more":{"href":"/lists/published/more?id=54d1b69a6e0bb1eb13a6a29c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d1b69a6e0bb1eb13a6a29c",
+      "revision":7,
+      "uri":"style-channel-links",
+      "pubDate":"2015-02-04T06:05:15.797Z",
+      "revisionAuthor":"Kelly Butler",
+      "searchable":true,
+      "template":"channel-links-modules",
+      "expired":false,
+      "createdAt":"2015-09-09T22:03:10.979Z"}}}

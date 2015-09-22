@@ -1,0 +1,7 @@
+{
+  "name_s":".model > .name",
+  "contributorName_ngram":".model > .name",
+  "email_s":".model > .email",
+  "channel_s":".model > .channel",
+  "subChannel_s":".model > .subChannel",
+  "tags_ss":".model > .tags *"}

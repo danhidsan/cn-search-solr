@@ -1,0 +1,76 @@
+{
+  "revisionAuthor":"Katherine Rich",
+  "hed":"Hollywood: Main List",
+  "channel":"Hollywood",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "id":"54ce314cfde9250a6c41a185",
+  "revision":196,
+  "createdAt":"2015-02-01T13:59:40.369Z",
+  "modifiedAt":"2015-09-11T21:15:22.409Z",
+  "revisionCreatedAt":"2015-09-11T21:15:22.409Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "items":[
+    {
+      "relId":"54d054ff7b9b2416191a53cf",
+      "hed":"Channel Links",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cf8bbc9f9fa5f230b14009",
+      "hed":"Top Stories",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54ce31aefde9250a6c41a187",
+      "hed":"The Latest",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54ce441f5e7a91c528242662",
+      "hed":"Photos",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cfa15f7b9b2416191a52cd",
+      "hed":"Featured",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54cf89167b9b2416191a5230",
+      "hed":"Videos",
+      "dek":"",
+      "tags":[]}],
+  "_links":{
+    "self":{"href":"/lists/54ce314cfde9250a6c41a185/revisions/196"},
+    "rels":{"href":"/lists/54ce314cfde9250a6c41a185/revisions/196/rels"},
+    "relate":{
+      "href":"/lists/54ce314cfde9250a6c41a185/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54ce314cfde9250a6c41a185/revisions"},
+    "archive":{"href":"/lists/54ce314cfde9250a6c41a185/archive"},
+    "publish":{"href":"/lists/54ce314cfde9250a6c41a185/publish"},
+    "publishHistory":{"href":"/lists/54ce314cfde9250a6c41a185/publish/history"},
+    "next":{"href":"/lists/54ce314cfde9250a6c41a185/next"},
+    "previous":{"href":"/lists/54ce314cfde9250a6c41a185/previous"},
+    "more":{"href":"/lists/published/more?id=54ce314cfde9250a6c41a185"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54ce314cfde9250a6c41a185",
+      "revision":196,
+      "uri":"hollywood-list",
+      "pubDate":"2015-06-24T19:25:29.368Z",
+      "revisionAuthor":"Katherine Rich",
+      "searchable":true,
+      "template":"channel-subchannel",
+      "expired":false,
+      "createdAt":"2015-09-11T21:15:25.103Z"}}}

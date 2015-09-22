@@ -1,0 +1,36 @@
+{
+  "title":"How to Make DIY Ice Cream Truck Treats",
+  "description":"We show you how to make three iconic ice cream treats. ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-08-19T20:38:31+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/diy-ice-cream-truck-treats",
+  "embedUrl":"//player.cnevids.com/embed/55d4e94761646d479a000008/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55d4e94761646d479a000008/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/diy-ice-cream-truck-treats",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1440017105/epicurious_diy-ice-cream-truck-treats.jpg",
+  "id":"55d4e94d54b469aa41d1479c",
+  "revision":3,
+  "createdAt":"2015-08-19T20:38:37.296Z",
+  "modifiedAt":"2015-08-19T20:45:07.254Z",
+  "revisionCreatedAt":"2015-08-19T20:45:07.254Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55d4e94d54b469aa41d1479c/revisions/3"},
+    "rels":{"href":"/cnevideos/55d4e94d54b469aa41d1479c/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55d4e94d54b469aa41d1479c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55d4e94d54b469aa41d1479c/revisions"},
+    "archive":{"href":"/cnevideos/55d4e94d54b469aa41d1479c/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

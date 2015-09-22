@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Adams",
+  "description":"",
+  "id":"54c27930b8ff6bbe0a208863",
+  "revision":1,
+  "createdAt":"2015-01-23T16:39:12.109Z",
+  "modifiedAt":"2015-01-23T20:01:32.734Z",
+  "revisionCreatedAt":"2015-01-23T20:01:32.734Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54c27930b8ff6bbe0a208863/revisions/1"},
+    "rels":{"href":"/brands/54c27930b8ff6bbe0a208863/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54c27930b8ff6bbe0a208863/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54c27930b8ff6bbe0a208863/revisions"},
+    "archive":{"href":"/brands/54c27930b8ff6bbe0a208863/archive"},
+    "publish":{"href":"/brands/54c27930b8ff6bbe0a208863/publish"},
+    "publishHistory":{"href":"/brands/54c27930b8ff6bbe0a208863/publish/history"},
+    "next":{"href":"/brands/54c27930b8ff6bbe0a208863/next"},
+    "previous":{"href":"/brands/54c27930b8ff6bbe0a208863/previous"},
+    "more":{"href":"/brands/published/more?id=54c27930b8ff6bbe0a208863"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54c27930b8ff6bbe0a208863",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-adams",
+      "pubDate":"2015-01-23T20:01:42.786Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-01-23T20:02:39.629Z"}}}

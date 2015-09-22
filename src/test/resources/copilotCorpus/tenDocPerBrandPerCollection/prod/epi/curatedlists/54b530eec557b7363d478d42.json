@@ -1,0 +1,103 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"!!!! Holidays and Events Features",
+  "dek":"",
+  "tags":[],
+  "id":"54b530eec557b7363d478d42",
+  "revision":35,
+  "createdAt":"2015-01-13T14:51:26.698Z",
+  "modifiedAt":"2015-09-08T15:42:39.870Z",
+  "revisionCreatedAt":"2015-09-08T15:42:39.870Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "items":[
+    {
+      "relId":"55e9cc06cf90d6663f72831a",
+      "hed":"Best Recipes for the Jewish New Year",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e604f1ad4e361c200f6cb7",
+      "hed":"How I Mastered Honey Cake for Rosh Hashanah",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a4281119925f464b37cd81",
+      "hed":"Honey Cake",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"5550be34bf8983523f65b92b",
+      "hed":"How to Become Shamelessly Obsessed With Honey in 12 Easy Steps",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a41fe419925f464b37793a",
+      "hed":"Challah Bread",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a41ea56529d92b2c0072dc",
+      "hed":"Turkish Coffee-Rubbed Brisket",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a42bde19925f464b37fcdd",
+      "hed":"Mini Halloween Pumpkin Cupcakes",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a4252319925f464b37ab1e",
+      "hed":"Halloween Peanut Butter and Toffee Candy Bar",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a4320619925f464b384967",
+      "hed":"Pumpkin Bread Pudding",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a4213319925f464b37837f",
+      "hed":"\"Candy Corn\" Pumpkin Blondies",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54a426fe19925f464b37c13a",
+      "hed":"Scary Barbecue Snack Mix",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54b892c34bf78b800d89ba19",
+      "hed":"Jaw-Dropping Birthday Cakes",
+      "dek":"",
+      "tags":[]}],
+  "_links":{
+    "self":{"href":"/curatedlists/54b530eec557b7363d478d42/revisions/35"},
+    "rels":{"href":"/curatedlists/54b530eec557b7363d478d42/revisions/35/rels"},
+    "relate":{
+      "href":"/curatedlists/54b530eec557b7363d478d42/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/54b530eec557b7363d478d42/revisions"},
+    "archive":{"href":"/curatedlists/54b530eec557b7363d478d42/archive"},
+    "publish":{"href":"/curatedlists/54b530eec557b7363d478d42/publish"},
+    "publishHistory":{"href":"/curatedlists/54b530eec557b7363d478d42/publish/history"},
+    "next":{"href":"/curatedlists/54b530eec557b7363d478d42/next"},
+    "previous":{"href":"/curatedlists/54b530eec557b7363d478d42/previous"},
+    "more":{"href":"/curatedlists/published/more?id=54b530eec557b7363d478d42"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54b530eec557b7363d478d42",
+      "revision":35,
+      "uri":"holidays-events-featured-list",
+      "pubDate":"2015-09-08T16:01:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-08T15:42:56.168Z"}}}

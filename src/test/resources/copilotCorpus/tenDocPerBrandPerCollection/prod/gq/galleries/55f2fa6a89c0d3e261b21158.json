@@ -1,0 +1,75 @@
+{
+  "revisionAuthor":"Stephen Aguila",
+  "hed":"The New Definition of Business Casual",
+  "dek":"The business part is a sweet shirt- and-tie combo. The casual part is a crewneck sweater. (Yep, that’s really all this look has to it.) Put it all together and you’ll never have to worry about the annoying vagaries of the modern office dress code again",
+  "body":"",
+  "channel":"Style",
+  "subChannel":"",
+  "tags":[
+    "Style",
+    "Business Casual",
+    "Office Dress Code",
+    "Crewneck Sweater"],
+  "contentSource":"magazine",
+  "items":[
+    {
+      "relId":"55f32e4889c0d3e261b217e6",
+      "title":"Teal Is More Than Just a Stripper Name",
+      "caption":"No one besides the Jacksonville Jaguars has worn this blue-green shade since 1995, but now it's back-and ready to jolt a familiar shirt-and-tie combo like gingham-and-gray back to life.\n\nSweater, $470, by Raf Simons  \nShirt, by Ermenegildo Zegna  \nTie, by Alexander Olch  \nPants, by Burberry Brit  \nBelt, by J.Crew  \nWatch, by Ernst Benz",
+      "isActive":true},
+    {
+      "relId":"55f32e48e4fe554f3088734d",
+      "title":"",
+      "caption":"Sweater, $590, by Saint Laurent by Hedi Slimane  \nShirt and tie, by Saint Laurent by Hedi Slimane",
+      "isActive":true},
+    {
+      "relId":"55f32e4889c0d3e261b217e8",
+      "title":"",
+      "caption":"Sweater, $890, by Dequared2  \nShirt, by Mark McNairy New Amsterdam  \nTie, by The Tie Bar",
+      "isActive":true},
+    {
+      "relId":"55f32e4889c0d3e261b217ee",
+      "title":"",
+      "caption":"Sweatshirt, $195, by Band of Outsiders  \nShirt, by Band of Outsiders  \nTie, by Alexander Olch",
+      "isActive":true}],
+  "id":"55f2fa6a89c0d3e261b21158",
+  "revision":16,
+  "createdAt":"2015-09-11T15:59:38.450Z",
+  "modifiedAt":"2015-09-11T19:59:32.586Z",
+  "revisionCreatedAt":"2015-09-11T19:59:32.586Z",
+  "meta":{
+    "collectionName":"galleries",
+    "modelName":"gallery",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "rubric":"Style",
+  "_links":{
+    "self":{"href":"/galleries/55f2fa6a89c0d3e261b21158/revisions/16"},
+    "rels":{"href":"/galleries/55f2fa6a89c0d3e261b21158/revisions/16/rels"},
+    "relate":{
+      "href":"/galleries/55f2fa6a89c0d3e261b21158/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/galleries/55f2fa6a89c0d3e261b21158/revisions"},
+    "archive":{"href":"/galleries/55f2fa6a89c0d3e261b21158/archive"},
+    "publish":{"href":"/galleries/55f2fa6a89c0d3e261b21158/publish"},
+    "publishHistory":{"href":"/galleries/55f2fa6a89c0d3e261b21158/publish/history"},
+    "next":{"href":"/galleries/55f2fa6a89c0d3e261b21158/next"},
+    "previous":{"href":"/galleries/55f2fa6a89c0d3e261b21158/previous"},
+    "more":{"href":"/galleries/published/more?id=55f2fa6a89c0d3e261b21158"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[{"fields":{
+          "name":"GQ Editors",
+          "id":"5582912e1177d66d68d54382",
+          "revision":0,
+          "createdAt":"2015-06-18T09:36:46.195Z",
+          "modifiedAt":"2015-06-18T09:36:46.195Z",
+          "revisionCreatedAt":"2015-06-18T09:36:46.195Z",
+          "meta":{
+            "collectionName":"contributors",
+            "modelName":"contributor",
+            "publishable":true,
+            "image":false,
+            "archived":false}}}],
+    "contributorsPhotographer":[]}}

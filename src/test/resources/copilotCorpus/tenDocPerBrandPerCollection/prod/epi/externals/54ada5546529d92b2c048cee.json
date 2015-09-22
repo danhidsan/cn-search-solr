@@ -1,0 +1,25 @@
+{
+  "revisionAuthor":"Eric Gillin",
+  "hed":"Low-Cal Recipes",
+  "url":"http://www.epicurious.com/special-consideration/low-cal",
+  "id":"54ada5546529d92b2c048cee",
+  "revision":2,
+  "createdAt":"2015-01-07T21:29:56.975Z",
+  "modifiedAt":"2015-01-31T13:07:10.764Z",
+  "revisionCreatedAt":"2015-01-31T13:07:10.764Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false},
+  "_links":{
+    "self":{"href":"/externals/54ada5546529d92b2c048cee/revisions/2"},
+    "rels":{"href":"/externals/54ada5546529d92b2c048cee/revisions/2/rels"},
+    "relate":{
+      "href":"/externals/54ada5546529d92b2c048cee/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/54ada5546529d92b2c048cee/revisions"},
+    "archive":{"href":"/externals/54ada5546529d92b2c048cee/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

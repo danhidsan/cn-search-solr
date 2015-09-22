@@ -1,0 +1,54 @@
+{
+  "hed":"Featured Venues in Food & Drinks",
+  "dek":"",
+  "channel":"Food & Drinks",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"5429bf6f48a16ad664ec0612",
+      "hed":"Table on Ten",
+      "dek":""},
+    {
+      "relId":"5429e3ab6a6e9088354be571",
+      "hed":"The Catskills Are New York's New Culinary Retreat",
+      "dek":""}],
+  "id":"53e6ae4adddaa35c30f6ca2c",
+  "revision":14,
+  "createdAt":"2014-08-09T23:27:06.683Z",
+  "modifiedAt":"2014-10-07T20:50:53.515Z",
+  "revisionCreatedAt":"2014-10-07T20:50:53.515Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Amy Plitt",
+  "_links":{
+    "self":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/revisions/14"},
+    "rels":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/revisions/14/rels"},
+    "relate":{
+      "href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/revisions"},
+    "archive":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/archive"},
+    "publish":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/publish"},
+    "publishHistory":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/publish/history"},
+    "next":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/next"},
+    "previous":{"href":"/curatedlists/53e6ae4adddaa35c30f6ca2c/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e6ae4adddaa35c30f6ca2c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-10-07T20:50:55.703Z",
+      "entityId":"53e6ae4adddaa35c30f6ca2c",
+      "expired":false,
+      "pubDate":"2014-08-09T23:28:10.000Z",
+      "revision":14,
+      "revisionAuthor":"Amy Plitt",
+      "searchable":true,
+      "template":"index",
+      "uri":"food-and-drinks/featured-venues"}}}

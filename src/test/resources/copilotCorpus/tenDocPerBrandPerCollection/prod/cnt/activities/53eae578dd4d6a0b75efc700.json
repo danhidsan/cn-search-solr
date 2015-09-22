@@ -1,0 +1,54 @@
+{
+  "name":"Manly Ferry",
+  "address":{
+    "street":"Circular Quay",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":""},
+  "url":["www.transportnsw.info"],
+  "description":"Catch a ferry from Circular Quay to the seaside suburb of Manly, north of the Sydney Harbour Bridge. The 30-minute trip across the harbor provides magnificent views of the bridge and the Opera House, and the ferry passes close to the sandstone cliffs where Sydney Harbor meets the ocean.",
+  "editorsPick":true,
+  "tags":[
+    "Family-friendly",
+    "Off-the-beaten path"],
+  "subtype":"outdoors",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "id":"53eae578dd4d6a0b75efc700",
+  "revision":0,
+  "createdAt":"2014-08-13T04:11:36.776Z",
+  "modifiedAt":"2014-08-13T04:11:36.776Z",
+  "revisionCreatedAt":"2014-08-13T04:11:36.776Z",
+  "meta":{
+    "collectionName":"activities",
+    "modelName":"activity",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/activities/53eae578dd4d6a0b75efc700/revisions/0"},
+    "rels":{"href":"/activities/53eae578dd4d6a0b75efc700/revisions/0/rels"},
+    "relate":{
+      "href":"/activities/53eae578dd4d6a0b75efc700/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/activities/53eae578dd4d6a0b75efc700/revisions"},
+    "archive":{"href":"/activities/53eae578dd4d6a0b75efc700/archive"},
+    "publish":{"href":"/activities/53eae578dd4d6a0b75efc700/publish"},
+    "publishHistory":{"href":"/activities/53eae578dd4d6a0b75efc700/publish/history"},
+    "next":{"href":"/activities/53eae578dd4d6a0b75efc700/next"},
+    "previous":{"href":"/activities/53eae578dd4d6a0b75efc700/previous"},
+    "more":{"href":"/activities/published/more?id=53eae578dd4d6a0b75efc700"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:11:36.843Z",
+      "entityId":"53eae578dd4d6a0b75efc700",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"activities/sydney/manly-ferry"}}}

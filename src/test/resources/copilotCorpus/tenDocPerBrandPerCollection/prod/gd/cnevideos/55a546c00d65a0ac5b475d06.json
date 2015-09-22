@@ -1,0 +1,45 @@
+{
+  "title":"Trillium Sellers: Your Go-To Greenside Shot",
+  "description":"It takes very little effort to hit the ball solidly with this shot, and because it rolls most of the way, controlling distance is easy.",
+  "tags":[
+    "best young teachers",
+    "approach shots",
+    "Chipping",
+    "news",
+    "new",
+    "golf digest",
+    "golf",
+    "pga",
+    "pitching"],
+  "categories":[
+    "How to",
+    "Shots & Strokes"],
+  "premiereDate":"2014-01-28T19:43:04+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/chipping-pitching-trillium-sellers-your-go-to-greenside-shot",
+  "embedUrl":"//player.cnevids.com/embed/52e80848c2b4c01058fa2b29/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/52e80848c2b4c01058fa2b29/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/chipping-pitching-trillium-sellers-your-go-to-greenside-shot",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1392769138/golfdigest_chipping-pitching-trillium-sellers-your-go-to-greenside-shot.jpg",
+  "id":"55a546c00d65a0ac5b475d06",
+  "revision":1,
+  "createdAt":"2015-07-14T17:28:32.793Z",
+  "modifiedAt":"2015-07-15T15:43:48.501Z",
+  "revisionCreatedAt":"2015-07-15T15:43:48.501Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55a546c00d65a0ac5b475d06/revisions/1"},
+    "rels":{"href":"/cnevideos/55a546c00d65a0ac5b475d06/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55a546c00d65a0ac5b475d06/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55a546c00d65a0ac5b475d06/revisions"},
+    "archive":{"href":"/cnevideos/55a546c00d65a0ac5b475d06/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,37 @@
+{
+  "name":"Boris Kachka",
+  "id":"53d9b9496dec627b149cc3a5",
+  "revision":0,
+  "createdAt":"2014-07-31T03:34:33.972Z",
+  "modifiedAt":"2014-07-31T03:34:33.972Z",
+  "revisionCreatedAt":"2014-07-31T03:34:33.972Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/contributors/53d9b9496dec627b149cc3a5/revisions/0"},
+    "rels":{"href":"/contributors/53d9b9496dec627b149cc3a5/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/53d9b9496dec627b149cc3a5/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/53d9b9496dec627b149cc3a5/revisions"},
+    "archive":{"href":"/contributors/53d9b9496dec627b149cc3a5/archive"},
+    "publish":{"href":"/contributors/53d9b9496dec627b149cc3a5/publish"},
+    "publishHistory":{"href":"/contributors/53d9b9496dec627b149cc3a5/publish/history"},
+    "next":{"href":"/contributors/53d9b9496dec627b149cc3a5/next"},
+    "previous":{"href":"/contributors/53d9b9496dec627b149cc3a5/previous"},
+    "more":{"href":"/contributors/published/more?id=53d9b9496dec627b149cc3a5"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-07-31T03:34:34.175Z",
+      "entityId":"53d9b9496dec627b149cc3a5",
+      "expired":false,
+      "pubDate":"2014-07-31T03:34:33.976Z",
+      "revision":0,
+      "revisionAuthor":"migratatron2000",
+      "searchable":true,
+      "uri":"contributors/boris-kachka"}}}

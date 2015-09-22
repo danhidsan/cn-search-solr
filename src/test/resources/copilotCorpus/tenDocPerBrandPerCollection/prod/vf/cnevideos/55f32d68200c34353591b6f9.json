@@ -1,0 +1,43 @@
+{
+  "title":"Snow White TK",
+  "description":"Snow White TK",
+  "tags":[
+    "Vanity Fair",
+    "hollywood",
+    "celebrity",
+    "culture",
+    "style",
+    "news",
+    "new"],
+  "categories":[
+    "Film Festivals",
+    "Hollywood"],
+  "premiereDate":"9999-01-01T00:00:00+00:00",
+  "canonicalUrl":"http://video.vanityfair.com/watch/exclusives-snow-white-tk",
+  "embedUrl":"//player.cnevids.com/embed/55f32d6261646d634f000013/51cc9f86bb8f554e4e000002",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55f32d6261646d634f000013/51cc9f86bb8f554e4e000002.js",
+  "sceneUrl":"https://thescene.com/watch/vanityfair/exclusives-snow-white-tk",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442003087/vanityfair_exclusives-snow-white-tk.jpg",
+  "id":"55f32d68200c34353591b6f9",
+  "revision":3,
+  "createdAt":"2015-09-11T19:37:12.308Z",
+  "modifiedAt":"2015-09-11T20:24:49.491Z",
+  "revisionCreatedAt":"2015-09-11T20:24:49.491Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55f32d68200c34353591b6f9/revisions/3"},
+    "rels":{"href":"/cnevideos/55f32d68200c34353591b6f9/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55f32d68200c34353591b6f9/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55f32d68200c34353591b6f9/revisions"},
+    "archive":{"href":"/cnevideos/55f32d68200c34353591b6f9/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Fall Trends: Sub channel",
+  "dek":"",
+  "tags":[],
+  "url":"/style/fall-trends",
+  "id":"55cd0c30fb580c9d7655f7b2",
+  "revision":0,
+  "createdAt":"2015-08-13T21:29:20.592Z",
+  "modifiedAt":"2015-08-13T21:29:20.592Z",
+  "revisionCreatedAt":"2015-08-13T21:29:20.592Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55cd0c30fb580c9d7655f7b2/revisions/0"},
+    "rels":{"href":"/externallinks/55cd0c30fb580c9d7655f7b2/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55cd0c30fb580c9d7655f7b2/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55cd0c30fb580c9d7655f7b2/revisions"},
+    "archive":{"href":"/externallinks/55cd0c30fb580c9d7655f7b2/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

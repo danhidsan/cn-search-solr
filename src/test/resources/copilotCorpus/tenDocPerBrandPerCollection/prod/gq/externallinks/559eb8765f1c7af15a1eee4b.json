@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Daniel Chang",
+  "hed":"Entertainment: GQ+A: Sub Channel",
+  "dek":"",
+  "tags":[],
+  "url":"/entertainment/gq-and-a",
+  "id":"559eb8765f1c7af15a1eee4b",
+  "revision":1,
+  "createdAt":"2015-07-09T18:07:50.017Z",
+  "modifiedAt":"2015-07-15T18:19:19.629Z",
+  "revisionCreatedAt":"2015-07-15T18:19:19.629Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/559eb8765f1c7af15a1eee4b/revisions/1"},
+    "rels":{"href":"/externallinks/559eb8765f1c7af15a1eee4b/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/559eb8765f1c7af15a1eee4b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/559eb8765f1c7af15a1eee4b/revisions"},
+    "archive":{"href":"/externallinks/559eb8765f1c7af15a1eee4b/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

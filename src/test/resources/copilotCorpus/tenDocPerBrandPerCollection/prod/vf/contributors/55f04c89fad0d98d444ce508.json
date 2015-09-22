@@ -1,0 +1,42 @@
+{
+  "revisionAuthor":"Katherine Rich",
+  "name":"Chris Galletta",
+  "bio":"Chris Galletta wrote the 2013 comedy *The Kings of Summer* and is currently writing a stop-motion animated feature. He was an intern, production staffer and contributing writer to *The Late Show with David Letterman* from 2002-2009.\n",
+  "socialMedia":[],
+  "id":"55f04c89fad0d98d444ce508",
+  "revision":0,
+  "createdAt":"2015-09-09T15:13:13.464Z",
+  "modifiedAt":"2015-09-09T15:13:13.464Z",
+  "revisionCreatedAt":"2015-09-09T15:13:13.464Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f04c89fad0d98d444ce508/revisions/0"},
+    "rels":{"href":"/contributors/55f04c89fad0d98d444ce508/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/55f04c89fad0d98d444ce508/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f04c89fad0d98d444ce508/revisions"},
+    "archive":{"href":"/contributors/55f04c89fad0d98d444ce508/archive"},
+    "publish":{"href":"/contributors/55f04c89fad0d98d444ce508/publish"},
+    "publishHistory":{"href":"/contributors/55f04c89fad0d98d444ce508/publish/history"},
+    "next":{"href":"/contributors/55f04c89fad0d98d444ce508/next"},
+    "previous":{"href":"/contributors/55f04c89fad0d98d444ce508/previous"},
+    "more":{"href":"/contributors/published/more?id=55f04c89fad0d98d444ce508"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f04c89fad0d98d444ce508",
+      "revision":0,
+      "uri":"contributor/chris-galletta",
+      "pubDate":"2015-09-09T15:13:16.151Z",
+      "revisionAuthor":"Katherine Rich",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-09T15:13:17.670Z"}}}

@@ -1,0 +1,156 @@
+{
+  "revisionAuthor":"Charl Porter",
+  "hed":"Navigation: Main",
+  "dek":"",
+  "channel":"Home",
+  "subChannel":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55bce45fb01eefe207f8e9c1",
+      "hed":"Equipment",
+      "dek":""},
+    {
+      "relId":"55bce5d0add713143b44aad7",
+      "hed":"Golf Equipment: Channel Links",
+      "dek":""},
+    {
+      "relId":"55bce48bb01eefe207f8e9c3",
+      "hed":"Instruction",
+      "dek":""},
+    {
+      "relId":"55bce752b01eefe207f8e9d6",
+      "hed":"Golf Instruction: Channel Links",
+      "dek":""},
+    {
+      "relId":"55bce4a4b01eefe207f8e9c5",
+      "hed":"Courses",
+      "dek":""},
+    {
+      "relId":"55bce9beadd713143b44aae1",
+      "hed":"Golf Courses: Channel Links",
+      "dek":""},
+    {
+      "relId":"55bce4d2add713143b44aad2",
+      "hed":"News & Tours",
+      "dek":""},
+    {
+      "relId":"55bceedeb01eefe207f8ea04",
+      "hed":"Golf News & Tours: Channel Links",
+      "dek":""},
+    {
+      "relId":"55bce529b01eefe207f8e9ca",
+      "hed":"The Loop",
+      "dek":""},
+    {
+      "relId":"55bceccdadd713143b44aae3",
+      "hed":"The Loop: Channel Links",
+      "dek":""},
+    {
+      "relId":"55bce571b01eefe207f8e9cc",
+      "hed":"Video",
+      "dek":""},
+    {
+      "relId":"55ca6a624759c60c08235870",
+      "hed":"Hot List",
+      "dek":""}],
+  "id":"55bce185b01eefe207f8e9be",
+  "revision":13,
+  "createdAt":"2015-08-01T15:11:01.360Z",
+  "modifiedAt":"2015-08-19T14:43:42.035Z",
+  "revisionCreatedAt":"2015-08-19T14:43:42.035Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "seoTitle":"Navigation: Main",
+  "_links":{
+    "self":{"href":"/curatedlists/55bce185b01eefe207f8e9be/revisions/13"},
+    "rels":{"href":"/curatedlists/55bce185b01eefe207f8e9be/revisions/13/rels"},
+    "relate":{
+      "href":"/curatedlists/55bce185b01eefe207f8e9be/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/55bce185b01eefe207f8e9be/revisions"},
+    "archive":{"href":"/curatedlists/55bce185b01eefe207f8e9be/archive"},
+    "publish":{"href":"/curatedlists/55bce185b01eefe207f8e9be/publish"},
+    "publishHistory":{"href":"/curatedlists/55bce185b01eefe207f8e9be/publish/history"},
+    "next":{"href":"/curatedlists/55bce185b01eefe207f8e9be/next"},
+    "previous":{"href":"/curatedlists/55bce185b01eefe207f8e9be/previous"},
+    "more":{"href":"/curatedlists/published/more?id=55bce185b01eefe207f8e9be"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "revisionAuthor":"Charl Porter",
+          "title":"golf-digest-logo.png",
+          "id":"55bce3ceadd713143b44aace",
+          "revision":2,
+          "createdAt":"2015-08-01T15:20:46.263Z",
+          "modifiedAt":"2015-08-01T15:22:04.532Z",
+          "revisionCreatedAt":"2015-08-01T15:22:04.532Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"golf-digest-logo.png",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":594,
+              "height":111,
+              "format":"PNG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/gd-services/production/2015/08/01/55bce3ceadd713143b44aad0_golf-digest-logo.png"},
+            "16:9":{
+              "modifications":{"crop":{
+                  "width":197,
+                  "height":111,
+                  "x":207,
+                  "y":0}},
+              "width":197,
+              "height":111,
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":111,
+                  "width":148,
+                  "x":223,
+                  "y":0}},
+              "width":148,
+              "height":111,
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "width":111,
+                  "height":111,
+                  "x":240,
+                  "y":0}},
+              "width":111,
+              "height":111,
+              "override":false},
+            "2:1":{
+              "modifications":{"crop":{
+                  "height":111,
+                  "width":222,
+                  "x":186,
+                  "y":0}},
+              "width":222,
+              "height":111,
+              "override":false}},
+          "caption":"",
+          "images":{"original":{}},
+          "tags":[],
+          "credit":""}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55bce185b01eefe207f8e9be",
+      "revision":13,
+      "uri":"navigation-list-drawer",
+      "pubDate":"2015-08-01T16:22:17.715Z",
+      "revisionAuthor":"Charl Porter",
+      "searchable":false,
+      "template":"default",
+      "expired":false,
+      "createdAt":"2015-08-19T14:43:45.232Z"}}}

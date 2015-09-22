@@ -1,0 +1,43 @@
+{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Christian Macdonald",
+  "bio":"",
+  "socialMedia":[],
+  "title":"Photographer",
+  "id":"55ef3d1aceb4f8187e7a7848",
+  "revision":1,
+  "createdAt":"2015-09-08T19:55:06.393Z",
+  "modifiedAt":"2015-09-08T19:55:10.594Z",
+  "revisionCreatedAt":"2015-09-08T19:55:10.594Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/revisions/1"},
+    "rels":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55ef3d1aceb4f8187e7a7848/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/revisions"},
+    "archive":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/archive"},
+    "publish":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/publish"},
+    "publishHistory":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/publish/history"},
+    "next":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/next"},
+    "previous":{"href":"/contributors/55ef3d1aceb4f8187e7a7848/previous"},
+    "more":{"href":"/contributors/published/more?id=55ef3d1aceb4f8187e7a7848"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55ef3d1aceb4f8187e7a7848",
+      "revision":1,
+      "uri":"contributor/christian-macdonald",
+      "pubDate":"2015-09-08T19:55:11.315Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-08T19:55:27.283Z"}}}

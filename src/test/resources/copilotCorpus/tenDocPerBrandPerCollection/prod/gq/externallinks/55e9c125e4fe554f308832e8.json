@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Boots: Sub channel",
+  "dek":"",
+  "tags":[],
+  "url":"/style-boots",
+  "id":"55e9c125e4fe554f308832e8",
+  "revision":1,
+  "createdAt":"2015-09-04T16:04:53.507Z",
+  "modifiedAt":"2015-09-04T16:07:59.759Z",
+  "revisionCreatedAt":"2015-09-04T16:07:59.759Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55e9c125e4fe554f308832e8/revisions/1"},
+    "rels":{"href":"/externallinks/55e9c125e4fe554f308832e8/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55e9c125e4fe554f308832e8/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55e9c125e4fe554f308832e8/revisions"},
+    "archive":{"href":"/externallinks/55e9c125e4fe554f308832e8/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

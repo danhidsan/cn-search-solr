@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Melanie Rivera",
+  "hed":"Spread the Nice",
+  "dek":"",
+  "tags":[],
+  "url":"/spread-the-nice",
+  "id":"55c3bdf1657d5f2b1661c6b1",
+  "revision":0,
+  "createdAt":"2015-08-06T20:05:05.334Z",
+  "modifiedAt":"2015-08-06T20:05:05.334Z",
+  "revisionCreatedAt":"2015-08-06T20:05:05.334Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55c3bdf1657d5f2b1661c6b1/revisions/0"},
+    "rels":{"href":"/externallinks/55c3bdf1657d5f2b1661c6b1/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55c3bdf1657d5f2b1661c6b1/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55c3bdf1657d5f2b1661c6b1/revisions"},
+    "archive":{"href":"/externallinks/55c3bdf1657d5f2b1661c6b1/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

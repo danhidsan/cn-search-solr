@@ -1,0 +1,9 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "promoDek_en":".model > .promoDek",
+  "primaryChannel_s":".model > .primaryChannel",
+  "amgUserId_s":".model > .amgUserId",
+  "byline_s":".model > .byline",
+  "courses_en":".model > .courses .hed",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

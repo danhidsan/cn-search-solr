@@ -1,0 +1,44 @@
+{
+  "revisionAuthor":"Christina Kung",
+  "hed":"Citizens of the World",
+  "dek":"presented by United",
+  "channel":"Travel Intel",
+  "subChannel":"Business Travel",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"53efc72bace4e0c2063d6672",
+      "hed":"Citizens of the World Top Stories",
+      "dek":""},
+    {
+      "relId":"53efc9c2971eeab46033c7c2",
+      "hed":"Hotels We Love",
+      "dek":""}],
+  "id":"53efc8be971eeab46033c77d",
+  "revision":6,
+  "createdAt":"2014-08-16T21:10:22.119Z",
+  "modifiedAt":"2014-08-23T04:32:28.043Z",
+  "revisionCreatedAt":"2014-08-23T04:32:28.043Z",
+  "meta":{
+    "collectionName":"specialreports",
+    "modelName":"specialreport",
+    "publishable":true,
+    "image":false},
+  "_links":{
+    "self":{"href":"/specialreports/53efc8be971eeab46033c77d/revisions/6"},
+    "rels":{"href":"/specialreports/53efc8be971eeab46033c77d/revisions/6/rels"},
+    "relate":{
+      "href":"/specialreports/53efc8be971eeab46033c77d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/specialreports/53efc8be971eeab46033c77d/revisions"},
+    "archive":{"href":"/specialreports/53efc8be971eeab46033c77d/archive"},
+    "publish":{"href":"/specialreports/53efc8be971eeab46033c77d/publish"},
+    "publishHistory":{"href":"/specialreports/53efc8be971eeab46033c77d/publish/history"},
+    "next":{"href":"/specialreports/53efc8be971eeab46033c77d/next"},
+    "previous":{"href":"/specialreports/53efc8be971eeab46033c77d/previous"},
+    "more":{"href":"/specialreports/published/more?id=53efc8be971eeab46033c77d"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

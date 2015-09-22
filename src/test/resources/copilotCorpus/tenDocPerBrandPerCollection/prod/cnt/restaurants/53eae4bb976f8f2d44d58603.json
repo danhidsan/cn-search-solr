@@ -1,0 +1,58 @@
+{
+  "name":"Chiswick",
+  "address":{
+    "street":"65 Ocean Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2025"},
+  "phone":["61-2-8388-8688"],
+  "url":["www.chiswickrestaurant.com.au"],
+  "description":"Set in the grounds of a historic Woollahra property, Chiswick is a casual-chic venture by the team behind Australia's famed waterfront ARIA restaurants. This time chef Matt Moran has swapped fine dining harbourside views for a modern bistro with a kitchen garden whose produce sets the scene for the grass-fed beef and lamb from the chef's family farm at Rockley, near Bathurst.",
+  "editorsPick":false,
+  "tags":[
+    "Great design",
+    "Casual"],
+  "subtype":"restaurant",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Woollahra"],
+  "price":2,
+  "cuisine":"Local or Regional, Gastropub, Australian",
+  "id":"53eae4bb976f8f2d44d58603",
+  "revision":0,
+  "createdAt":"2014-08-13T04:08:27.799Z",
+  "modifiedAt":"2014-08-13T04:08:27.799Z",
+  "revisionCreatedAt":"2014-08-13T04:08:27.799Z",
+  "meta":{
+    "collectionName":"restaurants",
+    "modelName":"restaurant",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/restaurants/53eae4bb976f8f2d44d58603/revisions/0"},
+    "rels":{"href":"/restaurants/53eae4bb976f8f2d44d58603/revisions/0/rels"},
+    "relate":{
+      "href":"/restaurants/53eae4bb976f8f2d44d58603/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/restaurants/53eae4bb976f8f2d44d58603/revisions"},
+    "archive":{"href":"/restaurants/53eae4bb976f8f2d44d58603/archive"},
+    "publish":{"href":"/restaurants/53eae4bb976f8f2d44d58603/publish"},
+    "publishHistory":{"href":"/restaurants/53eae4bb976f8f2d44d58603/publish/history"},
+    "next":{"href":"/restaurants/53eae4bb976f8f2d44d58603/next"},
+    "previous":{"href":"/restaurants/53eae4bb976f8f2d44d58603/previous"},
+    "more":{"href":"/restaurants/published/more?id=53eae4bb976f8f2d44d58603"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:08:27.868Z",
+      "entityId":"53eae4bb976f8f2d44d58603",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"restaurants/sydney/chiswick"}}}

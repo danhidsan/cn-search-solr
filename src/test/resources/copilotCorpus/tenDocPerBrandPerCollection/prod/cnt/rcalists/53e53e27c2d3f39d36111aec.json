@@ -1,0 +1,354 @@
+{
+  "hed":"Top 10 Hotels in Charleston, S.C.",
+  "dek":"Condé Nast Traveler readers rate the top hotels in Charleston, South Carolina",
+  "year":"2013",
+  "tags":["readers-choice-awards/united-states/best-hotels-charleston"],
+  "geoTags":[
+    "north-america",
+    "north-america/united-states",
+    "north-america/united-states/south-carolina",
+    "north-america/united-states/south-carolina/charleston"],
+  "region":"United States",
+  "channel":"Travel Awards",
+  "subChannel":"Readers' Choice Awards",
+  "secondaryChannels":[],
+  "secondarySubChannels":[],
+  "items":[
+    {
+      "relId":"53daffd26dec627b14a11b20",
+      "regionalRank":8,
+      "ratingBlock":{
+        "rooms":85.4,
+        "service":90.9,
+        "food":89.7,
+        "location":98,
+        "design":89.5,
+        "activities":84.2,
+        "overall":90.7},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0108dcd5888e145dc71d",
+      "regionalRank":9,
+      "ratingBlock":{
+        "rooms":89.7,
+        "service":92.3,
+        "food":75.8,
+        "location":97.4,
+        "design":87.2,
+        "activities":87.5,
+        "overall":88.9},
+      "memberComments":[
+        {
+          "comment":"Wonderful visit.  Garden courtyard is beautiful. Enjoyed the wine and cheese afternoon reception. Always a pleasure to be a part of the Charleston experience!",
+          "source":"Nancy Peeples",
+          "location":"South Carolina"},
+        {
+          "comment":"Wonderful quaint inn to stay at.  This is our first choice to book when my husband and I want to get away to Charleston for a few days. We even stayed here on our honeymoon 15 years ago!  If feels like you are at home!",
+          "source":"",
+          "location":"South Carolina"}]},
+    {
+      "relId":"53db02446dec627b14a127c7",
+      "regionalRank":3,
+      "ratingBlock":{
+        "rooms":94,
+        "service":95.8,
+        "food":92,
+        "location":98.1,
+        "design":94,
+        "activities":90.9,
+        "overall":94.8},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0329dcd5888e145dd1f7",
+      "regionalRank":5,
+      "ratingBlock":{
+        "rooms":94.9,
+        "service":94.6,
+        "food":88.8,
+        "location":97.6,
+        "design":93.2,
+        "activities":88.7,
+        "overall":94},
+      "memberComments":[
+        {
+          "comment":"Stayed during the 2011 Christmas season and could not have asked for more. Wonderful room, four poster beds, very clean. Brought breakfast to your room (routine), wine gathering in afternoon and cookies and milk at night. What more could you ask for?  Was my first time but not my last!",
+          "source":"Linda Kelly Boyd",
+          "location":"Georgia"},
+        {
+          "comment":"Gorgeous! Set along the Charleston Harbor, this hotel feels extremely cozy and warm, just like the city of Charleston. I thoroughly enjoyed the ambiance of the rooms and the wine tasting they hold every night.",
+          "source":"Amanda Kinnamon",
+          "location":"Ohio"}]},
+    {
+      "relId":"53db06fb6dec627b14a13cb7",
+      "regionalRank":2,
+      "ratingBlock":{
+        "rooms":95.8,
+        "service":96.2,
+        "food":92.1,
+        "location":95.4,
+        "design":95.4,
+        "activities":87.7,
+        "overall":95},
+      "memberComments":[
+        {
+          "comment":"We had a wonderful experience there. From check in to departure, we were treated like family. Everyone anticipated our needs. Close to everything but still tranquil. We will stay there again when we visit Charleston.",
+          "source":"Rock White",
+          "location":"Virginia"},
+        {
+          "comment":"Charming is the word!  Great location for sightseeing or business.  Concierge services are beyond compare. We will definitely be back and recommend the Rutledge House to all our friends.",
+          "source":"Dan Wagner",
+          "location":"South Carolina"}]},
+    {
+      "relId":"53db0985dcd5888e145ded7f",
+      "regionalRank":7,
+      "ratingBlock":{
+        "rooms":89.9,
+        "service":88.9,
+        "food":90.7,
+        "location":96.3,
+        "design":89.9,
+        "activities":79.8,
+        "overall":91.1},
+      "memberComments":[
+        {
+          "comment":"Fabulous hotel!  Love everything about this hotel, especially the rooftop.  I have hosted corporate events here as well. The staff performed flawlessly.",
+          "source":"Jack Kirkpatrick",
+          "location":"North Carolina"},
+        {
+          "comment":"Beautiful rooms with an outstanding restaurant on the roof with beautiful views of Charleston and the bay.",
+          "source":"Charles Yonkman",
+          "location":"South Carolina"}]},
+    {
+      "relId":"53db09c8dcd5888e145deeb6",
+      "regionalRank":10,
+      "ratingBlock":{
+        "rooms":78,
+        "service":84.4,
+        "food":79.6,
+        "location":94.9,
+        "design":81.3,
+        "activities":77.5,
+        "overall":83.7},
+      "memberComments":[
+        {
+          "comment":"Wow. We loved it here.  The BEST location for Charleston. Walk to everything. The rooms are dated, but adds to the charm. The staff are incredible.",
+          "source":"Susan Thompson",
+          "location":"Georgia"},
+        {
+          "comment":"Perfect location in the middle of the Historic District. Excellent ambiance, a true Southern antebellum hotel. Wonderful attentive staff and excellent food in the hotel restaurant. I had the Poolside room—absolutely fantastic, with its own  patio. I definitely will continue to stay at The Mills House.",
+          "source":"Wright Williams",
+          "location":"North Carolina"}]},
+    {
+      "relId":"53db0bb76dec627b14a153c5",
+      "regionalRank":4,
+      "ratingBlock":{
+        "rooms":93.9,
+        "service":95.1,
+        "food":93.3,
+        "location":97.9,
+        "design":92.9,
+        "activities":88.4,
+        "overall":94.6},
+      "memberComments":[
+        {
+          "comment":"",
+          "source":"",
+          "location":""},
+        {
+          "comment":"",
+          "source":"",
+          "location":""}]},
+    {
+      "relId":"53db0c4fdcd5888e145dfaa0",
+      "regionalRank":6,
+      "ratingBlock":{
+        "rooms":92.6,
+        "service":90.1,
+        "food":85.5,
+        "location":93.8,
+        "design":92.6,
+        "activities":81.5,
+        "overall":91.2},
+      "memberComments":[
+        {
+          "comment":"A 'one-of-a-kind' stay in a beautiful hotel that mixes historic brick with modern d_cor. Views of the town from the rooftop terrace are great.",
+          "source":"A.L.",
+          "location":"South Carolina"},
+        {
+          "comment":"Very nice apartment-like suites.",
+          "source":"Wallace McPherson",
+          "location":"South Carolina"}]},
+    {
+      "relId":"53db15ea6dec627b14a1713d",
+      "regionalRank":1,
+      "ratingBlock":{
+        "rooms":97,
+        "service":97,
+        "food":94.6,
+        "location":92.5,
+        "design":96.3,
+        "activities":92,
+        "overall":95.5},
+      "memberComments":[
+        {
+          "comment":"Charleston is a beautiful, historic city, but the Wentworth is a destination in itself. It is an absolutely breathtaking, historic home with incredible rooms and top notch service. The restaurant, Circa 1886, is also a must-visit.",
+          "source":"B.F.",
+          "location":"Minnesota"},
+        {
+          "comment":"Our room was large and comfortable. The staff went above and beyond and met our every need. It is in a location that was central and within walking distance of just about everything: shops, restaurants and the market.",
+          "source":"L.M.",
+          "location":"Georgia"}]}],
+  "id":"53e53e27c2d3f39d36111aec",
+  "revision":4,
+  "createdAt":"2014-08-08T21:16:23.549Z",
+  "modifiedAt":"2014-10-14T18:39:14.704Z",
+  "revisionCreatedAt":"2014-10-14T18:39:14.704Z",
+  "meta":{
+    "collectionName":"rcalists",
+    "modelName":"rcalist",
+    "publishable":true,
+    "image":false},
+  "revisionAuthor":"Allon Yaron",
+  "_links":{
+    "self":{"href":"/rcalists/53e53e27c2d3f39d36111aec/revisions/4"},
+    "rels":{"href":"/rcalists/53e53e27c2d3f39d36111aec/revisions/4/rels"},
+    "relate":{
+      "href":"/rcalists/53e53e27c2d3f39d36111aec/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/rcalists/53e53e27c2d3f39d36111aec/revisions"},
+    "archive":{"href":"/rcalists/53e53e27c2d3f39d36111aec/archive"},
+    "publish":{"href":"/rcalists/53e53e27c2d3f39d36111aec/publish"},
+    "publishHistory":{"href":"/rcalists/53e53e27c2d3f39d36111aec/publish/history"},
+    "next":{"href":"/rcalists/53e53e27c2d3f39d36111aec/next"},
+    "previous":{"href":"/rcalists/53e53e27c2d3f39d36111aec/previous"},
+    "more":{"href":"/rcalists/published/more?id=53e53e27c2d3f39d36111aec"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "title":"",
+          "id":"53db0240dcd5888e145dcd3c",
+          "revision":2,
+          "createdAt":"2014-08-01T02:58:08.498Z",
+          "modifiedAt":"2014-08-01T02:58:10.236Z",
+          "revisionCreatedAt":"2014-08-01T02:58:10.236Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":false},
+          "images":{
+            "original":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd3e_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd3e_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "copilot-small":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd3f_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd3f_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":208,
+              "height":156,
+              "format":"JPEG"},
+            "copilot-medium":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd40_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd40_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":298,
+              "height":224,
+              "format":"JPEG"},
+            "copilot-large":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd41_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd41_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":957,
+              "height":718,
+              "format":"JPEG"},
+            "large_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd42_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd42_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":1024,
+              "height":768,
+              "format":"JPEG"},
+            "med_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd43_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd43_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":640,
+              "height":480,
+              "format":"JPEG"},
+            "small_16_9":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd44_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd44_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":465,
+              "height":349,
+              "format":"JPEG"},
+            "large_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd45_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd45_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":935,
+              "height":701,
+              "format":"JPEG"},
+            "med_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd46_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd46_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":620,
+              "height":465,
+              "format":"JPEG"},
+            "small_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd47_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd47_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":368,
+              "height":276,
+              "format":"JPEG"},
+            "xsmall_4_3":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd48_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd48_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":212,
+              "height":159,
+              "format":"JPEG"},
+            "large_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd49_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd49_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":344,
+              "height":258,
+              "format":"JPEG"},
+            "med_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd4a_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd4a_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":250,
+              "height":188,
+              "format":"JPEG"},
+            "small_1_1":{
+              "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/07/31/53db0240dcd5888e145dcd4b_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "filename":"53db0240dcd5888e145dcd4b_french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg",
+              "width":169,
+              "height":127,
+              "format":"JPEG"}},
+          "tags":["http://www.cntraveler.com/dam/images/hotels/united-states/south-carolina/104686/french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg"],
+          "caption":"",
+          "credit":"",
+          "description":"",
+          "filename":"french-quarter-inn-charleston-charleston-south-carolina-104686-1.jpg"}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-17T16:44:26.435Z",
+      "entityId":"53e53e27c2d3f39d36111aec",
+      "expired":false,
+      "pubDate":"2014-08-08T21:16:04.717Z",
+      "revision":3,
+      "revisionAuthor":"Brad Rickman",
+      "searchable":true,
+      "uri":"readers-choice-awards/2013/charleston--s-c---top-10-hotels-"}}}

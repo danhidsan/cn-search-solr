@@ -1,0 +1,58 @@
+{
+  "name":"The Grounds of Alexandria",
+  "address":{
+    "street":"Building 7, 2 Huntley Street ",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2015"},
+  "phone":["61-2-9699-2225"],
+  "url":["www.groundsroasters.com"],
+  "description":"This warehouse café is Sydney's premier brunch spot. Built into a heritage-listed pie factory, The Grounds is a one-stop shop with its own bakery and a coffee roasting facility run by award-winning barista Jack Hanna. Outside there's an enormous courtyard full of long communal tables and an organic garden. There's even a resident pig named Kevin Bacon scurrying around the micro farm.",
+  "editorsPick":false,
+  "tags":[
+    "Family-friendly",
+    "Great design"],
+  "subtype":"cafe",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Alexandria"],
+  "price":1,
+  "cuisine":"Local or Regional, Australian",
+  "id":"53eae4bb976f8f2d44d585ff",
+  "revision":0,
+  "createdAt":"2014-08-13T04:08:27.523Z",
+  "modifiedAt":"2014-08-13T04:08:27.523Z",
+  "revisionCreatedAt":"2014-08-13T04:08:27.523Z",
+  "meta":{
+    "collectionName":"restaurants",
+    "modelName":"restaurant",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/revisions/0"},
+    "rels":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/revisions/0/rels"},
+    "relate":{
+      "href":"/restaurants/53eae4bb976f8f2d44d585ff/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/revisions"},
+    "archive":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/archive"},
+    "publish":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/publish"},
+    "publishHistory":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/publish/history"},
+    "next":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/next"},
+    "previous":{"href":"/restaurants/53eae4bb976f8f2d44d585ff/previous"},
+    "more":{"href":"/restaurants/published/more?id=53eae4bb976f8f2d44d585ff"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:08:27.589Z",
+      "entityId":"53eae4bb976f8f2d44d585ff",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"restaurants/sydney/the-grounds-of-alexandria"}}}

@@ -1,0 +1,41 @@
+{
+  "title":"How to Make the Best French Bread Pizza Ever",
+  "description":"We show you how to make the best thing since sliced (french) bread. ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com",
+    "pizza",
+    "cooking",
+    "french bread pizza",
+    "recipe",
+    "pepperoni "],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-08T17:35:43+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-make-the-best-french-bread-pizza-ever",
+  "embedUrl":"//player.cnevids.com/embed/55ef1c6e61646d6329000005/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55ef1c6e61646d6329000005/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-make-the-best-french-bread-pizza-ever",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441734125/epicurious_how-to-make-the-best-french-bread-pizza-ever.jpg",
+  "id":"55ef1c74cf90d6663f728695",
+  "revision":3,
+  "createdAt":"2015-09-08T17:35:48.873Z",
+  "modifiedAt":"2015-09-08T17:42:07.051Z",
+  "revisionCreatedAt":"2015-09-08T17:42:07.051Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55ef1c74cf90d6663f728695/revisions/3"},
+    "rels":{"href":"/cnevideos/55ef1c74cf90d6663f728695/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55ef1c74cf90d6663f728695/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55ef1c74cf90d6663f728695/revisions"},
+    "archive":{"href":"/cnevideos/55ef1c74cf90d6663f728695/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,67 @@
+{
+  "hed":"Top Stories in Style & Design",
+  "dek":"",
+  "channel":"Style & Design",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"55e9d46fcdd1761348bdf4a7",
+      "hed":"Travel in Style on the World's Most Luxurious Trains",
+      "dek":""},
+    {
+      "relId":"55e0b635f073f4db6484926d",
+      "hed":"A Street Style Star's Guide to New York Fashion Week",
+      "dek":""},
+    {
+      "relId":"55e5b92fcdd1761348bdcb7d",
+      "hed":"Hotel as Muse: Inspired by the Soho House Istanbul",
+      "dek":""},
+    {
+      "relId":"55e6f8c4cdd1761348bdda7e",
+      "hed":"This Classic Burberry Travel Essential Just Got Even Chicer",
+      "dek":""},
+    {
+      "relId":"55e07ad9cdd1761348bda852",
+      "hed":"How to Pack for a Week in New York City",
+      "dek":""}],
+  "id":"53e71fafc2d3f39d3611200c",
+  "revision":205,
+  "createdAt":"2014-08-10T07:30:55.302Z",
+  "modifiedAt":"2015-09-08T15:33:28.462Z",
+  "revisionCreatedAt":"2015-09-08T15:33:28.462Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Caitlin Morton",
+  "_links":{
+    "self":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/revisions/205"},
+    "rels":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/revisions/205/rels"},
+    "relate":{
+      "href":"/curatedlists/53e71fafc2d3f39d3611200c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/revisions"},
+    "archive":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/archive"},
+    "publish":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/publish"},
+    "publishHistory":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/publish/history"},
+    "next":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/next"},
+    "previous":{"href":"/curatedlists/53e71fafc2d3f39d3611200c/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e71fafc2d3f39d3611200c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e71fafc2d3f39d3611200c",
+      "revision":205,
+      "uri":"style-and-design/top-stories",
+      "pubDate":"2014-09-30T14:00:00.000Z",
+      "revisionAuthor":"Caitlin Morton",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-09-08T15:33:38.486Z"}}}

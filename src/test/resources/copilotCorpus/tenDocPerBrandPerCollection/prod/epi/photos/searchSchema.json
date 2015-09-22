@@ -1,0 +1,6 @@
+{
+  "title_en":".model > .title",
+  "caption_en":".model > .caption",
+  "credit_en":".model > .credit",
+  "filename_s":".model > .filename",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

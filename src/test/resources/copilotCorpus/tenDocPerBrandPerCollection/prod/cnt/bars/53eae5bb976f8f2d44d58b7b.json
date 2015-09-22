@@ -1,0 +1,56 @@
+{
+  "name":"Gardel's Bar",
+  "address":{
+    "street":"358 Cleveland Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2010"},
+  "phone":["61-2-8399-1440"],
+  "url":["www.gardelsbar.com"],
+  "description":"The warm and inviting red and gold interior of this upstairs bar hides the fact that Gardel's Bar has a remarkably large split-level main room. Mood lighting and plush leather couches create a leisurely environment with more private corners than mathematically possible—the perfect place to sip on a skillfully mixed cocktail. ",
+  "editorsPick":false,
+  "tags":[
+    "Romantic",
+    "Great cocktails"],
+  "subtype":"bar",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Surry Hills"],
+  "id":"53eae5bb976f8f2d44d58b7b",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:43.862Z",
+  "modifiedAt":"2014-08-13T04:12:43.862Z",
+  "revisionCreatedAt":"2014-08-13T04:12:43.862Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bb976f8f2d44d58b7b/revisions/0"},
+    "rels":{"href":"/bars/53eae5bb976f8f2d44d58b7b/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bb976f8f2d44d58b7b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bb976f8f2d44d58b7b/revisions"},
+    "archive":{"href":"/bars/53eae5bb976f8f2d44d58b7b/archive"},
+    "publish":{"href":"/bars/53eae5bb976f8f2d44d58b7b/publish"},
+    "publishHistory":{"href":"/bars/53eae5bb976f8f2d44d58b7b/publish/history"},
+    "next":{"href":"/bars/53eae5bb976f8f2d44d58b7b/next"},
+    "previous":{"href":"/bars/53eae5bb976f8f2d44d58b7b/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bb976f8f2d44d58b7b"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:43.946Z",
+      "entityId":"53eae5bb976f8f2d44d58b7b",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/sydney/gardel-s-bar"}}}

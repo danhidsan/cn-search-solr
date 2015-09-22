@@ -1,0 +1,28 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"TOP NAVIGATION BAR LINK",
+  "url":"http://www.epicurious.com/about/epicurious-oral-history-article",
+  "source":"",
+  "id":"54ad82ca19925f464b3b91b2",
+  "revision":31,
+  "createdAt":"2015-01-07T19:02:34.270Z",
+  "modifiedAt":"2015-08-18T11:27:56.288Z",
+  "revisionCreatedAt":"2015-08-18T11:27:56.288Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externals/54ad82ca19925f464b3b91b2/revisions/31"},
+    "rels":{"href":"/externals/54ad82ca19925f464b3b91b2/revisions/31/rels"},
+    "relate":{
+      "href":"/externals/54ad82ca19925f464b3b91b2/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/54ad82ca19925f464b3b91b2/revisions"},
+    "archive":{"href":"/externals/54ad82ca19925f464b3b91b2/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

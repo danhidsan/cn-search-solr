@@ -1,0 +1,6 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "body_en":".model > .body",
+  "primaryChannel_s":".model > .primaryChannel",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

@@ -1,0 +1,42 @@
+{
+  "revisionAuthor":"Kelly Butler",
+  "name":"Kevin Roose",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55e8b0501fc9a8bd600add7a",
+  "revision":0,
+  "createdAt":"2015-09-03T20:40:48.941Z",
+  "modifiedAt":"2015-09-03T20:40:48.941Z",
+  "revisionCreatedAt":"2015-09-03T20:40:48.941Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55e8b0501fc9a8bd600add7a/revisions/0"},
+    "rels":{"href":"/contributors/55e8b0501fc9a8bd600add7a/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/55e8b0501fc9a8bd600add7a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55e8b0501fc9a8bd600add7a/revisions"},
+    "archive":{"href":"/contributors/55e8b0501fc9a8bd600add7a/archive"},
+    "publish":{"href":"/contributors/55e8b0501fc9a8bd600add7a/publish"},
+    "publishHistory":{"href":"/contributors/55e8b0501fc9a8bd600add7a/publish/history"},
+    "next":{"href":"/contributors/55e8b0501fc9a8bd600add7a/next"},
+    "previous":{"href":"/contributors/55e8b0501fc9a8bd600add7a/previous"},
+    "more":{"href":"/contributors/published/more?id=55e8b0501fc9a8bd600add7a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55e8b0501fc9a8bd600add7a",
+      "revision":0,
+      "uri":"contributor/kevin-roose",
+      "pubDate":"2015-09-03T20:40:49.488Z",
+      "revisionAuthor":"Kelly Butler",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-03T20:40:53.483Z"}}}

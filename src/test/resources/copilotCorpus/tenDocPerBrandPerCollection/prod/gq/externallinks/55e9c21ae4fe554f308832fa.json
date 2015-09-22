@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Sweaters: Sub channel",
+  "dek":"",
+  "tags":[],
+  "url":"/style-sweaters-and-sweatshirts",
+  "id":"55e9c21ae4fe554f308832fa",
+  "revision":0,
+  "createdAt":"2015-09-04T16:08:58.699Z",
+  "modifiedAt":"2015-09-04T16:08:58.699Z",
+  "revisionCreatedAt":"2015-09-04T16:08:58.699Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55e9c21ae4fe554f308832fa/revisions/0"},
+    "rels":{"href":"/externallinks/55e9c21ae4fe554f308832fa/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55e9c21ae4fe554f308832fa/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55e9c21ae4fe554f308832fa/revisions"},
+    "archive":{"href":"/externallinks/55e9c21ae4fe554f308832fa/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

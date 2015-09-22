@@ -1,0 +1,41 @@
+{
+  "revisionAuthor":"Norman Villatoro",
+  "category":"sponsor",
+  "name":"McCormick",
+  "id":"55f192bdad4e361c200f7aa8",
+  "revision":1,
+  "createdAt":"2015-09-10T14:25:01.826Z",
+  "modifiedAt":"2015-09-10T14:25:18.154Z",
+  "revisionCreatedAt":"2015-09-10T14:25:18.154Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/revisions/1"},
+    "rels":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/revisions/1/rels"},
+    "relate":{
+      "href":"/taxonomies/55f192bdad4e361c200f7aa8/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/revisions"},
+    "archive":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/archive"},
+    "publish":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/publish"},
+    "publishHistory":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/publish/history"},
+    "next":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/next"},
+    "previous":{"href":"/taxonomies/55f192bdad4e361c200f7aa8/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55f192bdad4e361c200f7aa8"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f192bdad4e361c200f7aa8",
+      "revision":1,
+      "uri":"sponsor/mccormick",
+      "pubDate":"2015-09-10T14:25:18.112Z",
+      "revisionAuthor":"Norman Villatoro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-10T14:25:23.912Z"}}}

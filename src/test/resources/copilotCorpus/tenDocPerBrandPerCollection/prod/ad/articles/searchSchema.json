@@ -1,0 +1,8 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "channel_s":".model > .channel",
+  "subChannel_s":".model > .subChannel",
+  "body_en":".model > .body",
+  "tags_ss":".model > .tags *",
+  "contributor_ss":".rels > .contributorsAuthor .name"}

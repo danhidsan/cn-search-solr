@@ -1,0 +1,63 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"Summer Cooking",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"556f5584153c29e92c454115",
+      "hed":"20+ Amazing Summer Recipes",
+      "dek":"If it's summer outside, it should be summer on your plate. So let other people relegate summer cooking to weekend picnics and road trips. You? You're going to bring summer to the table all day, every day.",
+      "tags":[]},
+    {
+      "relId":"5550cac59a0aa705333eaef2",
+      "hed":"Sensational Salads",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"555600c4100d9bda6d81bef6",
+      "hed":"Better Burgers",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55426407ff11a7f13ba7f81c",
+      "hed":"Tequila Tipples",
+      "dek":"",
+      "tags":[]}],
+  "id":"555a0a38100d9bda6d81ca86",
+  "revision":3,
+  "createdAt":"2015-05-18T15:50:16.851Z",
+  "modifiedAt":"2015-06-10T22:12:19.396Z",
+  "revisionCreatedAt":"2015-06-10T22:12:19.396Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/revisions/3"},
+    "rels":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/revisions/3/rels"},
+    "relate":{
+      "href":"/curatedlists/555a0a38100d9bda6d81ca86/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/revisions"},
+    "archive":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/archive"},
+    "publish":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/publish"},
+    "publishHistory":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/publish/history"},
+    "next":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/next"},
+    "previous":{"href":"/curatedlists/555a0a38100d9bda6d81ca86/previous"},
+    "more":{"href":"/curatedlists/published/more?id=555a0a38100d9bda6d81ca86"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"555a0a38100d9bda6d81ca86",
+      "revision":3,
+      "uri":"summer-recipes-drinks-menus",
+      "pubDate":"2015-06-10T22:09:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-06-10T22:12:27.229Z"}}}

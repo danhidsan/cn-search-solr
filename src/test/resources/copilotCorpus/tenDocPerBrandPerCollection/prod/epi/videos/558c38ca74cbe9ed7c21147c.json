@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"How to Cook Homemade Pasta in One Minute",
+  "dek":"",
+  "promoHed":"",
+  "link":"http://player.cnevids.com/embed/558c230f61646d7265090000/51ffeed757af82ba91000001",
+  "id":"558c38ca74cbe9ed7c21147c",
+  "revision":1,
+  "createdAt":"2015-06-25T17:22:18.149Z",
+  "modifiedAt":"2015-06-25T17:24:22.020Z",
+  "revisionCreatedAt":"2015-06-25T17:24:22.020Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/558c38ca74cbe9ed7c21147c/revisions/1"},
+    "rels":{"href":"/videos/558c38ca74cbe9ed7c21147c/revisions/1/rels"},
+    "relate":{
+      "href":"/videos/558c38ca74cbe9ed7c21147c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/558c38ca74cbe9ed7c21147c/revisions"},
+    "archive":{"href":"/videos/558c38ca74cbe9ed7c21147c/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

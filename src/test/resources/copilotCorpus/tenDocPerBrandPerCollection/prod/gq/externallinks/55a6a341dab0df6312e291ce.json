@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Daniel Chang",
+  "hed":"Entertainment: Music: Sub Channel",
+  "dek":"",
+  "tags":[],
+  "url":"/entertainment/music",
+  "id":"55a6a341dab0df6312e291ce",
+  "revision":0,
+  "createdAt":"2015-07-15T18:15:29.319Z",
+  "modifiedAt":"2015-07-15T18:15:29.319Z",
+  "revisionCreatedAt":"2015-07-15T18:15:29.319Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55a6a341dab0df6312e291ce/revisions/0"},
+    "rels":{"href":"/externallinks/55a6a341dab0df6312e291ce/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55a6a341dab0df6312e291ce/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55a6a341dab0df6312e291ce/revisions"},
+    "archive":{"href":"/externallinks/55a6a341dab0df6312e291ce/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

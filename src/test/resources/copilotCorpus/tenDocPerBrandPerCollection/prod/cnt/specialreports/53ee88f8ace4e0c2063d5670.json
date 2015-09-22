@@ -1,0 +1,44 @@
+{
+  "revisionAuthor":"Laura Carroll",
+  "hed":"Citizens of The World ",
+  "dek":"sponsored by United",
+  "channel":"Travel Intel",
+  "subChannel":"Business Travel",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"53e2fe37c2d3f39d3610e0fa",
+      "hed":"Finnair’s New Lounge at Helsinki Airport ‘Is Alive’",
+      "dek":""},
+    {
+      "relId":"53ec0d6cdd4d6a0b75eff127",
+      "hed":"The Rivalry that Birthed a Tennis Landmark",
+      "dek":""}],
+  "id":"53ee88f8ace4e0c2063d5670",
+  "revision":6,
+  "createdAt":"2014-08-15T22:26:00.839Z",
+  "modifiedAt":"2014-08-15T22:29:19.862Z",
+  "revisionCreatedAt":"2014-08-15T22:29:19.862Z",
+  "meta":{
+    "collectionName":"specialreports",
+    "modelName":"specialreport",
+    "publishable":true,
+    "image":false},
+  "_links":{
+    "self":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/revisions/6"},
+    "rels":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/revisions/6/rels"},
+    "relate":{
+      "href":"/specialreports/53ee88f8ace4e0c2063d5670/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/revisions"},
+    "archive":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/archive"},
+    "publish":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/publish"},
+    "publishHistory":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/publish/history"},
+    "next":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/next"},
+    "previous":{"href":"/specialreports/53ee88f8ace4e0c2063d5670/previous"},
+    "more":{"href":"/specialreports/published/more?id=53ee88f8ace4e0c2063d5670"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,79 @@
+{
+  "hed":"Featured Contributors in Arts & Culture",
+  "dek":"",
+  "channel":"Arts & Culture",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"53daa6d96dec627b149f9232",
+      "hed":"Jenna Scherer",
+      "dek":""},
+    {
+      "relId":"541c3eb00ac7976b508ccd70",
+      "hed":"The World's Best Cities for Arts and Culture Lovers",
+      "dek":""},
+    {
+      "relId":"53e2f84cc2d3f39d3610cd67",
+      "hed":"Aubrey Daquinag",
+      "dek":""},
+    {
+      "relId":"54190fdf1d55fbcd2548f52d",
+      "hed":" Australia’s Hotel Made By Artists, For Artists",
+      "dek":""},
+    {
+      "relId":"543bfdaa76149ab73575ccc8",
+      "hed":"Junot Díaz",
+      "dek":""},
+    {
+      "relId":"543858788e3a4481661cba66",
+      "hed":"Why Fukuoka Is Japan's Next Great Food City",
+      "dek":""},
+    {
+      "relId":"53fca44bcdd7fa56765b9860",
+      "hed":"Lilit Marcus",
+      "dek":""},
+    {
+      "relId":"54ef93f4560f0bf2218e9693",
+      "hed":"London’s 10 Best Small Museums",
+      "dek":""}],
+  "id":"53e7c776dddaa35c30f6cd70",
+  "revision":13,
+  "createdAt":"2014-08-10T19:26:46.186Z",
+  "modifiedAt":"2015-05-12T03:31:15.888Z",
+  "revisionCreatedAt":"2015-05-12T03:31:15.888Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Laura Redman",
+  "_links":{
+    "self":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/revisions/13"},
+    "rels":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/revisions/13/rels"},
+    "relate":{
+      "href":"/curatedlists/53e7c776dddaa35c30f6cd70/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/revisions"},
+    "archive":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/archive"},
+    "publish":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/publish"},
+    "publishHistory":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/publish/history"},
+    "next":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/next"},
+    "previous":{"href":"/curatedlists/53e7c776dddaa35c30f6cd70/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e7c776dddaa35c30f6cd70"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e7c776dddaa35c30f6cd70",
+      "revision":13,
+      "uri":"arts-and-culture/featured-contributors",
+      "pubDate":"2014-09-30T04:00:00.000Z",
+      "revisionAuthor":"Laura Redman",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-05-12T03:31:18.110Z"}}}

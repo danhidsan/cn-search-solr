@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Jackets: Sub channel",
+  "dek":"",
+  "tags":[],
+  "url":"/style-coats",
+  "id":"55e9c1b2e4fe554f308832f0",
+  "revision":0,
+  "createdAt":"2015-09-04T16:07:14.831Z",
+  "modifiedAt":"2015-09-04T16:07:14.831Z",
+  "revisionCreatedAt":"2015-09-04T16:07:14.831Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55e9c1b2e4fe554f308832f0/revisions/0"},
+    "rels":{"href":"/externallinks/55e9c1b2e4fe554f308832f0/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55e9c1b2e4fe554f308832f0/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55e9c1b2e4fe554f308832f0/revisions"},
+    "archive":{"href":"/externallinks/55e9c1b2e4fe554f308832f0/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

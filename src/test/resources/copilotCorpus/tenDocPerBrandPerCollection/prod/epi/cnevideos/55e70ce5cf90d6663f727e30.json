@@ -1,0 +1,36 @@
+{
+  "title":"How to Grate an Apple",
+  "description":"Make a Breakfast Apple Bran Loaf with this quick how-to tip! ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-02T14:51:10+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-grate-an-apple",
+  "embedUrl":"//player.cnevids.com/embed/55e70cde61646d4521000006/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e70cde61646d4521000006/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-grate-an-apple",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441206236/epicurious_how-to-grate-an-apple.jpg",
+  "id":"55e70ce5cf90d6663f727e30",
+  "revision":3,
+  "createdAt":"2015-09-02T14:51:17.094Z",
+  "modifiedAt":"2015-09-02T15:03:58.210Z",
+  "revisionCreatedAt":"2015-09-02T15:03:58.210Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e70ce5cf90d6663f727e30/revisions/3"},
+    "rels":{"href":"/cnevideos/55e70ce5cf90d6663f727e30/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55e70ce5cf90d6663f727e30/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e70ce5cf90d6663f727e30/revisions"},
+    "archive":{"href":"/cnevideos/55e70ce5cf90d6663f727e30/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

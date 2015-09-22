@@ -1,0 +1,40 @@
+{
+  "title":"Soldiers' Leave. Paris, April 1955.",
+  "description":"It was April, 1955. \"The Red Balloon\" was months from its debut and the bikini was still a controversial fashion statement. Jim Bailey, a PFC with the 88th Ordnance Company of the Pioneer Kaserne in Hanau, Germany, joined his buddies for a USO-sponsored weekend in Paris, where he shot this with a borrowed Split-8 camera — that generation's iPhone. He captured all the classics: Notre Dame; the Champs-Élysée; and scenes of Paris street life, including one with that cutting-edge bikini.",
+  "tags":[
+    "cntraveler.com",
+    "Conde Nast Traveler Magazine",
+    "travel",
+    "lifestyle",
+    "destinations",
+    "fashion"],
+  "categories":["travel"],
+  "premiereDate":"2015-07-14T16:51:35+00:00",
+  "canonicalUrl":"http://video.cntraveler.com/watch/soldiers-leave-paris-april-1955",
+  "embedUrl":"//player.cnevids.com/embed/55a53e1761646d6a9f050000/54aefac961646d37db230000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55a53e1761646d6a9f050000/54aefac961646d37db230000.js",
+  "sceneUrl":"https://thescene.com/watch/cntraveler/soldiers-leave-paris-april-1955",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1436896206/cntraveler_soldiers-leave-paris-april-1955.jpg",
+  "id":"55a53e250121edec25703018",
+  "revision":4,
+  "createdAt":"2015-07-14T16:51:49.259Z",
+  "modifiedAt":"2015-07-15T15:43:34.458Z",
+  "revisionCreatedAt":"2015-07-15T15:43:34.458Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55a53e250121edec25703018/revisions/4"},
+    "rels":{"href":"/cnevideos/55a53e250121edec25703018/revisions/4/rels"},
+    "relate":{
+      "href":"/cnevideos/55a53e250121edec25703018/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55a53e250121edec25703018/revisions"},
+    "archive":{"href":"/cnevideos/55a53e250121edec25703018/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

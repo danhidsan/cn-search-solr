@@ -1,0 +1,6 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "source_s":".model > .source",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name",
+  "contributor_ss":".rels > .contributorsAuthor .name"}

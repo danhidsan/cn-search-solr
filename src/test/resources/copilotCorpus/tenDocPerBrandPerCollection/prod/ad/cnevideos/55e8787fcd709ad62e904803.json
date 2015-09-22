@@ -1,0 +1,38 @@
+{
+  "title":"2012 AD100: How Do Your Clients Influence Your Work?",
+  "description":"Hear from select members of the 2012 AD100 and find out why Martyn Lawrence Bullard always questions a client before he agrees to a project; why Mario Buatta believes a decorator must also be an actor, a psychiatrist, and a lawyer; why Bunny Williams thinks a great home is like a perfectly made suit; and much more",
+  "tags":[
+    "architectural digest",
+    "architecturaldigest.com"],
+  "categories":[
+    "architecture",
+    "design"],
+  "premiereDate":"2012-12-07T05:00:00+00:00",
+  "canonicalUrl":"http://video.architecturaldigest.com/watch/how-do-your-clients-influence-your-work",
+  "embedUrl":"//player.cnevids.com/embed/5550d1b461646d0dae010000/550a1c8061646d75b80c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/5550d1b461646d0dae010000/550a1c8061646d75b80c0000.js",
+  "sceneUrl":"https://thescene.com/watch/architecturaldigest/how-do-your-clients-influence-your-work",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441741949/architecturaldigest_how-do-your-clients-influence-your-work.jpg",
+  "id":"55e8787fcd709ad62e904803",
+  "revision":1,
+  "createdAt":"2015-09-03T16:42:39.085Z",
+  "modifiedAt":"2015-09-08T19:52:31.364Z",
+  "revisionCreatedAt":"2015-09-08T19:52:31.364Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e8787fcd709ad62e904803/revisions/1"},
+    "rels":{"href":"/cnevideos/55e8787fcd709ad62e904803/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55e8787fcd709ad62e904803/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e8787fcd709ad62e904803/revisions"},
+    "archive":{"href":"/cnevideos/55e8787fcd709ad62e904803/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

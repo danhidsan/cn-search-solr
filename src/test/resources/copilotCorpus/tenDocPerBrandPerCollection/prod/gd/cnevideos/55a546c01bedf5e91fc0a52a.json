@@ -1,0 +1,43 @@
+{
+  "title":"The Challenge: Part 6",
+  "description":"They didn't all break 100, but they all met the challenge. Watch the Golf Digest U.S. Open Challenge with Michael Jordan, Justin Timberlake, Ben Roethlisberger and contest winner Larry Gibelhausen as they try to break 100 at Bethpage Black.",
+  "tags":[
+    "Golf Digest U.S. Open Challenge",
+    "New York",
+    "Justin Timberlake",
+    "Ben Roethlisberger",
+    "Bethpage Black. Farmingdale",
+    "contest winner Larry Gibelhausen",
+    "Michael Jordan"],
+  "categories":[
+    "Celebrity",
+    "News & Tours"],
+  "premiereDate":"2009-07-09T00:00:00+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/2009-golf-digest-us-open-challenge-segment-6",
+  "embedUrl":"//player.cnevids.com/embed/52e80890c2b4c01058fa3915/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/52e80890c2b4c01058fa3915/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/2009-golf-digest-us-open-challenge-segment-6",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1390959237/golfdigest_2009-golf-digest-us-open-challenge-segment-6.jpg",
+  "id":"55a546c01bedf5e91fc0a52a",
+  "revision":1,
+  "createdAt":"2015-07-14T17:28:32.952Z",
+  "modifiedAt":"2015-07-15T15:43:49.610Z",
+  "revisionCreatedAt":"2015-07-15T15:43:49.610Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55a546c01bedf5e91fc0a52a/revisions/1"},
+    "rels":{"href":"/cnevideos/55a546c01bedf5e91fc0a52a/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55a546c01bedf5e91fc0a52a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55a546c01bedf5e91fc0a52a/revisions"},
+    "archive":{"href":"/cnevideos/55a546c01bedf5e91fc0a52a/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,36 @@
+{
+  "title":"Go Behind The Scenes Of Our Cats And Cat Eyes Beauty Shoot",
+  "description":"For our most recent beauty shoot featuring fall’s boldest cat eyes and the cutest (adoptable!) cats in the game, we honestly outdid ourselves in the fun category. Think about all the usual photo shoot excitement with the addition of tiny kittens parading around. Watch what went down on set, and if any of the cats seem to call (or meow) your name, head to Pet Rescue because they’re adoptable! Remember, #adoptdontshop. ",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com"],
+  "categories":["Beauty"],
+  "premiereDate":"2015-09-01T04:00:00+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/go-behind-the-scenes-of-our-cats-and-cat-eyes-beauty-shoot",
+  "embedUrl":"//player.cnevids.com/embed/55e5f7bc61646d1da100001c/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e5f7bc61646d1da100001c/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/go-behind-the-scenes-of-our-cats-and-cat-eyes-beauty-shoot",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441135396/teenvogue_go-behind-the-scenes-of-our-cats-and-cat-eyes-beauty-shoot.jpg",
+  "id":"55e5f7c2ceb4f8187e7a2e03",
+  "revision":4,
+  "createdAt":"2015-09-01T19:08:50.643Z",
+  "modifiedAt":"2015-09-08T14:36:17.234Z",
+  "revisionCreatedAt":"2015-09-08T14:36:17.234Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e5f7c2ceb4f8187e7a2e03/revisions/4"},
+    "rels":{"href":"/cnevideos/55e5f7c2ceb4f8187e7a2e03/revisions/4/rels"},
+    "relate":{
+      "href":"/cnevideos/55e5f7c2ceb4f8187e7a2e03/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e5f7c2ceb4f8187e7a2e03/revisions"},
+    "archive":{"href":"/cnevideos/55e5f7c2ceb4f8187e7a2e03/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

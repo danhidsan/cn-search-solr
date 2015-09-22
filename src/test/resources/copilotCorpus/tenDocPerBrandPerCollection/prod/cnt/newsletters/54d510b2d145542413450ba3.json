@@ -1,0 +1,79 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter 2/7",
+  "date":"2015-02-07T19:01:55+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"549843ddc2994bf927da95de",
+      "hed":"Top 15 Places to Go in 2015",
+      "dek":"Looking for a different kind of vacation in 2015? It’s the year to hike the Southern Alps of New Zealand, head to the Bahamas, or visit Cuba for the first time."},
+    {
+      "relId":"54872441fdb788cc413dcea6",
+      "hed":"The Most Photographed Places in the U.S.",
+      "dek":"The website [Sightsmap](http://www.sightsmap.com/) is a heat map for people who love travel and photography. It uses data from [Google Maps’ Panoramio photo uploader tool] (http://www.panoramio.com) to find out where travelers are taking the most pictures. Here’s what we learned about the most photographed spots in the United States—some of the findings may surprise you."},
+    {
+      "relId":"53da933d6dec627b149f41d1",
+      "hed":"10 Best Destination Spas of 2014",
+      "dek":"Condé Nast Traveler readers pick their favorite destination spas in the world."},
+    {
+      "relId":"54d3e908d14554241344f5eb",
+      "hed":"Can Big Data Solve Travel’s Most Vexing Problem?",
+      "dek":""},
+    {
+      "relId":"54d3f010d14554241344f732",
+      "hed":"American Airlines Introduces Retro-Themed Amenities Kits",
+      "dek":""},
+    {
+      "relId":"54d3e2d2f743358e0c1ddeab",
+      "hed":"What to Do When Bad Weather Affects Your Flight",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"549843ddc2994bf927da95de",
+      "hed":"Top 15 Places to Go"},
+    {
+      "relId":"54872441fdb788cc413dcea6",
+      "hed":"Photographed Places in the U.S."},
+    {
+      "relId":"53da933d6dec627b149f41d1",
+      "hed":"Destination Spas"}],
+  "id":"54d510b2d145542413450ba3",
+  "revision":1,
+  "createdAt":"2015-02-06T19:06:26.338Z",
+  "modifiedAt":"2015-02-06T19:06:28.820Z",
+  "revisionCreatedAt":"2015-02-06T19:06:28.820Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d510b2d145542413450ba3/revisions/1"},
+    "rels":{"href":"/newsletters/54d510b2d145542413450ba3/revisions/1/rels"},
+    "relate":{
+      "href":"/newsletters/54d510b2d145542413450ba3/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d510b2d145542413450ba3/revisions"},
+    "archive":{"href":"/newsletters/54d510b2d145542413450ba3/archive"},
+    "publish":{"href":"/newsletters/54d510b2d145542413450ba3/publish"},
+    "publishHistory":{"href":"/newsletters/54d510b2d145542413450ba3/publish/history"},
+    "next":{"href":"/newsletters/54d510b2d145542413450ba3/next"},
+    "previous":{"href":"/newsletters/54d510b2d145542413450ba3/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d510b2d145542413450ba3"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d510b2d145542413450ba3",
+      "revision":1,
+      "uri":"newsletters/2015-02-06/newsletter-2-7",
+      "pubDate":"2015-02-06T19:06:28.768Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekend",
+      "expired":false,
+      "createdAt":"2015-02-06T19:06:33.207Z"}}}

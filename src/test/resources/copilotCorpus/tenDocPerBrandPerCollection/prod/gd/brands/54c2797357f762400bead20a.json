@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Titleist",
+  "description":"",
+  "id":"54c2797357f762400bead20a",
+  "revision":1,
+  "createdAt":"2015-01-23T16:40:19.086Z",
+  "modifiedAt":"2015-01-23T18:51:25.854Z",
+  "revisionCreatedAt":"2015-01-23T18:51:25.854Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54c2797357f762400bead20a/revisions/1"},
+    "rels":{"href":"/brands/54c2797357f762400bead20a/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54c2797357f762400bead20a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54c2797357f762400bead20a/revisions"},
+    "archive":{"href":"/brands/54c2797357f762400bead20a/archive"},
+    "publish":{"href":"/brands/54c2797357f762400bead20a/publish"},
+    "publishHistory":{"href":"/brands/54c2797357f762400bead20a/publish/history"},
+    "next":{"href":"/brands/54c2797357f762400bead20a/next"},
+    "previous":{"href":"/brands/54c2797357f762400bead20a/previous"},
+    "more":{"href":"/brands/published/more?id=54c2797357f762400bead20a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54c2797357f762400bead20a",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-titleist",
+      "pubDate":"2015-01-23T18:51:36.005Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-01-23T18:51:44.145Z"}}}

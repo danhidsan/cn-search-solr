@@ -1,0 +1,4 @@
+{
+  "name_s":".model > .name",
+  "contributorName_ngram":".model > .name",
+  "email_s":".model > .email"}

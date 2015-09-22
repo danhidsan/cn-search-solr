@@ -1,0 +1,41 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "category":"tag",
+  "name":"What to Cook This Weekend",
+  "id":"55a9045898d8666b6dcda175",
+  "revision":0,
+  "createdAt":"2015-07-17T13:34:16.629Z",
+  "modifiedAt":"2015-07-17T13:34:16.629Z",
+  "revisionCreatedAt":"2015-07-17T13:34:16.629Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55a9045898d8666b6dcda175/revisions/0"},
+    "rels":{"href":"/taxonomies/55a9045898d8666b6dcda175/revisions/0/rels"},
+    "relate":{
+      "href":"/taxonomies/55a9045898d8666b6dcda175/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55a9045898d8666b6dcda175/revisions"},
+    "archive":{"href":"/taxonomies/55a9045898d8666b6dcda175/archive"},
+    "publish":{"href":"/taxonomies/55a9045898d8666b6dcda175/publish"},
+    "publishHistory":{"href":"/taxonomies/55a9045898d8666b6dcda175/publish/history"},
+    "next":{"href":"/taxonomies/55a9045898d8666b6dcda175/next"},
+    "previous":{"href":"/taxonomies/55a9045898d8666b6dcda175/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55a9045898d8666b6dcda175"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55a9045898d8666b6dcda175",
+      "revision":0,
+      "uri":"tag/what-to-cook-this-weekend",
+      "pubDate":"2015-07-17T13:34:21.909Z",
+      "revisionAuthor":"Matt Duckor",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-07-17T13:34:20.265Z"}}}

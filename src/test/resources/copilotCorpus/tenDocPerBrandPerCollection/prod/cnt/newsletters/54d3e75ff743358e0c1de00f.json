@@ -1,0 +1,79 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter 2/6 AM",
+  "date":"2015-02-06T21:57:47+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"53da3db0dcd5888e145a8ef2",
+      "hed":"The 15 Most Romantic Places in the World",
+      "dek":"It doesn't need to be Valentine's Day to get a little romantic. Sweep your sweetheart off his or her feet and head to one of these swoon-worthy destinations, full of history and superstition."},
+    {
+      "relId":"54d2459bc335146e49866fe6",
+      "hed":"Top Hawaiian Valentine’s Day Getaways",
+      "dek":"Candlelit dinners on Wailea Beach? Couples’ massage classes by the ocean? Romantic day trips to hidden Maui waterfalls? Don’t worry—we got you. Just in time for Valentine’s Day, we rounded up the most romantic Hawaiian getaways of them all."},
+    {
+      "relId":"54d0f7c79abb8d533165dcfe",
+      "hed":"Vintage Photos of Kissing Along Paris’ Seine River",
+      "dek":"Few activities scream romance quite like a leisurely walk along the Seine River in Paris—and these vintage photos prove that the famed waterway has been a draw for ages."},
+    {
+      "relId":"54b56a48fe7d961b378dcf21",
+      "hed":"The Ideal Romantic Weekend Getaway Is…",
+      "dek":""},
+    {
+      "relId":"54d13669c335146e49866775",
+      "hed":"10 British Hotels for Every Type of Honeymooner",
+      "dek":""},
+    {
+      "relId":"54cff2bbc335146e4986581e",
+      "hed":"The Best Way to Book a Last-Minute Valentine's Day Trip ",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"53da3db0dcd5888e145a8ef2",
+      "hed":"Romantic Places"},
+    {
+      "relId":"54d2459bc335146e49866fe6",
+      "hed":"Hawaiian Getaways"},
+    {
+      "relId":"54d0f7c79abb8d533165dcfe",
+      "hed":"Seine River Romance"}],
+  "id":"54d3e75ff743358e0c1de00f",
+  "revision":1,
+  "createdAt":"2015-02-05T21:57:51.663Z",
+  "modifiedAt":"2015-02-05T21:57:53.353Z",
+  "revisionCreatedAt":"2015-02-05T21:57:53.353Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d3e75ff743358e0c1de00f/revisions/1"},
+    "rels":{"href":"/newsletters/54d3e75ff743358e0c1de00f/revisions/1/rels"},
+    "relate":{
+      "href":"/newsletters/54d3e75ff743358e0c1de00f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d3e75ff743358e0c1de00f/revisions"},
+    "archive":{"href":"/newsletters/54d3e75ff743358e0c1de00f/archive"},
+    "publish":{"href":"/newsletters/54d3e75ff743358e0c1de00f/publish"},
+    "publishHistory":{"href":"/newsletters/54d3e75ff743358e0c1de00f/publish/history"},
+    "next":{"href":"/newsletters/54d3e75ff743358e0c1de00f/next"},
+    "previous":{"href":"/newsletters/54d3e75ff743358e0c1de00f/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d3e75ff743358e0c1de00f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d3e75ff743358e0c1de00f",
+      "revision":1,
+      "uri":"newsletters/2015-02-05/newsletter-2-6-am",
+      "pubDate":"2015-02-05T21:57:53.368Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekend",
+      "expired":false,
+      "createdAt":"2015-02-05T21:57:59.892Z"}}}

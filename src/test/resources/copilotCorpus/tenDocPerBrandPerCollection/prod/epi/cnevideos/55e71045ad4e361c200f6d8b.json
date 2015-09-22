@@ -1,0 +1,36 @@
+{
+  "title":"How to Blanch Kale",
+  "description":"Make Kale Pesto Toasts with this quick how-to tip! ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-02T15:05:36+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-blanch-kale",
+  "embedUrl":"//player.cnevids.com/embed/55e7104061646d7e0e000005/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e7104061646d7e0e000005/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-blanch-kale",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441206771/epicurious_how-to-blanch-kale.jpg",
+  "id":"55e71045ad4e361c200f6d8b",
+  "revision":3,
+  "createdAt":"2015-09-02T15:05:41.936Z",
+  "modifiedAt":"2015-09-02T15:12:54.275Z",
+  "revisionCreatedAt":"2015-09-02T15:12:54.275Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e71045ad4e361c200f6d8b/revisions/3"},
+    "rels":{"href":"/cnevideos/55e71045ad4e361c200f6d8b/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55e71045ad4e361c200f6d8b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e71045ad4e361c200f6d8b/revisions"},
+    "archive":{"href":"/cnevideos/55e71045ad4e361c200f6d8b/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

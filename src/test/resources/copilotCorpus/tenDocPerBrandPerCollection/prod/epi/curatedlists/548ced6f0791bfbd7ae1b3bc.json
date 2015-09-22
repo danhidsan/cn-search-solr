@@ -1,0 +1,65 @@
+{
+  "revisionAuthor":"David  Tamarkin",
+  "hed":"!!!! Skyscraper List",
+  "dek":"",
+  "link":"",
+  "linkText":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55e9cc06cf90d6663f72831a",
+      "hed":"Recipes for a Perfect Rosh Hashanah",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e849becf90d6663f727fd8",
+      "hed":"How to Cook Eggplant (or Chicken) Parm Without a Recipe",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55e604f1ad4e361c200f6cb7",
+      "hed":"How I Mastered Honey Cake for Rosh Hashanah",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55f1a08fad4e361c200f7ada",
+      "hed":"The Pantry Staple That Puts Dinner on the Table in 10 Minutes",
+      "dek":"",
+      "tags":[]}],
+  "id":"548ced6f0791bfbd7ae1b3bc",
+  "revision":129,
+  "createdAt":"2014-12-14T01:52:47.923Z",
+  "modifiedAt":"2015-09-11T18:16:11.004Z",
+  "revisionCreatedAt":"2015-09-11T18:16:11.004Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/revisions/129"},
+    "rels":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/revisions/129/rels"},
+    "relate":{
+      "href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/revisions"},
+    "archive":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/archive"},
+    "publish":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/publish"},
+    "publishHistory":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/publish/history"},
+    "next":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/next"},
+    "previous":{"href":"/curatedlists/548ced6f0791bfbd7ae1b3bc/previous"},
+    "more":{"href":"/curatedlists/published/more?id=548ced6f0791bfbd7ae1b3bc"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"548ced6f0791bfbd7ae1b3bc",
+      "revision":129,
+      "uri":"skyscraper-list",
+      "pubDate":"2015-09-11T18:00:00.000Z",
+      "revisionAuthor":"David  Tamarkin",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-11T18:16:20.102Z"}}}

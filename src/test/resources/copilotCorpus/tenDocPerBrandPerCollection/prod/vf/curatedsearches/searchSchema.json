@@ -1,0 +1,4 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "tags_ss":".model > .tags *"}

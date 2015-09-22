@@ -1,0 +1,37 @@
+{
+  "name":"Susan Hack",
+  "id":"53d9b9766dec627b149cc46a",
+  "revision":0,
+  "createdAt":"2014-07-31T03:35:18.097Z",
+  "modifiedAt":"2014-07-31T03:35:18.097Z",
+  "revisionCreatedAt":"2014-07-31T03:35:18.097Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/contributors/53d9b9766dec627b149cc46a/revisions/0"},
+    "rels":{"href":"/contributors/53d9b9766dec627b149cc46a/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/53d9b9766dec627b149cc46a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/53d9b9766dec627b149cc46a/revisions"},
+    "archive":{"href":"/contributors/53d9b9766dec627b149cc46a/archive"},
+    "publish":{"href":"/contributors/53d9b9766dec627b149cc46a/publish"},
+    "publishHistory":{"href":"/contributors/53d9b9766dec627b149cc46a/publish/history"},
+    "next":{"href":"/contributors/53d9b9766dec627b149cc46a/next"},
+    "previous":{"href":"/contributors/53d9b9766dec627b149cc46a/previous"},
+    "more":{"href":"/contributors/published/more?id=53d9b9766dec627b149cc46a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-07-31T03:35:18.374Z",
+      "entityId":"53d9b9766dec627b149cc46a",
+      "expired":false,
+      "pubDate":"2014-07-31T03:35:18.254Z",
+      "revision":0,
+      "revisionAuthor":"migratatron2000",
+      "searchable":true,
+      "uri":"contributors/susan-hack"}}}

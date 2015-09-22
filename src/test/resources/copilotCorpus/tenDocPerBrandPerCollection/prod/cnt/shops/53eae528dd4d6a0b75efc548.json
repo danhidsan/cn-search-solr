@@ -1,0 +1,53 @@
+{
+  "name":"Haigh's Chocolates",
+  "address":{
+    "street":"Shop 1, The Strand Arcade, 412-414 George Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2000"},
+  "phone":["61-2-9221-6999"],
+  "url":["www.haighschocolates.com.au"],
+  "description":"One of Australia's most well-loved chocolate brands, this family-owned company has been making chocolate since 1915. Its historic location in the Strand Arcade is reminiscent of a European chocolatier, complemented by the beautifully recreated jarrah cabinet work and pendant lighting.",
+  "editorsPick":false,
+  "tags":["Food & drink"],
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "subtype":"shop",
+  "id":"53eae528dd4d6a0b75efc548",
+  "revision":0,
+  "createdAt":"2014-08-13T04:10:16.960Z",
+  "modifiedAt":"2014-08-13T04:10:16.960Z",
+  "revisionCreatedAt":"2014-08-13T04:10:16.960Z",
+  "meta":{
+    "collectionName":"shops",
+    "modelName":"shop",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/shops/53eae528dd4d6a0b75efc548/revisions/0"},
+    "rels":{"href":"/shops/53eae528dd4d6a0b75efc548/revisions/0/rels"},
+    "relate":{
+      "href":"/shops/53eae528dd4d6a0b75efc548/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/shops/53eae528dd4d6a0b75efc548/revisions"},
+    "archive":{"href":"/shops/53eae528dd4d6a0b75efc548/archive"},
+    "publish":{"href":"/shops/53eae528dd4d6a0b75efc548/publish"},
+    "publishHistory":{"href":"/shops/53eae528dd4d6a0b75efc548/publish/history"},
+    "next":{"href":"/shops/53eae528dd4d6a0b75efc548/next"},
+    "previous":{"href":"/shops/53eae528dd4d6a0b75efc548/previous"},
+    "more":{"href":"/shops/published/more?id=53eae528dd4d6a0b75efc548"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:10:17.041Z",
+      "entityId":"53eae528dd4d6a0b75efc548",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"shops/sydney/haigh-s-chocolates"}}}

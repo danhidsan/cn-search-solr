@@ -1,0 +1,135 @@
+{
+  "revisionAuthor":"Charl Porter",
+  "hed":"Golf Instruction: Channel Links",
+  "dek":"",
+  "channel":"Golf Instruction",
+  "subChannel":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55bce77cb01eefe207f8e9d8",
+      "hed":"Swing Sequences",
+      "dek":""},
+    {
+      "relId":"55bce79ab01eefe207f8e9da",
+      "hed":"Driving Tips",
+      "dek":""},
+    {
+      "relId":"55bce7b8b01eefe207f8e9dc",
+      "hed":"Putting Tips",
+      "dek":""},
+    {
+      "relId":"55bce7d9b01eefe207f8e9de",
+      "hed":"Short Game",
+      "dek":""},
+    {
+      "relId":"55bce7f8b01eefe207f8e9e0",
+      "hed":"Approach Shots",
+      "dek":""},
+    {
+      "relId":"55bce813add713143b44aadf",
+      "hed":"Beginners",
+      "dek":""},
+    {
+      "relId":"55ca6f6b4759c60c08235896",
+      "hed":"Video How To's",
+      "dek":""}],
+  "id":"55bce752b01eefe207f8e9d6",
+  "revision":6,
+  "createdAt":"2015-08-01T15:35:46.397Z",
+  "modifiedAt":"2015-08-11T21:58:16.009Z",
+  "revisionCreatedAt":"2015-08-11T21:58:16.009Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/revisions/6"},
+    "rels":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/revisions/6/rels"},
+    "relate":{
+      "href":"/curatedlists/55bce752b01eefe207f8e9d6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/revisions"},
+    "archive":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/archive"},
+    "publish":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/publish"},
+    "publishHistory":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/publish/history"},
+    "next":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/next"},
+    "previous":{"href":"/curatedlists/55bce752b01eefe207f8e9d6/previous"},
+    "more":{"href":"/curatedlists/published/more?id=55bce752b01eefe207f8e9d6"}},
+  "_embedded":{
+    "photosTout":[{"fields":{
+          "revisionAuthor":"Charl Porter",
+          "title":"golf-digest-logo.png",
+          "id":"55bce3ceadd713143b44aace",
+          "revision":2,
+          "createdAt":"2015-08-01T15:20:46.263Z",
+          "modifiedAt":"2015-08-01T15:22:04.532Z",
+          "revisionCreatedAt":"2015-08-01T15:22:04.532Z",
+          "meta":{
+            "collectionName":"photos",
+            "modelName":"photo",
+            "publishable":false,
+            "image":true,
+            "archived":false},
+          "filename":"golf-digest-logo.png",
+          "restrictCropping":false,
+          "aspectRatios":{
+            "master":{
+              "width":594,
+              "height":111,
+              "format":"PNG",
+              "url":"https://us-east.manta.joyent.com/condenast/public/gd-services/production/2015/08/01/55bce3ceadd713143b44aad0_golf-digest-logo.png"},
+            "16:9":{
+              "modifications":{"crop":{
+                  "width":197,
+                  "height":111,
+                  "x":207,
+                  "y":0}},
+              "width":197,
+              "height":111,
+              "override":false},
+            "4:3":{
+              "modifications":{"crop":{
+                  "height":111,
+                  "width":148,
+                  "x":223,
+                  "y":0}},
+              "width":148,
+              "height":111,
+              "override":false},
+            "1:1":{
+              "modifications":{"crop":{
+                  "width":111,
+                  "height":111,
+                  "x":240,
+                  "y":0}},
+              "width":111,
+              "height":111,
+              "override":false},
+            "2:1":{
+              "modifications":{"crop":{
+                  "height":111,
+                  "width":222,
+                  "x":186,
+                  "y":0}},
+              "width":222,
+              "height":111,
+              "override":false}},
+          "caption":"",
+          "images":{"original":{}},
+          "tags":[],
+          "credit":""}}],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55bce752b01eefe207f8e9d6",
+      "revision":6,
+      "uri":"golf-instruction-channel-links",
+      "pubDate":"2015-08-01T16:16:52.407Z",
+      "revisionAuthor":"Charl Porter",
+      "searchable":false,
+      "template":"channel-links",
+      "expired":false,
+      "createdAt":"2015-08-11T21:58:18.341Z"}}}

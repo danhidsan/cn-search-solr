@@ -1,0 +1,91 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter 2/6 PM",
+  "date":"2015-02-06T18:36:18+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"5460f8c05e77bb8d7761899e",
+      "hed":"Where to Get the Best Views of the Eiffel Tower",
+      "dek":"Seeing the Eiffel Tower against the skyline is worth a trip to Paris—here are the best spots in the city to see the famous structure from afar."},
+    {
+      "relId":"54aea8e6cce9e40102459274",
+      "hed":"The Best U.S. Hotels for Business Travelers",
+      "dek":""},
+    {
+      "relId":"53e2f955c2d3f39d3610d189",
+      "hed":"50 Welcome Signs From All 50 States",
+      "dek":""},
+    {
+      "relId":"54d3ae99f743358e0c1dd8ea",
+      "hed":"Inside New Mexico's Nakashima Church",
+      "dek":""},
+    {
+      "relId":"541b006e0ac7976b508ccd6c",
+      "hed":"Korean Temples Where You Can Spend the Night",
+      "dek":""},
+    {
+      "relId":"54d26697d14554241344d8dd",
+      "hed":"The Best Restaurants in Portland, Maine",
+      "dek":""},
+    {
+      "relId":"53db22a06dec627b14a1c919",
+      "hed":"The Coolest Airport Lounge Perks in the World",
+      "dek":""},
+    {
+      "relId":"54d3a985f743358e0c1dd7bd",
+      "hed":"Peru’s First National Museum to Open on Archaeological Site",
+      "dek":""},
+    {
+      "relId":"54d3b9d4f743358e0c1dda94",
+      "hed":"7 Packing Tips From Expert Travelers",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"5460f8c05e77bb8d7761899e",
+      "hed":"Eiffel Tower Views"},
+    {
+      "relId":"54aea8e6cce9e40102459274",
+      "hed":"Best Business Hotels"},
+    {
+      "relId":"53e2f955c2d3f39d3610d189",
+      "hed":"50 Signs From 50 States"}],
+  "id":"54d509a8d145542413450a24",
+  "revision":0,
+  "createdAt":"2015-02-06T18:36:24.752Z",
+  "modifiedAt":"2015-02-06T18:36:24.752Z",
+  "revisionCreatedAt":"2015-02-06T18:36:24.752Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d509a8d145542413450a24/revisions/0"},
+    "rels":{"href":"/newsletters/54d509a8d145542413450a24/revisions/0/rels"},
+    "relate":{
+      "href":"/newsletters/54d509a8d145542413450a24/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d509a8d145542413450a24/revisions"},
+    "archive":{"href":"/newsletters/54d509a8d145542413450a24/archive"},
+    "publish":{"href":"/newsletters/54d509a8d145542413450a24/publish"},
+    "publishHistory":{"href":"/newsletters/54d509a8d145542413450a24/publish/history"},
+    "next":{"href":"/newsletters/54d509a8d145542413450a24/next"},
+    "previous":{"href":"/newsletters/54d509a8d145542413450a24/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d509a8d145542413450a24"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d509a8d145542413450a24",
+      "revision":0,
+      "uri":"newsletters/2015-02-06/newsletter-2-6-pm",
+      "pubDate":"2015-02-06T18:36:24.656Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekday",
+      "expired":false,
+      "createdAt":"2015-02-06T18:36:29.687Z"}}}

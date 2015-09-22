@@ -1,0 +1,36 @@
+{
+  "title":"AD Goes Inside the U.S. Embassy in Spain",
+  "description":"Tour the embassy residence renovated by Ambassador James Costos and his partner, interior designer Michael S. Smith ",
+  "tags":[
+    "architectural digest",
+    "architecturaldigest.com"],
+  "categories":["culture and travel"],
+  "premiereDate":"2015-09-08T10:00:00+00:00",
+  "canonicalUrl":"http://video.architecturaldigest.com/watch/ad-goes-inside-the-us-embassy-in-spain",
+  "embedUrl":"//player.cnevids.com/embed/55ea014161646d584d00000b/550a1c8061646d75b80c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55ea014161646d584d00000b/550a1c8061646d75b80c0000.js",
+  "sceneUrl":"https://thescene.com/watch/architecturaldigest/ad-goes-inside-the-us-embassy-in-spain",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441399679/architecturaldigest_ad-goes-inside-the-us-embassy-in-spain.jpg",
+  "id":"55ea0147302ba71f3018295b",
+  "revision":4,
+  "createdAt":"2015-09-04T20:38:31.107Z",
+  "modifiedAt":"2015-09-09T17:40:48.942Z",
+  "revisionCreatedAt":"2015-09-09T17:40:48.942Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55ea0147302ba71f3018295b/revisions/4"},
+    "rels":{"href":"/cnevideos/55ea0147302ba71f3018295b/revisions/4/rels"},
+    "relate":{
+      "href":"/cnevideos/55ea0147302ba71f3018295b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55ea0147302ba71f3018295b/revisions"},
+    "archive":{"href":"/cnevideos/55ea0147302ba71f3018295b/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

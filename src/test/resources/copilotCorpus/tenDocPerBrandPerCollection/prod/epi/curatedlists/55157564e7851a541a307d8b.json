@@ -1,0 +1,83 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"WineSpeak",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"551571856ec924e9311cc101",
+      "hed":"WineSpeak",
+      "dek":"Epi's wine column cuts through the jargon to give you the crucial info: What to buy, when to drink it—and what to say about it at dinner parties.",
+      "tags":[]},
+    {
+      "relId":"554b9a129a0aa705333ea010",
+      "hed":"Boxed Wine Is Better",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55156b706ec924e9311cc0cf",
+      "hed":"Wines that (Slightly) Sparkle",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"5503048dd7d414037b2af099",
+      "hed":"All About Volcanic Wine",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55311d74b329bd276d942600",
+      "hed":"Oregon Pinot Noir",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"5527ceb920ca5d650ed21912",
+      "hed":"Loire Valley Whites",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"550c5bda6e09e36e56c0fe1f",
+      "hed":"The New California Wine Movement",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"54d8e8adbaa3837e618b3cd0",
+      "hed":"Better Beaujolais",
+      "dek":"",
+      "tags":[]}],
+  "id":"55157564e7851a541a307d8b",
+  "revision":3,
+  "createdAt":"2015-03-27T15:21:08.340Z",
+  "modifiedAt":"2015-05-29T17:29:04.208Z",
+  "revisionCreatedAt":"2015-05-29T17:29:04.208Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/curatedlists/55157564e7851a541a307d8b/revisions/3"},
+    "rels":{"href":"/curatedlists/55157564e7851a541a307d8b/revisions/3/rels"},
+    "relate":{
+      "href":"/curatedlists/55157564e7851a541a307d8b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/55157564e7851a541a307d8b/revisions"},
+    "archive":{"href":"/curatedlists/55157564e7851a541a307d8b/archive"},
+    "publish":{"href":"/curatedlists/55157564e7851a541a307d8b/publish"},
+    "publishHistory":{"href":"/curatedlists/55157564e7851a541a307d8b/publish/history"},
+    "next":{"href":"/curatedlists/55157564e7851a541a307d8b/next"},
+    "previous":{"href":"/curatedlists/55157564e7851a541a307d8b/previous"},
+    "more":{"href":"/curatedlists/published/more?id=55157564e7851a541a307d8b"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55157564e7851a541a307d8b",
+      "revision":3,
+      "uri":"winespeak",
+      "pubDate":"2015-03-27T15:21:19.200Z",
+      "revisionAuthor":"Matt Duckor",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-05-29T17:29:06.705Z"}}}

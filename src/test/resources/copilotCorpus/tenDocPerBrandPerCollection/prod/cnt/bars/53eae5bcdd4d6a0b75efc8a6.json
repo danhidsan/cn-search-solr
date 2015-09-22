@@ -1,0 +1,53 @@
+{
+  "name":"Tio's",
+  "address":{
+    "street":"4-14 Foster Street",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2010"},
+  "url":["http://www.tioscerveceria.com"],
+  "description":"A dark but lively cave filled with quality tequila, Tio's has single-handedly improved the reputation of this much maligned Mexican spirit. Forget shots, here it's all about cleverly crafted tequila drinks ranging from sweet and sour to salty and spicy. Perfect for washing down the free bags of paprika popcorn travelling along the long wooden tables. There's even a taco stand nestled among the kitsch Mexican décor, near the glowing jukebox in the corner.",
+  "editorsPick":false,
+  "tags":["Dancing"],
+  "subtype":"bar",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Surry Hills"],
+  "id":"53eae5bcdd4d6a0b75efc8a6",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:44.443Z",
+  "modifiedAt":"2014-08-13T04:12:44.443Z",
+  "revisionCreatedAt":"2014-08-13T04:12:44.443Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/revisions/0"},
+    "rels":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bcdd4d6a0b75efc8a6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/revisions"},
+    "archive":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/archive"},
+    "publish":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/publish"},
+    "publishHistory":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/publish/history"},
+    "next":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/next"},
+    "previous":{"href":"/bars/53eae5bcdd4d6a0b75efc8a6/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bcdd4d6a0b75efc8a6"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:44.501Z",
+      "entityId":"53eae5bcdd4d6a0b75efc8a6",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/sydney/tio-s"}}}

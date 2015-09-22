@@ -1,0 +1,56 @@
+{
+  "name":"Royal Botanic Gardens",
+  "address":{
+    "street":"Mrs. Macquaries Road",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":""},
+  "phone":["61-2-9231-8111"],
+  "url":["www.rbgsyd.nsw.gov.au"],
+  "description":"Set on Sydney Harbor next to the Opera House, this 30-hectare oasis is at the heart of the city. Take in the view from the popular lookout Mrs. Macquaries Point, or relax in one of the garden's many grassed areas. There's a free one-and-a-half hour guided walk, or a day-long Aboriginal Heritage Tour where you can learn about traditional music, dance, and bush-food.",
+  "editorsPick":true,
+  "tags":[
+    "Family-friendly",
+    "Free"],
+  "subtype":"park-garden",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Circular Quay"],
+  "id":"53eae578976f8f2d44d589f7",
+  "revision":0,
+  "createdAt":"2014-08-13T04:11:36.473Z",
+  "modifiedAt":"2014-08-13T04:11:36.473Z",
+  "revisionCreatedAt":"2014-08-13T04:11:36.473Z",
+  "meta":{
+    "collectionName":"activities",
+    "modelName":"activity",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/activities/53eae578976f8f2d44d589f7/revisions/0"},
+    "rels":{"href":"/activities/53eae578976f8f2d44d589f7/revisions/0/rels"},
+    "relate":{
+      "href":"/activities/53eae578976f8f2d44d589f7/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/activities/53eae578976f8f2d44d589f7/revisions"},
+    "archive":{"href":"/activities/53eae578976f8f2d44d589f7/archive"},
+    "publish":{"href":"/activities/53eae578976f8f2d44d589f7/publish"},
+    "publishHistory":{"href":"/activities/53eae578976f8f2d44d589f7/publish/history"},
+    "next":{"href":"/activities/53eae578976f8f2d44d589f7/next"},
+    "previous":{"href":"/activities/53eae578976f8f2d44d589f7/previous"},
+    "more":{"href":"/activities/published/more?id=53eae578976f8f2d44d589f7"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:11:36.537Z",
+      "entityId":"53eae578976f8f2d44d589f7",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"activities/sydney/royal-botanic-gardens"}}}

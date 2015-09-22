@@ -1,0 +1,67 @@
+{
+  "hed":"Top Stories in Arts & Culture",
+  "dek":"",
+  "channel":"Arts & Culture",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"55e7004f4cb36d1b2f0e31fc",
+      "hed":"Banksy's Dismaland Isn't Actually the Unhappiest Place on Earth",
+      "dek":""},
+    {
+      "relId":"55d3a82437284fb1079cd872",
+      "hed":"The Best Things to Do in Beijing's 798 Arts District",
+      "dek":""},
+    {
+      "relId":"55d7431137284fb1079d29ea",
+      "hed":"Survey: What's Your Favorite Movie Set on a Train?",
+      "dek":""},
+    {
+      "relId":"55bb81ab6966466e2ce30011",
+      "hed":"The Mob Museum Welcomes FIFA to its Halls",
+      "dek":""},
+    {
+      "relId":"55ca335584775cba0a7ba6db",
+      "hed":"Must-See Record Stores Around the World",
+      "dek":""}],
+  "id":"53e7efdadddaa35c30f6cda9",
+  "revision":76,
+  "createdAt":"2014-08-10T22:19:06.869Z",
+  "modifiedAt":"2015-09-08T15:38:51.531Z",
+  "revisionCreatedAt":"2015-09-08T15:38:51.531Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Caitlin Morton",
+  "_links":{
+    "self":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/revisions/76"},
+    "rels":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/revisions/76/rels"},
+    "relate":{
+      "href":"/curatedlists/53e7efdadddaa35c30f6cda9/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/revisions"},
+    "archive":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/archive"},
+    "publish":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/publish"},
+    "publishHistory":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/publish/history"},
+    "next":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/next"},
+    "previous":{"href":"/curatedlists/53e7efdadddaa35c30f6cda9/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e7efdadddaa35c30f6cda9"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e7efdadddaa35c30f6cda9",
+      "revision":76,
+      "uri":"arts-and-culture/top-stories",
+      "pubDate":"2014-10-23T04:00:00.000Z",
+      "revisionAuthor":"Caitlin Morton",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-09-08T15:38:59.896Z"}}}

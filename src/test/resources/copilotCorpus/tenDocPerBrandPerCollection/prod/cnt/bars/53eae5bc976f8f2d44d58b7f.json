@@ -1,0 +1,56 @@
+{
+  "name":"Miss Peaches",
+  "address":{
+    "street":"201 Missenden Road",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2042"},
+  "phone":["61-2-9557-7280"],
+  "url":["www.misspeaches.com.au"],
+  "description":"Although Sydney is nowhere near the Deep South, the effervescent Miss Peaches comes with her very own soul food kitchen and a wide selection of American bottled beers. The New Orleans-themed cocktail list features homemade watermelon and grape soda. There's also spiced rum, ginger beer, and sarsaparilla, and an energetic soundtrack of soul and '60s R&B.",
+  "editorsPick":false,
+  "tags":[
+    "Great food",
+    "Dancing"],
+  "subtype":"bar",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney",
+    "Australia and the Pacific/Australia/New South Wales/Sydney/Newtown"],
+  "id":"53eae5bc976f8f2d44d58b7f",
+  "revision":0,
+  "createdAt":"2014-08-13T04:12:44.586Z",
+  "modifiedAt":"2014-08-13T04:12:44.586Z",
+  "revisionCreatedAt":"2014-08-13T04:12:44.586Z",
+  "meta":{
+    "collectionName":"bars",
+    "modelName":"bar",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/bars/53eae5bc976f8f2d44d58b7f/revisions/0"},
+    "rels":{"href":"/bars/53eae5bc976f8f2d44d58b7f/revisions/0/rels"},
+    "relate":{
+      "href":"/bars/53eae5bc976f8f2d44d58b7f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/bars/53eae5bc976f8f2d44d58b7f/revisions"},
+    "archive":{"href":"/bars/53eae5bc976f8f2d44d58b7f/archive"},
+    "publish":{"href":"/bars/53eae5bc976f8f2d44d58b7f/publish"},
+    "publishHistory":{"href":"/bars/53eae5bc976f8f2d44d58b7f/publish/history"},
+    "next":{"href":"/bars/53eae5bc976f8f2d44d58b7f/next"},
+    "previous":{"href":"/bars/53eae5bc976f8f2d44d58b7f/previous"},
+    "more":{"href":"/bars/published/more?id=53eae5bc976f8f2d44d58b7f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:12:44.664Z",
+      "entityId":"53eae5bc976f8f2d44d58b7f",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"bars/sydney/miss-peaches"}}}

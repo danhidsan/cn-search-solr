@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Jeans: Sub channel",
+  "tags":[],
+  "url":"/style-jeans",
+  "id":"55e9c172e4fe554f308832ee",
+  "revision":1,
+  "createdAt":"2015-09-04T16:06:10.518Z",
+  "modifiedAt":"2015-09-04T16:07:46.323Z",
+  "revisionCreatedAt":"2015-09-04T16:07:46.323Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "dek":"",
+  "_links":{
+    "self":{"href":"/externallinks/55e9c172e4fe554f308832ee/revisions/1"},
+    "rels":{"href":"/externallinks/55e9c172e4fe554f308832ee/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55e9c172e4fe554f308832ee/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55e9c172e4fe554f308832ee/revisions"},
+    "archive":{"href":"/externallinks/55e9c172e4fe554f308832ee/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,55 @@
+{
+  "name":"Biennale of Sydney",
+  "address":{
+    "street":"Cockatoo Island",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":""},
+  "phone":["61-2-8484-8700"],
+  "url":["www.biennaleofsydney.com.au"],
+  "description":"Held every two years, the Biennale of Sydney has been celebrating international contemporary art since 1973. The first biennale to be established in the Asia Pacific region, the festival has been calling Cockatoo Island—a former convict prison and shipyard in Sydney Harbour—home since 2008. The three-month exhibition is accessible by a free ferry from Circular Quay.",
+  "editorsPick":true,
+  "tags":[
+    "Free",
+    "Unusual"],
+  "subtype":"gallery",
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "id":"53eae579976f8f2d44d589f9",
+  "revision":0,
+  "createdAt":"2014-08-13T04:11:37.409Z",
+  "modifiedAt":"2014-08-13T04:11:37.409Z",
+  "revisionCreatedAt":"2014-08-13T04:11:37.409Z",
+  "meta":{
+    "collectionName":"activities",
+    "modelName":"activity",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/activities/53eae579976f8f2d44d589f9/revisions/0"},
+    "rels":{"href":"/activities/53eae579976f8f2d44d589f9/revisions/0/rels"},
+    "relate":{
+      "href":"/activities/53eae579976f8f2d44d589f9/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/activities/53eae579976f8f2d44d589f9/revisions"},
+    "archive":{"href":"/activities/53eae579976f8f2d44d589f9/archive"},
+    "publish":{"href":"/activities/53eae579976f8f2d44d589f9/publish"},
+    "publishHistory":{"href":"/activities/53eae579976f8f2d44d589f9/publish/history"},
+    "next":{"href":"/activities/53eae579976f8f2d44d589f9/next"},
+    "previous":{"href":"/activities/53eae579976f8f2d44d589f9/previous"},
+    "more":{"href":"/activities/published/more?id=53eae579976f8f2d44d589f9"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:11:37.483Z",
+      "entityId":"53eae579976f8f2d44d589f9",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"activities/sydney/biennale-of-sydney"}}}

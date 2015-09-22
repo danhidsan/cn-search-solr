@@ -1,0 +1,66 @@
+{
+  "revisionAuthor":"Alexandra Beggs",
+  "hed":"Culture: Top Stories",
+  "channel":"Culture",
+  "subChannel":"",
+  "dek":"",
+  "tags":[],
+  "items":[
+    {
+      "relId":"55f2f053200c34353591b046",
+      "hed":"Spring Awakening Returns to Broadway with a History-Making Cast",
+      "dek":"Plus, New York’s gallery scene kicks off their fall exhibits, and mouthwatering food portraits in New Orleans.",
+      "tags":[]},
+    {
+      "relId":"55f19f66fad0d98d444cf5bd",
+      "hed":"Do Millennials Really Deserve Their Bratty Reputation?",
+      "dek":"",
+      "tags":[]},
+    {
+      "relId":"55f08fe5fad0d98d444ceb27",
+      "hed":"You Have 38 Days to See This Lichtenstein Mural Before It’s Destroyed",
+      "dek":"Roy Lichtenstein’s Greene Street Mural will be recreated at Gagosian Gallery—but only for five weeks. ",
+      "tags":[]},
+    {
+      "relId":"55f042e8200c343535918c95",
+      "hed":"Visiting Rome’s Brooklyn—Hipsters, Tattoos, and Strollers in Bars",
+      "dek":"",
+      "tags":[]}],
+  "id":"54cf91199fd5c3a82624f36d",
+  "revision":149,
+  "createdAt":"2015-02-02T15:00:41.302Z",
+  "modifiedAt":"2015-09-11T16:29:30.371Z",
+  "revisionCreatedAt":"2015-09-11T16:29:30.371Z",
+  "meta":{
+    "collectionName":"lists",
+    "modelName":"list",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/lists/54cf91199fd5c3a82624f36d/revisions/149"},
+    "rels":{"href":"/lists/54cf91199fd5c3a82624f36d/revisions/149/rels"},
+    "relate":{
+      "href":"/lists/54cf91199fd5c3a82624f36d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/lists/54cf91199fd5c3a82624f36d/revisions"},
+    "archive":{"href":"/lists/54cf91199fd5c3a82624f36d/archive"},
+    "publish":{"href":"/lists/54cf91199fd5c3a82624f36d/publish"},
+    "publishHistory":{"href":"/lists/54cf91199fd5c3a82624f36d/publish/history"},
+    "next":{"href":"/lists/54cf91199fd5c3a82624f36d/next"},
+    "previous":{"href":"/lists/54cf91199fd5c3a82624f36d/previous"},
+    "more":{"href":"/lists/published/more?id=54cf91199fd5c3a82624f36d"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54cf91199fd5c3a82624f36d",
+      "revision":149,
+      "uri":"culture-top-stories-module",
+      "pubDate":"2015-02-02T15:00:41.164Z",
+      "revisionAuthor":"Alexandra Beggs",
+      "searchable":true,
+      "template":"b-photo-group-modules",
+      "expired":false,
+      "createdAt":"2015-09-11T16:29:34.008Z"}}}

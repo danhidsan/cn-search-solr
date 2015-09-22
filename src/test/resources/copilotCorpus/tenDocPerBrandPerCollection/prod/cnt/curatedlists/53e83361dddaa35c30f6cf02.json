@@ -1,0 +1,55 @@
+{
+  "hed":"Featured Venues in Arts & Culture",
+  "dek":"",
+  "channel":"Arts & Culture",
+  "subChannel":"",
+  "tags":[],
+  "geoTags":[],
+  "items":[
+    {
+      "relId":"546236f6562088c005cd4ac2",
+      "hed":"Dali Museum",
+      "dek":""},
+    {
+      "relId":"54622d9c80418bf94885ec6c",
+      "hed":"Must-See Exhibit: Picasso/Dalí at St. Petersburg's Dalí Museum",
+      "dek":""}],
+  "id":"53e83361dddaa35c30f6cf02",
+  "revision":11,
+  "createdAt":"2014-08-11T03:07:13.424Z",
+  "modifiedAt":"2015-05-12T03:32:08.019Z",
+  "revisionCreatedAt":"2015-05-12T03:32:08.019Z",
+  "meta":{
+    "collectionName":"curatedlists",
+    "modelName":"curatedlist",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "revisionAuthor":"Laura Redman",
+  "_links":{
+    "self":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/revisions/11"},
+    "rels":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/revisions/11/rels"},
+    "relate":{
+      "href":"/curatedlists/53e83361dddaa35c30f6cf02/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/revisions"},
+    "archive":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/archive"},
+    "publish":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/publish"},
+    "publishHistory":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/publish/history"},
+    "next":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/next"},
+    "previous":{"href":"/curatedlists/53e83361dddaa35c30f6cf02/previous"},
+    "more":{"href":"/curatedlists/published/more?id=53e83361dddaa35c30f6cf02"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"53e83361dddaa35c30f6cf02",
+      "revision":11,
+      "uri":"arts-and-culture/featured-venues",
+      "pubDate":"2014-09-30T04:00:00.000Z",
+      "revisionAuthor":"Laura Redman",
+      "searchable":true,
+      "template":"index",
+      "expired":false,
+      "createdAt":"2015-05-12T03:32:09.988Z"}}}

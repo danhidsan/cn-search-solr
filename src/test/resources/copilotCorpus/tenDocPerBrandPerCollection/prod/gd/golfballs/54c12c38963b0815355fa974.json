@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Jonathan Gill",
+  "name":"New Golf Ball",
+  "manufacturerDescription":"",
+  "hotlistAward":"1",
+  "hot":"",
+  "not":"",
+  "review":{
+    "performance":0,
+    "innovation":0,
+    "lookSoundFeel":0,
+    "demand":0},
+  "playerComments":[],
+  "id":"54c12c38963b0815355fa974",
+  "revision":0,
+  "createdAt":"2015-01-22T16:58:32.104Z",
+  "modifiedAt":"2015-01-22T16:58:32.104Z",
+  "revisionCreatedAt":"2015-01-22T16:58:32.104Z",
+  "meta":{
+    "collectionName":"golfballs",
+    "modelName":"golfball",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/golfballs/54c12c38963b0815355fa974/revisions/0"},
+    "rels":{"href":"/golfballs/54c12c38963b0815355fa974/revisions/0/rels"},
+    "relate":{
+      "href":"/golfballs/54c12c38963b0815355fa974/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/golfballs/54c12c38963b0815355fa974/revisions"},
+    "archive":{"href":"/golfballs/54c12c38963b0815355fa974/archive"},
+    "publish":{"href":"/golfballs/54c12c38963b0815355fa974/publish"},
+    "publishHistory":{"href":"/golfballs/54c12c38963b0815355fa974/publish/history"},
+    "next":{"href":"/golfballs/54c12c38963b0815355fa974/next"},
+    "previous":{"href":"/golfballs/54c12c38963b0815355fa974/previous"},
+    "more":{"href":"/golfballs/published/more?id=54c12c38963b0815355fa974"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

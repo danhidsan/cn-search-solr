@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"How to Make an Avocado Margarita ",
+  "dek":"",
+  "promoHed":"",
+  "link":"http://player.cnevids.com/embed/51ffeed757af82ba91000001/video/55b1050d61646d0f98000008",
+  "id":"55b107f0a188eea213e628cd",
+  "revision":0,
+  "createdAt":"2015-07-23T15:27:44.295Z",
+  "modifiedAt":"2015-07-23T15:27:44.295Z",
+  "revisionCreatedAt":"2015-07-23T15:27:44.295Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/55b107f0a188eea213e628cd/revisions/0"},
+    "rels":{"href":"/videos/55b107f0a188eea213e628cd/revisions/0/rels"},
+    "relate":{
+      "href":"/videos/55b107f0a188eea213e628cd/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/55b107f0a188eea213e628cd/revisions"},
+    "archive":{"href":"/videos/55b107f0a188eea213e628cd/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

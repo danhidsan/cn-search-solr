@@ -1,0 +1,53 @@
+{
+  "name":"Books Kinokuniya",
+  "address":{
+    "street":"Level 2, The Galeries, 500 George Street ",
+    "city":"Sydney",
+    "state":"New South Wales",
+    "country":"Australia",
+    "postalCode":"2000"},
+  "phone":["61-2-9262-7996"],
+  "url":["www.kinokuniya.com.au"],
+  "description":"Boasting more than 300,000 titles, Kinokuniya is a literary haven that comes with its own art gallery. Its print collection is reportedly the single largest range in Sydney, and it covers all the usual sections, as well as the unusual. Thanks to its Japanese roots it also has an excellent array of manga, graphic novels, collectables, and DVDs.",
+  "editorsPick":true,
+  "tags":["Eclectic"],
+  "geoTags":[
+    "Australia and the Pacific",
+    "Australia and the Pacific/Australia",
+    "Australia and the Pacific/Australia/New South Wales",
+    "Australia and the Pacific/Australia/New South Wales/Sydney"],
+  "subtype":"shop",
+  "id":"53eae528976f8f2d44d5886d",
+  "revision":0,
+  "createdAt":"2014-08-13T04:10:16.683Z",
+  "modifiedAt":"2014-08-13T04:10:16.683Z",
+  "revisionCreatedAt":"2014-08-13T04:10:16.683Z",
+  "meta":{
+    "collectionName":"shops",
+    "modelName":"shop",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/shops/53eae528976f8f2d44d5886d/revisions/0"},
+    "rels":{"href":"/shops/53eae528976f8f2d44d5886d/revisions/0/rels"},
+    "relate":{
+      "href":"/shops/53eae528976f8f2d44d5886d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/shops/53eae528976f8f2d44d5886d/revisions"},
+    "archive":{"href":"/shops/53eae528976f8f2d44d5886d/archive"},
+    "publish":{"href":"/shops/53eae528976f8f2d44d5886d/publish"},
+    "publishHistory":{"href":"/shops/53eae528976f8f2d44d5886d/publish/history"},
+    "next":{"href":"/shops/53eae528976f8f2d44d5886d/next"},
+    "previous":{"href":"/shops/53eae528976f8f2d44d5886d/previous"},
+    "more":{"href":"/shops/published/more?id=53eae528976f8f2d44d5886d"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-08-13T04:10:16.755Z",
+      "entityId":"53eae528976f8f2d44d5886d",
+      "expired":false,
+      "pubDate":"2014-08-01T04:00:00.000Z",
+      "revision":0,
+      "searchable":true,
+      "uri":"shops/sydney/books-kinokuniya"}}}

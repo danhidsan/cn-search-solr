@@ -1,0 +1,38 @@
+{
+  "title":"Inside the 2011 Oscars® Greenroom",
+  "description":"Michael S. Smith describes his design for the Architectural Digest Greenroom at the 2011 Academy Awards® in an exclusive video tour",
+  "tags":[
+    "architectural digest",
+    "architecturaldigest.com"],
+  "categories":[
+    "celebrities",
+    "design"],
+  "premiereDate":"2013-06-01T04:00:00+00:00",
+  "canonicalUrl":"http://video.architecturaldigest.com/watch/inside-the-2011-oscars-greenroom",
+  "embedUrl":"//player.cnevids.com/embed/554a747861646d3d48010000/550a1c8061646d75b80c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/554a747861646d3d48010000/550a1c8061646d75b80c0000.js",
+  "sceneUrl":"https://thescene.com/watch/architecturaldigest/inside-the-2011-oscars-greenroom",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441742044/architecturaldigest_inside-the-2011-oscars-greenroom.jpg",
+  "id":"55e8787c302ba71f30182421",
+  "revision":1,
+  "createdAt":"2015-09-03T16:42:36.131Z",
+  "modifiedAt":"2015-09-08T19:54:07.065Z",
+  "revisionCreatedAt":"2015-09-08T19:54:07.065Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e8787c302ba71f30182421/revisions/1"},
+    "rels":{"href":"/cnevideos/55e8787c302ba71f30182421/revisions/1/rels"},
+    "relate":{
+      "href":"/cnevideos/55e8787c302ba71f30182421/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e8787c302ba71f30182421/revisions"},
+    "archive":{"href":"/cnevideos/55e8787c302ba71f30182421/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

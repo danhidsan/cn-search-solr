@@ -1,0 +1,42 @@
+{
+  "revisionAuthor":"Sade Strehlke",
+  "name":"Sarah Conley",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55ef2204ceb4f8187e7a760a",
+  "revision":0,
+  "createdAt":"2015-09-08T17:59:32.104Z",
+  "modifiedAt":"2015-09-08T17:59:32.104Z",
+  "revisionCreatedAt":"2015-09-08T17:59:32.104Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55ef2204ceb4f8187e7a760a/revisions/0"},
+    "rels":{"href":"/contributors/55ef2204ceb4f8187e7a760a/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/55ef2204ceb4f8187e7a760a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55ef2204ceb4f8187e7a760a/revisions"},
+    "archive":{"href":"/contributors/55ef2204ceb4f8187e7a760a/archive"},
+    "publish":{"href":"/contributors/55ef2204ceb4f8187e7a760a/publish"},
+    "publishHistory":{"href":"/contributors/55ef2204ceb4f8187e7a760a/publish/history"},
+    "next":{"href":"/contributors/55ef2204ceb4f8187e7a760a/next"},
+    "previous":{"href":"/contributors/55ef2204ceb4f8187e7a760a/previous"},
+    "more":{"href":"/contributors/published/more?id=55ef2204ceb4f8187e7a760a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55ef2204ceb4f8187e7a760a",
+      "revision":0,
+      "uri":"contributor/sarah-conley",
+      "pubDate":"2015-09-08T17:59:32.596Z",
+      "revisionAuthor":"Sade Strehlke",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-08T17:59:40.494Z"}}}

@@ -1,0 +1,25 @@
+{
+  "revisionAuthor":"Eric Gillin",
+  "hed":"Quick and Easy Recipes",
+  "url":"http://www.epicurious.com/special-consideration/quick-and-easy",
+  "id":"54ada54319925f464b3b9997",
+  "revision":1,
+  "createdAt":"2015-01-07T21:29:39.533Z",
+  "modifiedAt":"2015-01-31T13:06:34.615Z",
+  "revisionCreatedAt":"2015-01-31T13:06:34.615Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false},
+  "_links":{
+    "self":{"href":"/externals/54ada54319925f464b3b9997/revisions/1"},
+    "rels":{"href":"/externals/54ada54319925f464b3b9997/revisions/1/rels"},
+    "relate":{
+      "href":"/externals/54ada54319925f464b3b9997/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/54ada54319925f464b3b9997/revisions"},
+    "archive":{"href":"/externals/54ada54319925f464b3b9997/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

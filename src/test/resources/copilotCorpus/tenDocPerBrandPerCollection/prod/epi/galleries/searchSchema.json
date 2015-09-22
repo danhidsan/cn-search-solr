@@ -1,0 +1,7 @@
+{
+  "hed_en":".model > .hed",
+  "dek_en":".model > .dek",
+  "subChannel_s":".model > .subChannel",
+  "contributor_ss":".rels > .contributorsAuthor .name",
+  "primaryChannel_s":".model > .primaryChannel",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

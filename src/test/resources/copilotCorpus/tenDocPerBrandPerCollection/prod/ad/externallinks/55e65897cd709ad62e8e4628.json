@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"David Bonavita",
+  "hed":"AD Design File",
+  "dek":"",
+  "tags":["_logo"],
+  "url":"/images/ad-design-file-logo.svg",
+  "id":"55e65897cd709ad62e8e4628",
+  "revision":1,
+  "createdAt":"2015-09-02T02:01:59.352Z",
+  "modifiedAt":"2015-09-02T02:03:57.946Z",
+  "revisionCreatedAt":"2015-09-02T02:03:57.946Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55e65897cd709ad62e8e4628/revisions/1"},
+    "rels":{"href":"/externallinks/55e65897cd709ad62e8e4628/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55e65897cd709ad62e8e4628/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55e65897cd709ad62e8e4628/revisions"},
+    "archive":{"href":"/externallinks/55e65897cd709ad62e8e4628/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

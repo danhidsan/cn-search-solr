@@ -1,0 +1,91 @@
+{
+  "revisionAuthor":"Thomas Briechle",
+  "title":"Newsletter 2/5/15",
+  "date":"2015-02-05T18:19:21+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"Welcome to the new Condé Nast Traveler daily newsletter! You'll find the same great content, travel tips, and inspirational photos as before, but with a brand-new look. Let us know what you think: Tweet at us @cntraveler, or email us at newsletter@cntraveler.com.",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54c103b91e2097c41cec5e32",
+      "hed":"Top 30 Resorts in Florida",
+      "dek":"Golf, beaches, getaway islands—Florida has it all. Here are the 30 resorts named the best by Condé Nast Traveler's readers."},
+    {
+      "relId":"54d0040fc335146e49865bc0",
+      "hed":"Best Free Things to Do in Milan",
+      "dek":""},
+    {
+      "relId":"54cfabe89abb8d533165ca98",
+      "hed":"8 Heart-Shaped Islands Around the World",
+      "dek":""},
+    {
+      "relId":"54cfa3409abb8d533165c986",
+      "hed":"10 Hotels for Chocolate Lovers",
+      "dek":""},
+    {
+      "relId":"54d24bccc335146e49867012",
+      "hed":"Tips for Taking Amazing Photos on a Cruise",
+      "dek":""},
+    {
+      "relId":"54c7ef77462f957603395926",
+      "hed":"Inside New York City’s Most Storied Hotel",
+      "dek":""},
+    {
+      "relId":"5474a93cf3cd9c7947d66255",
+      "hed":"How to Get Through an Airport in Record Time",
+      "dek":""},
+    {
+      "relId":"54cfe7f19abb8d533165d486",
+      "hed":"5 Romantic Travel Ideas Worth Stealing ",
+      "dek":""},
+    {
+      "relId":"54d29fd5f743358e0c1dc9a0",
+      "hed":"Hotels May Be Tracking You WIth a Towel Microchip",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54c103b91e2097c41cec5e32",
+      "hed":"Top 30 Resorts in Florida"},
+    {
+      "relId":"54d0040fc335146e49865bc0",
+      "hed":"Free Things in Milan"},
+    {
+      "relId":"54cfabe89abb8d533165ca98",
+      "hed":"Heart-Shaped-Island"}],
+  "id":"54d3b6c1d14554241344f003",
+  "revision":3,
+  "createdAt":"2015-02-05T18:30:25.259Z",
+  "modifiedAt":"2015-02-05T18:57:34.625Z",
+  "revisionCreatedAt":"2015-02-05T18:57:34.625Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d3b6c1d14554241344f003/revisions/3"},
+    "rels":{"href":"/newsletters/54d3b6c1d14554241344f003/revisions/3/rels"},
+    "relate":{
+      "href":"/newsletters/54d3b6c1d14554241344f003/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d3b6c1d14554241344f003/revisions"},
+    "archive":{"href":"/newsletters/54d3b6c1d14554241344f003/archive"},
+    "publish":{"href":"/newsletters/54d3b6c1d14554241344f003/publish"},
+    "publishHistory":{"href":"/newsletters/54d3b6c1d14554241344f003/publish/history"},
+    "next":{"href":"/newsletters/54d3b6c1d14554241344f003/next"},
+    "previous":{"href":"/newsletters/54d3b6c1d14554241344f003/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d3b6c1d14554241344f003"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d3b6c1d14554241344f003",
+      "revision":2,
+      "uri":"newsletters/2015-02-05/newsletter-2-5-15",
+      "pubDate":"2015-02-05T18:32:36.500Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekday",
+      "expired":false,
+      "createdAt":"2015-02-05T18:32:40.554Z"}}}

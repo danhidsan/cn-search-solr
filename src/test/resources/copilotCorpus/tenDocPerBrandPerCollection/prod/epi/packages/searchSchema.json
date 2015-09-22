@@ -1,0 +1,3 @@
+{
+  "primaryChannel_s":".model > .primaryChannel",
+  "tagName_en":".rels :has(.meta .modelName:val(\"taxonomy\") ) > .name"}

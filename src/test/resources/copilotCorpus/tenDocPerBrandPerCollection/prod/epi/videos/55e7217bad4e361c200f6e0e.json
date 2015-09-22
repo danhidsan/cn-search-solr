@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"How to Make Paella With a Sheet Pan",
+  "dek":"",
+  "promoHed":"",
+  "link":"http://www.player.cnevids.com/embed/51ffeed757af82ba91000001/video/55e7033d61646d450f000002",
+  "id":"55e7217bad4e361c200f6e0e",
+  "revision":0,
+  "createdAt":"2015-09-02T16:19:07.211Z",
+  "modifiedAt":"2015-09-02T16:19:07.211Z",
+  "revisionCreatedAt":"2015-09-02T16:19:07.211Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/55e7217bad4e361c200f6e0e/revisions/0"},
+    "rels":{"href":"/videos/55e7217bad4e361c200f6e0e/revisions/0/rels"},
+    "relate":{
+      "href":"/videos/55e7217bad4e361c200f6e0e/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/55e7217bad4e361c200f6e0e/revisions"},
+    "archive":{"href":"/videos/55e7217bad4e361c200f6e0e/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

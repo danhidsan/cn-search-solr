@@ -1,0 +1,39 @@
+{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Bridgestone",
+  "description":"",
+  "id":"54c278e957f762400bead1fe",
+  "revision":1,
+  "createdAt":"2015-01-23T16:38:01.723Z",
+  "modifiedAt":"2015-01-23T16:54:29.173Z",
+  "revisionCreatedAt":"2015-01-23T16:54:29.173Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54c278e957f762400bead1fe/revisions/1"},
+    "rels":{"href":"/brands/54c278e957f762400bead1fe/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54c278e957f762400bead1fe/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54c278e957f762400bead1fe/revisions"},
+    "archive":{"href":"/brands/54c278e957f762400bead1fe/archive"},
+    "publish":{"href":"/brands/54c278e957f762400bead1fe/publish"},
+    "publishHistory":{"href":"/brands/54c278e957f762400bead1fe/publish/history"},
+    "next":{"href":"/brands/54c278e957f762400bead1fe/next"},
+    "previous":{"href":"/brands/54c278e957f762400bead1fe/previous"},
+    "more":{"href":"/brands/published/more?id=54c278e957f762400bead1fe"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54c278e957f762400bead1fe",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-bridgestone",
+      "pubDate":"2015-01-23T16:53:51.804Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":false,
+      "expired":false,
+      "createdAt":"2015-01-23T16:55:42.900Z"}}}

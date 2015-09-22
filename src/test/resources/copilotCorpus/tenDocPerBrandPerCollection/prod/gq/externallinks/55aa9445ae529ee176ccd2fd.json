@@ -1,0 +1,30 @@
+{
+  "revisionAuthor":"Adriano Contreras",
+  "hed":"F1 VIDEO INTEGRALE SCHIANTO BIANCHI INCIDENTE SUZUKA GIAPPONE ",
+  "dek":"",
+  "tags":[],
+  "url":"https://www.youtube.com/embed/G3gYQNBGTHM",
+  "id":"55aa9445ae529ee176ccd2fd",
+  "revision":1,
+  "createdAt":"2015-07-18T18:00:37.323Z",
+  "modifiedAt":"2015-07-18T18:05:02.713Z",
+  "revisionCreatedAt":"2015-07-18T18:05:02.713Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "source":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/G3gYQNBGTHM\" frameborder=\"0\" allowfullscreen></iframe>",
+  "_links":{
+    "self":{"href":"/externallinks/55aa9445ae529ee176ccd2fd/revisions/1"},
+    "rels":{"href":"/externallinks/55aa9445ae529ee176ccd2fd/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55aa9445ae529ee176ccd2fd/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55aa9445ae529ee176ccd2fd/revisions"},
+    "archive":{"href":"/externallinks/55aa9445ae529ee176ccd2fd/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

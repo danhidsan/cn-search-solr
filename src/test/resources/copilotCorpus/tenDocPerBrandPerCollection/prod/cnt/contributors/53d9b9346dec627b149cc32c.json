@@ -1,0 +1,37 @@
+{
+  "name":"Stephanie Orma",
+  "id":"53d9b9346dec627b149cc32c",
+  "revision":0,
+  "createdAt":"2014-07-31T03:34:12.082Z",
+  "modifiedAt":"2014-07-31T03:34:12.082Z",
+  "revisionCreatedAt":"2014-07-31T03:34:12.082Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/contributors/53d9b9346dec627b149cc32c/revisions/0"},
+    "rels":{"href":"/contributors/53d9b9346dec627b149cc32c/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/53d9b9346dec627b149cc32c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/53d9b9346dec627b149cc32c/revisions"},
+    "archive":{"href":"/contributors/53d9b9346dec627b149cc32c/archive"},
+    "publish":{"href":"/contributors/53d9b9346dec627b149cc32c/publish"},
+    "publishHistory":{"href":"/contributors/53d9b9346dec627b149cc32c/publish/history"},
+    "next":{"href":"/contributors/53d9b9346dec627b149cc32c/next"},
+    "previous":{"href":"/contributors/53d9b9346dec627b149cc32c/previous"},
+    "more":{"href":"/contributors/published/more?id=53d9b9346dec627b149cc32c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "createdAt":"2014-07-31T03:34:12.406Z",
+      "entityId":"53d9b9346dec627b149cc32c",
+      "expired":false,
+      "pubDate":"2014-07-31T03:34:12.179Z",
+      "revision":0,
+      "revisionAuthor":"migratatron2000",
+      "searchable":true,
+      "uri":"contributors/stephanie-orma"}}}

@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Maggie Lange",
+  "hed":"Kwamie Liv and Angel Haze",
+  "dek":"",
+  "tags":[],
+  "url":"https://soundcloud.com/kwamieliv/pleasure-this-pain-feat-angel-haze",
+  "id":"55d38a1124ace34a31314432",
+  "revision":0,
+  "createdAt":"2015-08-18T19:40:01.350Z",
+  "modifiedAt":"2015-08-18T19:40:01.350Z",
+  "revisionCreatedAt":"2015-08-18T19:40:01.350Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55d38a1124ace34a31314432/revisions/0"},
+    "rels":{"href":"/externallinks/55d38a1124ace34a31314432/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55d38a1124ace34a31314432/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55d38a1124ace34a31314432/revisions"},
+    "archive":{"href":"/externallinks/55d38a1124ace34a31314432/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

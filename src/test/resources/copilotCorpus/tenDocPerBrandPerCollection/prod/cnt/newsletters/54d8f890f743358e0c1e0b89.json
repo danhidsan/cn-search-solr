@@ -1,0 +1,91 @@
+{
+  "revisionAuthor":"Linh Tuyen Nguyen",
+  "title":"NL 2/9/15",
+  "date":"2015-02-10T18:12:29+00:00",
+  "newsletterType":"Daily Traveler",
+  "dek":"",
+  "specialAdCode":"",
+  "campaignId":"",
+  "featureContentItems":[
+    {
+      "relId":"54383e808d4e445135695039",
+      "hed":"This Is What Pizza Looks Like Around the World",
+      "dek":"Happy National Pizza Day! Celebrate by taking a look at how pies are cooked up in the U.S. and beyond."},
+    {
+      "relId":"54d4ebdfd1455424134503f0",
+      "hed":"5 Great European Hotels Under $200",
+      "dek":""},
+    {
+      "relId":"54d3dacef743358e0c1dddb6",
+      "hed":"How to Celebrate Mardi Gras Like a Local ",
+      "dek":""},
+    {
+      "relId":"543704f48e3a4481661cba5d",
+      "hed":"The Italian Beach Only Locals Know About",
+      "dek":""},
+    {
+      "relId":"543ed04cbac1e25055e2a622",
+      "hed":"7 Dishes You Must Try in Hong Kong",
+      "dek":""},
+    {
+      "relId":"53fb335d4638c84b59b3a473",
+      "hed":"An Insider's Guide to Shopping in Dubai",
+      "dek":""},
+    {
+      "relId":"543693d28d4e44513569502f",
+      "hed":"How to Stay Comfortable on Red-Eye Flights",
+      "dek":""},
+    {
+      "relId":"54d3f7b1f743358e0c1de523",
+      "hed":"Why the Highest Peak in Kansas Isn’t Really a Peak",
+      "dek":""},
+    {
+      "relId":"53e2ec17c2d3f39d36109e66",
+      "hed":"The Worst Airports for International Connections",
+      "dek":""}],
+  "shortLinksItems":[
+    {
+      "relId":"54383e808d4e445135695039",
+      "hed":"International Pizza"},
+    {
+      "relId":"54d4ebdfd1455424134503f0",
+      "hed":"$200 European Hotels"},
+    {
+      "relId":"54d3dacef743358e0c1dddb6",
+      "hed":"Celebrate Mardi Gras"}],
+  "id":"54d8f890f743358e0c1e0b89",
+  "revision":3,
+  "createdAt":"2015-02-09T18:12:32.658Z",
+  "modifiedAt":"2015-02-10T17:02:35.462Z",
+  "revisionCreatedAt":"2015-02-10T17:02:35.462Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/newsletters/54d8f890f743358e0c1e0b89/revisions/3"},
+    "rels":{"href":"/newsletters/54d8f890f743358e0c1e0b89/revisions/3/rels"},
+    "relate":{
+      "href":"/newsletters/54d8f890f743358e0c1e0b89/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/54d8f890f743358e0c1e0b89/revisions"},
+    "archive":{"href":"/newsletters/54d8f890f743358e0c1e0b89/archive"},
+    "publish":{"href":"/newsletters/54d8f890f743358e0c1e0b89/publish"},
+    "publishHistory":{"href":"/newsletters/54d8f890f743358e0c1e0b89/publish/history"},
+    "next":{"href":"/newsletters/54d8f890f743358e0c1e0b89/next"},
+    "previous":{"href":"/newsletters/54d8f890f743358e0c1e0b89/previous"},
+    "more":{"href":"/newsletters/published/more?id=54d8f890f743358e0c1e0b89"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d8f890f743358e0c1e0b89",
+      "revision":1,
+      "uri":"newsletters/2015-02-09/nl-2-9-15",
+      "pubDate":"2015-02-09T18:12:43.504Z",
+      "revisionAuthor":"Thomas Briechle",
+      "searchable":true,
+      "template":"daily-traveler-weekday",
+      "expired":false,
+      "createdAt":"2015-02-09T18:12:41.533Z"}}}

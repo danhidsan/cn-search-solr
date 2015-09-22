@@ -1,0 +1,30 @@
+{
+  "revisionAuthor":"Lisa Gutierrez",
+  "hed":"Zac Efron selfie",
+  "dek":"",
+  "tags":[],
+  "url":"https://instagram.com/p/2P0ir-G82k",
+  "source":"",
+  "id":"55cb66e009459990134a681d",
+  "revision":0,
+  "createdAt":"2015-08-12T15:31:44.190Z",
+  "modifiedAt":"2015-08-12T15:31:44.190Z",
+  "revisionCreatedAt":"2015-08-12T15:31:44.190Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55cb66e009459990134a681d/revisions/0"},
+    "rels":{"href":"/externallinks/55cb66e009459990134a681d/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55cb66e009459990134a681d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55cb66e009459990134a681d/revisions"},
+    "archive":{"href":"/externallinks/55cb66e009459990134a681d/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

@@ -1,0 +1,41 @@
+{
+  "revisionAuthor":"Norman Villatoro",
+  "category":"location",
+  "name":"Louisville",
+  "id":"55e5e21cad4e361c200f6c41",
+  "revision":0,
+  "createdAt":"2015-09-01T17:36:28.485Z",
+  "modifiedAt":"2015-09-01T17:36:28.485Z",
+  "revisionCreatedAt":"2015-09-01T17:36:28.485Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/revisions/0"},
+    "rels":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/revisions/0/rels"},
+    "relate":{
+      "href":"/taxonomies/55e5e21cad4e361c200f6c41/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/revisions"},
+    "archive":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/archive"},
+    "publish":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/publish"},
+    "publishHistory":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/publish/history"},
+    "next":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/next"},
+    "previous":{"href":"/taxonomies/55e5e21cad4e361c200f6c41/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55e5e21cad4e361c200f6c41"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55e5e21cad4e361c200f6c41",
+      "revision":0,
+      "uri":"location/louisville",
+      "pubDate":"2015-09-01T17:36:30.773Z",
+      "revisionAuthor":"Norman Villatoro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-01T17:36:41.113Z"}}}

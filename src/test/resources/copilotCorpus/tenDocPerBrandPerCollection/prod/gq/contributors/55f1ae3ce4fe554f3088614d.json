@@ -1,0 +1,43 @@
+{
+  "revisionAuthor":"Freddie Campion",
+  "name":"Kyle Hilton",
+  "email":"",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55f1ae3ce4fe554f3088614d",
+  "revision":1,
+  "createdAt":"2015-09-10T16:22:20.844Z",
+  "modifiedAt":"2015-09-10T16:22:22.919Z",
+  "revisionCreatedAt":"2015-09-10T16:22:22.919Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f1ae3ce4fe554f3088614d/revisions/1"},
+    "rels":{"href":"/contributors/55f1ae3ce4fe554f3088614d/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55f1ae3ce4fe554f3088614d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f1ae3ce4fe554f3088614d/revisions"},
+    "archive":{"href":"/contributors/55f1ae3ce4fe554f3088614d/archive"},
+    "publish":{"href":"/contributors/55f1ae3ce4fe554f3088614d/publish"},
+    "publishHistory":{"href":"/contributors/55f1ae3ce4fe554f3088614d/publish/history"},
+    "next":{"href":"/contributors/55f1ae3ce4fe554f3088614d/next"},
+    "previous":{"href":"/contributors/55f1ae3ce4fe554f3088614d/previous"},
+    "more":{"href":"/contributors/published/more?id=55f1ae3ce4fe554f3088614d"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f1ae3ce4fe554f3088614d",
+      "revision":1,
+      "uri":"contributor/kyle-hilton",
+      "pubDate":"2015-09-10T16:22:23.228Z",
+      "revisionAuthor":"Freddie Campion",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-10T16:22:28.747Z"}}}

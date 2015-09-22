@@ -1,0 +1,36 @@
+{
+  "title":"How to Prep Squash",
+  "description":"Make Roasted Maple Delicata on Quinoa Pilaf with this quick how-to tip! ",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-02T16:45:18+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-prep-squash-2015-09-02",
+  "embedUrl":"//player.cnevids.com/embed/55e7279e61646d451e00000c/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e7279e61646d451e00000c/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-prep-squash-2015-09-02",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441212638/epicurious_how-to-prep-squash-2015-09-02.jpg",
+  "id":"55e727a3ad4e361c200f6e1a",
+  "revision":3,
+  "createdAt":"2015-09-02T16:45:23.853Z",
+  "modifiedAt":"2015-09-02T16:50:40.322Z",
+  "revisionCreatedAt":"2015-09-02T16:50:40.322Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e727a3ad4e361c200f6e1a/revisions/3"},
+    "rels":{"href":"/cnevideos/55e727a3ad4e361c200f6e1a/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55e727a3ad4e361c200f6e1a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e727a3ad4e361c200f6e1a/revisions"},
+    "archive":{"href":"/cnevideos/55e727a3ad4e361c200f6e1a/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

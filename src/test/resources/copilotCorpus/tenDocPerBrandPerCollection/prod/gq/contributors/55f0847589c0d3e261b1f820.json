@@ -1,0 +1,42 @@
+{
+  "revisionAuthor":"Clay Skipper",
+  "name":"Bert Spangemacher",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55f0847589c0d3e261b1f820",
+  "revision":4,
+  "createdAt":"2015-09-09T19:11:49.651Z",
+  "modifiedAt":"2015-09-09T19:12:29.019Z",
+  "revisionCreatedAt":"2015-09-09T19:12:29.019Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f0847589c0d3e261b1f820/revisions/4"},
+    "rels":{"href":"/contributors/55f0847589c0d3e261b1f820/revisions/4/rels"},
+    "relate":{
+      "href":"/contributors/55f0847589c0d3e261b1f820/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f0847589c0d3e261b1f820/revisions"},
+    "archive":{"href":"/contributors/55f0847589c0d3e261b1f820/archive"},
+    "publish":{"href":"/contributors/55f0847589c0d3e261b1f820/publish"},
+    "publishHistory":{"href":"/contributors/55f0847589c0d3e261b1f820/publish/history"},
+    "next":{"href":"/contributors/55f0847589c0d3e261b1f820/next"},
+    "previous":{"href":"/contributors/55f0847589c0d3e261b1f820/previous"},
+    "more":{"href":"/contributors/published/more?id=55f0847589c0d3e261b1f820"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f0847589c0d3e261b1f820",
+      "revision":4,
+      "uri":"contributor/bert-spangemacher",
+      "pubDate":"2015-09-09T19:12:11.714Z",
+      "revisionAuthor":"Clay Skipper",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-09T19:12:31.031Z"}}}

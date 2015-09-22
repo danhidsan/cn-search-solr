@@ -1,0 +1,29 @@
+{
+  "revisionAuthor":"Matt Duckor",
+  "hed":"How Four Empty Tuna Cans Can Feed a Hungry Crowd",
+  "dek":"",
+  "promoHed":"",
+  "link":"http://player.cnevids.com/embed/51ffeed757af82ba91000001/video/55b61b9a61646d4a91000000",
+  "id":"55b635926284773353bf59b1",
+  "revision":0,
+  "createdAt":"2015-07-27T13:43:46.034Z",
+  "modifiedAt":"2015-07-27T13:43:46.034Z",
+  "revisionCreatedAt":"2015-07-27T13:43:46.034Z",
+  "meta":{
+    "collectionName":"videos",
+    "modelName":"video",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/videos/55b635926284773353bf59b1/revisions/0"},
+    "rels":{"href":"/videos/55b635926284773353bf59b1/revisions/0/rels"},
+    "relate":{
+      "href":"/videos/55b635926284773353bf59b1/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/videos/55b635926284773353bf59b1/revisions"},
+    "archive":{"href":"/videos/55b635926284773353bf59b1/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}

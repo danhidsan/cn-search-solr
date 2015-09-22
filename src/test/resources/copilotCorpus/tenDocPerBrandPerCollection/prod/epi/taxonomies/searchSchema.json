@@ -1,0 +1,4 @@
+{
+  "category_en":".model > .category",
+  "name_en":".model > .name",
+  "taxonomyName_ngram":".model > .name"}
