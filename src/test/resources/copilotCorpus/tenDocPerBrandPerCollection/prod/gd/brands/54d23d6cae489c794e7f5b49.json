@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Bettinardi",
+  "description":"",
+  "id":"54d23d6cae489c794e7f5b49",
+  "revision":1,
+  "createdAt":"2015-02-04T15:40:28.345Z",
+  "modifiedAt":"2015-02-04T15:40:32.824Z",
+  "revisionCreatedAt":"2015-02-04T15:40:32.824Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54d23d6cae489c794e7f5b49/revisions/1"},
+    "rels":{"href":"/brands/54d23d6cae489c794e7f5b49/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54d23d6cae489c794e7f5b49/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54d23d6cae489c794e7f5b49/revisions"},
+    "archive":{"href":"/brands/54d23d6cae489c794e7f5b49/archive"},
+    "publish":{"href":"/brands/54d23d6cae489c794e7f5b49/publish"},
+    "publishHistory":{"href":"/brands/54d23d6cae489c794e7f5b49/publish/history"},
+    "next":{"href":"/brands/54d23d6cae489c794e7f5b49/next"},
+    "previous":{"href":"/brands/54d23d6cae489c794e7f5b49/previous"},
+    "more":{"href":"/brands/published/more?id=54d23d6cae489c794e7f5b49"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d23d6cae489c794e7f5b49",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-bettinardi",
+      "pubDate":"2015-02-04T15:40:32.770Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-04T15:40:44.982Z"}}}, "rels": {}}

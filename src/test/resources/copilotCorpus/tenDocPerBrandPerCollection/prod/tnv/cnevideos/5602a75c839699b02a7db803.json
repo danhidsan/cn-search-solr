@@ -1,0 +1,40 @@
+{ "model":{
+  "title":"Teen Vogue Gives You an Exclusive Front Row Seat to the Parsons MFA 2015 Runway Show!",
+  "description":"Watch exclusive footage of the Parsons MFA 2015 Runway Show",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "fashion",
+    "fashion week",
+    "parsons",
+    "fashion design"],
+  "categories":["Fashion"],
+  "premiereDate":"2015-09-23T13:21:25+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/teen-vogue-parsons-2015-mfa-runway-show",
+  "embedUrl":"//player.cnevids.com/embed/5602a75561646d70e4000000/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/5602a75561646d70e4000000/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/teen-vogue-parsons-2015-mfa-runway-show",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1443014934/teenvogue_teen-vogue-parsons-2015-mfa-runway-show.jpg",
+  "id":"5602a75c839699b02a7db803",
+  "revision":3,
+  "createdAt":"2015-09-23T13:21:32.297Z",
+  "modifiedAt":"2015-09-23T13:28:57.143Z",
+  "revisionCreatedAt":"2015-09-23T13:28:57.143Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/5602a75c839699b02a7db803/revisions/3"},
+    "rels":{"href":"/cnevideos/5602a75c839699b02a7db803/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/5602a75c839699b02a7db803/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/5602a75c839699b02a7db803/revisions"},
+    "archive":{"href":"/cnevideos/5602a75c839699b02a7db803/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

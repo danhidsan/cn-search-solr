@@ -1,0 +1,42 @@
+{ "model":{
+  "title":"Meet the Designers of The Parsons MFA 2015 Runway Show!",
+  "description":"Teen Vogue goes behind the scenes with the designers of the 2015 Parsons MFA runway show",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "fashion",
+    "fashion design",
+    "parsons",
+    "fashion week",
+    "fashion show",
+    "exclusive"],
+  "categories":["Fashion"],
+  "premiereDate":"2015-09-23T12:48:15+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/teen-vogue-parsons-mfa-2015-runway-show-designers",
+  "embedUrl":"//player.cnevids.com/embed/56029f8f61646d70e7000000/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/56029f8f61646d70e7000000/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/teen-vogue-parsons-mfa-2015-runway-show-designers",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1443013645/teenvogue_teen-vogue-parsons-mfa-2015-runway-show-designers.jpg",
+  "id":"56029f96839699b02a7db7be",
+  "revision":3,
+  "createdAt":"2015-09-23T12:48:22.283Z",
+  "modifiedAt":"2015-09-23T13:07:27.209Z",
+  "revisionCreatedAt":"2015-09-23T13:07:27.209Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/56029f96839699b02a7db7be/revisions/3"},
+    "rels":{"href":"/cnevideos/56029f96839699b02a7db7be/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/56029f96839699b02a7db7be/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/56029f96839699b02a7db7be/revisions"},
+    "archive":{"href":"/cnevideos/56029f96839699b02a7db7be/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

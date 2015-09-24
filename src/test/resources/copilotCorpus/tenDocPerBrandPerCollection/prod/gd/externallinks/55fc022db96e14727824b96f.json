@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Alex Myers",
+  "hed":"Solheim Cup: U.S., Europe tied after first session",
+  "dek":"",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/story.asp?i=20150918033420889249608&ref=rec&tm=&src=GOLF",
+  "id":"55fc022db96e14727824b96f",
+  "revision":0,
+  "createdAt":"2015-09-18T12:23:09.635Z",
+  "modifiedAt":"2015-09-18T12:23:09.635Z",
+  "revisionCreatedAt":"2015-09-18T12:23:09.635Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55fc022db96e14727824b96f/revisions/0"},
+    "rels":{"href":"/externallinks/55fc022db96e14727824b96f/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55fc022db96e14727824b96f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55fc022db96e14727824b96f/revisions"},
+    "archive":{"href":"/externallinks/55fc022db96e14727824b96f/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

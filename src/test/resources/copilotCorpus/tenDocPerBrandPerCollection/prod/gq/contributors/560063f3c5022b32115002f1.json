@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Genevieve Walker",
+  "name":"Alex Davies, for Wired",
+  "bio":"",
+  "socialMedia":[],
+  "id":"560063f3c5022b32115002f1",
+  "revision":1,
+  "createdAt":"2015-09-21T20:09:23.288Z",
+  "modifiedAt":"2015-09-21T20:09:25.261Z",
+  "revisionCreatedAt":"2015-09-21T20:09:25.261Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/560063f3c5022b32115002f1/revisions/1"},
+    "rels":{"href":"/contributors/560063f3c5022b32115002f1/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/560063f3c5022b32115002f1/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/560063f3c5022b32115002f1/revisions"},
+    "archive":{"href":"/contributors/560063f3c5022b32115002f1/archive"},
+    "publish":{"href":"/contributors/560063f3c5022b32115002f1/publish"},
+    "publishHistory":{"href":"/contributors/560063f3c5022b32115002f1/publish/history"},
+    "next":{"href":"/contributors/560063f3c5022b32115002f1/next"},
+    "previous":{"href":"/contributors/560063f3c5022b32115002f1/previous"},
+    "more":{"href":"/contributors/published/more?id=560063f3c5022b32115002f1"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"560063f3c5022b32115002f1",
+      "revision":1,
+      "uri":"contributor/alex-davies-wired",
+      "pubDate":"2015-09-21T20:09:25.516Z",
+      "revisionAuthor":"Genevieve Walker",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-21T20:09:37.642Z"}}}, "rels": {}}

@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Amy Liebster",
+  "name":"Jacques Rougerie Architecture",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601cc8dcbec99cc0f9f6a0c",
+  "revision":3,
+  "createdAt":"2015-09-22T21:47:57.376Z",
+  "modifiedAt":"2015-09-22T21:48:43.248Z",
+  "revisionCreatedAt":"2015-09-22T21:48:43.248Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/revisions/3"},
+    "rels":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/revisions/3/rels"},
+    "relate":{
+      "href":"/contributors/5601cc8dcbec99cc0f9f6a0c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/revisions"},
+    "archive":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/archive"},
+    "publish":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/publish"},
+    "publishHistory":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/publish/history"},
+    "next":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/next"},
+    "previous":{"href":"/contributors/5601cc8dcbec99cc0f9f6a0c/previous"},
+    "more":{"href":"/contributors/published/more?id=5601cc8dcbec99cc0f9f6a0c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601cc8dcbec99cc0f9f6a0c",
+      "revision":3,
+      "uri":"contributor/jacques-rougerie-architecture",
+      "pubDate":"2015-09-22T21:48:43.737Z",
+      "revisionAuthor":"Amy Liebster",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T21:48:46.744Z"}}}, "rels": {}}

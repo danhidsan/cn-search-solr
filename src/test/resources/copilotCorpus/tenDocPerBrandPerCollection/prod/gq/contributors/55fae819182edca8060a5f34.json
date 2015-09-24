@@ -1,0 +1,43 @@
+{ "model":{
+  "revisionAuthor":"Stephen Aguila",
+  "name":"Alex Davies",
+  "email":"Alex_Davies@conedenast.com",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fae819182edca8060a5f34",
+  "revision":1,
+  "createdAt":"2015-09-17T16:19:37.626Z",
+  "modifiedAt":"2015-09-17T16:19:38.593Z",
+  "revisionCreatedAt":"2015-09-17T16:19:38.593Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fae819182edca8060a5f34/revisions/1"},
+    "rels":{"href":"/contributors/55fae819182edca8060a5f34/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fae819182edca8060a5f34/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fae819182edca8060a5f34/revisions"},
+    "archive":{"href":"/contributors/55fae819182edca8060a5f34/archive"},
+    "publish":{"href":"/contributors/55fae819182edca8060a5f34/publish"},
+    "publishHistory":{"href":"/contributors/55fae819182edca8060a5f34/publish/history"},
+    "next":{"href":"/contributors/55fae819182edca8060a5f34/next"},
+    "previous":{"href":"/contributors/55fae819182edca8060a5f34/previous"},
+    "more":{"href":"/contributors/published/more?id=55fae819182edca8060a5f34"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fae819182edca8060a5f34",
+      "revision":1,
+      "uri":"contributor/alex-davies",
+      "pubDate":"2015-09-17T16:19:39.534Z",
+      "revisionAuthor":"Stephen Aguila",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-17T16:19:42.311Z"}}}, "rels": {}}

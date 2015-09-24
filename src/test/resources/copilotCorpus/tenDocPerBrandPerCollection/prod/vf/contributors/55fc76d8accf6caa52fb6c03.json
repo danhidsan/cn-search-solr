@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Alyssa Karas",
+  "name":"Ann Binlow",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fc76d8accf6caa52fb6c03",
+  "revision":1,
+  "createdAt":"2015-09-18T20:40:56.482Z",
+  "modifiedAt":"2015-09-18T20:40:59.810Z",
+  "revisionCreatedAt":"2015-09-18T20:40:59.810Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fc76d8accf6caa52fb6c03/revisions/1"},
+    "rels":{"href":"/contributors/55fc76d8accf6caa52fb6c03/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fc76d8accf6caa52fb6c03/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fc76d8accf6caa52fb6c03/revisions"},
+    "archive":{"href":"/contributors/55fc76d8accf6caa52fb6c03/archive"},
+    "publish":{"href":"/contributors/55fc76d8accf6caa52fb6c03/publish"},
+    "publishHistory":{"href":"/contributors/55fc76d8accf6caa52fb6c03/publish/history"},
+    "next":{"href":"/contributors/55fc76d8accf6caa52fb6c03/next"},
+    "previous":{"href":"/contributors/55fc76d8accf6caa52fb6c03/previous"},
+    "more":{"href":"/contributors/published/more?id=55fc76d8accf6caa52fb6c03"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fc76d8accf6caa52fb6c03",
+      "revision":1,
+      "uri":"contributor/ann-binlow",
+      "pubDate":"2015-09-18T20:41:00.070Z",
+      "revisionAuthor":"Alyssa Karas",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T20:41:02.496Z"}}}, "rels": {}}

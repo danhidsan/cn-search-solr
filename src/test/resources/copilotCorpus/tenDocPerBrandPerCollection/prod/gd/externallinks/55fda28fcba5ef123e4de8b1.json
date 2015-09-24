@@ -1,0 +1,30 @@
+{ "model":{
+  "revisionAuthor":"Alex Myers",
+  "hed":"Martin Kaymer grabs share of the lead at Italian Open",
+  "dek":"",
+  "rubric":"European Tour",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/recap.asp?lg=EURO&g=20150153&ref=rec&tm=&src=GOLF",
+  "id":"55fda28fcba5ef123e4de8b1",
+  "revision":0,
+  "createdAt":"2015-09-19T17:59:43.933Z",
+  "modifiedAt":"2015-09-19T17:59:43.933Z",
+  "revisionCreatedAt":"2015-09-19T17:59:43.933Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55fda28fcba5ef123e4de8b1/revisions/0"},
+    "rels":{"href":"/externallinks/55fda28fcba5ef123e4de8b1/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55fda28fcba5ef123e4de8b1/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55fda28fcba5ef123e4de8b1/revisions"},
+    "archive":{"href":"/externallinks/55fda28fcba5ef123e4de8b1/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

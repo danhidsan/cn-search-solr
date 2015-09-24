@@ -1,0 +1,37 @@
+{ "model":{
+  "revisionAuthor":"Stephen Aguila",
+  "hed":"It Came from 18 the Yukon",
+  "dek":"",
+  "subject":"Style",
+  "channel":"",
+  "subChannel":"",
+  "tags":[],
+  "items":[],
+  "id":"56001aa9c5022b32114ffa83",
+  "revision":1,
+  "createdAt":"2015-09-21T14:56:41.384Z",
+  "modifiedAt":"2015-09-21T14:57:19.980Z",
+  "revisionCreatedAt":"2015-09-21T14:57:19.980Z",
+  "meta":{
+    "collectionName":"newsletters",
+    "modelName":"newsletter",
+    "publishable":true,
+    "image":false,
+    "archived":true},
+  "_links":{
+    "self":{"href":"/newsletters/56001aa9c5022b32114ffa83/revisions/1"},
+    "rels":{"href":"/newsletters/56001aa9c5022b32114ffa83/revisions/1/rels"},
+    "relate":{
+      "href":"/newsletters/56001aa9c5022b32114ffa83/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/newsletters/56001aa9c5022b32114ffa83/revisions"},
+    "unarchive":{"href":"/newsletters/56001aa9c5022b32114ffa83/unarchive"},
+    "publish":{"href":"/newsletters/56001aa9c5022b32114ffa83/publish"},
+    "publishHistory":{"href":"/newsletters/56001aa9c5022b32114ffa83/publish/history"},
+    "next":{"href":"/newsletters/56001aa9c5022b32114ffa83/next"},
+    "previous":{"href":"/newsletters/56001aa9c5022b32114ffa83/previous"},
+    "more":{"href":"/newsletters/published/more?id=56001aa9c5022b32114ffa83"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

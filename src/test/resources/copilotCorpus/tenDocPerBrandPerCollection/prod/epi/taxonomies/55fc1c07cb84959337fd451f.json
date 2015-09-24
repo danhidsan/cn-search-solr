@@ -1,0 +1,41 @@
+{ "model":{
+  "revisionAuthor":"Katherine Townsend",
+  "category":"sponsor",
+  "name":"Oscar Mayer Bacon",
+  "id":"55fc1c07cb84959337fd451f",
+  "revision":1,
+  "createdAt":"2015-09-18T14:13:27.846Z",
+  "modifiedAt":"2015-09-18T14:13:37.554Z",
+  "revisionCreatedAt":"2015-09-18T14:13:37.554Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55fc1c07cb84959337fd451f/revisions/1"},
+    "rels":{"href":"/taxonomies/55fc1c07cb84959337fd451f/revisions/1/rels"},
+    "relate":{
+      "href":"/taxonomies/55fc1c07cb84959337fd451f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55fc1c07cb84959337fd451f/revisions"},
+    "archive":{"href":"/taxonomies/55fc1c07cb84959337fd451f/archive"},
+    "publish":{"href":"/taxonomies/55fc1c07cb84959337fd451f/publish"},
+    "publishHistory":{"href":"/taxonomies/55fc1c07cb84959337fd451f/publish/history"},
+    "next":{"href":"/taxonomies/55fc1c07cb84959337fd451f/next"},
+    "previous":{"href":"/taxonomies/55fc1c07cb84959337fd451f/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55fc1c07cb84959337fd451f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fc1c07cb84959337fd451f",
+      "revision":1,
+      "uri":"sponsor/oscar-mayer-bacon",
+      "pubDate":"2015-09-18T14:13:37.756Z",
+      "revisionAuthor":"Katherine Townsend",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T14:13:55.281Z"}}}, "rels": {}}

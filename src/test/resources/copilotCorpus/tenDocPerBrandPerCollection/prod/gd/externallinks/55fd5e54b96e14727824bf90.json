@@ -1,0 +1,30 @@
+{ "model":{
+  "revisionAuthor":"Alex Myers",
+  "hed":"Solheim Cup: Europe takes 8-4 lead",
+  "dek":"",
+  "rubric":"Solheim Cup",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/story.asp?i=20150919085815066243508&ref=rec&tm=&src=GOLF",
+  "id":"55fd5e54b96e14727824bf90",
+  "revision":0,
+  "createdAt":"2015-09-19T13:08:36.619Z",
+  "modifiedAt":"2015-09-19T13:08:36.619Z",
+  "revisionCreatedAt":"2015-09-19T13:08:36.619Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55fd5e54b96e14727824bf90/revisions/0"},
+    "rels":{"href":"/externallinks/55fd5e54b96e14727824bf90/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55fd5e54b96e14727824bf90/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55fd5e54b96e14727824bf90/revisions"},
+    "archive":{"href":"/externallinks/55fd5e54b96e14727824bf90/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

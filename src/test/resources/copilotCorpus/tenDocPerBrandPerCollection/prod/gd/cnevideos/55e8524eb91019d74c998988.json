@@ -1,0 +1,40 @@
+{ "model":{
+  "title":"Episode 1: Tucson and Tanque Verde Ranch",
+  "description":"Follow the adventure from foodie delights and golf trick shots to stargazing and saloon fun on a dude ranch. \r\nPresented by Arizona Office of Tourism",
+  "tags":[
+    "Golf Digest",
+    "golfdigest.com",
+    "golf travel",
+    "Arizona",
+    "Tanque Verde Ranch",
+    "Tucson"],
+  "categories":["Courses & Travel"],
+  "premiereDate":"2015-09-15T11:00:00+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/arizona-expedition-episode-1-tucson-and-tanque-verde-ranch",
+  "embedUrl":"//player.cnevids.com/embed/55e8524861646d703a000003/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e8524861646d703a000003/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/arizona-expedition-episode-1-tucson-and-tanque-verde-ranch",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441292072/golfdigest_arizona-expedition-episode-1-tucson-and-tanque-verde-ranch.jpg",
+  "id":"55e8524eb91019d74c998988",
+  "revision":26,
+  "createdAt":"2015-09-03T13:59:42.026Z",
+  "modifiedAt":"2015-09-16T14:25:36.865Z",
+  "revisionCreatedAt":"2015-09-16T14:25:36.865Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e8524eb91019d74c998988/revisions/26"},
+    "rels":{"href":"/cnevideos/55e8524eb91019d74c998988/revisions/26/rels"},
+    "relate":{
+      "href":"/cnevideos/55e8524eb91019d74c998988/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e8524eb91019d74c998988/revisions"},
+    "archive":{"href":"/cnevideos/55e8524eb91019d74c998988/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

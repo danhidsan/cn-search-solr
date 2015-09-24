@@ -1,0 +1,40 @@
+{ "model":{
+  "title":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes- Shameik Moore",
+  "description":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes!",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "celebrities",
+    "entertainment",
+    "exclusive"],
+  "categories":["Entertainment"],
+  "premiereDate":"2015-09-22T13:16:35+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/audition-tapes-teen-vogue-young-hollywood-shameik-moore",
+  "embedUrl":"//player.cnevids.com/embed/560154b361646d38f700000b/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/560154b361646d38f700000b/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/audition-tapes-teen-vogue-young-hollywood-shameik-moore",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442929645/teenvogue_audition-tapes-teen-vogue-young-hollywood-shameik-moore.jpg",
+  "id":"560154b9da9bc0e855482233",
+  "revision":4,
+  "createdAt":"2015-09-22T13:16:41.610Z",
+  "modifiedAt":"2015-09-23T14:31:52.991Z",
+  "revisionCreatedAt":"2015-09-23T14:31:52.991Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "cneId":"560154b361646d38f700000b",
+  "_links":{
+    "self":{"href":"/cnevideos/560154b9da9bc0e855482233/revisions/4"},
+    "rels":{"href":"/cnevideos/560154b9da9bc0e855482233/revisions/4/rels"},
+    "relate":{
+      "href":"/cnevideos/560154b9da9bc0e855482233/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/560154b9da9bc0e855482233/revisions"},
+    "archive":{"href":"/cnevideos/560154b9da9bc0e855482233/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

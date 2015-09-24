@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Alex Myers",
+  "hed":"Solheim Cup: Europe leads 4-2 after incomplete Day 1",
+  "rubric":"Solheim Cup",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/recap.asp?lg=LPGA&g=20150249&ref=hea&tm=&src=",
+  "id":"55fc8c11b96e14727824be91",
+  "revision":0,
+  "createdAt":"2015-09-18T22:11:29.256Z",
+  "modifiedAt":"2015-09-18T22:11:29.256Z",
+  "revisionCreatedAt":"2015-09-18T22:11:29.256Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55fc8c11b96e14727824be91/revisions/0"},
+    "rels":{"href":"/externallinks/55fc8c11b96e14727824be91/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55fc8c11b96e14727824be91/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55fc8c11b96e14727824be91/revisions"},
+    "archive":{"href":"/externallinks/55fc8c11b96e14727824be91/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

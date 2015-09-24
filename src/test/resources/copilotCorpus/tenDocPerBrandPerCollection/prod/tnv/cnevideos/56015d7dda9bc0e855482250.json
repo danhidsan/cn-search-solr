@@ -1,0 +1,39 @@
+{ "model":{
+  "title":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes- Tony Revolori",
+  "description":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes!",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "celebrities",
+    "entertainment",
+    "exclusive"],
+  "categories":["Entertainment"],
+  "premiereDate":"2015-09-22T13:53:59+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/audition-tapes-teen-vogue-young-hollywood-tony-revolori",
+  "embedUrl":"//player.cnevids.com/embed/56015d7761646d1f1e000005/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/56015d7761646d1f1e000005/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/audition-tapes-teen-vogue-young-hollywood-tony-revolori",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442930330/teenvogue_audition-tapes-teen-vogue-young-hollywood-tony-revolori.jpg",
+  "id":"56015d7dda9bc0e855482250",
+  "revision":3,
+  "createdAt":"2015-09-22T13:54:05.525Z",
+  "modifiedAt":"2015-09-22T13:58:51.717Z",
+  "revisionCreatedAt":"2015-09-22T13:58:51.717Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/56015d7dda9bc0e855482250/revisions/3"},
+    "rels":{"href":"/cnevideos/56015d7dda9bc0e855482250/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/56015d7dda9bc0e855482250/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/56015d7dda9bc0e855482250/revisions"},
+    "archive":{"href":"/cnevideos/56015d7dda9bc0e855482250/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

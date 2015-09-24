@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Alexandra Beggs",
+  "name":"Sway Benns",
+  "bio":"Sway Benns is a writer in Los Angeles, California.",
+  "socialMedia":[],
+  "id":"55f9797afad0d98d444d419a",
+  "revision":3,
+  "createdAt":"2015-09-16T14:15:22.965Z",
+  "modifiedAt":"2015-09-16T14:45:11.983Z",
+  "revisionCreatedAt":"2015-09-16T14:45:11.983Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f9797afad0d98d444d419a/revisions/3"},
+    "rels":{"href":"/contributors/55f9797afad0d98d444d419a/revisions/3/rels"},
+    "relate":{
+      "href":"/contributors/55f9797afad0d98d444d419a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f9797afad0d98d444d419a/revisions"},
+    "archive":{"href":"/contributors/55f9797afad0d98d444d419a/archive"},
+    "publish":{"href":"/contributors/55f9797afad0d98d444d419a/publish"},
+    "publishHistory":{"href":"/contributors/55f9797afad0d98d444d419a/publish/history"},
+    "next":{"href":"/contributors/55f9797afad0d98d444d419a/next"},
+    "previous":{"href":"/contributors/55f9797afad0d98d444d419a/previous"},
+    "more":{"href":"/contributors/published/more?id=55f9797afad0d98d444d419a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f9797afad0d98d444d419a",
+      "revision":1,
+      "uri":"contributor/sway-benns",
+      "pubDate":"2015-09-16T14:15:25.631Z",
+      "revisionAuthor":"Katherine LaGrave",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-16T14:15:28.881Z"}}}, "rels": {}}

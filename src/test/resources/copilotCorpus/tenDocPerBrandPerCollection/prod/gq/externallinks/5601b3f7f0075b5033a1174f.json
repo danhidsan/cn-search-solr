@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Genevieve Walker",
+  "hed":"Style: Best New Menswear Designers in America: Sub Channel",
+  "dek":"",
+  "tags":[],
+  "url":"/style-best-new-menswear-designers-of-america",
+  "id":"5601b3f7f0075b5033a1174f",
+  "revision":0,
+  "createdAt":"2015-09-22T20:03:03.587Z",
+  "modifiedAt":"2015-09-22T20:03:03.587Z",
+  "revisionCreatedAt":"2015-09-22T20:03:03.587Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/5601b3f7f0075b5033a1174f/revisions/0"},
+    "rels":{"href":"/externallinks/5601b3f7f0075b5033a1174f/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/5601b3f7f0075b5033a1174f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/5601b3f7f0075b5033a1174f/revisions"},
+    "archive":{"href":"/externallinks/5601b3f7f0075b5033a1174f/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

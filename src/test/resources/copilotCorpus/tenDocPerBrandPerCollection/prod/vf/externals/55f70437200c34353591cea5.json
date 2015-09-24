@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Katherine LaGrave",
+  "hed":"Mood Board: Ralph Lauren",
+  "url":"http://www.vanityfair.com/style/2015/09/ralph-lauren-fall-2015-womens-collection",
+  "tags":[],
+  "id":"55f70437200c34353591cea5",
+  "revision":1,
+  "createdAt":"2015-09-14T17:30:31.314Z",
+  "modifiedAt":"2015-09-21T14:59:04.463Z",
+  "revisionCreatedAt":"2015-09-21T14:59:04.463Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "dek":"",
+  "_links":{
+    "self":{"href":"/externals/55f70437200c34353591cea5/revisions/1"},
+    "rels":{"href":"/externals/55f70437200c34353591cea5/revisions/1/rels"},
+    "relate":{
+      "href":"/externals/55f70437200c34353591cea5/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/55f70437200c34353591cea5/revisions"},
+    "archive":{"href":"/externals/55f70437200c34353591cea5/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

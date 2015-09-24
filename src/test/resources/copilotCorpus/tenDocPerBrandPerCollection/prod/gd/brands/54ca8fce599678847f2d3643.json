@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Scratch",
+  "description":"",
+  "id":"54ca8fce599678847f2d3643",
+  "revision":4,
+  "createdAt":"2015-01-29T19:53:50.998Z",
+  "modifiedAt":"2015-02-02T18:49:08.467Z",
+  "revisionCreatedAt":"2015-02-02T18:49:08.467Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54ca8fce599678847f2d3643/revisions/4"},
+    "rels":{"href":"/brands/54ca8fce599678847f2d3643/revisions/4/rels"},
+    "relate":{
+      "href":"/brands/54ca8fce599678847f2d3643/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54ca8fce599678847f2d3643/revisions"},
+    "archive":{"href":"/brands/54ca8fce599678847f2d3643/archive"},
+    "publish":{"href":"/brands/54ca8fce599678847f2d3643/publish"},
+    "publishHistory":{"href":"/brands/54ca8fce599678847f2d3643/publish/history"},
+    "next":{"href":"/brands/54ca8fce599678847f2d3643/next"},
+    "previous":{"href":"/brands/54ca8fce599678847f2d3643/previous"},
+    "more":{"href":"/brands/published/more?id=54ca8fce599678847f2d3643"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54ca8fce599678847f2d3643",
+      "revision":4,
+      "uri":"brand/golf-digest-brand-model-scratch",
+      "pubDate":"2015-02-02T18:49:08.421Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-02T18:49:15.736Z"}}}, "rels": {}}

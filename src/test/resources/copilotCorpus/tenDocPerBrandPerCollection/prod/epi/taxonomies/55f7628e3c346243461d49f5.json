@@ -1,0 +1,41 @@
+{ "model":{
+  "revisionAuthor":"Katherine Townsend",
+  "category":"sponsor",
+  "name":"P.F. Chang's Home Menu",
+  "id":"55f7628e3c346243461d49f5",
+  "revision":1,
+  "createdAt":"2015-09-15T00:13:02.287Z",
+  "modifiedAt":"2015-09-15T00:13:26.403Z",
+  "revisionCreatedAt":"2015-09-15T00:13:26.403Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55f7628e3c346243461d49f5/revisions/1"},
+    "rels":{"href":"/taxonomies/55f7628e3c346243461d49f5/revisions/1/rels"},
+    "relate":{
+      "href":"/taxonomies/55f7628e3c346243461d49f5/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55f7628e3c346243461d49f5/revisions"},
+    "archive":{"href":"/taxonomies/55f7628e3c346243461d49f5/archive"},
+    "publish":{"href":"/taxonomies/55f7628e3c346243461d49f5/publish"},
+    "publishHistory":{"href":"/taxonomies/55f7628e3c346243461d49f5/publish/history"},
+    "next":{"href":"/taxonomies/55f7628e3c346243461d49f5/next"},
+    "previous":{"href":"/taxonomies/55f7628e3c346243461d49f5/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55f7628e3c346243461d49f5"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f7628e3c346243461d49f5",
+      "revision":1,
+      "uri":"sponsor/pf-changs-home-menu",
+      "pubDate":"2015-09-15T00:13:26.881Z",
+      "revisionAuthor":"Katherine Townsend",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-15T00:13:46.983Z"}}}, "rels": {}}

@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"John Strege",
+  "hed":"Day wins BMW Championship, moves to No. 1",
+  "dek":"",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/recap.asp?tour=PGA&g=20150027",
+  "id":"55ff3619cba5ef123e4dead1",
+  "revision":1,
+  "createdAt":"2015-09-20T22:41:29.937Z",
+  "modifiedAt":"2015-09-20T22:43:20.789Z",
+  "revisionCreatedAt":"2015-09-20T22:43:20.789Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55ff3619cba5ef123e4dead1/revisions/1"},
+    "rels":{"href":"/externallinks/55ff3619cba5ef123e4dead1/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55ff3619cba5ef123e4dead1/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55ff3619cba5ef123e4dead1/revisions"},
+    "archive":{"href":"/externallinks/55ff3619cba5ef123e4dead1/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

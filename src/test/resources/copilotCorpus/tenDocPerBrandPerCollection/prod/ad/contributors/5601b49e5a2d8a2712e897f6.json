@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Norman Vanamee",
+  "name":"Courtesy of the Modern House",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601b49e5a2d8a2712e897f6",
+  "revision":1,
+  "createdAt":"2015-09-22T20:05:50.130Z",
+  "modifiedAt":"2015-09-22T20:05:52.914Z",
+  "revisionCreatedAt":"2015-09-22T20:05:52.914Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601b49e5a2d8a2712e897f6/revisions/1"},
+    "rels":{"href":"/contributors/5601b49e5a2d8a2712e897f6/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/5601b49e5a2d8a2712e897f6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601b49e5a2d8a2712e897f6/revisions"},
+    "archive":{"href":"/contributors/5601b49e5a2d8a2712e897f6/archive"},
+    "publish":{"href":"/contributors/5601b49e5a2d8a2712e897f6/publish"},
+    "publishHistory":{"href":"/contributors/5601b49e5a2d8a2712e897f6/publish/history"},
+    "next":{"href":"/contributors/5601b49e5a2d8a2712e897f6/next"},
+    "previous":{"href":"/contributors/5601b49e5a2d8a2712e897f6/previous"},
+    "more":{"href":"/contributors/published/more?id=5601b49e5a2d8a2712e897f6"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601b49e5a2d8a2712e897f6",
+      "revision":1,
+      "uri":"contributor/courtesy-of-the-modern-house",
+      "pubDate":"2015-09-22T20:05:53.452Z",
+      "revisionAuthor":"Norman Vanamee",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T20:06:04.071Z"}}}, "rels": {}}

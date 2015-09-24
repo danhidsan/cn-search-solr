@@ -1,0 +1,37 @@
+{ "model":{
+  "revisionAuthor":"Laura Wolfgang",
+  "hed":"test",
+  "dek":"",
+  "promoDek":"",
+  "body":"",
+  "promoHed":"",
+  "contentSource":"",
+  "items":[],
+  "id":"5601d1c27bdffb1205b544be",
+  "revision":0,
+  "createdAt":"2015-09-22T22:10:10.660Z",
+  "modifiedAt":"2015-09-22T22:10:10.660Z",
+  "revisionCreatedAt":"2015-09-22T22:10:10.660Z",
+  "meta":{
+    "collectionName":"galleries",
+    "modelName":"gallery",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/galleries/5601d1c27bdffb1205b544be/revisions/0"},
+    "rels":{"href":"/galleries/5601d1c27bdffb1205b544be/revisions/0/rels"},
+    "relate":{
+      "href":"/galleries/5601d1c27bdffb1205b544be/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/galleries/5601d1c27bdffb1205b544be/revisions"},
+    "archive":{"href":"/galleries/5601d1c27bdffb1205b544be/archive"},
+    "publish":{"href":"/galleries/5601d1c27bdffb1205b544be/publish"},
+    "publishHistory":{"href":"/galleries/5601d1c27bdffb1205b544be/publish/history"},
+    "next":{"href":"/galleries/5601d1c27bdffb1205b544be/next"},
+    "previous":{"href":"/galleries/5601d1c27bdffb1205b544be/previous"},
+    "more":{"href":"/galleries/published/more?id=5601d1c27bdffb1205b544be"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

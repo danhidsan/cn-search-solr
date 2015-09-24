@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Hopkins Golf",
+  "description":"",
+  "id":"54cfc93c599678847f2d3975",
+  "revision":1,
+  "createdAt":"2015-02-02T19:00:12.799Z",
+  "modifiedAt":"2015-02-02T19:00:22.747Z",
+  "revisionCreatedAt":"2015-02-02T19:00:22.747Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54cfc93c599678847f2d3975/revisions/1"},
+    "rels":{"href":"/brands/54cfc93c599678847f2d3975/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54cfc93c599678847f2d3975/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54cfc93c599678847f2d3975/revisions"},
+    "archive":{"href":"/brands/54cfc93c599678847f2d3975/archive"},
+    "publish":{"href":"/brands/54cfc93c599678847f2d3975/publish"},
+    "publishHistory":{"href":"/brands/54cfc93c599678847f2d3975/publish/history"},
+    "next":{"href":"/brands/54cfc93c599678847f2d3975/next"},
+    "previous":{"href":"/brands/54cfc93c599678847f2d3975/previous"},
+    "more":{"href":"/brands/published/more?id=54cfc93c599678847f2d3975"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54cfc93c599678847f2d3975",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-hopkins",
+      "pubDate":"2015-02-02T19:00:22.711Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-02T19:00:51.926Z"}}}, "rels": {}}

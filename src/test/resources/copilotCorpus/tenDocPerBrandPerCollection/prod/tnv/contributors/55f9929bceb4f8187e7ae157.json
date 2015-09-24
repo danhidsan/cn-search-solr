@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Brooke Delott",
+  "name":"Susan Yara",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55f9929bceb4f8187e7ae157",
+  "revision":1,
+  "createdAt":"2015-09-16T16:02:35.080Z",
+  "modifiedAt":"2015-09-16T16:02:36.694Z",
+  "revisionCreatedAt":"2015-09-16T16:02:36.694Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f9929bceb4f8187e7ae157/revisions/1"},
+    "rels":{"href":"/contributors/55f9929bceb4f8187e7ae157/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55f9929bceb4f8187e7ae157/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f9929bceb4f8187e7ae157/revisions"},
+    "archive":{"href":"/contributors/55f9929bceb4f8187e7ae157/archive"},
+    "publish":{"href":"/contributors/55f9929bceb4f8187e7ae157/publish"},
+    "publishHistory":{"href":"/contributors/55f9929bceb4f8187e7ae157/publish/history"},
+    "next":{"href":"/contributors/55f9929bceb4f8187e7ae157/next"},
+    "previous":{"href":"/contributors/55f9929bceb4f8187e7ae157/previous"},
+    "more":{"href":"/contributors/published/more?id=55f9929bceb4f8187e7ae157"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f9929bceb4f8187e7ae157",
+      "revision":1,
+      "uri":"contributor/susan-yara",
+      "pubDate":"2015-09-16T16:02:37.086Z",
+      "revisionAuthor":"Brooke Delott",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-16T16:02:47.150Z"}}}, "rels": {}}

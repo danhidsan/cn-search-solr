@@ -1,0 +1,36 @@
+{ "model":{
+  "revisionAuthor":"Casey Lewis",
+  "hed":"Joe Jonas Has Been Trying to Date Gigi Hadid Since She Was 13 Years Old",
+  "body":"Joe Jonas and Gigi Hadid have only been official for a few months, but the model revealed that the former boy-band heartthrob (he may no longer be in a boy band but he's very much still a heartthrob, for the record) has been trying to win her heart since 2008. \n\nRewind seven years ago, when young Gig first caught the eye of the singer. \"We met at the Grammys when I was 13 years old,\" she said in a recent Periscope stream. \"And he asked me to a baseball game, and I said no.\" \n\nShe didn't merely turn down Joe Jonas; she turned down Joe Jonas at the absolute peak of Jonas Brother fame. But age 19 at the time, he also happened to be six years older — and there's a big difference between the lives and brains of a freshly-minted-teen and almost-a-twenty-something — so it was probably for the best.\n\n\"I was so nervous; I literally didn’t even know what it meant to hang out with a boy,\" she added. \"And also, Grammys are on a Sunday, and I didn’t want to tell him that I had school the next day, so I was like, 'No, maybe next time.'\"\n\nNext time came almost a decade later. But first, friendship.\n\n\"I didn’t have my phone with me, and I don’t think he did either because we were at the Grammys, and so he wrote his number on a piece of paper and gave it to my mom,\" she said. \"And then we’ve been friends ever since. Except now, we’re more than friends. Obvs.\"",
+  "channel":"",
+  "subChannel":"",
+  "tags":[],
+  "contentSource":"",
+  "id":"5602c104b49250507d9f4c4e",
+  "revision":3,
+  "createdAt":"2015-09-23T15:11:00.531Z",
+  "modifiedAt":"2015-09-23T16:08:00.230Z",
+  "revisionCreatedAt":"2015-09-23T16:08:00.230Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/articles/5602c104b49250507d9f4c4e/revisions/3"},
+    "rels":{"href":"/articles/5602c104b49250507d9f4c4e/revisions/3/rels"},
+    "relate":{
+      "href":"/articles/5602c104b49250507d9f4c4e/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/5602c104b49250507d9f4c4e/revisions"},
+    "archive":{"href":"/articles/5602c104b49250507d9f4c4e/archive"},
+    "publish":{"href":"/articles/5602c104b49250507d9f4c4e/publish"},
+    "publishHistory":{"href":"/articles/5602c104b49250507d9f4c4e/publish/history"},
+    "next":{"href":"/articles/5602c104b49250507d9f4c4e/next"},
+    "previous":{"href":"/articles/5602c104b49250507d9f4c4e/previous"},
+    "more":{"href":"/articles/published/more?id=5602c104b49250507d9f4c4e"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

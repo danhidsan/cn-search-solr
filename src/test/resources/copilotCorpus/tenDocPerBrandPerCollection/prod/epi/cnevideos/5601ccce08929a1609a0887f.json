@@ -1,0 +1,36 @@
+{ "model":{
+  "title":"How to Make the Easiest Tomato Pasta Sauce ",
+  "description":"A super flavorful tomato sauce that doesn't need to simmer away all day? We've got that: http://bit.ly/1NKOAsY",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-22T21:48:56+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/how-to-make-the-easiest-tomato-pasta-sauce-ever",
+  "embedUrl":"//player.cnevids.com/embed/5601ccc861646d1f0a000028/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/5601ccc861646d1f0a000028/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/how-to-make-the-easiest-tomato-pasta-sauce-ever",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442959067/epicurious_how-to-make-the-easiest-tomato-pasta-sauce-ever.jpg",
+  "id":"5601ccce08929a1609a0887f",
+  "revision":3,
+  "createdAt":"2015-09-22T21:49:02.047Z",
+  "modifiedAt":"2015-09-22T21:57:49.325Z",
+  "revisionCreatedAt":"2015-09-22T21:57:49.325Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/5601ccce08929a1609a0887f/revisions/3"},
+    "rels":{"href":"/cnevideos/5601ccce08929a1609a0887f/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/5601ccce08929a1609a0887f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/5601ccce08929a1609a0887f/revisions"},
+    "archive":{"href":"/cnevideos/5601ccce08929a1609a0887f/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

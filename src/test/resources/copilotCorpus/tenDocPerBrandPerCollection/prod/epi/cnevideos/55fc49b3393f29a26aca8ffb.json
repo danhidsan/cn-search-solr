@@ -1,0 +1,36 @@
+{ "model":{
+  "title":"#WeeknightPasta",
+  "description":"All week long we'll be posting pasta content to Epicurious. Head to epicurious.com/pasta for more details.",
+  "tags":[
+    "Epicurious",
+    "epicurious.com"],
+  "categories":["How-To"],
+  "premiereDate":"2015-09-18T17:28:13+00:00",
+  "canonicalUrl":"http://video.epicurious.com/watch/week-night-pasta-introduction",
+  "embedUrl":"//player.cnevids.com/embed/55fc49ad61646d68d1000005/51ffeed757af82ba91000001",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55fc49ad61646d68d1000005/51ffeed757af82ba91000001.js",
+  "sceneUrl":"https://thescene.com/watch/epicurious/week-night-pasta-introduction",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442598210/epicurious_week-night-pasta-introduction.jpg",
+  "id":"55fc49b3393f29a26aca8ffb",
+  "revision":3,
+  "createdAt":"2015-09-18T17:28:19.888Z",
+  "modifiedAt":"2015-09-18T17:43:32.190Z",
+  "revisionCreatedAt":"2015-09-18T17:43:32.190Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55fc49b3393f29a26aca8ffb/revisions/3"},
+    "rels":{"href":"/cnevideos/55fc49b3393f29a26aca8ffb/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/55fc49b3393f29a26aca8ffb/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55fc49b3393f29a26aca8ffb/revisions"},
+    "archive":{"href":"/cnevideos/55fc49b3393f29a26aca8ffb/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

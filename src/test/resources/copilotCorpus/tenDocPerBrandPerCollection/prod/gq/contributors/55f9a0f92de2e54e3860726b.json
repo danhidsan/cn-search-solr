@@ -1,0 +1,34 @@
+{ "model":{
+  "revisionAuthor":"Liza Corsillo",
+  "name":"Andrew Paynter",
+  "email":"",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55f9a0f92de2e54e3860726b",
+  "revision":1,
+  "createdAt":"2015-09-16T17:03:53.915Z",
+  "modifiedAt":"2015-09-16T17:04:49.419Z",
+  "revisionCreatedAt":"2015-09-16T17:04:49.419Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":true},
+  "_links":{
+    "self":{"href":"/contributors/55f9a0f92de2e54e3860726b/revisions/1"},
+    "rels":{"href":"/contributors/55f9a0f92de2e54e3860726b/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55f9a0f92de2e54e3860726b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f9a0f92de2e54e3860726b/revisions"},
+    "unarchive":{"href":"/contributors/55f9a0f92de2e54e3860726b/unarchive"},
+    "publish":{"href":"/contributors/55f9a0f92de2e54e3860726b/publish"},
+    "publishHistory":{"href":"/contributors/55f9a0f92de2e54e3860726b/publish/history"},
+    "next":{"href":"/contributors/55f9a0f92de2e54e3860726b/next"},
+    "previous":{"href":"/contributors/55f9a0f92de2e54e3860726b/previous"},
+    "more":{"href":"/contributors/published/more?id=55f9a0f92de2e54e3860726b"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

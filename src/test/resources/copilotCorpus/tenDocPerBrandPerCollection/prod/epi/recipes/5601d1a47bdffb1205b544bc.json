@@ -1,0 +1,35 @@
+{ "model":{
+  "revisionAuthor":"Laura Wolfgang",
+  "hed":"test",
+  "dek":"",
+  "promoDek":"",
+  "primaryChannel":"recipes-menus",
+  "source":"",
+  "id":"5601d1a47bdffb1205b544bc",
+  "revision":0,
+  "createdAt":"2015-09-22T22:09:40.554Z",
+  "modifiedAt":"2015-09-22T22:09:40.554Z",
+  "revisionCreatedAt":"2015-09-22T22:09:40.554Z",
+  "meta":{
+    "collectionName":"recipes",
+    "modelName":"recipe",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/recipes/5601d1a47bdffb1205b544bc/revisions/0"},
+    "rels":{"href":"/recipes/5601d1a47bdffb1205b544bc/revisions/0/rels"},
+    "relate":{
+      "href":"/recipes/5601d1a47bdffb1205b544bc/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/recipes/5601d1a47bdffb1205b544bc/revisions"},
+    "archive":{"href":"/recipes/5601d1a47bdffb1205b544bc/archive"},
+    "publish":{"href":"/recipes/5601d1a47bdffb1205b544bc/publish"},
+    "publishHistory":{"href":"/recipes/5601d1a47bdffb1205b544bc/publish/history"},
+    "next":{"href":"/recipes/5601d1a47bdffb1205b544bc/next"},
+    "previous":{"href":"/recipes/5601d1a47bdffb1205b544bc/previous"},
+    "more":{"href":"/recipes/published/more?id=5601d1a47bdffb1205b544bc"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

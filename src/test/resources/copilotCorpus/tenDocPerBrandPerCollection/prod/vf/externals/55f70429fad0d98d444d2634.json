@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Alyssa Karas",
+  "hed":"Private Lives: Hingetown",
+  "url":"http://www.vanityfair.com/culture/2015/09/hingetown-neighborhood-cleveland",
+  "tags":[],
+  "id":"55f70429fad0d98d444d2634",
+  "revision":1,
+  "createdAt":"2015-09-14T17:30:17.496Z",
+  "modifiedAt":"2015-09-22T17:49:42.933Z",
+  "revisionCreatedAt":"2015-09-22T17:49:42.933Z",
+  "meta":{
+    "collectionName":"externals",
+    "modelName":"external",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "dek":"",
+  "_links":{
+    "self":{"href":"/externals/55f70429fad0d98d444d2634/revisions/1"},
+    "rels":{"href":"/externals/55f70429fad0d98d444d2634/revisions/1/rels"},
+    "relate":{
+      "href":"/externals/55f70429fad0d98d444d2634/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externals/55f70429fad0d98d444d2634/revisions"},
+    "archive":{"href":"/externals/55f70429fad0d98d444d2634/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

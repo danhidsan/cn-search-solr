@@ -1,0 +1,28 @@
+{ "model":{
+  "revisionAuthor":"Eddy Espinal",
+  "hed":"Magazine: June 2015: Letter Link",
+  "tags":[],
+  "url":"http://www.architecturaldigest.com/magazine/2015-june",
+  "id":"55fc27219bff6eeb3a244fa0",
+  "revision":0,
+  "createdAt":"2015-09-18T15:00:49.023Z",
+  "modifiedAt":"2015-09-18T15:00:49.023Z",
+  "revisionCreatedAt":"2015-09-18T15:00:49.023Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55fc27219bff6eeb3a244fa0/revisions/0"},
+    "rels":{"href":"/externallinks/55fc27219bff6eeb3a244fa0/revisions/0/rels"},
+    "relate":{
+      "href":"/externallinks/55fc27219bff6eeb3a244fa0/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55fc27219bff6eeb3a244fa0/revisions"},
+    "archive":{"href":"/externallinks/55fc27219bff6eeb3a244fa0/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

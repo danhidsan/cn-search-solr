@@ -1,0 +1,42 @@
+{ "model":{
+  "title":"Episode 3: Serenity in Sedona and Flagstaff Fun",
+  "description":"Watch the group go from serene massages and sun-kissed vistas in Sedona to treetop adventure courses, mountain bike flow trails and delicious grub and brews in Flagstaff. \r\nPresented by Arizona Office of Tourism",
+  "tags":[
+    "Golf Digest",
+    "golfdigest.com",
+    "Arizona",
+    "Sedona",
+    "Flagstaff",
+    "golf courses",
+    "golf travel",
+    "Arizona Expedition"],
+  "categories":["Courses & Travel"],
+  "premiereDate":"2015-09-15T11:00:00+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/arizona-expedition-episode-3-serenity-in-sedona-and-flagstaff-fun",
+  "embedUrl":"//player.cnevids.com/embed/55e865c861646d704e000009/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e865c861646d704e000009/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/arizona-expedition-episode-3-serenity-in-sedona-and-flagstaff-fun",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1441295058/golfdigest_arizona-expedition-episode-3-serenity-in-sedona-and-flagstaff-fun.jpg",
+  "id":"55e865cd4759c60c0824057a",
+  "revision":24,
+  "createdAt":"2015-09-03T15:22:53.827Z",
+  "modifiedAt":"2015-09-16T14:26:28.519Z",
+  "revisionCreatedAt":"2015-09-16T14:26:28.519Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e865cd4759c60c0824057a/revisions/24"},
+    "rels":{"href":"/cnevideos/55e865cd4759c60c0824057a/revisions/24/rels"},
+    "relate":{
+      "href":"/cnevideos/55e865cd4759c60c0824057a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e865cd4759c60c0824057a/revisions"},
+    "archive":{"href":"/cnevideos/55e865cd4759c60c0824057a/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

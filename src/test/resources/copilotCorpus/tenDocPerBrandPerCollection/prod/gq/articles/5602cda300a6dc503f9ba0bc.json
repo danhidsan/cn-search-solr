@@ -1,0 +1,37 @@
+{ "model":{
+  "revisionAuthor":"Megan Gustashaw",
+  "hed":"Are Beards About to Jump the Shark? ",
+  "dek":"",
+  "body":"Facial hair will never completely go out of style but there are definite [ebbs and flows](http://www.gq.com/story/facial-hair-trends-over-time) to the whole thing. For instance, there’s no denying that full-on, [it-took-me-three-months-to-grow-this](http://www.gq.com/story/growing-beard-fall-winter-grooming-tips) beards are everywhere you turn right now—and, guys, it isn’t even winter yet. [Countless celebs](http://www.gq.com/gallery/best-and-worst-beards-emmys-2015) have them, TV show characters have them (we hear *Empire* season two is going to have some serious beard-action), and [even royals](http://www.gq.com/story/prince-harry-grew-new-beard) have them. Seriously, does anyone *not* have a beard anymore? \n\nThis guy at TechCrunch Disrupt has one. \n\nThis runway model has one.\n\nThis sandal-wearer has one. \n\nThis music festival attendee has one. \n\nThis British police officer has one.\n\nThe guys from ZZ Top still have them. \n\nAccording to [this beard historian](http://www.theguardian.com/fashion/shortcuts/2015/sep/21/hipster-beards-historian-dr-alun-withey-clean-shaven-urban-creatives) and people with common sense, this is a bad sign for men in the early stages of growing their big winter beard. Only so many people can have big beards before the whole thing starts to feel silly and everyone has to go home and shave. Is it all that itchiness, patchiness and annoying attention really worth it? We’re starting to see the merits of Shia LaBeouf’s [completely shaved look](http://www.gq.com/story/shia-labeouf-haircut)—especially since that’ll give guys an excuse to buy a big-ass parka and a few extra cashmere sweaters in order to stay warm this winter. ",
+  "channel":"",
+  "subChannel":"",
+  "tags":[],
+  "contentSource":"",
+  "id":"5602cda300a6dc503f9ba0bc",
+  "revision":1,
+  "createdAt":"2015-09-23T16:04:51.984Z",
+  "modifiedAt":"2015-09-23T16:09:48.768Z",
+  "revisionCreatedAt":"2015-09-23T16:09:48.768Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/articles/5602cda300a6dc503f9ba0bc/revisions/1"},
+    "rels":{"href":"/articles/5602cda300a6dc503f9ba0bc/revisions/1/rels"},
+    "relate":{
+      "href":"/articles/5602cda300a6dc503f9ba0bc/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/5602cda300a6dc503f9ba0bc/revisions"},
+    "archive":{"href":"/articles/5602cda300a6dc503f9ba0bc/archive"},
+    "publish":{"href":"/articles/5602cda300a6dc503f9ba0bc/publish"},
+    "publishHistory":{"href":"/articles/5602cda300a6dc503f9ba0bc/publish/history"},
+    "next":{"href":"/articles/5602cda300a6dc503f9ba0bc/next"},
+    "previous":{"href":"/articles/5602cda300a6dc503f9ba0bc/previous"},
+    "more":{"href":"/articles/published/more?id=5602cda300a6dc503f9ba0bc"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

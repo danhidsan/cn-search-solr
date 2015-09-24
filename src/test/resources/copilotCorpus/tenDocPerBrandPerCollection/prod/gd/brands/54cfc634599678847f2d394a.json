@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Fourteen",
+  "description":"",
+  "id":"54cfc634599678847f2d394a",
+  "revision":3,
+  "createdAt":"2015-02-02T18:47:16.555Z",
+  "modifiedAt":"2015-02-02T18:48:46.209Z",
+  "revisionCreatedAt":"2015-02-02T18:48:46.209Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54cfc634599678847f2d394a/revisions/3"},
+    "rels":{"href":"/brands/54cfc634599678847f2d394a/revisions/3/rels"},
+    "relate":{
+      "href":"/brands/54cfc634599678847f2d394a/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54cfc634599678847f2d394a/revisions"},
+    "archive":{"href":"/brands/54cfc634599678847f2d394a/archive"},
+    "publish":{"href":"/brands/54cfc634599678847f2d394a/publish"},
+    "publishHistory":{"href":"/brands/54cfc634599678847f2d394a/publish/history"},
+    "next":{"href":"/brands/54cfc634599678847f2d394a/next"},
+    "previous":{"href":"/brands/54cfc634599678847f2d394a/previous"},
+    "more":{"href":"/brands/published/more?id=54cfc634599678847f2d394a"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54cfc634599678847f2d394a",
+      "revision":3,
+      "uri":"brand/golf-digest-brand-model-fourteen",
+      "pubDate":"2015-02-02T18:48:46.172Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-02T18:48:59.012Z"}}}, "rels": {}}

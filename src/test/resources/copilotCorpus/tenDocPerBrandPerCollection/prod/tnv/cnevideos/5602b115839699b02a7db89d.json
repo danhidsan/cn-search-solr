@@ -1,0 +1,40 @@
+{ "model":{
+  "title":"Teen Vogue Gets All The Details About Parsons Prestigious MFA Fashion Design Program!",
+  "description":"The directors at Parsons share details on what Parson's MFA Fashion Design program is really like!",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "fashion",
+    "fashion design",
+    "parsons",
+    "fashion week"],
+  "categories":["Fashion"],
+  "premiereDate":"2015-09-23T14:02:55+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/teen-vogue-parsons-mfa-fashion-design-program",
+  "embedUrl":"//player.cnevids.com/embed/5602b10f61646d4f0b000005/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/5602b10f61646d4f0b000005/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/teen-vogue-parsons-mfa-fashion-design-program",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1443017492/teenvogue_teen-vogue-parsons-mfa-fashion-design-program.jpg",
+  "id":"5602b115839699b02a7db89d",
+  "revision":3,
+  "createdAt":"2015-09-23T14:03:01.634Z",
+  "modifiedAt":"2015-09-23T14:11:34.179Z",
+  "revisionCreatedAt":"2015-09-23T14:11:34.179Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/5602b115839699b02a7db89d/revisions/3"},
+    "rels":{"href":"/cnevideos/5602b115839699b02a7db89d/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/5602b115839699b02a7db89d/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/5602b115839699b02a7db89d/revisions"},
+    "archive":{"href":"/cnevideos/5602b115839699b02a7db89d/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

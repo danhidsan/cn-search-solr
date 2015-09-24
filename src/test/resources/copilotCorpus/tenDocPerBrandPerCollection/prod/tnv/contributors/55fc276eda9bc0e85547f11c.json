@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Alexandra Thurmond",
+  "name":"Shop Catalog",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fc276eda9bc0e85547f11c",
+  "revision":1,
+  "createdAt":"2015-09-18T15:02:06.196Z",
+  "modifiedAt":"2015-09-18T15:02:08.885Z",
+  "revisionCreatedAt":"2015-09-18T15:02:08.885Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fc276eda9bc0e85547f11c/revisions/1"},
+    "rels":{"href":"/contributors/55fc276eda9bc0e85547f11c/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fc276eda9bc0e85547f11c/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fc276eda9bc0e85547f11c/revisions"},
+    "archive":{"href":"/contributors/55fc276eda9bc0e85547f11c/archive"},
+    "publish":{"href":"/contributors/55fc276eda9bc0e85547f11c/publish"},
+    "publishHistory":{"href":"/contributors/55fc276eda9bc0e85547f11c/publish/history"},
+    "next":{"href":"/contributors/55fc276eda9bc0e85547f11c/next"},
+    "previous":{"href":"/contributors/55fc276eda9bc0e85547f11c/previous"},
+    "more":{"href":"/contributors/published/more?id=55fc276eda9bc0e85547f11c"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fc276eda9bc0e85547f11c",
+      "revision":1,
+      "uri":"contributor/shop-catalog",
+      "pubDate":"2015-09-18T15:02:09.300Z",
+      "revisionAuthor":"Alexandra Thurmond",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T15:02:26.959Z"}}}, "rels": {}}

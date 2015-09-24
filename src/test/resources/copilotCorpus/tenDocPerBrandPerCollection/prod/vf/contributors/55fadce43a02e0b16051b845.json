@@ -1,0 +1,33 @@
+{ "model":{
+  "revisionAuthor":"Katherine Rich",
+  "name":"Emily Tannenbaum",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fadce43a02e0b16051b845",
+  "revision":1,
+  "createdAt":"2015-09-17T15:31:48.025Z",
+  "modifiedAt":"2015-09-17T15:31:49.349Z",
+  "revisionCreatedAt":"2015-09-17T15:31:49.349Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fadce43a02e0b16051b845/revisions/1"},
+    "rels":{"href":"/contributors/55fadce43a02e0b16051b845/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fadce43a02e0b16051b845/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fadce43a02e0b16051b845/revisions"},
+    "archive":{"href":"/contributors/55fadce43a02e0b16051b845/archive"},
+    "publish":{"href":"/contributors/55fadce43a02e0b16051b845/publish"},
+    "publishHistory":{"href":"/contributors/55fadce43a02e0b16051b845/publish/history"},
+    "next":{"href":"/contributors/55fadce43a02e0b16051b845/next"},
+    "previous":{"href":"/contributors/55fadce43a02e0b16051b845/previous"},
+    "more":{"href":"/contributors/published/more?id=55fadce43a02e0b16051b845"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

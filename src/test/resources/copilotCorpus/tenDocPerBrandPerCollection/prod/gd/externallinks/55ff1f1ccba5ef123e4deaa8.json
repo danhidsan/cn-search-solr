@@ -1,0 +1,29 @@
+{ "model":{
+  "revisionAuthor":"Alex Myers",
+  "hed":"Italian Open: Karlberg beats Kaymer in playoff",
+  "rubric":"News & Tours",
+  "tags":[],
+  "url":"http://golfdigest.stats.com/golf/recap.asp?lg=EURO&g=20150153&ref=rec&tm=&src=GOLF",
+  "id":"55ff1f1ccba5ef123e4deaa8",
+  "revision":1,
+  "createdAt":"2015-09-20T21:03:24.596Z",
+  "modifiedAt":"2015-09-20T21:04:56.446Z",
+  "revisionCreatedAt":"2015-09-20T21:04:56.446Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/55ff1f1ccba5ef123e4deaa8/revisions/1"},
+    "rels":{"href":"/externallinks/55ff1f1ccba5ef123e4deaa8/revisions/1/rels"},
+    "relate":{
+      "href":"/externallinks/55ff1f1ccba5ef123e4deaa8/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/55ff1f1ccba5ef123e4deaa8/revisions"},
+    "archive":{"href":"/externallinks/55ff1f1ccba5ef123e4deaa8/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

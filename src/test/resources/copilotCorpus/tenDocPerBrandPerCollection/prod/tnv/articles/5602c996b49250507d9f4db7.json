@@ -1,0 +1,37 @@
+{ "model":{
+  "revisionAuthor":"Sade Strehlke",
+  "hed":"10 Things to Know About Yara Shahidi ",
+  "dek":"TK ",
+  "body":"",
+  "channel":"",
+  "subChannel":"",
+  "tags":[],
+  "contentSource":"",
+  "id":"5602c996b49250507d9f4db7",
+  "revision":0,
+  "createdAt":"2015-09-23T15:47:34.622Z",
+  "modifiedAt":"2015-09-23T15:47:34.622Z",
+  "revisionCreatedAt":"2015-09-23T15:47:34.622Z",
+  "meta":{
+    "collectionName":"articles",
+    "modelName":"article",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/articles/5602c996b49250507d9f4db7/revisions/0"},
+    "rels":{"href":"/articles/5602c996b49250507d9f4db7/revisions/0/rels"},
+    "relate":{
+      "href":"/articles/5602c996b49250507d9f4db7/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/articles/5602c996b49250507d9f4db7/revisions"},
+    "archive":{"href":"/articles/5602c996b49250507d9f4db7/archive"},
+    "publish":{"href":"/articles/5602c996b49250507d9f4db7/publish"},
+    "publishHistory":{"href":"/articles/5602c996b49250507d9f4db7/publish/history"},
+    "next":{"href":"/articles/5602c996b49250507d9f4db7/next"},
+    "previous":{"href":"/articles/5602c996b49250507d9f4db7/previous"},
+    "more":{"href":"/articles/published/more?id=5602c996b49250507d9f4db7"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

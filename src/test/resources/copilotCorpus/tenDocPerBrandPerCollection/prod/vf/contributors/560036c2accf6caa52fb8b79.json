@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Alyssa Karas",
+  "name":"Lee Chilcote",
+  "bio":"",
+  "socialMedia":[],
+  "id":"560036c2accf6caa52fb8b79",
+  "revision":1,
+  "createdAt":"2015-09-21T16:56:34.999Z",
+  "modifiedAt":"2015-09-21T16:56:39.785Z",
+  "revisionCreatedAt":"2015-09-21T16:56:39.785Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/560036c2accf6caa52fb8b79/revisions/1"},
+    "rels":{"href":"/contributors/560036c2accf6caa52fb8b79/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/560036c2accf6caa52fb8b79/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/560036c2accf6caa52fb8b79/revisions"},
+    "archive":{"href":"/contributors/560036c2accf6caa52fb8b79/archive"},
+    "publish":{"href":"/contributors/560036c2accf6caa52fb8b79/publish"},
+    "publishHistory":{"href":"/contributors/560036c2accf6caa52fb8b79/publish/history"},
+    "next":{"href":"/contributors/560036c2accf6caa52fb8b79/next"},
+    "previous":{"href":"/contributors/560036c2accf6caa52fb8b79/previous"},
+    "more":{"href":"/contributors/published/more?id=560036c2accf6caa52fb8b79"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"560036c2accf6caa52fb8b79",
+      "revision":1,
+      "uri":"contributor/lee-chilcote",
+      "pubDate":"2015-09-21T16:56:40.059Z",
+      "revisionAuthor":"Alyssa Karas",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-21T16:56:43.190Z"}}}, "rels": {}}

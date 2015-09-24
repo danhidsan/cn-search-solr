@@ -1,0 +1,43 @@
+{ "model":{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Justine McGrath",
+  "bio":"",
+  "socialMedia":[],
+  "title":"",
+  "id":"55f9da350cf05c4f26fa40fb",
+  "revision":0,
+  "createdAt":"2015-09-16T21:08:05.395Z",
+  "modifiedAt":"2015-09-16T21:08:05.395Z",
+  "revisionCreatedAt":"2015-09-16T21:08:05.395Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55f9da350cf05c4f26fa40fb/revisions/0"},
+    "rels":{"href":"/contributors/55f9da350cf05c4f26fa40fb/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/55f9da350cf05c4f26fa40fb/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55f9da350cf05c4f26fa40fb/revisions"},
+    "archive":{"href":"/contributors/55f9da350cf05c4f26fa40fb/archive"},
+    "publish":{"href":"/contributors/55f9da350cf05c4f26fa40fb/publish"},
+    "publishHistory":{"href":"/contributors/55f9da350cf05c4f26fa40fb/publish/history"},
+    "next":{"href":"/contributors/55f9da350cf05c4f26fa40fb/next"},
+    "previous":{"href":"/contributors/55f9da350cf05c4f26fa40fb/previous"},
+    "more":{"href":"/contributors/published/more?id=55f9da350cf05c4f26fa40fb"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55f9da350cf05c4f26fa40fb",
+      "revision":0,
+      "uri":"contributor/justine-mcgrath",
+      "pubDate":"2015-09-16T21:08:05.726Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-16T21:08:12.182Z"}}}, "rels": {}}

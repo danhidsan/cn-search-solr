@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Alyssa Karas",
+  "name":"Michael Riedel",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fc8134accf6caa52fb6d7f",
+  "revision":1,
+  "createdAt":"2015-09-18T21:25:08.347Z",
+  "modifiedAt":"2015-09-18T21:25:11.147Z",
+  "revisionCreatedAt":"2015-09-18T21:25:11.147Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fc8134accf6caa52fb6d7f/revisions/1"},
+    "rels":{"href":"/contributors/55fc8134accf6caa52fb6d7f/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fc8134accf6caa52fb6d7f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fc8134accf6caa52fb6d7f/revisions"},
+    "archive":{"href":"/contributors/55fc8134accf6caa52fb6d7f/archive"},
+    "publish":{"href":"/contributors/55fc8134accf6caa52fb6d7f/publish"},
+    "publishHistory":{"href":"/contributors/55fc8134accf6caa52fb6d7f/publish/history"},
+    "next":{"href":"/contributors/55fc8134accf6caa52fb6d7f/next"},
+    "previous":{"href":"/contributors/55fc8134accf6caa52fb6d7f/previous"},
+    "more":{"href":"/contributors/published/more?id=55fc8134accf6caa52fb6d7f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fc8134accf6caa52fb6d7f",
+      "revision":1,
+      "uri":"contributor/michael-riedel",
+      "pubDate":"2015-09-18T21:25:11.645Z",
+      "revisionAuthor":"Alyssa Karas",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T21:25:14.016Z"}}}, "rels": {}}

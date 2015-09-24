@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Amy Lombard",
+  "bio":"",
+  "socialMedia":[],
+  "id":"55fc1310da9bc0e85547eec8",
+  "revision":1,
+  "createdAt":"2015-09-18T13:35:12.855Z",
+  "modifiedAt":"2015-09-18T13:35:48.953Z",
+  "revisionCreatedAt":"2015-09-18T13:35:48.953Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55fc1310da9bc0e85547eec8/revisions/1"},
+    "rels":{"href":"/contributors/55fc1310da9bc0e85547eec8/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/55fc1310da9bc0e85547eec8/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55fc1310da9bc0e85547eec8/revisions"},
+    "archive":{"href":"/contributors/55fc1310da9bc0e85547eec8/archive"},
+    "publish":{"href":"/contributors/55fc1310da9bc0e85547eec8/publish"},
+    "publishHistory":{"href":"/contributors/55fc1310da9bc0e85547eec8/publish/history"},
+    "next":{"href":"/contributors/55fc1310da9bc0e85547eec8/next"},
+    "previous":{"href":"/contributors/55fc1310da9bc0e85547eec8/previous"},
+    "more":{"href":"/contributors/published/more?id=55fc1310da9bc0e85547eec8"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55fc1310da9bc0e85547eec8",
+      "revision":1,
+      "uri":"contributor/amy-lombard",
+      "pubDate":"2015-09-18T13:35:47.899Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T13:35:55.275Z"}}}, "rels": {}}

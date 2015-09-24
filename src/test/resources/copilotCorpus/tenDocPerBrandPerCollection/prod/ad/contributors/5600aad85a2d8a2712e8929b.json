@@ -1,0 +1,30 @@
+{ "model":{
+  "name":"| ",
+  "id":"5600aad85a2d8a2712e8929b",
+  "revision":0,
+  "createdAt":"2015-09-22T01:11:52.651Z",
+  "modifiedAt":"2015-09-22T01:11:52.651Z",
+  "revisionCreatedAt":"2015-09-22T01:11:52.651Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5600aad85a2d8a2712e8929b/revisions/0"},
+    "rels":{"href":"/contributors/5600aad85a2d8a2712e8929b/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/5600aad85a2d8a2712e8929b/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5600aad85a2d8a2712e8929b/revisions"},
+    "archive":{"href":"/contributors/5600aad85a2d8a2712e8929b/archive"},
+    "publish":{"href":"/contributors/5600aad85a2d8a2712e8929b/publish"},
+    "publishHistory":{"href":"/contributors/5600aad85a2d8a2712e8929b/publish/history"},
+    "next":{"href":"/contributors/5600aad85a2d8a2712e8929b/next"},
+    "previous":{"href":"/contributors/5600aad85a2d8a2712e8929b/previous"},
+    "more":{"href":"/contributors/published/more?id=5600aad85a2d8a2712e8929b"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

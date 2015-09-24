@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Genevieve Walker",
+  "name":"Elliot Aronow",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5600738cc5022b3211500468",
+  "revision":1,
+  "createdAt":"2015-09-21T21:15:56.414Z",
+  "modifiedAt":"2015-09-21T21:15:58.434Z",
+  "revisionCreatedAt":"2015-09-21T21:15:58.434Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5600738cc5022b3211500468/revisions/1"},
+    "rels":{"href":"/contributors/5600738cc5022b3211500468/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/5600738cc5022b3211500468/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5600738cc5022b3211500468/revisions"},
+    "archive":{"href":"/contributors/5600738cc5022b3211500468/archive"},
+    "publish":{"href":"/contributors/5600738cc5022b3211500468/publish"},
+    "publishHistory":{"href":"/contributors/5600738cc5022b3211500468/publish/history"},
+    "next":{"href":"/contributors/5600738cc5022b3211500468/next"},
+    "previous":{"href":"/contributors/5600738cc5022b3211500468/previous"},
+    "more":{"href":"/contributors/published/more?id=5600738cc5022b3211500468"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5600738cc5022b3211500468",
+      "revision":1,
+      "uri":"contributor/elliot-aronow",
+      "pubDate":"2015-09-21T21:15:58.781Z",
+      "revisionAuthor":"Genevieve Walker",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-21T21:16:01.284Z"}}}, "rels": {}}

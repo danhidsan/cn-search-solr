@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Seemore",
+  "description":"",
+  "id":"54d23db9ae489c794e7f5b50",
+  "revision":1,
+  "createdAt":"2015-02-04T15:41:45.298Z",
+  "modifiedAt":"2015-02-04T15:41:47.603Z",
+  "revisionCreatedAt":"2015-02-04T15:41:47.603Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54d23db9ae489c794e7f5b50/revisions/1"},
+    "rels":{"href":"/brands/54d23db9ae489c794e7f5b50/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54d23db9ae489c794e7f5b50/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54d23db9ae489c794e7f5b50/revisions"},
+    "archive":{"href":"/brands/54d23db9ae489c794e7f5b50/archive"},
+    "publish":{"href":"/brands/54d23db9ae489c794e7f5b50/publish"},
+    "publishHistory":{"href":"/brands/54d23db9ae489c794e7f5b50/publish/history"},
+    "next":{"href":"/brands/54d23db9ae489c794e7f5b50/next"},
+    "previous":{"href":"/brands/54d23db9ae489c794e7f5b50/previous"},
+    "more":{"href":"/brands/published/more?id=54d23db9ae489c794e7f5b50"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d23db9ae489c794e7f5b50",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-seemore",
+      "pubDate":"2015-02-04T15:41:47.485Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-04T15:41:55.915Z"}}}, "rels": {}}

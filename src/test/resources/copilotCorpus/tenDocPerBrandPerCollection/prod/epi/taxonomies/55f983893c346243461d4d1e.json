@@ -1,0 +1,31 @@
+{ "model":{
+  "category":"sponsor",
+  "name":"Oscar Meyer",
+  "id":"55f983893c346243461d4d1e",
+  "revision":0,
+  "createdAt":"2015-09-16T14:58:17.843Z",
+  "modifiedAt":"2015-09-16T14:58:17.843Z",
+  "revisionCreatedAt":"2015-09-16T14:58:17.843Z",
+  "meta":{
+    "collectionName":"taxonomies",
+    "modelName":"taxonomy",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/taxonomies/55f983893c346243461d4d1e/revisions/0"},
+    "rels":{"href":"/taxonomies/55f983893c346243461d4d1e/revisions/0/rels"},
+    "relate":{
+      "href":"/taxonomies/55f983893c346243461d4d1e/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/taxonomies/55f983893c346243461d4d1e/revisions"},
+    "archive":{"href":"/taxonomies/55f983893c346243461d4d1e/archive"},
+    "publish":{"href":"/taxonomies/55f983893c346243461d4d1e/publish"},
+    "publishHistory":{"href":"/taxonomies/55f983893c346243461d4d1e/publish/history"},
+    "next":{"href":"/taxonomies/55f983893c346243461d4d1e/next"},
+    "previous":{"href":"/taxonomies/55f983893c346243461d4d1e/previous"},
+    "more":{"href":"/taxonomies/published/more?id=55f983893c346243461d4d1e"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

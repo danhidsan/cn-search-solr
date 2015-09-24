@@ -1,0 +1,43 @@
+{ "model":{
+  "revisionAuthor":"Stephen Aguila",
+  "name":"Todd M. Judd",
+  "email":"Todd_M_Judd@condenast.com",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601862600a6dc503f9b8ea0",
+  "revision":0,
+  "createdAt":"2015-09-22T16:47:34.820Z",
+  "modifiedAt":"2015-09-22T16:47:34.820Z",
+  "revisionCreatedAt":"2015-09-22T16:47:34.820Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601862600a6dc503f9b8ea0/revisions/0"},
+    "rels":{"href":"/contributors/5601862600a6dc503f9b8ea0/revisions/0/rels"},
+    "relate":{
+      "href":"/contributors/5601862600a6dc503f9b8ea0/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601862600a6dc503f9b8ea0/revisions"},
+    "archive":{"href":"/contributors/5601862600a6dc503f9b8ea0/archive"},
+    "publish":{"href":"/contributors/5601862600a6dc503f9b8ea0/publish"},
+    "publishHistory":{"href":"/contributors/5601862600a6dc503f9b8ea0/publish/history"},
+    "next":{"href":"/contributors/5601862600a6dc503f9b8ea0/next"},
+    "previous":{"href":"/contributors/5601862600a6dc503f9b8ea0/previous"},
+    "more":{"href":"/contributors/published/more?id=5601862600a6dc503f9b8ea0"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601862600a6dc503f9b8ea0",
+      "revision":0,
+      "uri":"contributor/todd-m-judd",
+      "pubDate":"2015-09-22T16:47:37.794Z",
+      "revisionAuthor":"Stephen Aguila",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T16:47:40.574Z"}}}, "rels": {}}

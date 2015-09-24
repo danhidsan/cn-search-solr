@@ -1,0 +1,39 @@
+{ "model":{
+  "revisionAuthor":"Liz Bergren",
+  "name":"Rife",
+  "description":"",
+  "id":"54d23dddae489c794e7f5b52",
+  "revision":1,
+  "createdAt":"2015-02-04T15:42:21.538Z",
+  "modifiedAt":"2015-02-04T15:42:23.571Z",
+  "revisionCreatedAt":"2015-02-04T15:42:23.571Z",
+  "meta":{
+    "collectionName":"brands",
+    "modelName":"brand",
+    "publishable":true},
+  "_links":{
+    "self":{"href":"/brands/54d23dddae489c794e7f5b52/revisions/1"},
+    "rels":{"href":"/brands/54d23dddae489c794e7f5b52/revisions/1/rels"},
+    "relate":{
+      "href":"/brands/54d23dddae489c794e7f5b52/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/brands/54d23dddae489c794e7f5b52/revisions"},
+    "archive":{"href":"/brands/54d23dddae489c794e7f5b52/archive"},
+    "publish":{"href":"/brands/54d23dddae489c794e7f5b52/publish"},
+    "publishHistory":{"href":"/brands/54d23dddae489c794e7f5b52/publish/history"},
+    "next":{"href":"/brands/54d23dddae489c794e7f5b52/next"},
+    "previous":{"href":"/brands/54d23dddae489c794e7f5b52/previous"},
+    "more":{"href":"/brands/published/more?id=54d23dddae489c794e7f5b52"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"54d23dddae489c794e7f5b52",
+      "revision":1,
+      "uri":"brand/golf-digest-brand-model-rife",
+      "pubDate":"2015-02-04T15:42:23.533Z",
+      "revisionAuthor":"Liz Bergren",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-02-04T15:42:30.385Z"}}}, "rels": {}}

@@ -1,0 +1,30 @@
+{ "model":{
+  "revisionAuthor":"Amy Liebster",
+  "hed":"See More from the Magazine",
+  "dek":"",
+  "rubric":"",
+  "tags":[],
+  "url":"http://www.architecturaldigest.com/magazine/2015-october",
+  "id":"560013899bff6eeb3a245edc",
+  "revision":2,
+  "createdAt":"2015-09-21T14:26:17.317Z",
+  "modifiedAt":"2015-09-22T06:16:07.133Z",
+  "revisionCreatedAt":"2015-09-22T06:16:07.133Z",
+  "meta":{
+    "collectionName":"externallinks",
+    "modelName":"externallink",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/externallinks/560013899bff6eeb3a245edc/revisions/2"},
+    "rels":{"href":"/externallinks/560013899bff6eeb3a245edc/revisions/2/rels"},
+    "relate":{
+      "href":"/externallinks/560013899bff6eeb3a245edc/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/externallinks/560013899bff6eeb3a245edc/revisions"},
+    "archive":{"href":"/externallinks/560013899bff6eeb3a245edc/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

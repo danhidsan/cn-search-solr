@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Amy Liebster",
+  "name":"Luc Boegly/Architecture-Studio",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601c73ccbec99cc0f9f68fd",
+  "revision":1,
+  "createdAt":"2015-09-22T21:25:16.509Z",
+  "modifiedAt":"2015-09-22T21:25:19.925Z",
+  "revisionCreatedAt":"2015-09-22T21:25:19.925Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/revisions/1"},
+    "rels":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/5601c73ccbec99cc0f9f68fd/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/revisions"},
+    "archive":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/archive"},
+    "publish":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/publish"},
+    "publishHistory":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/publish/history"},
+    "next":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/next"},
+    "previous":{"href":"/contributors/5601c73ccbec99cc0f9f68fd/previous"},
+    "more":{"href":"/contributors/published/more?id=5601c73ccbec99cc0f9f68fd"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601c73ccbec99cc0f9f68fd",
+      "revision":1,
+      "uri":"contributor/luc-boegly-architecture-studio",
+      "pubDate":"2015-09-22T21:25:20.415Z",
+      "revisionAuthor":"Amy Liebster",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T21:25:33.019Z"}}}, "rels": {}}

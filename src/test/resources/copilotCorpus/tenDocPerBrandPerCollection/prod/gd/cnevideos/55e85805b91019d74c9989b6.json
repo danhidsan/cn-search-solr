@@ -1,0 +1,41 @@
+{ "model":{
+  "title":"Episode 2: Jerome and Verde Valley Wine Trail",
+  "description":"The adventure continues from Tucson trail rides to ghost hunting in Jerome's Grand Hotel, vineyard wine tasting and a mouth-watering dinner in Sedona.\r\nPresented by Arizona Office of Tourism",
+  "tags":[
+    "Golf Digest",
+    "golfdigest.com",
+    "golf travel",
+    "Arizona",
+    "Tucson",
+    "Sedona",
+    "Arizona Expedition"],
+  "categories":["Courses & Travel"],
+  "premiereDate":"2015-09-15T11:00:00+00:00",
+  "canonicalUrl":"http://video.golfdigest.com/watch/arizona-expedition-episode-2-jerome-and-verde-valley-wine-trail",
+  "embedUrl":"//player.cnevids.com/embed/55e857ff61646d702b000005/52f2abec69702d51d41c0000",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/55e857ff61646d702b000005/52f2abec69702d51d41c0000.js",
+  "sceneUrl":"https://thescene.com/watch/golfdigest/arizona-expedition-episode-2-jerome-and-verde-valley-wine-trail",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442409767/golfdigest_arizona-expedition-episode-2-jerome-and-verde-valley-wine-trail.jpg",
+  "id":"55e85805b91019d74c9989b6",
+  "revision":24,
+  "createdAt":"2015-09-03T14:24:05.018Z",
+  "modifiedAt":"2015-09-16T14:26:07.142Z",
+  "revisionCreatedAt":"2015-09-16T14:26:07.142Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/55e85805b91019d74c9989b6/revisions/24"},
+    "rels":{"href":"/cnevideos/55e85805b91019d74c9989b6/revisions/24/rels"},
+    "relate":{
+      "href":"/cnevideos/55e85805b91019d74c9989b6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/55e85805b91019d74c9989b6/revisions"},
+    "archive":{"href":"/cnevideos/55e85805b91019d74c9989b6/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Kristen Flanagan",
+  "name":"Ben Robertson/Courtesy of Ryland Peters & Small",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601c556cbec99cc0f9f68cf",
+  "revision":2,
+  "createdAt":"2015-09-22T21:17:10.085Z",
+  "modifiedAt":"2015-09-22T21:32:35.728Z",
+  "revisionCreatedAt":"2015-09-22T21:32:35.728Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601c556cbec99cc0f9f68cf/revisions/2"},
+    "rels":{"href":"/contributors/5601c556cbec99cc0f9f68cf/revisions/2/rels"},
+    "relate":{
+      "href":"/contributors/5601c556cbec99cc0f9f68cf/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601c556cbec99cc0f9f68cf/revisions"},
+    "archive":{"href":"/contributors/5601c556cbec99cc0f9f68cf/archive"},
+    "publish":{"href":"/contributors/5601c556cbec99cc0f9f68cf/publish"},
+    "publishHistory":{"href":"/contributors/5601c556cbec99cc0f9f68cf/publish/history"},
+    "next":{"href":"/contributors/5601c556cbec99cc0f9f68cf/next"},
+    "previous":{"href":"/contributors/5601c556cbec99cc0f9f68cf/previous"},
+    "more":{"href":"/contributors/published/more?id=5601c556cbec99cc0f9f68cf"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601c556cbec99cc0f9f68cf",
+      "revision":2,
+      "uri":"contributor/ben-robertson-courtesy-ryland-peters-small",
+      "pubDate":"2015-09-22T21:17:10.330Z",
+      "revisionAuthor":"Kristen Flanagan",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T21:32:38.986Z"}}}, "rels": {}}

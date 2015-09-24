@@ -1,0 +1,39 @@
+{ "model":{
+  "title":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes- Patrick Schwarzenegger",
+  "description":"Watch exclusive footage of the stars of our Young Hollywood Portfolio during their audition tapes!",
+  "tags":[
+    "Teen Vogue",
+    "teenvogue.com",
+    "celebrities",
+    "entertainment",
+    "exclusive"],
+  "categories":["Entertainment"],
+  "premiereDate":"2015-09-22T13:11:54+00:00",
+  "canonicalUrl":"http://video.teenvogue.com/watch/audition-tapes-teen-vogue-young-hollywood-patrick-schwarzenegger",
+  "embedUrl":"//player.cnevids.com/embed/5601539a61646d38eb000004/51cca0b368f9da562c000007",
+  "scriptEmbedUrl":"//player.cnevids.com/embedjs/5601539a61646d38eb000004/51cca0b368f9da562c000007.js",
+  "sceneUrl":"https://thescene.com/watch/teenvogue/audition-tapes-teen-vogue-young-hollywood-patrick-schwarzenegger",
+  "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442927844/teenvogue_audition-tapes-teen-vogue-young-hollywood-patrick-schwarzenegger.jpg",
+  "id":"560153a0da9bc0e855482231",
+  "revision":3,
+  "createdAt":"2015-09-22T13:12:00.336Z",
+  "modifiedAt":"2015-09-22T13:17:26.690Z",
+  "revisionCreatedAt":"2015-09-22T13:17:26.690Z",
+  "meta":{
+    "collectionName":"cnevideos",
+    "modelName":"cnevideo",
+    "publishable":false,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/cnevideos/560153a0da9bc0e855482231/revisions/3"},
+    "rels":{"href":"/cnevideos/560153a0da9bc0e855482231/revisions/3/rels"},
+    "relate":{
+      "href":"/cnevideos/560153a0da9bc0e855482231/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/cnevideos/560153a0da9bc0e855482231/revisions"},
+    "archive":{"href":"/cnevideos/560153a0da9bc0e855482231/archive"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[]}}, "rels": {}}

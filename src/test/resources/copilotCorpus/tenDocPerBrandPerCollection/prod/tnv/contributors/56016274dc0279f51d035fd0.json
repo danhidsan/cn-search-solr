@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Jean Godfrey-June",
+  "bio":"",
+  "socialMedia":[],
+  "id":"56016274dc0279f51d035fd0",
+  "revision":1,
+  "createdAt":"2015-09-22T14:15:16.695Z",
+  "modifiedAt":"2015-09-22T14:15:18.699Z",
+  "revisionCreatedAt":"2015-09-22T14:15:18.699Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/56016274dc0279f51d035fd0/revisions/1"},
+    "rels":{"href":"/contributors/56016274dc0279f51d035fd0/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/56016274dc0279f51d035fd0/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/56016274dc0279f51d035fd0/revisions"},
+    "archive":{"href":"/contributors/56016274dc0279f51d035fd0/archive"},
+    "publish":{"href":"/contributors/56016274dc0279f51d035fd0/publish"},
+    "publishHistory":{"href":"/contributors/56016274dc0279f51d035fd0/publish/history"},
+    "next":{"href":"/contributors/56016274dc0279f51d035fd0/next"},
+    "previous":{"href":"/contributors/56016274dc0279f51d035fd0/previous"},
+    "more":{"href":"/contributors/published/more?id=56016274dc0279f51d035fd0"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"56016274dc0279f51d035fd0",
+      "revision":1,
+      "uri":"contributor/jean-godfrey-june",
+      "pubDate":"2015-09-22T14:15:18.960Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T14:15:29.245Z"}}}, "rels": {}}

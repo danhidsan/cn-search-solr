@@ -1,0 +1,43 @@
+{ "model":{
+  "revisionAuthor":"Stefanie Waldek",
+  "name":"Jameson Sotheby’s International Realty",
+  "email":"",
+  "bio":"",
+  "socialMedia":[],
+  "id":"5601c65c5a2d8a2712e89a27",
+  "revision":1,
+  "createdAt":"2015-09-22T21:21:32.611Z",
+  "modifiedAt":"2015-09-22T21:24:18.299Z",
+  "revisionCreatedAt":"2015-09-22T21:24:18.299Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/5601c65c5a2d8a2712e89a27/revisions/1"},
+    "rels":{"href":"/contributors/5601c65c5a2d8a2712e89a27/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/5601c65c5a2d8a2712e89a27/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/5601c65c5a2d8a2712e89a27/revisions"},
+    "archive":{"href":"/contributors/5601c65c5a2d8a2712e89a27/archive"},
+    "publish":{"href":"/contributors/5601c65c5a2d8a2712e89a27/publish"},
+    "publishHistory":{"href":"/contributors/5601c65c5a2d8a2712e89a27/publish/history"},
+    "next":{"href":"/contributors/5601c65c5a2d8a2712e89a27/next"},
+    "previous":{"href":"/contributors/5601c65c5a2d8a2712e89a27/previous"},
+    "more":{"href":"/contributors/published/more?id=5601c65c5a2d8a2712e89a27"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"5601c65c5a2d8a2712e89a27",
+      "revision":1,
+      "uri":"contributor/jameson-sothebys-international-realty",
+      "pubDate":"2015-09-22T21:21:32.906Z",
+      "revisionAuthor":"Stefanie Waldek",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-22T21:24:21.412Z"}}}, "rels": {}}

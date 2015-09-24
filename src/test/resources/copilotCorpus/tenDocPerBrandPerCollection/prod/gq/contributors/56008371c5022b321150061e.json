@@ -1,0 +1,43 @@
+{ "model":{
+  "revisionAuthor":"Jessica Mooney",
+  "name":"Mimi Vu",
+  "email":"Mimi_Vu@condenast.com",
+  "bio":"",
+  "socialMedia":[],
+  "id":"56008371c5022b321150061e",
+  "revision":1,
+  "createdAt":"2015-09-21T22:23:45.371Z",
+  "modifiedAt":"2015-09-21T22:23:49.313Z",
+  "revisionCreatedAt":"2015-09-21T22:23:49.313Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/56008371c5022b321150061e/revisions/1"},
+    "rels":{"href":"/contributors/56008371c5022b321150061e/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/56008371c5022b321150061e/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/56008371c5022b321150061e/revisions"},
+    "archive":{"href":"/contributors/56008371c5022b321150061e/archive"},
+    "publish":{"href":"/contributors/56008371c5022b321150061e/publish"},
+    "publishHistory":{"href":"/contributors/56008371c5022b321150061e/publish/history"},
+    "next":{"href":"/contributors/56008371c5022b321150061e/next"},
+    "previous":{"href":"/contributors/56008371c5022b321150061e/previous"},
+    "more":{"href":"/contributors/published/more?id=56008371c5022b321150061e"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"56008371c5022b321150061e",
+      "revision":1,
+      "uri":"contributor/mimi-vu",
+      "pubDate":"2015-09-21T22:23:49.658Z",
+      "revisionAuthor":"Jessica Mooney",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-21T22:23:58.750Z"}}}, "rels": {}}

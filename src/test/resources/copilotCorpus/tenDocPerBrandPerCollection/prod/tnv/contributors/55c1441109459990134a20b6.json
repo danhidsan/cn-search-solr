@@ -1,0 +1,51 @@
+{ "model":{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Homepolish",
+  "bio":"__What’s your favorite Teen Vogue moment?__ Well, we're a bit biased but we really like the fashion intern desk story we did with you!  \n \n__What beauty product are you loving right now?__ Everyone in the office has been really into face mists lately! They're a nice late afternoon pick-me-up.  \n \n__What’s your go-to karaoke song?__ We listen to a LOT of Beyonce in the office. We named our meeting rooms after three of her songs.  \n\n__What’s a goal you have for the rest of this year?__ Transform as many lives with interior design as possible!   \n\n__If you had to describe yourself in a GIF, what would it be?__ [This one](http://i.giphy.com/fPKavkCyl9vOw.gif).    \n\n*Visit [homepolish.com](http://www.homepolish.com) for more beautiful, affordable interior design by the hour.*",
+  "socialMedia":[
+    {
+      "network":"Twitter",
+      "handle":"homepolish"},
+    {
+      "network":"Instagram",
+      "handle":"homepolish"},
+    {
+      "network":"Tumblr",
+      "handle":"homepolish"}],
+  "id":"55c1441109459990134a20b6",
+  "revision":5,
+  "createdAt":"2015-08-04T23:00:33.415Z",
+  "modifiedAt":"2015-09-18T20:03:48.776Z",
+  "revisionCreatedAt":"2015-09-18T20:03:48.776Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/55c1441109459990134a20b6/revisions/5"},
+    "rels":{"href":"/contributors/55c1441109459990134a20b6/revisions/5/rels"},
+    "relate":{
+      "href":"/contributors/55c1441109459990134a20b6/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/55c1441109459990134a20b6/revisions"},
+    "archive":{"href":"/contributors/55c1441109459990134a20b6/archive"},
+    "publish":{"href":"/contributors/55c1441109459990134a20b6/publish"},
+    "publishHistory":{"href":"/contributors/55c1441109459990134a20b6/publish/history"},
+    "next":{"href":"/contributors/55c1441109459990134a20b6/next"},
+    "previous":{"href":"/contributors/55c1441109459990134a20b6/previous"},
+    "more":{"href":"/contributors/published/more?id=55c1441109459990134a20b6"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"55c1441109459990134a20b6",
+      "revision":5,
+      "uri":"contributor/homepolish",
+      "pubDate":"2015-08-04T23:00:33.430Z",
+      "revisionAuthor":"Andrea Navarro",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-18T20:03:50.561Z"}}}, "rels": {}}

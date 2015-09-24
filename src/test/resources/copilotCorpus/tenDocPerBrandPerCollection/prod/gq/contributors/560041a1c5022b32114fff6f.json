@@ -1,0 +1,42 @@
+{ "model":{
+  "revisionAuthor":"Genevieve Walker",
+  "name":"Andrew Moore",
+  "bio":"",
+  "socialMedia":[],
+  "id":"560041a1c5022b32114fff6f",
+  "revision":1,
+  "createdAt":"2015-09-21T17:42:57.934Z",
+  "modifiedAt":"2015-09-21T17:43:03.382Z",
+  "revisionCreatedAt":"2015-09-21T17:43:03.382Z",
+  "meta":{
+    "collectionName":"contributors",
+    "modelName":"contributor",
+    "publishable":true,
+    "image":false,
+    "archived":false},
+  "_links":{
+    "self":{"href":"/contributors/560041a1c5022b32114fff6f/revisions/1"},
+    "rels":{"href":"/contributors/560041a1c5022b32114fff6f/revisions/1/rels"},
+    "relate":{
+      "href":"/contributors/560041a1c5022b32114fff6f/rels/{:relName}",
+      "templated":true},
+    "revisions":{"href":"/contributors/560041a1c5022b32114fff6f/revisions"},
+    "archive":{"href":"/contributors/560041a1c5022b32114fff6f/archive"},
+    "publish":{"href":"/contributors/560041a1c5022b32114fff6f/publish"},
+    "publishHistory":{"href":"/contributors/560041a1c5022b32114fff6f/publish/history"},
+    "next":{"href":"/contributors/560041a1c5022b32114fff6f/next"},
+    "previous":{"href":"/contributors/560041a1c5022b32114fff6f/previous"},
+    "more":{"href":"/contributors/published/more?id=560041a1c5022b32114fff6f"}},
+  "_embedded":{
+    "photosTout":[],
+    "contributorsAuthor":[],
+    "contributorsPhotographer":[],
+    "publishHistory":{
+      "entityId":"560041a1c5022b32114fff6f",
+      "revision":1,
+      "uri":"contributor/andrew-moore",
+      "pubDate":"2015-09-21T17:43:04.073Z",
+      "revisionAuthor":"Genevieve Walker",
+      "searchable":true,
+      "expired":false,
+      "createdAt":"2015-09-21T17:43:09.875Z"}}}, "rels": {}}
