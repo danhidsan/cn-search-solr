@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"The Rocks Walking Tour",
   "address":{
     "street":"Shop 4A - Clocktower Square, Corner of Argyle and Harrington Streets",
@@ -51,4 +51,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/the-rocks-walking-tour"}}}
+      "uri":"activities/sydney/the-rocks-walking-tour"}}}, "rels": {}}

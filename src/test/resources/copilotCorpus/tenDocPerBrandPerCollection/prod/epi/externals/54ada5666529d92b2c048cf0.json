@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Eric Gillin",
   "hed":"Low-Fat Recipes",
   "url":"http://www.epicurious.com/special-consideration/low-fat",
@@ -22,4 +22,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

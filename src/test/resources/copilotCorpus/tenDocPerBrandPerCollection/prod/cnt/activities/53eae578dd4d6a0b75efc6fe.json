@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Sydney Opera House",
   "address":{
     "street":"Bennelong Point",
@@ -51,4 +51,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/sydney-opera-house"}}}
+      "uri":"activities/sydney/sydney-opera-house"}}}, "rels": {}}

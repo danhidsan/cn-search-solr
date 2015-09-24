@@ -1,14 +1,14 @@
-{
-  "revisionAuthor":"Jeffrey Morin",
-  "hed":"See More *AD* Innovators",
+{ "model":{
+  "revisionAuthor":"Kristen Flanagan",
+  "hed":"See More From the Magazine",
   "dek":"",
   "tags":[],
   "url":"/architecture-design/ad-innovators",
   "id":"55e98fa0302ba71f301828af",
-  "revision":0,
+  "revision":1,
   "createdAt":"2015-09-04T12:33:36.757Z",
-  "modifiedAt":"2015-09-04T12:33:36.757Z",
-  "revisionCreatedAt":"2015-09-04T12:33:36.757Z",
+  "modifiedAt":"2015-09-18T17:43:16.443Z",
+  "revisionCreatedAt":"2015-09-18T17:43:16.443Z",
   "meta":{
     "collectionName":"externallinks",
     "modelName":"externallink",
@@ -16,83 +16,14 @@
     "image":false,
     "archived":false},
   "_links":{
-    "self":{"href":"/externallinks/55e98fa0302ba71f301828af/revisions/0"},
-    "rels":{"href":"/externallinks/55e98fa0302ba71f301828af/revisions/0/rels"},
+    "self":{"href":"/externallinks/55e98fa0302ba71f301828af/revisions/1"},
+    "rels":{"href":"/externallinks/55e98fa0302ba71f301828af/revisions/1/rels"},
     "relate":{
       "href":"/externallinks/55e98fa0302ba71f301828af/rels/{:relName}",
       "templated":true},
     "revisions":{"href":"/externallinks/55e98fa0302ba71f301828af/revisions"},
     "archive":{"href":"/externallinks/55e98fa0302ba71f301828af/archive"}},
   "_embedded":{
-    "photosTout":[{"fields":{
-          "tags":["http://www.architecturaldigest.com/dam/images/video/2012/2012-ad100-video-part-2-guggenheim-party-h670.jpg"],
-          "caption":"",
-          "credit":"",
-          "description":"",
-          "title":"dam-images-video-2012-2012-ad100-video-part-2-guggenheim-party-h670.jpg",
-          "id":"55e8bd24cd709ad62e904c9b",
-          "revision":1,
-          "createdAt":"2015-09-03T21:35:32.618Z",
-          "modifiedAt":"2015-09-03T21:35:32.922Z",
-          "revisionCreatedAt":"2015-09-03T21:35:32.922Z",
-          "meta":{
-            "collectionName":"photos",
-            "modelName":"photo",
-            "publishable":false,
-            "image":true,
-            "archived":false},
-          "filename":"dam-images-video-2012-2012-ad100-video-part-2-guggenheim-party-h670.jpg",
-          "restrictCropping":false,
-          "aspectRatios":{
-            "master":{
-              "width":670,
-              "height":447,
-              "format":"JPEG",
-              "url":"https://us-east.manta.joyent.com/condenast/public/ad-services/production/2015/09/03/55e8bd24cd709ad62e904c9d_dam-images-video-2012-2012-ad100-video-part-2-guggenheim-party-h670.jpg"},
-            "2:1":{
-              "modifications":{"crop":{
-                  "height":335,
-                  "width":670,
-                  "y":0,
-                  "x":0}},
-              "width":670,
-              "height":335,
-              "override":false},
-            "3:4":{
-              "modifications":{"crop":{
-                  "height":444,
-                  "width":333,
-                  "y":0,
-                  "x":168}},
-              "width":333,
-              "height":444,
-              "override":false},
-            "16:9":{
-              "modifications":{"crop":{
-                  "height":369,
-                  "width":656,
-                  "y":0,
-                  "x":7}},
-              "width":656,
-              "height":369,
-              "override":false},
-            "4:3":{
-              "modifications":{"crop":{
-                  "height":447,
-                  "width":596,
-                  "y":0,
-                  "x":37}},
-              "width":596,
-              "height":447,
-              "override":false},
-            "1:1":{
-              "modifications":{"crop":{
-                  "height":447,
-                  "width":447,
-                  "y":0,
-                  "x":111}},
-              "width":447,
-              "height":447,
-              "override":false}}}}],
+    "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

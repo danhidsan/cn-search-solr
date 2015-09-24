@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Laura Garvey",
   "description":"",
   "shortDescription":"",
@@ -61,4 +61,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

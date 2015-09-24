@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Biennale of Sydney",
   "address":{
     "street":"Cockatoo Island",
@@ -52,4 +52,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/biennale-of-sydney"}}}
+      "uri":"activities/sydney/biennale-of-sydney"}}}, "rels": {}}

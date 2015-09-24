@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Eric Gillin",
   "hed":"Quick and Easy Recipes",
   "url":"http://www.epicurious.com/special-consideration/quick-and-easy",
@@ -22,4 +22,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

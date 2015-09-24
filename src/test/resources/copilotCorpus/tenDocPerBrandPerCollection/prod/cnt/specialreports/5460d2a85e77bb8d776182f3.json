@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Dara Pettinelli",
   "hed":"Special Report: Holiday Travel ",
   "dek":"At *Traveler*, we know that holiday travel is synonymous with travel headaches, so we put all of our best tips (and sanity savers) in one spot for your convenience. Bookmark it and let it be your guide over the next few weeks. ",
@@ -156,4 +156,326 @@
       "searchable":true,
       "template":"standard-report",
       "expired":false,
-      "createdAt":"2014-12-19T15:16:42.799Z"}}}
+      "createdAt":"2014-12-19T15:16:42.799Z"}}}, "rels": {
+  "photosTout":[{
+      "title":"airplane-leaving-london.jpg",
+      "id":"5440230f58544c134c067829",
+      "revision":8,
+      "createdAt":"2014-10-16T19:57:03.606Z",
+      "modifiedAt":"2014-10-30T18:24:52.032Z",
+      "revisionCreatedAt":"2014-10-30T18:24:52.032Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false},
+      "images":{
+        "original":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c06782a_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c06782a_airplane-leaving-london.jpg",
+          "width":2048,
+          "height":1536,
+          "format":"JPEG"},
+        "copilot-small":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c06782b_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c06782b_airplane-leaving-london.jpg",
+          "width":208,
+          "height":156,
+          "format":"JPEG"},
+        "copilot-medium":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c06782c_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c06782c_airplane-leaving-london.jpg",
+          "width":298,
+          "height":224,
+          "format":"JPEG"},
+        "copilot-large":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c06782d_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c06782d_airplane-leaving-london.jpg",
+          "width":957,
+          "height":718,
+          "format":"JPEG"},
+        "large_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/5452824911d06c376c7272f6_airplane-leaving-london.jpg",
+          "filename":"5452824911d06c376c7272f6_airplane-leaving-london.jpg",
+          "width":2048,
+          "height":1152,
+          "format":"JPEG"},
+        "med_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/545282527a32829f354beb01_airplane-leaving-london.jpg",
+          "filename":"545282527a32829f354beb01_airplane-leaving-london.jpg",
+          "width":854,
+          "height":480,
+          "format":"JPEG"},
+        "small_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/5452825a11d06c376c7272f8_airplane-leaving-london.jpg",
+          "filename":"5452825a11d06c376c7272f8_airplane-leaving-london.jpg",
+          "width":620,
+          "height":348,
+          "format":"JPEG"},
+        "large_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c067831_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c067831_airplane-leaving-london.jpg",
+          "width":935,
+          "height":701,
+          "format":"JPEG"},
+        "med_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c067832_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c067832_airplane-leaving-london.jpg",
+          "width":620,
+          "height":465,
+          "format":"JPEG"},
+        "small_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c067833_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c067833_airplane-leaving-london.jpg",
+          "width":368,
+          "height":276,
+          "format":"JPEG"},
+        "xsmall_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/16/5440230f58544c134c067834_airplane-leaving-london.jpg",
+          "filename":"5440230f58544c134c067834_airplane-leaving-london.jpg",
+          "width":212,
+          "height":159,
+          "format":"JPEG"},
+        "large_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/5452826611d06c376c7272fa_airplane-leaving-london.jpg",
+          "filename":"5452826611d06c376c7272fa_airplane-leaving-london.jpg",
+          "width":344,
+          "height":344,
+          "format":"JPEG"},
+        "med_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/5452826b11d06c376c7272fc_airplane-leaving-london.jpg",
+          "filename":"5452826b11d06c376c7272fc_airplane-leaving-london.jpg",
+          "width":250,
+          "height":250,
+          "format":"JPEG"},
+        "small_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/30/545282717a32829f354beb03_airplane-leaving-london.jpg",
+          "filename":"545282717a32829f354beb03_airplane-leaving-london.jpg",
+          "width":169,
+          "height":169,
+          "format":"JPEG"}},
+      "revisionAuthor":"Laura Carroll",
+      "caption":"",
+      "credit":"",
+      "geo":{
+        "lat":0,
+        "lng":0},
+      "tags":[],
+      "geoTags":[],
+      "filename":"airplane-leaving-london.jpg",
+      "_links":{
+        "self":{"href":"/photos/5440230f58544c134c067829/revisions/8"},
+        "rels":{"href":"/photos/5440230f58544c134c067829/revisions/8/rels"},
+        "relate":{
+          "href":"/photos/5440230f58544c134c067829/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/5440230f58544c134c067829/revisions"},
+        "archive":{"href":"/photos/5440230f58544c134c067829/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}],
+  "items":[
+    {
+      "revisionAuthor":"Dara Pettinelli",
+      "hed":"Top Stories: Holiday Travel ",
+      "dek":"At *Traveler*, we know that holiday travel is synonymous with travel headaches, so we put all of our best tips (and sanity savers) in one spot for your convenience. Bookmark it and let it be your guide over the next few weeks. ",
+      "channel":"Travel Intel",
+      "subChannel":"Tips and Service",
+      "tags":[
+        "holiday travel",
+        "travel tips"],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"546e59eaf3cd9c7947d61be4",
+          "hed":"The Best and Worst Airports in America: Readers&#39; Choice Awards 2014",
+          "dek":""},
+        {
+          "relId":"5491db02fdb788cc413e9eb7",
+          "hed":"Traveling on Christmas Day: What You Need to Know",
+          "dek":""},
+        {
+          "relId":"54526fe79626d206568f403d",
+          "hed":"Joe Brancatelli's 7 Commandments of Holiday Travel ",
+          "dek":""},
+        {
+          "relId":"53e2f848dddaa35c30f678c3",
+          "hed":"Yes, You Should Get to the Airport Early. Here’s Why",
+          "dek":""},
+        {
+          "relId":"544fd64a53cb045d02e4f9be",
+          "hed":"16 Ways To Avoid Getting Sick While Traveling ",
+          "dek":""},
+        {
+          "relId":"5474e1358303ec8a4b5527a0",
+          "hed":"11 Tips for Surviving Holiday Travel",
+          "dek":""}],
+      "id":"545d1c2980418bf94885cb53",
+      "revision":21,
+      "createdAt":"2014-11-07T19:23:21.530Z",
+      "modifiedAt":"2014-12-19T15:16:35.284Z",
+      "revisionCreatedAt":"2014-12-19T15:16:35.284Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/545d1c2980418bf94885cb53/revisions/21"},
+        "rels":{"href":"/curatedlists/545d1c2980418bf94885cb53/revisions/21/rels"},
+        "relate":{
+          "href":"/curatedlists/545d1c2980418bf94885cb53/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/545d1c2980418bf94885cb53/revisions"},
+        "archive":{"href":"/curatedlists/545d1c2980418bf94885cb53/archive"},
+        "publish":{"href":"/curatedlists/545d1c2980418bf94885cb53/publish"},
+        "publishHistory":{"href":"/curatedlists/545d1c2980418bf94885cb53/publish/history"},
+        "next":{"href":"/curatedlists/545d1c2980418bf94885cb53/next"},
+        "previous":{"href":"/curatedlists/545d1c2980418bf94885cb53/previous"},
+        "more":{"href":"/curatedlists/published/more?id=545d1c2980418bf94885cb53"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"545d1c2980418bf94885cb53",
+          "revision":21,
+          "uri":"travel-intel/tips-and-service/top-stories-holiday-travel",
+          "pubDate":"2014-11-08T00:15:17.455Z",
+          "revisionAuthor":"Dara Pettinelli",
+          "searchable":true,
+          "template":"index",
+          "expired":false,
+          "createdAt":"2014-12-19T15:16:37.334Z"}}},
+    {
+      "revisionAuthor":"Dara Pettinelli",
+      "hed":"More Stories: Holiday Travel ",
+      "dek":"",
+      "channel":"Travel Intel",
+      "subChannel":"Tips and Service",
+      "tags":[],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"546faf458303ec8a4b54f044",
+          "hed":"Holiday Travel: 5 Tips for Traveling with Gifts",
+          "dek":""},
+        {
+          "relId":"545a89fa5e77bb8d776129d3",
+          "hed":"The Easiest (and Cheapest) Way to Travel with Wine",
+          "dek":""},
+        {
+          "relId":"54829d711a6990a8482f02a4",
+          "hed":"Easy-to-Pack Gifts for Frequent Flyers",
+          "dek":""},
+        {
+          "relId":"53ecf5cadd4d6a0b75effb0a",
+          "hed":"The Simple Rules of Protecting Your Stuff While Traveling",
+          "dek":""},
+        {
+          "relId":"548e2c93fdb788cc413e228a",
+          "hed":"How to Make Coach Feel Like First Class (Sort Of)",
+          "dek":""},
+        {
+          "relId":"546bc855f3cd9c7947d5ee1a",
+          "hed":"Report: Expect Thanksgiving-Level Crowds at Airports All the Time",
+          "dek":""},
+        {
+          "relId":"546ce3458303ec8a4b54b4fa",
+          "hed":"7 Ways to Make Holiday Travel With Kids Easier",
+          "dek":""},
+        {
+          "relId":"547233b9f3cd9c7947d642f9",
+          "hed":"Delayed Flights, Snow Storms, and Flat Tires: The Worst Holiday Travel Stories Of All Time",
+          "dek":""},
+        {
+          "relId":"546a2da8f3cd9c7947d5d52c",
+          "hed":"How to Get Off the Airplane and Through Immigration in 12 Minutes",
+          "dek":""},
+        {
+          "relId":"53e2f41dc2d3f39d3610bb32",
+          "hed":"13 Things You Only Think While Stuck in Traffic ",
+          "dek":""},
+        {
+          "relId":"54737526f3cd9c7947d6463b",
+          "hed":"How to Bring the Comfort of Home When You Travel",
+          "dek":""},
+        {
+          "relId":"5457f86d9626d206568f6c99",
+          "hed":"5 Things that Can Go Wrong on Flights (and How to Cope)",
+          "dek":""},
+        {
+          "relId":"53ec0d5edd4d6a0b75eff0c4",
+          "hed":"The Dos and Don’ts of Complaining When a Trip Goes Bad",
+          "dek":""},
+        {
+          "relId":"5424686048a16ad664ec05fd",
+          "hed":"How to Avoid Hidden Rental Car Fees",
+          "dek":""},
+        {
+          "relId":"541b2ad9c709fd5475abcf63",
+          "hed":"Never Miss a Connecting Flight Again With These Tips",
+          "dek":""},
+        {
+          "relId":"5408c63486cdf1050e8971e6",
+          "hed":"Bumped Due to Overbooking? What Airlines Owe You ",
+          "dek":""},
+        {
+          "relId":"5457b2599626d206568f6224",
+          "hed":"28 Great Books for Long Flights",
+          "dek":""},
+        {
+          "relId":"53e2f592c2d3f39d3610c140",
+          "hed":"How to Deal with Unruly Kids on Airplanes",
+          "dek":""},
+        {
+          "relId":"545b99b2562088c005cce481",
+          "hed":"What Happens When You Sneeze on an Airplane",
+          "dek":""},
+        {
+          "relId":"53ffb77dcdd7fa56765b9876",
+          "hed":"A Modest Proposal to Defend Your Space on a Plane",
+          "dek":""},
+        {
+          "relId":"53e2f703c2d3f39d3610c7f2",
+          "hed":"How to Pack for 10 Days in a Carry-On",
+          "dek":""},
+        {
+          "relId":"546a6ed015fa044b14f2bd66",
+          "hed":"20 Travel-Friendly Gifts You Can Pack in a Suitcase",
+          "dek":""}],
+      "id":"545d2a265e77bb8d7761754e",
+      "revision":41,
+      "createdAt":"2014-11-07T20:23:02.966Z",
+      "modifiedAt":"2014-12-19T15:00:18.453Z",
+      "revisionCreatedAt":"2014-12-19T15:00:18.453Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/545d2a265e77bb8d7761754e/revisions/41"},
+        "rels":{"href":"/curatedlists/545d2a265e77bb8d7761754e/revisions/41/rels"},
+        "relate":{
+          "href":"/curatedlists/545d2a265e77bb8d7761754e/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/545d2a265e77bb8d7761754e/revisions"},
+        "archive":{"href":"/curatedlists/545d2a265e77bb8d7761754e/archive"},
+        "publish":{"href":"/curatedlists/545d2a265e77bb8d7761754e/publish"},
+        "publishHistory":{"href":"/curatedlists/545d2a265e77bb8d7761754e/publish/history"},
+        "next":{"href":"/curatedlists/545d2a265e77bb8d7761754e/next"},
+        "previous":{"href":"/curatedlists/545d2a265e77bb8d7761754e/previous"},
+        "more":{"href":"/curatedlists/published/more?id=545d2a265e77bb8d7761754e"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"545d2a265e77bb8d7761754e",
+          "revision":41,
+          "uri":"travel-intel/tips-and-service/more-stories-holiday-travel",
+          "pubDate":"2014-11-08T00:13:53.178Z",
+          "revisionAuthor":"Dara Pettinelli",
+          "searchable":true,
+          "template":"index",
+          "expired":false,
+          "createdAt":"2014-12-19T15:00:22.322Z"}}}]}}

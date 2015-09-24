@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Inside the 2012 Oscars® Greenroom",
   "description":"Tour the Architectural Digest Greenroom at the 2012 Academy Awards®, designed by Waldo Fernandez and inspired by classic Hollywood",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Rachel Wolff",
   "id":"53d9b925dcd5888e14596b5a",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/rachel-wolff"}}}
+      "uri":"contributors/rachel-wolff"}}}, "rels": {}}

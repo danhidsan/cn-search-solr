@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Haigh's Chocolates",
   "address":{
     "street":"Shop 1, The Strand Arcade, 412-414 George Street",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/haigh-s-chocolates"}}}
+      "uri":"shops/sydney/haigh-s-chocolates"}}}, "rels": {}}

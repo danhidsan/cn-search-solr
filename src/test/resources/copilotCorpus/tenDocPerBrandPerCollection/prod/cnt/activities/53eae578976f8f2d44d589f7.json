@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Royal Botanic Gardens",
   "address":{
     "street":"Mrs. Macquaries Road",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/royal-botanic-gardens"}}}
+      "uri":"activities/sydney/royal-botanic-gardens"}}}, "rels": {}}

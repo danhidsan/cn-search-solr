@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"600x600-1.png",
   "id":"53d980b16dec627b149ca3f4",
   "revision":2,
@@ -107,4 +107,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

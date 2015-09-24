@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Genevieve Walker",
   "hed":"Style: Fall Trends: River",
   "dek":"",
@@ -143,4 +143,97 @@
       "searchable":true,
       "template":"river",
       "expired":false,
-      "createdAt":"2015-08-13T18:05:53.221Z"}}}
+      "createdAt":"2015-08-13T18:05:53.221Z"}}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Clarence Kwei",
+      "title":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+      "id":"5591983a838c214c3f48bb47",
+      "revision":1,
+      "createdAt":"2015-06-29T19:10:50.380Z",
+      "modifiedAt":"2015-06-29T19:11:08.071Z",
+      "revisionCreatedAt":"2015-06-29T19:11:08.071Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":478,
+          "height":218,
+          "format":"PNG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/gq/production/2015/06/29/5591983a838c214c3f48bb49_Screen%20Shot%202015-06-20%20at%2011.31.17%20AM.png"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":384,
+              "y":0,
+              "x":47}},
+          "width":384,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_384,h_216,x_47,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":288,
+              "y":0,
+              "x":95}},
+          "width":288,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_288,h_216,x_95,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":218,
+              "width":218,
+              "y":0,
+              "x":130}},
+          "width":218,
+          "height":218,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_218,h_218,x_130,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":218,
+              "width":327,
+              "y":0,
+              "x":75}},
+          "width":327,
+          "height":218,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_327,h_218,x_75,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "3:4":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":162,
+              "y":0,
+              "x":158}},
+          "width":162,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_162,h_216,x_158,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "64:25":{
+          "modifications":{"crop":{
+              "height":175,
+              "width":448,
+              "y":0,
+              "x":15}},
+          "width":448,
+          "height":175,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5591983a838c214c3f48bb47/master/w_448,h_175,x_15,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/5591983a838c214c3f48bb47/revisions/1"},
+        "rels":{"href":"/photos/5591983a838c214c3f48bb47/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/5591983a838c214c3f48bb47/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/5591983a838c214c3f48bb47/revisions"},
+        "archive":{"href":"/photos/5591983a838c214c3f48bb47/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

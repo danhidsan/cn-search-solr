@@ -3,5 +3,7 @@
   "dek_en":".model > .dek",
   "channel_s":".model > .channel",
   "subChannel_s":".model > .subChannel",
+  "contentSource_s":".model > .contentSource",
   "tags_ss":".model > .tags *",
-  "contributor_ss":".rels > .contributorsAuthor .name"}
+  "contributor_ss":".rels > .contributorsAuthor .name",
+  "issueDate_s":".model > .issueDate"}

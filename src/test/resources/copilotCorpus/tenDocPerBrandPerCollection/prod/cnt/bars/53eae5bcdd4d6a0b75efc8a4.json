@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Grandma's Bar",
   "address":{
     "street":"275 Clarence Street",
@@ -54,4 +54,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/grandma-s-bar"}}}
+      "uri":"bars/sydney/grandma-s-bar"}}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Blake Mycoskie on the Mission Behind Toms",
   "description":"The Toms founder, philanthropist, and family man shares the story behind his entrepreneurial success",
   "tags":[
@@ -36,4 +36,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

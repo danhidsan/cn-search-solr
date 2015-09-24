@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Miss Peaches",
   "address":{
     "street":"201 Missenden Road",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/miss-peaches"}}}
+      "uri":"bars/sydney/miss-peaches"}}}, "rels": {}}

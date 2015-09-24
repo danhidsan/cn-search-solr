@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"CNTraveler #InstaMeetWV New York City",
   "description":"CNTraveler and Zio and Sons hosted an #InstaMeet at The Garret in New York City.",
   "tags":[
@@ -58,4 +58,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

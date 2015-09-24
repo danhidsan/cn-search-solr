@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Must-See Spots in Venice, Italy",
   "description":"Where to see, eat and stay in Venice, Italy.",
   "tags":[
@@ -68,4 +68,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

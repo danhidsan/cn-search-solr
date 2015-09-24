@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Brooke Delott",
   "hed":"From Camera to Captain, Photographer, Bethany Marie Takes On The Open Seas",
   "dek":"",
@@ -105,4 +105,95 @@
           "tags":[],
           "credit":""}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Courtney Lindstrand",
+      "title":"sperry-vid-2.jpeg",
+      "id":"55d215ac657d5f2b16622874",
+      "revision":2,
+      "createdAt":"2015-08-17T17:11:08.733Z",
+      "modifiedAt":"2015-08-17T18:10:13.645Z",
+      "revisionCreatedAt":"2015-08-17T18:10:13.645Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"sperry-vid-2.jpeg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":1920,
+          "height":1080,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/08/17/55d215ac657d5f2b16622876_sperry-vid-2.jpeg"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":1920,
+              "x":0,
+              "y":0}},
+          "width":1920,
+          "height":1080,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":1440,
+              "x":240,
+              "y":0}},
+          "width":1440,
+          "height":1080,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "width":912,
+              "height":912,
+              "x":379,
+              "y":21}},
+          "width":912,
+          "height":912,
+          "override":false},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":768,
+              "width":1920,
+              "x":0,
+              "y":0}},
+          "width":1920,
+          "height":768,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":1620,
+              "x":150,
+              "y":0}},
+          "width":1620,
+          "height":1080,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":720,
+              "x":600,
+              "y":0}},
+          "width":720,
+          "height":1080,
+          "override":false}},
+      "caption":"",
+      "images":{"original":{}},
+      "tags":[],
+      "credit":"",
+      "_links":{
+        "self":{"href":"/photos/55d215ac657d5f2b16622874/revisions/2"},
+        "rels":{"href":"/photos/55d215ac657d5f2b16622874/revisions/2/rels"},
+        "relate":{
+          "href":"/photos/55d215ac657d5f2b16622874/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55d215ac657d5f2b16622874/revisions"},
+        "archive":{"href":"/photos/55d215ac657d5f2b16622874/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

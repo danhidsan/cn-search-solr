@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Courtney Lindstrand",
   "hed":"\\#READER**GRAM**",
   "dek":"[@victoriajustice](https://instagram.com/victoriajustice)",
@@ -103,4 +103,91 @@
               "height":1854,
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Courtney Lindstrand",
+      "title":"FullSizeRender.jpg",
+      "id":"55cdf585657d5f2b16620d05",
+      "revision":1,
+      "createdAt":"2015-08-14T14:04:53.129Z",
+      "modifiedAt":"2015-08-14T14:04:53.477Z",
+      "revisionCreatedAt":"2015-08-14T14:04:53.477Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"FullSizeRender.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":1856,
+          "height":1856,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/08/14/55cdf585657d5f2b16620d07_FullSizeRender.jpg"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":1044,
+              "width":1856,
+              "y":0,
+              "x":0}},
+          "width":1856,
+          "height":1044,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":1392,
+              "width":1856,
+              "y":0,
+              "x":0}},
+          "width":1856,
+          "height":1392,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":1856,
+              "width":1856,
+              "y":0,
+              "x":0}},
+          "width":1856,
+          "height":1856,
+          "override":false},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":742,
+              "width":1855,
+              "y":0,
+              "x":0}},
+          "width":1855,
+          "height":742,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":1236,
+              "width":1854,
+              "y":0,
+              "x":1}},
+          "width":1854,
+          "height":1236,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":1854,
+              "width":1236,
+              "y":0,
+              "x":310}},
+          "width":1236,
+          "height":1854,
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/55cdf585657d5f2b16620d05/revisions/1"},
+        "rels":{"href":"/photos/55cdf585657d5f2b16620d05/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/55cdf585657d5f2b16620d05/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55cdf585657d5f2b16620d05/revisions"},
+        "archive":{"href":"/photos/55cdf585657d5f2b16620d05/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

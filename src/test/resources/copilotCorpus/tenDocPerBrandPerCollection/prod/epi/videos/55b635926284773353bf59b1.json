@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Matt Duckor",
   "hed":"How Four Empty Tuna Cans Can Feed a Hungry Crowd",
   "dek":"",
@@ -26,4 +26,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

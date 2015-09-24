@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Behind the Scenes of the 2015 Architectural Digest Oscar® Greenroom",
   "description":"Design firm Commune gives you an exclusive look at the backstage area where A-listers gathered during the 2015 Academy Awards®\r\n",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

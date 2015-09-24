@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Matt Duckor",
   "category":"tag",
   "name":"What to Cook This Weekend",
@@ -38,4 +38,4 @@
       "revisionAuthor":"Matt Duckor",
       "searchable":true,
       "expired":false,
-      "createdAt":"2015-07-17T13:34:20.265Z"}}}
+      "createdAt":"2015-07-17T13:34:20.265Z"}}}, "rels": {}}

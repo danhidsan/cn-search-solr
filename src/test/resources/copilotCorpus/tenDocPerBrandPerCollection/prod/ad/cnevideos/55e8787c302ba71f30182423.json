@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Inside the 2009 Oscars® Greenroom",
   "description":"Stephen Shadley creates a stylish throwback to the 1970s for the Architectural Digest Greenroom at the 2009 Academy Awards®",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

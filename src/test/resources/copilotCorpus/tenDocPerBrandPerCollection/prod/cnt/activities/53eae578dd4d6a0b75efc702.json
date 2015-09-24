@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Museum of Contemporary Art Australia",
   "address":{
     "street":"140 George Street",
@@ -51,4 +51,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/museum-of-contemporary-art-australia"}}}
+      "uri":"activities/sydney/museum-of-contemporary-art-australia"}}}, "rels": {}}

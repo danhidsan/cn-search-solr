@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"The Baxter Inn",
   "address":{
     "street":"152-156 Clarence Street",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/the-baxter-inn"}}}
+      "uri":"bars/sydney/the-baxter-inn"}}}, "rels": {}}

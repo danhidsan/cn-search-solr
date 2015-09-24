@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Eric Gillin",
   "hed":"Vegetarian Recipes",
   "url":"http://www.epicurious.com/special-consideration/vegetarian",
@@ -22,4 +22,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Inside the 2010 Oscars® Greenroom",
   "description":"Go behind the scenes with AD100 designer Roger Thomas at the Architectural Digest Greenroom at the 2010 Academy Awards®",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

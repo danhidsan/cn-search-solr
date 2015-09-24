@@ -1,5 +1,5 @@
-{
-  "revisionAuthor":"Scherezade Momin",
+{ "model":{
+  "revisionAuthor":"Kelly Butler",
   "hed":"Homepage: Photos Module",
   "dek":"",
   "tags":[],
@@ -8,7 +8,9 @@
     "size":10,
     "sort":"publishDate desc",
     "filters":{
-      "tags":["_HP"],
+      "tags":[
+        "_HP",
+        "_hp"],
       "types":["gallery"],
       "channel":[
         "Culture",
@@ -20,10 +22,10 @@
       "contributor":[],
       "nottags":[]}},
   "id":"54ce43c91ca1cf0a23adc830",
-  "revision":7,
+  "revision":8,
   "createdAt":"2015-02-01T15:18:33.340Z",
-  "modifiedAt":"2015-09-11T16:53:07.015Z",
-  "revisionCreatedAt":"2015-09-11T16:53:07.015Z",
+  "modifiedAt":"2015-09-21T15:43:58.021Z",
+  "revisionCreatedAt":"2015-09-21T15:43:58.021Z",
   "meta":{
     "collectionName":"curatedsearches",
     "modelName":"curatedsearch",
@@ -31,8 +33,8 @@
     "image":false,
     "archived":false},
   "_links":{
-    "self":{"href":"/curatedsearches/54ce43c91ca1cf0a23adc830/revisions/7"},
-    "rels":{"href":"/curatedsearches/54ce43c91ca1cf0a23adc830/revisions/7/rels"},
+    "self":{"href":"/curatedsearches/54ce43c91ca1cf0a23adc830/revisions/8"},
+    "rels":{"href":"/curatedsearches/54ce43c91ca1cf0a23adc830/revisions/8/rels"},
     "relate":{
       "href":"/curatedsearches/54ce43c91ca1cf0a23adc830/rels/{:relName}",
       "templated":true},
@@ -59,11 +61,33 @@
     "contributorsPhotographer":[],
     "publishHistory":{
       "entityId":"54ce43c91ca1cf0a23adc830",
-      "revision":7,
+      "revision":8,
       "uri":"curated-search/homepage-photos-modules",
       "pubDate":"2015-02-01T15:18:33.294Z",
-      "revisionAuthor":"Scherezade Momin",
+      "revisionAuthor":"Kelly Butler",
       "searchable":true,
       "template":"photos-modules",
       "expired":false,
-      "createdAt":"2015-09-11T16:53:10.679Z"}}}
+      "createdAt":"2015-09-21T15:44:00.586Z"}}}, "rels": {"photosTout":[{
+      "title":"s-01-test-copilot.jpg",
+      "id":"53d98c30951eab62780fd987",
+      "revision":0,
+      "createdAt":"2014-07-31T00:22:08.384Z",
+      "modifiedAt":"2014-07-31T00:22:08.384Z",
+      "revisionCreatedAt":"2014-07-31T00:22:08.384Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false},
+      "_links":{
+        "self":{"href":"/photos/53d98c30951eab62780fd987/revisions/0"},
+        "rels":{"href":"/photos/53d98c30951eab62780fd987/revisions/0/rels"},
+        "relate":{
+          "href":"/photos/53d98c30951eab62780fd987/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/53d98c30951eab62780fd987/revisions"},
+        "archive":{"href":"/photos/53d98c30951eab62780fd987/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

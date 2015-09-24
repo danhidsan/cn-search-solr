@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Books Kinokuniya",
   "address":{
     "street":"Level 2, The Galeries, 500 George Street ",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/books-kinokuniya"}}}
+      "uri":"shops/sydney/books-kinokuniya"}}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Genevieve Walker",
   "hed":"Homepage: Featured Solo",
   "dek":"",
@@ -6,14 +6,14 @@
   "subChannel":"",
   "tags":[],
   "items":[{
-      "relId":"55f30321e4fe554f30886d87",
-      "hed":"The Coolest Watch for Your Collection",
+      "relId":"56006a8ec5022b3211500349",
+      "hed":"12 Versatile Sneakers to Get You Through Fall",
       "dek":""}],
   "id":"5588508d3655c24c6c990042",
-  "revision":489,
+  "revision":561,
   "createdAt":"2015-06-22T18:14:37.668Z",
-  "modifiedAt":"2015-09-11T21:45:58.626Z",
-  "revisionCreatedAt":"2015-09-11T21:45:58.626Z",
+  "modifiedAt":"2015-09-23T16:01:09.624Z",
+  "revisionCreatedAt":"2015-09-23T16:01:09.624Z",
   "meta":{
     "collectionName":"curatedlists",
     "modelName":"curatedlist",
@@ -21,8 +21,8 @@
     "image":false,
     "archived":false},
   "_links":{
-    "self":{"href":"/curatedlists/5588508d3655c24c6c990042/revisions/489"},
-    "rels":{"href":"/curatedlists/5588508d3655c24c6c990042/revisions/489/rels"},
+    "self":{"href":"/curatedlists/5588508d3655c24c6c990042/revisions/561"},
+    "rels":{"href":"/curatedlists/5588508d3655c24c6c990042/revisions/561/rels"},
     "relate":{
       "href":"/curatedlists/5588508d3655c24c6c990042/rels/{:relName}",
       "templated":true},
@@ -120,11 +120,329 @@
     "contributorsPhotographer":[],
     "publishHistory":{
       "entityId":"5588508d3655c24c6c990042",
-      "revision":489,
+      "revision":561,
       "uri":"homepage-featured-solo",
-      "pubDate":"2015-09-11T21:03:00.000Z",
+      "pubDate":"2015-09-23T10:01:00.000Z",
       "revisionAuthor":"Genevieve Walker",
       "searchable":true,
       "template":"featured-solo-1",
       "expired":false,
-      "createdAt":"2015-09-11T21:46:08.226Z"}}}
+      "createdAt":"2015-09-23T16:01:16.552Z"}}}, "rels": {
+  "photosTout":[{
+      "revisionAuthor":"Clarence Kwei",
+      "title":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+      "id":"5585874e09f0bee564447c8a",
+      "revision":1,
+      "createdAt":"2015-06-20T15:31:26.576Z",
+      "modifiedAt":"2015-06-20T15:31:26.883Z",
+      "revisionCreatedAt":"2015-06-20T15:31:26.883Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"Screen Shot 2015-06-20 at 11.31.17 AM.png",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":478,
+          "height":218,
+          "format":"PNG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/gq/production/2015/06/20/5585874e09f0bee564447c8c_Screen%20Shot%202015-06-20%20at%2011.31.17%20AM.png"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":384,
+              "y":0,
+              "x":47}},
+          "width":384,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_384,h_216,x_47,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":288,
+              "y":0,
+              "x":95}},
+          "width":288,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_288,h_216,x_95,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":218,
+              "width":218,
+              "y":0,
+              "x":130}},
+          "width":218,
+          "height":218,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_218,h_218,x_130,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":218,
+              "width":327,
+              "y":0,
+              "x":75}},
+          "width":327,
+          "height":218,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_327,h_218,x_75,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "3:4":{
+          "modifications":{"crop":{
+              "height":216,
+              "width":162,
+              "y":0,
+              "x":158}},
+          "width":162,
+          "height":216,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_162,h_216,x_158,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false},
+        "64:25":{
+          "modifications":{"crop":{
+              "height":175,
+              "width":448,
+              "y":0,
+              "x":15}},
+          "width":448,
+          "height":175,
+          "url":"http://vulcan-api.aws.conde.io/gq/photos/5585874e09f0bee564447c8a/master/w_448,h_175,x_15,y_0/Screen Shot 2015-06-20 at 11.31.17 AM.png",
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/5585874e09f0bee564447c8a/revisions/1"},
+        "rels":{"href":"/photos/5585874e09f0bee564447c8a/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/5585874e09f0bee564447c8a/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/5585874e09f0bee564447c8a/revisions"},
+        "archive":{"href":"/photos/5585874e09f0bee564447c8a/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}],
+  "items":[{
+      "revisionAuthor":"Reginald Christian",
+      "hed":"12 Versatile Sneakers to Last You Through the Fall",
+      "dek":"As we start to layer up and replace our summer T-shirts with sweaters, henleys, and crewnecks, it's important to remember your shoes must go through the same process. That canvas pair you bought back in May? They're over the hill and it's time to put them out to pasture. Replace them with something more substantial, something warmer, and maybe even something tweed. Here are 12 pairs that you can wear with nearly anything in your wardrobe. Let the great seasonal swap begin!",
+      "body":"",
+      "channel":"Style",
+      "subChannel":"Sneakers",
+      "tags":[
+        "sneakers",
+        "fall trends"],
+      "contentSource":"web",
+      "items":[
+        {
+          "relId":"5601bd73f0075b5033a11905",
+          "title":"Veja Suede Sneakers ",
+          "caption":"Classic athletic-inspired kicks. You can't go wrong.\n\n*$130, available at [kithnyc.com](http://kithnyc.com/collections/footwear/products/veja-holiday-black-nautico)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc2f0075b5033a118dd",
+          "title":"VANS WOOL SPORT AUTHENTIC ",
+          "caption":"The sneaker you love, in a fabric that matches the season.\n\n*$55, available at [vans.com](http://www.vans.com/shop/wool-sport-authentic-pewter-white)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc1f0075b5033a118d9",
+          "title":"Valentino Rockrunner ",
+          "caption":"As luxe as a sneaker can get (figures it's from Valentino).\n\n*$975, available at [valentino.com](http://www.valentino.com/us/sneaker_cod44898822jt.html)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc100a6dc503f9b951a",
+          "title":"Tod's Suede Sneakers ",
+          "caption":"$525, *available at [store.tods.com](http://store.tods.com/Tods/US/categories/Shop-Man/Fall-Winter/Shoes/Sneakers/Suede-Sneakers/p/XXM0VJ0L8109TU0M30)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc1f0075b5033a118d5",
+          "title":"Tiger of Sweden soft suede sneakers",
+          "caption":"Simple, clean, and [suede](http://www.gq.com/gallery/six-ways-to-wear-suede-fall) (it's a big thing for fall, trust us).\n\n*$230, available at [ssense.com](https://www.ssense.com/en-us/men/product/tiger-of-sweden/grey-suede-sneakers/1174153)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc100a6dc503f9b9516",
+          "title":"Greats Graphite Suede Sneaker ",
+          "caption":"Go for something neutral and dark with just enough detail to keep it interesting. \n\n*$169, available at [greats.com](http://www.greats.com/products/the-royale-graphite-suede)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc1f0075b5033a118cd",
+          "title":"LANVIN SNEAKER IN WOOL FELT AND NAPPA CALFSKIN",
+          "caption":"A sneaker that will become a closet staple. \n$570, *available at [lanvin.com](http://store.lanvin.com/us/sneakers_cod44861910nj.html)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc0f0075b5033a118c5",
+          "title":"Del Toro Dotted Velvet Chukka Sneaker",
+          "caption":"The velvet sneaker, a total Costanza move that we actually condone.\n\n$340, *available at [deltoro.com](http://www.deltoroshoes.com/men/chukkas/men-s-black-dotted-velvet-chukka-sneaker.html)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc0f0075b5033a118c7",
+          "title":"COMMON PROJECTS SUEDE SLIP-ON SNEAKERS",
+          "caption":"For luxury skate vibes.\n\n$415, *available at [mrporter.com](http://www.mrporter.com/en-us/mens/common_projects/waxed-suede-slip-on-sneakers/596300)* ",
+          "isActive":true},
+        {
+          "relId":"5600706dc5022b3211500434",
+          "title":"New Balance x Premier 998 ",
+          "caption":"No color combo better than black and tan this fall.\n\n*$220, available at [kithnyc.com](http://kithnyc.com/collections/footwear/products/new-balance-x-premier-m998)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbbff0075b5033a118bd",
+          "title":"Aldo Wool Sneakers ",
+          "caption":"Stay in wool, stay toasty.\n\n*$75, available at [aldoshoes.com](http://www.aldoshoes.com/us/en_US/men/shoes/c/210/MINNITAKI/p/40268060-97#)* ",
+          "isActive":true},
+        {
+          "relId":"5601bbc000a6dc503f9b950e",
+          "title":"Diemme  Grey Tweed Sip-On Sneakers $25",
+          "caption":"This is what happens when your favorite suiting material hits your favorite sneaker. Bliss.\n\n*$250, available at [ssense.com](https://www.ssense.com/en-us/men/product/diemme/grey-tweed-slip-on-garda-sneakers/1281603)* ",
+          "isActive":true}],
+      "id":"56006a8ec5022b3211500349",
+      "revision":75,
+      "createdAt":"2015-09-21T20:37:34.106Z",
+      "modifiedAt":"2015-09-22T22:24:36.000Z",
+      "revisionCreatedAt":"2015-09-22T22:24:36.000Z",
+      "meta":{
+        "collectionName":"galleries",
+        "modelName":"gallery",
+        "publishable":true,
+        "image":false,
+        "archived":false},
+      "socialTitle":"12 Versatile Sneakers to Last You Through the Fall",
+      "socialDescription":"That canvas pair you bought back in May? They're over the hill and it's time to put them out to pasture. Replace them with something more substantial",
+      "seoTitle":"12 Versatile Sneakers to Last You Through the Fall",
+      "seoDescription":"That canvas pair you bought back in May? They're over the hill and it's time to put them out to pasture. Replace them with something more substantial",
+      "_links":{
+        "self":{"href":"/galleries/56006a8ec5022b3211500349/revisions/75"},
+        "rels":{"href":"/galleries/56006a8ec5022b3211500349/revisions/75/rels"},
+        "relate":{
+          "href":"/galleries/56006a8ec5022b3211500349/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/galleries/56006a8ec5022b3211500349/revisions"},
+        "archive":{"href":"/galleries/56006a8ec5022b3211500349/archive"},
+        "publish":{"href":"/galleries/56006a8ec5022b3211500349/publish"},
+        "publishHistory":{"href":"/galleries/56006a8ec5022b3211500349/publish/history"},
+        "next":{"href":"/galleries/56006a8ec5022b3211500349/next"},
+        "previous":{"href":"/galleries/56006a8ec5022b3211500349/previous"},
+        "more":{"href":"/galleries/published/more?id=56006a8ec5022b3211500349"}},
+      "_embedded":{
+        "photosTout":[{"fields":{
+              "revisionAuthor":"Reginald Christian",
+              "title":"kith-veja-holiday_720.jpg",
+              "id":"5600706fc5022b3211500438",
+              "revision":1,
+              "createdAt":"2015-09-21T21:02:39.362Z",
+              "modifiedAt":"2015-09-21T21:02:39.479Z",
+              "revisionCreatedAt":"2015-09-21T21:02:39.479Z",
+              "meta":{
+                "collectionName":"photos",
+                "modelName":"photo",
+                "publishable":false,
+                "image":true,
+                "archived":false},
+              "filename":"kith-veja-holiday_720.jpg",
+              "restrictCropping":false,
+              "aspectRatios":{
+                "master":{
+                  "width":720,
+                  "height":481,
+                  "format":"JPEG",
+                  "url":"https://cn-copilot-media.s3.amazonaws.com/public/gq/production/2015/09/21/5600706fc5022b321150043a_kith-veja-holiday_720.jpg"},
+                "3:2":{
+                  "modifications":{"crop":{
+                      "height":480,
+                      "width":720,
+                      "y":0,
+                      "x":0}},
+                  "width":720,
+                  "height":480,
+                  "override":false},
+                "3:4":{
+                  "modifications":{"crop":{
+                      "height":480,
+                      "width":360,
+                      "y":0,
+                      "x":180}},
+                  "width":360,
+                  "height":480,
+                  "override":false},
+                "64:25":{
+                  "modifications":{"crop":{
+                      "height":275,
+                      "width":704,
+                      "y":0,
+                      "x":8}},
+                  "width":704,
+                  "height":275,
+                  "override":false},
+                "16:9":{
+                  "modifications":{"crop":{
+                      "height":405,
+                      "width":720,
+                      "y":0,
+                      "x":0}},
+                  "width":720,
+                  "height":405,
+                  "override":false},
+                "4:3":{
+                  "modifications":{"crop":{
+                      "height":480,
+                      "width":640,
+                      "y":0,
+                      "x":40}},
+                  "width":640,
+                  "height":480,
+                  "override":false},
+                "1:1":{
+                  "modifications":{"crop":{
+                      "height":481,
+                      "width":481,
+                      "y":0,
+                      "x":119}},
+                  "width":481,
+                  "height":481,
+                  "override":false}}}}],
+        "contributorsAuthor":[
+          {"fields":{
+              "name":"Reginald Christian",
+              "id":"55898b392a8212d204de51c2",
+              "revision":0,
+              "createdAt":"2015-06-23T16:37:13.007Z",
+              "modifiedAt":"2015-06-23T16:37:13.007Z",
+              "revisionCreatedAt":"2015-06-23T16:37:13.007Z",
+              "meta":{
+                "collectionName":"contributors",
+                "modelName":"contributor",
+                "publishable":true,
+                "image":false,
+                "archived":false}}},
+          {"fields":{
+              "name":"John Jannuzzi",
+              "id":"558289fc1177d66d68d5224a",
+              "revision":4,
+              "createdAt":"2015-06-18T09:06:04.570Z",
+              "modifiedAt":"2015-08-28T01:00:59.650Z",
+              "revisionCreatedAt":"2015-08-28T01:00:59.650Z",
+              "meta":{
+                "collectionName":"contributors",
+                "modelName":"contributor",
+                "publishable":true,
+                "image":false,
+                "archived":false},
+              "revisionAuthor":"John Jannuzzi",
+              "bio":"",
+              "socialMedia":[
+                {
+                  "network":"Twitter",
+                  "handle":"johnjannuzzi"},
+                {
+                  "network":"Instagram",
+                  "handle":"johnjannuzzi"}]}}],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"56006a8ec5022b3211500349",
+          "revision":75,
+          "uri":"gallery/versatile-sneakers-to-last-through-the-fall",
+          "pubDate":"2015-09-22T22:24:36.477Z",
+          "revisionAuthor":"Reginald Christian",
+          "searchable":true,
+          "template":"default",
+          "expired":false,
+          "createdAt":"2015-09-22T22:25:04.383Z"}}}]}}

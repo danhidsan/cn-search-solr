@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Off-Roading in Moab",
   "description":"Bryn Mooser travels to the adventure mecca of Moab, Utah—home to Arches and Canyonlands National Parks. There, he and Land Rover driving instructor Jim Swett crawl the canyons in the Range Rover Sport.",
   "tags":[
@@ -58,4 +58,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"A Day in Dubai ",
   "description":"Photographer and cinematographer Jennifer Whalen's tour of Dubai.",
   "tags":[
@@ -62,4 +62,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

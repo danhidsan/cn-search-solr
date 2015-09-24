@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Sunset Tower",
   "description":"Why the Sunset Tower is the Hollywood elite's favorite hideout. ",
   "tags":[
@@ -56,4 +56,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

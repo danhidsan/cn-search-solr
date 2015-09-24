@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Kosekela",
   "address":{
     "street":"85 Dunning Ave",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/kosekela"}}}
+      "uri":"shops/sydney/kosekela"}}}, "rels": {}}

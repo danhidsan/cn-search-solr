@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Betony NYC: Behind the Scenes",
   "description":"Behind the scenes at Betony in New York City, where chef Bryce Shuman cooks two of his favorite dishes. ",
   "tags":[
@@ -70,4 +70,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

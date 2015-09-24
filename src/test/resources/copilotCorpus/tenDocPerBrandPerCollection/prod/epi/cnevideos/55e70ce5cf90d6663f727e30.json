@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"How to Grate an Apple",
   "description":"Make a Breakfast Apple Bran Loaf with this quick how-to tip! ",
   "tags":[
@@ -33,4 +33,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

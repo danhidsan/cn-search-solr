@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Tio's",
   "address":{
     "street":"4-14 Foster Street",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/tio-s"}}}
+      "uri":"bars/sydney/tio-s"}}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"How to Make the Best French Bread Pizza Ever",
   "description":"We show you how to make the best thing since sliced (french) bread. ",
   "tags":[
@@ -38,4 +38,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

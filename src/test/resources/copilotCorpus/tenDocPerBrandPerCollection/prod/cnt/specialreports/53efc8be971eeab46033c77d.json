@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Christina Kung",
   "hed":"Citizens of the World",
   "dek":"presented by United",
@@ -41,4 +41,126 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"items":[
+    {
+      "revisionAuthor":"Laura Carroll",
+      "hed":"Citizens of the World Top Stories",
+      "dek":"",
+      "channel":"Travel Intel",
+      "subChannel":"Business Travel",
+      "tags":[],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"53daaab8dcd5888e145c3e1b",
+          "hed":"The World's 'Smartest' Cities",
+          "dek":""},
+        {
+          "relId":"53db2bbc6dec627b14a1f9db",
+          "hed":"The Best Business Travel Hotels in the World",
+          "dek":""},
+        {
+          "relId":"53db2bc36dec627b14a1fa0b",
+          "hed":"The Best Business Travel Hotels in the United States",
+          "dek":""},
+        {
+          "relId":"53e2ece7c2d3f39d3610a1a0",
+          "hed":"10 Travel Apps to Download Before Your Next Trip",
+          "dek":""},
+        {
+          "relId":"53daaa34dcd5888e145c3c03",
+          "hed":"The 12 Biggest Travel Mistakes You Think You’re Too Smart to Make",
+          "dek":""}],
+      "id":"53efc72bace4e0c2063d6672",
+      "revision":0,
+      "createdAt":"2014-08-16T21:03:39.566Z",
+      "modifiedAt":"2014-08-16T21:03:39.566Z",
+      "revisionCreatedAt":"2014-08-16T21:03:39.566Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/53efc72bace4e0c2063d6672/revisions/0"},
+        "rels":{"href":"/curatedlists/53efc72bace4e0c2063d6672/revisions/0/rels"},
+        "relate":{
+          "href":"/curatedlists/53efc72bace4e0c2063d6672/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/53efc72bace4e0c2063d6672/revisions"},
+        "archive":{"href":"/curatedlists/53efc72bace4e0c2063d6672/archive"},
+        "publish":{"href":"/curatedlists/53efc72bace4e0c2063d6672/publish"},
+        "publishHistory":{"href":"/curatedlists/53efc72bace4e0c2063d6672/publish/history"},
+        "next":{"href":"/curatedlists/53efc72bace4e0c2063d6672/next"},
+        "previous":{"href":"/curatedlists/53efc72bace4e0c2063d6672/previous"},
+        "more":{"href":"/curatedlists/published/more?id=53efc72bace4e0c2063d6672"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "createdAt":"2014-08-16T21:03:57.515Z",
+          "entityId":"53efc72bace4e0c2063d6672",
+          "expired":false,
+          "pubDate":"2014-08-16T21:03:39.402Z",
+          "revision":0,
+          "revisionAuthor":"Laura Carroll",
+          "searchable":true,
+          "template":"index",
+          "uri":"travel-intel/business-travel/citizens-of-the-world-top-stories"}}},
+    {
+      "revisionAuthor":"Laura Carroll",
+      "hed":"Citizens of the World Hotels List ",
+      "dek":"",
+      "channel":"Travel Intel",
+      "subChannel":"Business Travel",
+      "tags":[],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"53da457cdcd5888e145aac1d",
+          "hed":"9 Great Castle Hotels in Europe",
+          "dek":""},
+        {
+          "relId":"53e2f6c7c2d3f39d3610c6f0",
+          "hed":"These Views Will Make You Want to Actually Use a Hotel Gym",
+          "dek":""},
+        {
+          "relId":"53db2543dcd5888e145e8581",
+          "hed":"Top 25 Hotels in New York City",
+          "dek":""}],
+      "id":"53efc9c2971eeab46033c7c2",
+      "revision":0,
+      "createdAt":"2014-08-16T21:14:42.210Z",
+      "modifiedAt":"2014-08-16T21:14:42.210Z",
+      "revisionCreatedAt":"2014-08-16T21:14:42.210Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/revisions/0"},
+        "rels":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/revisions/0/rels"},
+        "relate":{
+          "href":"/curatedlists/53efc9c2971eeab46033c7c2/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/revisions"},
+        "archive":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/archive"},
+        "publish":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/publish"},
+        "publishHistory":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/publish/history"},
+        "next":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/next"},
+        "previous":{"href":"/curatedlists/53efc9c2971eeab46033c7c2/previous"},
+        "more":{"href":"/curatedlists/published/more?id=53efc9c2971eeab46033c7c2"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "createdAt":"2014-08-16T21:14:52.076Z",
+          "entityId":"53efc9c2971eeab46033c7c2",
+          "expired":false,
+          "pubDate":"2014-08-16T21:14:42.051Z",
+          "revision":0,
+          "revisionAuthor":"Laura Carroll",
+          "searchable":true,
+          "template":"index",
+          "uri":"travel-intel/business-travel/citizens-of-the-world-hotels-list"}}}]}}

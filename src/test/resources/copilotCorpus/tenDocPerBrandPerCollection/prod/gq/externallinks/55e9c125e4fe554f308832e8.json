@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Genevieve Walker",
   "hed":"Style: Boots: Sub channel",
   "dek":"",
@@ -26,4 +26,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

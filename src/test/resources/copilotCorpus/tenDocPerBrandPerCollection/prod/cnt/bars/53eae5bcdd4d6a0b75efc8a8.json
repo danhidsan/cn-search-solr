@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Shady Pines Saloon",
   "address":{
     "street":"Shop 4, 256 Crown Street",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/shady-pines-saloon"}}}
+      "uri":"bars/sydney/shady-pines-saloon"}}}, "rels": {}}

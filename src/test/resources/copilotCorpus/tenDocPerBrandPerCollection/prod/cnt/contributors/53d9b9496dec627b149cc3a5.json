@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Boris Kachka",
   "id":"53d9b9496dec627b149cc3a5",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/boris-kachka"}}}
+      "uri":"contributors/boris-kachka"}}}, "rels": {}}

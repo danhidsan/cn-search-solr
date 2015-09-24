@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Arcadia Liquors",
   "address":{
     "street":"7 Cope Street",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"bars/sydney/arcadia-liquors"}}}
+      "uri":"bars/sydney/arcadia-liquors"}}}, "rels": {}}

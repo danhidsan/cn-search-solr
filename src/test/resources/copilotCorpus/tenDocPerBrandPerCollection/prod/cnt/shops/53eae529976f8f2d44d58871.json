@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Pretty Dog",
   "address":{
     "street":"5 Brown Street",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/pretty-dog"}}}
+      "uri":"shops/sydney/pretty-dog"}}}, "rels": {}}

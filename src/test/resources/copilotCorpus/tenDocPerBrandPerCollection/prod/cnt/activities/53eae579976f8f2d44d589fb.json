@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Power Station of Art",
   "address":{
     "street":"﻿﻿200 Huayuangang Road",
@@ -52,4 +52,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/shanghai/power-station-of-art"}}}
+      "uri":"activities/shanghai/power-station-of-art"}}}, "rels": {}}

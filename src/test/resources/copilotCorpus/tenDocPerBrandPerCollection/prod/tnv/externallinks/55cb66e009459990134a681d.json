@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Lisa Gutierrez",
   "hed":"Zac Efron selfie",
   "dek":"",
@@ -27,4 +27,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

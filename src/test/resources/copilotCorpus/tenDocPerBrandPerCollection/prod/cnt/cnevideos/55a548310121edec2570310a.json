@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Mimi Thorisson At Home in the Médoc",
   "description":"Follow food blogger Mimi Thorisson through the markets in her hometown of Medoc, France.",
   "tags":[
@@ -68,4 +68,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

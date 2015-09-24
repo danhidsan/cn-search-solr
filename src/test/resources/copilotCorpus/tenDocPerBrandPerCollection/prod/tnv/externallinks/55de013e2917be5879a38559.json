@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Brooke Delott",
   "hed":"Enter For The Chance To Be Featured On An NYC Billboard",
   "dek":"",
@@ -101,4 +101,91 @@
               "height":467,
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Brooke Delott",
+      "title":"kvd-rot.jpg",
+      "id":"55de013aa527c3e213f4d66a",
+      "revision":1,
+      "createdAt":"2015-08-26T18:11:06.466Z",
+      "modifiedAt":"2015-08-26T18:11:06.836Z",
+      "revisionCreatedAt":"2015-08-26T18:11:06.836Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"kvd-rot.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":700,
+          "height":467,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/08/26/55de013aa527c3e213f4d66c_kvd-rot.jpg"},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":280,
+              "width":700,
+              "y":0,
+              "x":0}},
+          "width":700,
+          "height":280,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":466,
+              "width":699,
+              "y":0,
+              "x":0}},
+          "width":699,
+          "height":466,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":465,
+              "width":310,
+              "y":0,
+              "x":195}},
+          "width":310,
+          "height":465,
+          "override":false},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":387,
+              "width":688,
+              "y":0,
+              "x":6}},
+          "width":688,
+          "height":387,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":465,
+              "width":620,
+              "y":0,
+              "x":40}},
+          "width":620,
+          "height":465,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":467,
+              "width":467,
+              "y":0,
+              "x":116}},
+          "width":467,
+          "height":467,
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/55de013aa527c3e213f4d66a/revisions/1"},
+        "rels":{"href":"/photos/55de013aa527c3e213f4d66a/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/55de013aa527c3e213f4d66a/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55de013aa527c3e213f4d66a/revisions"},
+        "archive":{"href":"/photos/55de013aa527c3e213f4d66a/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

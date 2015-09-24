@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"MoVida Sydney",
   "address":{
     "street":"50 Holt Street",
@@ -55,4 +55,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"restaurants/sydney/movida-sydney"}}}
+      "uri":"restaurants/sydney/movida-sydney"}}}, "rels": {}}

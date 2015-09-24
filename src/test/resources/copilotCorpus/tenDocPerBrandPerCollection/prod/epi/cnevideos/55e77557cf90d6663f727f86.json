@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Shred Asparagus - Vertical Test Video",
   "description":"Shred Asparagus test video for modal player vertical testing.",
   "tags":[
@@ -33,4 +33,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

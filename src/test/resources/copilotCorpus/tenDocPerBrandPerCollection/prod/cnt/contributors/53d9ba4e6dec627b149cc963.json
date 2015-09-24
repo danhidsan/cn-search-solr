@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Deborah Dunn",
   "id":"53d9ba4e6dec627b149cc963",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/deborah-dunn"}}}
+      "uri":"contributors/deborah-dunn"}}}, "rels": {}}

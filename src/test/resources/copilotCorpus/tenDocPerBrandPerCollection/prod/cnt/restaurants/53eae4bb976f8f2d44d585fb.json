@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Mr. Wong",
   "address":{
     "street":"3 Bridge Lane",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"restaurants/sydney/mr-wong"}}}
+      "uri":"restaurants/sydney/mr-wong"}}}, "rels": {}}

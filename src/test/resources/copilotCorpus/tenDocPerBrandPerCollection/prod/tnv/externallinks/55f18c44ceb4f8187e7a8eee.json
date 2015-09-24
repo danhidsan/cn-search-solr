@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Brooke Delott",
   "hed":"Enter To Win A $1,000 Shopping Spree",
   "dek":"",
@@ -102,4 +102,92 @@
               "height":627,
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Brooke Delott",
+      "credit":"© Julian Love",
+      "title":"simple_rev.jpg",
+      "id":"55f18c40ceb4f8187e7a8ee2",
+      "revision":1,
+      "createdAt":"2015-09-10T13:57:20.939Z",
+      "modifiedAt":"2015-09-10T13:57:21.024Z",
+      "revisionCreatedAt":"2015-09-10T13:57:21.024Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"simple_rev.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":1200,
+          "height":627,
+          "format":"JPEG",
+          "url":"https://cn-copilot-media.s3.amazonaws.com/public/teenvogue-services/production/2015/09/10/55f18c40ceb4f8187e7a8ee4_simple_rev.jpg"},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":480,
+              "width":1200,
+              "y":0,
+              "x":0}},
+          "width":1200,
+          "height":480,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":626,
+              "width":939,
+              "y":0,
+              "x":130}},
+          "width":939,
+          "height":626,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":627,
+              "width":418,
+              "y":0,
+              "x":391}},
+          "width":418,
+          "height":627,
+          "override":false},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":621,
+              "width":1104,
+              "y":0,
+              "x":48}},
+          "width":1104,
+          "height":621,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":627,
+              "width":836,
+              "y":0,
+              "x":182}},
+          "width":836,
+          "height":627,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":627,
+              "width":627,
+              "y":0,
+              "x":286}},
+          "width":627,
+          "height":627,
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/55f18c40ceb4f8187e7a8ee2/revisions/1"},
+        "rels":{"href":"/photos/55f18c40ceb4f8187e7a8ee2/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/55f18c40ceb4f8187e7a8ee2/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55f18c40ceb4f8187e7a8ee2/revisions"},
+        "archive":{"href":"/photos/55f18c40ceb4f8187e7a8ee2/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

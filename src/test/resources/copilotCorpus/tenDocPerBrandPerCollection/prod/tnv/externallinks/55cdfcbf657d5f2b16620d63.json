@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Melanie Rivera",
   "hed":"Enter For The Chance To Win A Walmart Gift Card",
   "dek":"#MNYBTSLooks",
@@ -102,4 +102,91 @@
               "height":465,
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Melanie Rivera",
+      "title":"maybelline-rot.jpg",
+      "id":"55cdfcba657d5f2b16620d5f",
+      "revision":1,
+      "createdAt":"2015-08-14T14:35:38.819Z",
+      "modifiedAt":"2015-08-14T14:35:39.104Z",
+      "revisionCreatedAt":"2015-08-14T14:35:39.104Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"maybelline-rot.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":700,
+          "height":467,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/08/14/55cdfcba657d5f2b16620d61_maybelline-rot.jpg"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":387,
+              "width":688,
+              "y":0,
+              "x":6}},
+          "width":688,
+          "height":387,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":465,
+              "width":620,
+              "y":0,
+              "x":40}},
+          "width":620,
+          "height":465,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":467,
+              "width":467,
+              "y":0,
+              "x":116}},
+          "width":467,
+          "height":467,
+          "override":false},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":280,
+              "width":700,
+              "y":0,
+              "x":0}},
+          "width":700,
+          "height":280,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":466,
+              "width":699,
+              "y":0,
+              "x":0}},
+          "width":699,
+          "height":466,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":465,
+              "width":310,
+              "y":0,
+              "x":195}},
+          "width":310,
+          "height":465,
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/55cdfcba657d5f2b16620d5f/revisions/1"},
+        "rels":{"href":"/photos/55cdfcba657d5f2b16620d5f/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/55cdfcba657d5f2b16620d5f/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55cdfcba657d5f2b16620d5f/revisions"},
+        "archive":{"href":"/photos/55cdfcba657d5f2b16620d5f/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

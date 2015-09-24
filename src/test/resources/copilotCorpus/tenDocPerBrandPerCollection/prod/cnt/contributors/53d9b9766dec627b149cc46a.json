@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Susan Hack",
   "id":"53d9b9766dec627b149cc46a",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/susan-hack"}}}
+      "uri":"contributors/susan-hack"}}}, "rels": {}}

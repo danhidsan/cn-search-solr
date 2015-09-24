@@ -66,7 +66,6 @@ public class SearchSchemaMapping implements DocMapping {
         NodeSelector<JsonNode> copilotDocNodeSelector = tryBuildSelector(copilotDocument);
         for (String solrFieldName : searchSchemaSolrFields) {
             String copilotDocJsonSelector = searchSchemaMap.get(solrFieldName).toString();
-            if (!isModelSelector(copilotDocJsonSelector)) continue;
             String[] values = extractValues(copilotDocNodeSelector, copilotDocJsonSelector);
             if (isEmpty(values)) {
                 logInfoEmptySelectorResult(copilotDocument, solrFieldName);
@@ -103,9 +102,9 @@ public class SearchSchemaMapping implements DocMapping {
 
     private String[] extractValues(NodeSelector<JsonNode> selector, String copilotDocJsonSelector) {
         String[] ret = null;
-        String sel = copilotDocJsonSelector.replaceAll("\\.model", ":root").replaceAll("\\.", "");
+        String sel = copilotDocJsonSelector.replaceAll("\\.", "");
         List<JsonNode> values = selector.findAll(sel);
-        if (values != null) {
+        if (values != null && values.size() > 0) {
             ret = new String[values.size()];
             for (int i = 0; i < ret.length; i++) {
                 ret[i] = values.get(i).getValue();
@@ -113,10 +112,5 @@ public class SearchSchemaMapping implements DocMapping {
         }
         return ret;
     }
-
-    private boolean isModelSelector(String copilotDocJsonSelector) {
-        return copilotDocJsonSelector != null && copilotDocJsonSelector.startsWith(".model");
-    }
-
 
 }

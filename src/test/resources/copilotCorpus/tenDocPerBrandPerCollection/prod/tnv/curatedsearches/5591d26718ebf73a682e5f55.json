@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Melanie Rivera",
   "hed":"Tresemme Festival: River",
   "dek":"",
@@ -130,4 +130,100 @@
               "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_900,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "tags":["http://www.teenvogue.com/images/fashion/how-to/2013-03/sb-03.jpg"],
+      "caption":"South by Southwest is just a week away, so it’s time to get your festival look on lock if SXSW is figuring into your break plans. We’re into high-waisted shorts — especially if they’re patterned! — and sleeveless shirts buttoned all the way to the top. Shoes with a low heel are also a must.\n\n\n\n _[Isabella of Views of Now](http://fashionclick.teenvogue.com/post/neon_1359302527) is concert-ready in a bold, bright look._",
+      "credit":"",
+      "description":"South by Southwest is just a week away, so it's time to get your festival look on lock if SXSW is figuring into your break plans. We're into high-waisted shorts — especially if they're patterned! — and sleeveless shirts buttoned all the way to the top. Shoes with a low heel are also a must.\n\n\n\n _[Isabella of Views of Now](http://fashionclick.teenvogue.com/post/neon_1359302527) is concert-ready in a bold, bright look._",
+      "title":"Music Festival",
+      "id":"5583af21fb1995762be3fa44",
+      "revision":1,
+      "createdAt":"2015-06-19T05:56:49.338Z",
+      "modifiedAt":"2015-06-19T05:56:49.531Z",
+      "revisionCreatedAt":"2015-06-19T05:56:49.531Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"fashion-how-to-2013-03-sb-03.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":600,
+          "height":900,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/06/19/5583af21fb1995762be3fa46_fashion-how-to-2013-03-sb-03.jpg"},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":333,
+              "width":592,
+              "y":0,
+              "x":4}},
+          "width":592,
+          "height":333,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_592,h_333,x_4,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":450,
+              "width":600,
+              "y":0,
+              "x":0}},
+          "width":600,
+          "height":450,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_450,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":600,
+              "width":600,
+              "y":0,
+              "x":0}},
+          "width":600,
+          "height":600,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_600,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":240,
+              "width":600,
+              "y":0,
+              "x":0}},
+          "width":600,
+          "height":240,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_240,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":400,
+              "width":600,
+              "y":0,
+              "x":0}},
+          "width":600,
+          "height":400,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_400,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":900,
+              "width":600,
+              "y":0,
+              "x":0}},
+          "width":600,
+          "height":900,
+          "url":"http://vulcan-api.aws.conde.io/teenvogue-services/photos/5583af21fb1995762be3fa44/master/w_600,h_900,x_0,y_0/fashion-how-to-2013-03-sb-03.jpg",
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/5583af21fb1995762be3fa44/revisions/1"},
+        "rels":{"href":"/photos/5583af21fb1995762be3fa44/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/5583af21fb1995762be3fa44/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/5583af21fb1995762be3fa44/revisions"},
+        "archive":{"href":"/photos/5583af21fb1995762be3fa44/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

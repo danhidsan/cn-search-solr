@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Jonathan Gill",
   "name":"New Golf Ball",
   "manufacturerDescription":"",
@@ -36,4 +36,42 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"brand":[{
+      "revisionAuthor":"Blake Mccallister",
+      "name":"Callaway",
+      "description":"",
+      "id":"54c0280195722f4234c51ee5",
+      "revision":2,
+      "createdAt":"2015-01-21T22:28:17.265Z",
+      "modifiedAt":"2015-01-21T22:29:36.518Z",
+      "revisionCreatedAt":"2015-01-21T22:29:36.518Z",
+      "meta":{
+        "collectionName":"brands",
+        "modelName":"brand",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/brands/54c0280195722f4234c51ee5/revisions/2"},
+        "rels":{"href":"/brands/54c0280195722f4234c51ee5/revisions/2/rels"},
+        "relate":{
+          "href":"/brands/54c0280195722f4234c51ee5/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/brands/54c0280195722f4234c51ee5/revisions"},
+        "archive":{"href":"/brands/54c0280195722f4234c51ee5/archive"},
+        "publish":{"href":"/brands/54c0280195722f4234c51ee5/publish"},
+        "publishHistory":{"href":"/brands/54c0280195722f4234c51ee5/publish/history"},
+        "next":{"href":"/brands/54c0280195722f4234c51ee5/next"},
+        "previous":{"href":"/brands/54c0280195722f4234c51ee5/previous"},
+        "more":{"href":"/brands/published/more?id=54c0280195722f4234c51ee5"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"54c0280195722f4234c51ee5",
+          "revision":2,
+          "uri":"brand/golf-digest-brand-model-callaway",
+          "pubDate":"2015-01-21T22:29:03.619Z",
+          "revisionAuthor":"Blake Mccallister",
+          "searchable":true,
+          "expired":false,
+          "createdAt":"2015-01-21T22:29:48.961Z"}}}]}}

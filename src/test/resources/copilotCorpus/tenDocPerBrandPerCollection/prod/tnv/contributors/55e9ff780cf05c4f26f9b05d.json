@@ -1,13 +1,13 @@
-{
-  "revisionAuthor":"Sade Strehlke",
-  "name":"Miss New Foodie",
+{ "model":{
+  "revisionAuthor":"Andrea Navarro",
+  "name":"Emily Carlo",
   "bio":"",
   "socialMedia":[],
   "id":"55e9ff780cf05c4f26f9b05d",
-  "revision":0,
+  "revision":2,
   "createdAt":"2015-09-04T20:30:48.757Z",
-  "modifiedAt":"2015-09-04T20:30:48.757Z",
-  "revisionCreatedAt":"2015-09-04T20:30:48.757Z",
+  "modifiedAt":"2015-09-22T16:42:11.938Z",
+  "revisionCreatedAt":"2015-09-22T16:42:11.938Z",
   "meta":{
     "collectionName":"contributors",
     "modelName":"contributor",
@@ -15,8 +15,8 @@
     "image":false,
     "archived":false},
   "_links":{
-    "self":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/0"},
-    "rels":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/0/rels"},
+    "self":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/2"},
+    "rels":{"href":"/contributors/55e9ff780cf05c4f26f9b05d/revisions/2/rels"},
     "relate":{
       "href":"/contributors/55e9ff780cf05c4f26f9b05d/rels/{:relName}",
       "templated":true},
@@ -33,10 +33,10 @@
     "contributorsPhotographer":[],
     "publishHistory":{
       "entityId":"55e9ff780cf05c4f26f9b05d",
-      "revision":0,
+      "revision":2,
       "uri":"contributor/miss-new-foodie",
       "pubDate":"2015-09-04T20:30:49.045Z",
-      "revisionAuthor":"Sade Strehlke",
+      "revisionAuthor":"Andrea Navarro",
       "searchable":true,
       "expired":false,
-      "createdAt":"2015-09-04T20:30:59.207Z"}}}
+      "createdAt":"2015-09-22T16:42:13.508Z"}}}, "rels": {}}

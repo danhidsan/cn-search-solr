@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Bondi to Bronte coastal walk",
   "address":{
     "street":"Ben Buckler Point",
@@ -50,4 +50,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/bondi-to-bronte-coastal-walk"}}}
+      "uri":"activities/sydney/bondi-to-bronte-coastal-walk"}}}, "rels": {}}

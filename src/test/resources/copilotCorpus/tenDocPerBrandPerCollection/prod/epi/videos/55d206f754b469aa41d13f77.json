@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Matt Duckor",
   "hed":"3 New Ways to Ice Cream Sandwich",
   "dek":"",
@@ -26,4 +26,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

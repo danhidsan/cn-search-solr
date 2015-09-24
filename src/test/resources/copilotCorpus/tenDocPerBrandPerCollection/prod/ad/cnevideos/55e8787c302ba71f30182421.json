@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Inside the 2011 Oscars® Greenroom",
   "description":"Michael S. Smith describes his design for the Architectural Digest Greenroom at the 2011 Academy Awards® in an exclusive video tour",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Hidden Gems: The 2013 Venice Biennale ",
   "description":"Highlights from the 2013 Venice Biennale art exhibition, including Ai Wei Wei, Marc Quinn, and Catalan artist Antoni Tápies.",
   "tags":[
@@ -66,4 +66,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"David  Tamarkin",
   "hed":"TOP NAVIGATION BAR LINK",
   "url":"http://www.epicurious.com/about/epicurious-oral-history-article",
@@ -25,4 +25,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Julien Capmeil",
   "id":"53d9ba016dec627b149cc76a",
   "revision":2,
@@ -46,4 +46,4 @@
       "revision":2,
       "revisionAuthor":"Laura Redman",
       "searchable":true,
-      "uri":"contributors/julien-capmeil"}}}
+      "uri":"contributors/julien-capmeil"}}}, "rels": {}}

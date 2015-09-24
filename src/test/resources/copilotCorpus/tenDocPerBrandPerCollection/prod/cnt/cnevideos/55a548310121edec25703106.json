@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Series Trailer",
   "description":"When you travel like a local and dine like a regular, the experience feels more authentic and memorable. Enjoy the best that the world has to offer in dining and travel with our exclusive new series <i>Eat. Stay. Love.</i>. Explore the world as only an insider can.",
   "tags":[
@@ -55,4 +55,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

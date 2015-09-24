@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Sanjay Surana",
   "id":"53d9ba416dec627b149cc8ee",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/sanjay-surana"}}}
+      "uri":"contributors/sanjay-surana"}}}, "rels": {}}

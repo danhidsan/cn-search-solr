@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Stephanie Orma",
   "id":"53d9b9346dec627b149cc32c",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/stephanie-orma"}}}
+      "uri":"contributors/stephanie-orma"}}}, "rels": {}}

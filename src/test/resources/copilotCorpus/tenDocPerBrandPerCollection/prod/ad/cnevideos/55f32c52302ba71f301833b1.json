@@ -1,23 +1,23 @@
-{
-  "title":"Caitlyn Jenner's Malibu Home",
-  "description":"E! Caitlyn Jenner's Malibu Home",
+{ "model":{
+  "title":"Caitlyn Jenner’s Redesigned Malibu, California, Home",
+  "description":"E! gives Architectural Digest a look at the design process behind Caitlyn Jenner’s living room and bedroom makeover",
   "tags":[
     "architectural digest",
     "architecturaldigest.com"],
   "categories":[
     "celebrities",
     "interiors"],
-  "premiereDate":"2015-09-14T01:00:00+00:00",
+  "premiereDate":"2015-09-11T19:32:30+00:00",
   "canonicalUrl":"http://video.architecturaldigest.com/watch/caitlyn-jenner-malibu-home-celebrity-living",
   "embedUrl":"//player.cnevids.com/embed/55f32c4d61646d5f09000012/550a1c8061646d75b80c0000",
   "scriptEmbedUrl":"//player.cnevids.com/embedjs/55f32c4d61646d5f09000012/550a1c8061646d75b80c0000.js",
   "sceneUrl":"https://thescene.com/watch/architecturaldigest/caitlyn-jenner-malibu-home-celebrity-living",
   "imageUrl":"http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_center,h_360,q_80,w_640/v1442000871/architecturaldigest_caitlyn-jenners-malibu-home-celebrity-living.jpg",
   "id":"55f32c52302ba71f301833b1",
-  "revision":5,
+  "revision":9,
   "createdAt":"2015-09-11T19:32:34.945Z",
-  "modifiedAt":"2015-09-11T20:13:54.064Z",
-  "revisionCreatedAt":"2015-09-11T20:13:54.064Z",
+  "modifiedAt":"2015-09-22T18:07:11.044Z",
+  "revisionCreatedAt":"2015-09-22T18:07:11.044Z",
   "meta":{
     "collectionName":"cnevideos",
     "modelName":"cnevideo",
@@ -25,8 +25,8 @@
     "image":false,
     "archived":false},
   "_links":{
-    "self":{"href":"/cnevideos/55f32c52302ba71f301833b1/revisions/5"},
-    "rels":{"href":"/cnevideos/55f32c52302ba71f301833b1/revisions/5/rels"},
+    "self":{"href":"/cnevideos/55f32c52302ba71f301833b1/revisions/9"},
+    "rels":{"href":"/cnevideos/55f32c52302ba71f301833b1/revisions/9/rels"},
     "relate":{
       "href":"/cnevideos/55f32c52302ba71f301833b1/rels/{:relName}",
       "templated":true},
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

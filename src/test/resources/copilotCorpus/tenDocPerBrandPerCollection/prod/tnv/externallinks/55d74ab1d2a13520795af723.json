@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Brooke Delott",
   "hed":"Spread the Nice Hub",
   "dek":"",
@@ -102,4 +102,91 @@
               "height":1080,
               "override":false}}}}],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {"photosTout":[{
+      "revisionAuthor":"Brooke Delott",
+      "title":"mean-stinks-09.jpg",
+      "id":"55d74c0bd2a13520795af729",
+      "revision":1,
+      "createdAt":"2015-08-21T16:04:27.969Z",
+      "modifiedAt":"2015-08-21T16:04:28.290Z",
+      "revisionCreatedAt":"2015-08-21T16:04:28.290Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":true,
+        "archived":false},
+      "filename":"mean-stinks-09.jpg",
+      "restrictCropping":false,
+      "aspectRatios":{
+        "master":{
+          "width":1080,
+          "height":1080,
+          "format":"JPEG",
+          "url":"https://us-east.manta.joyent.com/condenast/public/teenvogue-services/production/2015/08/21/55d74c0bd2a13520795af72b_mean-stinks-09.jpg"},
+        "5:2":{
+          "modifications":{"crop":{
+              "height":432,
+              "width":1080,
+              "y":0,
+              "x":0}},
+          "width":1080,
+          "height":432,
+          "override":false},
+        "3:2":{
+          "modifications":{"crop":{
+              "height":720,
+              "width":1080,
+              "y":0,
+              "x":0}},
+          "width":1080,
+          "height":720,
+          "override":false},
+        "2:3":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":720,
+              "y":0,
+              "x":180}},
+          "width":720,
+          "height":1080,
+          "override":false},
+        "16:9":{
+          "modifications":{"crop":{
+              "height":603,
+              "width":1072,
+              "y":0,
+              "x":4}},
+          "width":1072,
+          "height":603,
+          "override":false},
+        "4:3":{
+          "modifications":{"crop":{
+              "height":810,
+              "width":1080,
+              "y":0,
+              "x":0}},
+          "width":1080,
+          "height":810,
+          "override":false},
+        "1:1":{
+          "modifications":{"crop":{
+              "height":1080,
+              "width":1080,
+              "y":0,
+              "x":0}},
+          "width":1080,
+          "height":1080,
+          "override":false}},
+      "_links":{
+        "self":{"href":"/photos/55d74c0bd2a13520795af729/revisions/1"},
+        "rels":{"href":"/photos/55d74c0bd2a13520795af729/revisions/1/rels"},
+        "relate":{
+          "href":"/photos/55d74c0bd2a13520795af729/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/55d74c0bd2a13520795af729/revisions"},
+        "archive":{"href":"/photos/55d74c0bd2a13520795af729/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}]}}

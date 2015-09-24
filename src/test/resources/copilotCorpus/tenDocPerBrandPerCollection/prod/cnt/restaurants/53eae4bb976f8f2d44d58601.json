@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Longrak",
   "address":{
     "street":"85 Commonwealth Street",
@@ -53,4 +53,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"restaurants/sydney/longrak"}}}
+      "uri":"restaurants/sydney/longrak"}}}, "rels": {}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Sydney Harbor Bridge Climb",
   "address":{
     "street":"3 Cumberland Street",
@@ -51,4 +51,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"activities/sydney/sydney-harbor-bridge-climb"}}}
+      "uri":"activities/sydney/sydney-harbor-bridge-climb"}}}, "rels": {}}

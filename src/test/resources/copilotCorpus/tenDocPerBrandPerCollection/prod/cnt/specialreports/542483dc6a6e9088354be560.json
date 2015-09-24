@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Laura Redman",
   "hed":"Global Beauty Guide",
   "dek":"",
@@ -178,4 +178,383 @@
       "revisionAuthor":"Laura Redman",
       "searchable":true,
       "template":"standard-report",
-      "uri":"reports/global-beauty-guide"}}}
+      "uri":"reports/global-beauty-guide"}}}, "rels": {
+  "photosTout":[{
+      "title":"53ecb03602275773328fec76_sailing-collective-woman-hat",
+      "id":"53ecb03602275773328fec74",
+      "revision":10,
+      "createdAt":"2014-08-14T12:48:54.402Z",
+      "modifiedAt":"2014-10-09T18:34:06.529Z",
+      "revisionCreatedAt":"2014-10-09T18:34:06.529Z",
+      "meta":{
+        "collectionName":"photos",
+        "modelName":"photo",
+        "publishable":false,
+        "image":false},
+      "images":{
+        "original":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec76_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec76_sailing-collective-woman-hat.jpg",
+          "width":1024,
+          "height":768,
+          "format":"JPEG"},
+        "copilot-small":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec77_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec77_sailing-collective-woman-hat.jpg",
+          "width":208,
+          "height":156,
+          "format":"JPEG"},
+        "copilot-medium":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec78_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec78_sailing-collective-woman-hat.jpg",
+          "width":298,
+          "height":224,
+          "format":"JPEG"},
+        "copilot-large":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec79_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec79_sailing-collective-woman-hat.jpg",
+          "width":957,
+          "height":718,
+          "format":"JPEG"},
+        "large_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d4a900ac583c0af226bc_global-beauty-guide-cinema-large.jpg",
+          "filename":"5436d4a900ac583c0af226bc_global-beauty-guide-cinema-large.jpg",
+          "width":2048,
+          "height":1152,
+          "format":"JPEG"},
+        "med_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d4b7f2f192ac5aefe224_cinema-medium.jpg",
+          "filename":"5436d4b7f2f192ac5aefe224_cinema-medium.jpg",
+          "width":854,
+          "height":480,
+          "format":"JPEG"},
+        "small_16_9":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d4bff2f192ac5aefe225_cinema-small.jpg",
+          "filename":"5436d4bff2f192ac5aefe225_cinema-small.jpg",
+          "width":620,
+          "height":348,
+          "format":"JPEG"},
+        "large_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec7d_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec7d_sailing-collective-woman-hat.jpg",
+          "width":935,
+          "height":701,
+          "format":"JPEG"},
+        "med_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec7e_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec7e_sailing-collective-woman-hat.jpg",
+          "width":620,
+          "height":465,
+          "format":"JPEG"},
+        "small_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec7f_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec7f_sailing-collective-woman-hat.jpg",
+          "width":368,
+          "height":276,
+          "format":"JPEG"},
+        "xsmall_4_3":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/08/14/53ecb03602275773328fec80_sailing-collective-woman-hat.jpg",
+          "filename":"53ecb03602275773328fec80_sailing-collective-woman-hat.jpg",
+          "width":212,
+          "height":159,
+          "format":"JPEG"},
+        "large_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d4e300ac583c0af226bd_small-large.jpg",
+          "filename":"5436d4e300ac583c0af226bd_small-large.jpg",
+          "width":344,
+          "height":344,
+          "format":"JPEG"},
+        "med_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d516f2f192ac5aefe226_small-medium.jpg",
+          "filename":"5436d516f2f192ac5aefe226_small-medium.jpg",
+          "width":250,
+          "height":250,
+          "format":"JPEG"},
+        "small_1_1":{
+          "url":"https://us-east.manta.joyent.com/condenast/public/cnt-services/production/2014/10/09/5436d51cf2f192ac5aefe227_small-small.jpg",
+          "filename":"5436d51cf2f192ac5aefe227_small-small.jpg",
+          "width":169,
+          "height":169,
+          "format":"JPEG"}},
+      "tags":["http://www.cntraveler.com/dam/2014/08/sailing-collective/sailing-collective-woman-hat.jpg"],
+      "caption":"Sailing Collective members take a swim break in the waters of the British Virgin Islands.",
+      "credit":"",
+      "description":"",
+      "revisionAuthor":"Laura Carroll",
+      "geo":{
+        "lat":0,
+        "lng":0},
+      "geoTags":[],
+      "filename":"sailing-collective-woman-hat.jpg",
+      "_links":{
+        "self":{"href":"/photos/53ecb03602275773328fec74/revisions/10"},
+        "rels":{"href":"/photos/53ecb03602275773328fec74/revisions/10/rels"},
+        "relate":{
+          "href":"/photos/53ecb03602275773328fec74/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/photos/53ecb03602275773328fec74/revisions"},
+        "archive":{"href":"/photos/53ecb03602275773328fec74/archive"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[]}}],
+  "contributorsAuthor":[{
+      "revisionAuthor":"Laura Carroll",
+      "name":"La Mer",
+      "shortBio":"",
+      "bio":"",
+      "channel":"Style & Design",
+      "subChannel":"Beauty & Wellness",
+      "secondaryChannels":[],
+      "secondarySubChannels":[],
+      "socialMedia":[{
+          "network":"",
+          "handle":""}],
+      "tags":[],
+      "geoTags":[],
+      "id":"542b3d1948a16ad664ec0620",
+      "revision":0,
+      "createdAt":"2014-09-30T23:30:33.808Z",
+      "modifiedAt":"2014-09-30T23:30:33.808Z",
+      "revisionCreatedAt":"2014-09-30T23:30:33.808Z",
+      "meta":{
+        "collectionName":"contributors",
+        "modelName":"contributor",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/contributors/542b3d1948a16ad664ec0620/revisions/0"},
+        "rels":{"href":"/contributors/542b3d1948a16ad664ec0620/revisions/0/rels"},
+        "relate":{
+          "href":"/contributors/542b3d1948a16ad664ec0620/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/contributors/542b3d1948a16ad664ec0620/revisions"},
+        "archive":{"href":"/contributors/542b3d1948a16ad664ec0620/archive"},
+        "publish":{"href":"/contributors/542b3d1948a16ad664ec0620/publish"},
+        "publishHistory":{"href":"/contributors/542b3d1948a16ad664ec0620/publish/history"},
+        "next":{"href":"/contributors/542b3d1948a16ad664ec0620/next"},
+        "previous":{"href":"/contributors/542b3d1948a16ad664ec0620/previous"},
+        "more":{"href":"/contributors/published/more?id=542b3d1948a16ad664ec0620"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "createdAt":"2014-09-30T23:30:37.061Z",
+          "entityId":"542b3d1948a16ad664ec0620",
+          "expired":false,
+          "pubDate":"2014-09-30T23:30:33.484Z",
+          "revision":0,
+          "revisionAuthor":"Laura Carroll",
+          "searchable":true,
+          "uri":"contributors/la-mer"}}}],
+  "items":[
+    {
+      "revisionAuthor":"Laura Carroll",
+      "hed":"More Global Beauty",
+      "dek":"",
+      "channel":"Sponsored",
+      "subChannel":"Promotion",
+      "tags":[],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"5462740e5e77bb8d77619aa3",
+          "hed":"A French Beauty Secret You Have to Try",
+          "dek":""},
+        {
+          "relId":"5464bbbdf3cd9c7947d59cb6",
+          "hed":"Snail Facials and Salt Caves: 9 Weird Spa Treatments",
+          "dek":""},
+        {
+          "relId":"545bf36c562088c005cd082c",
+          "hed":"Get a Beauty Boost With Asian Mushrooms &#39;Of Immortality&#39;",
+          "dek":""},
+        {
+          "relId":"5453a59f53cb045d02e51e0d",
+          "hed":"The Global Girl&#39;s 7 Thai Beauty Essentials",
+          "dek":""},
+        {
+          "relId":"54595d5323b24dca4e267c1d",
+          "hed":"Recipe: A Smoothie That Will Cure Your Jet Lag",
+          "dek":""},
+        {
+          "relId":"545a40e00881c9675adf8d38",
+          "hed":"5 Pieces of Multi-Tasking Makeup to Bring on Your Next Trip",
+          "dek":""},
+        {
+          "relId":"5452a4ae9626d206568f4241",
+          "hed":"The Beauty Secrets of Parisian Women",
+          "dek":""},
+        {
+          "relId":"544ff0ac53cb045d02e4fb18",
+          "hed":"6 Luxurious Spa Treatments Around the World",
+          "dek":""},
+        {
+          "relId":"544963399640341048e334ad",
+          "hed":"The Surprising Secret to Great Skincare",
+          "dek":""},
+        {
+          "relId":"544688289db993586fa3c9c0",
+          "hed":"The Global Girl&#39;s 7 Moroccan Beauty Secrets",
+          "dek":""},
+        {
+          "relId":"5446b3bd5229b8f3247273fa",
+          "hed":"8 Ways to Keep Your Skin Healthy in the Fall",
+          "dek":""},
+        {
+          "relId":"543e884cbac1e25055e2a61e",
+          "hed":"Around the World in 20 Scents",
+          "dek":""},
+        {
+          "relId":"543eebc8bac1e25055e2a625",
+          "hed":"10 Face Mists to Keep You Fresh on Long Flights",
+          "dek":""},
+        {
+          "relId":"543d89a8625a110137903a3b",
+          "hed":"The Global Girl&#39;s 9 Asian Beauty Secrets",
+          "dek":""},
+        {
+          "relId":"5463d54f15fa044b14f28338",
+          "hed":"Escape the City at These 10 Blissful Urban Spas ",
+          "dek":""},
+        {
+          "relId":"5435775a76149ab73575ccb5",
+          "hed":"5 Skincare Products You Need For a City Vacation",
+          "dek":""},
+        {
+          "relId":"5436c37176149ab73575ccbc",
+          "hed":"10 of Italy's Hottest Beauty Trends",
+          "dek":""},
+        {
+          "relId":"5436a84f76149ab73575ccbb",
+          "hed":"10 Ways to Keep Your Skin Fresh During Long Flights",
+          "dek":""},
+        {
+          "relId":"53e2fe2fc2d3f39d3610e0ce",
+          "hed":"Anatomy of a Carry-On: What Skincare Guru Tata Harper Packs",
+          "dek":""},
+        {
+          "relId":"54383eeb8e3a4481661cba62",
+          "hed":"5 Perfumes That Will Transport You to Italy",
+          "dek":""},
+        {
+          "relId":"542b19c248a16ad664ec0617",
+          "hed":"Far-Flung Finds: Britain’s Best Luxe Natural Skincare",
+          "dek":""},
+        {
+          "relId":"53ee5e91ace4e0c2063d453e",
+          "hed":"6 Beauty Treatments You Can Do in Your Hotel Room",
+          "dek":""},
+        {
+          "relId":"53ec0d5cdd4d6a0b75eff0c0",
+          "hed":"The Best Sunscreen to Pack For the City, Beach, or Desert",
+          "dek":""},
+        {
+          "relId":"53daa82a6dec627b149f97e9",
+          "hed":"The One Beauty Product You Need After a Red-Eye Flight",
+          "dek":""},
+        {
+          "relId":"540633099ca0fb1e39125306",
+          "hed":"The Best Rose-Scented Beauty Products for Fall ",
+          "dek":""},
+        {
+          "relId":"53d9cc816dec627b149d4d9f",
+          "hed":"You Can Have Good Hair Days While Traveling—Here's How",
+          "dek":""},
+        {
+          "relId":"5408d57e9c90489e3d4e0b90",
+          "hed":"The Beauty Products to Pack For a Trip To India",
+          "dek":""},
+        {
+          "relId":"53daa8ab6dec627b149f9a84",
+          "hed":"Mom Deserves a Spa Retreat ",
+          "dek":""}],
+      "id":"542ab9ce4ef7052d36d2bcd3",
+      "revision":17,
+      "createdAt":"2014-09-30T14:10:22.027Z",
+      "modifiedAt":"2014-11-19T22:56:53.803Z",
+      "revisionCreatedAt":"2014-11-19T22:56:53.803Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/revisions/17"},
+        "rels":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/revisions/17/rels"},
+        "relate":{
+          "href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/revisions"},
+        "archive":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/archive"},
+        "publish":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/publish"},
+        "publishHistory":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/publish/history"},
+        "next":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/next"},
+        "previous":{"href":"/curatedlists/542ab9ce4ef7052d36d2bcd3/previous"},
+        "more":{"href":"/curatedlists/published/more?id=542ab9ce4ef7052d36d2bcd3"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"542ab9ce4ef7052d36d2bcd3",
+          "revision":17,
+          "uri":"sponsored/promotion/more-global-beauty",
+          "pubDate":"2014-10-10T14:19:49.000Z",
+          "revisionAuthor":"Laura Carroll",
+          "searchable":true,
+          "template":"index",
+          "expired":false,
+          "createdAt":"2014-11-19T22:56:58.706Z"}}},
+    {
+      "revisionAuthor":"Laura Carroll",
+      "hed":"Global Beauty Guide 2014 Top Stories",
+      "dek":"Presented by La Mer",
+      "channel":"Style & Design",
+      "subChannel":"Beauty & Wellness",
+      "tags":[],
+      "geoTags":[],
+      "items":[
+        {
+          "relId":"546288745e77bb8d77619d2f",
+          "hed":"11 Travel-Sized Beauty Products From Your Favorite Brands",
+          "dek":""},
+        {
+          "relId":"54666e858303ec8a4b547e8c",
+          "hed":"5 Natural Remedies for Nervous Travelers",
+          "dek":""}],
+      "id":"542aebe56a6e9088354be574",
+      "revision":16,
+      "createdAt":"2014-09-30T17:44:05.312Z",
+      "modifiedAt":"2014-11-19T22:55:19.776Z",
+      "revisionCreatedAt":"2014-11-19T22:55:19.776Z",
+      "meta":{
+        "collectionName":"curatedlists",
+        "modelName":"curatedlist",
+        "publishable":true},
+      "_links":{
+        "self":{"href":"/curatedlists/542aebe56a6e9088354be574/revisions/16"},
+        "rels":{"href":"/curatedlists/542aebe56a6e9088354be574/revisions/16/rels"},
+        "relate":{
+          "href":"/curatedlists/542aebe56a6e9088354be574/rels/{:relName}",
+          "templated":true},
+        "revisions":{"href":"/curatedlists/542aebe56a6e9088354be574/revisions"},
+        "archive":{"href":"/curatedlists/542aebe56a6e9088354be574/archive"},
+        "publish":{"href":"/curatedlists/542aebe56a6e9088354be574/publish"},
+        "publishHistory":{"href":"/curatedlists/542aebe56a6e9088354be574/publish/history"},
+        "next":{"href":"/curatedlists/542aebe56a6e9088354be574/next"},
+        "previous":{"href":"/curatedlists/542aebe56a6e9088354be574/previous"},
+        "more":{"href":"/curatedlists/published/more?id=542aebe56a6e9088354be574"}},
+      "_embedded":{
+        "photosTout":[],
+        "contributorsAuthor":[],
+        "contributorsPhotographer":[],
+        "publishHistory":{
+          "entityId":"542aebe56a6e9088354be574",
+          "revision":16,
+          "uri":"style-and-design/beauty-and-wellness/global-beauty-guide/top-stories",
+          "pubDate":"2014-10-10T17:44:11.000Z",
+          "revisionAuthor":"Laura Carroll",
+          "searchable":true,
+          "template":"index",
+          "expired":false,
+          "createdAt":"2014-11-19T22:55:21.759Z"}}}]}}

@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"",
   "id":"53d9b2b9dcd5888e14594bb7",
   "revision":2,
@@ -111,4 +111,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

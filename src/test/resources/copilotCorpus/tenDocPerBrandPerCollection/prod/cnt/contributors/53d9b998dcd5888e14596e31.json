@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Lisa Limer",
   "id":"53d9b998dcd5888e14596e31",
   "revision":0,
@@ -34,4 +34,4 @@
       "revision":0,
       "revisionAuthor":"migratatron2000",
       "searchable":true,
-      "uri":"contributors/lisa-limer"}}}
+      "uri":"contributors/lisa-limer"}}}, "rels": {}}

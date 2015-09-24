@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Pyrmont Growers Market",
   "address":{
     "street":"Pyrmont Bay Park, Pirrama Road",
@@ -49,4 +49,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/pyrmont-growers-market"}}}
+      "uri":"shops/sydney/pyrmont-growers-market"}}}, "rels": {}}

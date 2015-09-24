@@ -1,4 +1,4 @@
-{
+{ "model":{
   "name":"Kirribilli Markets",
   "address":{
     "street":"Corner of Alfred and Burton Streets",
@@ -49,4 +49,4 @@
       "pubDate":"2014-08-01T04:00:00.000Z",
       "revision":0,
       "searchable":true,
-      "uri":"shops/sydney/kirribilli-markets"}}}
+      "uri":"shops/sydney/kirribilli-markets"}}}, "rels": {}}

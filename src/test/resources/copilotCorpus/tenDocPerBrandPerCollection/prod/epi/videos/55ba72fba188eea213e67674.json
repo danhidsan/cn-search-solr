@@ -1,4 +1,4 @@
-{
+{ "model":{
   "revisionAuthor":"Matt Duckor",
   "hed":"How to Make Cheesecake With 3 Ingredients",
   "dek":"",
@@ -26,4 +26,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}

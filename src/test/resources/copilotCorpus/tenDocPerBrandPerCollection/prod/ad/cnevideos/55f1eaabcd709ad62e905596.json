@@ -1,4 +1,4 @@
-{
+{ "model":{
   "title":"Go Behind the Scenes at Ralph Pucci’s Mannequin Exhibition",
   "description":"See AD editor in chief Margaret Russell model for a sculpture as part of Ralph Pucci’s mannequin exhibition",
   "tags":[
@@ -35,4 +35,4 @@
   "_embedded":{
     "photosTout":[],
     "contributorsAuthor":[],
-    "contributorsPhotographer":[]}}
+    "contributorsPhotographer":[]}}, "rels": {}}
