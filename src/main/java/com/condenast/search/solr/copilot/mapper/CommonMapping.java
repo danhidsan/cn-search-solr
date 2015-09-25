@@ -6,15 +6,13 @@ import org.apache.solr.common.SolrInputDocument;
 /**
  * Created by arau on 9/9/15.
  */
-public class GlobalMapping implements DocMapping {
+public class CommonMapping implements DocMapping {
 
-    public static final GlobalMapping INSTANCE = new GlobalMapping();
+    public static final CommonMapping INSTANCE = new CommonMapping();
 
     @Override
     public void map(CopilotDocument copilotDocument, SolrInputDocument solrInputDocument) {
         solrInputDocument.addField("brandName_s", copilotDocument.brandName());
-        solrInputDocument.addField("collectionName_s", copilotDocument.collectionName());
-        solrInputDocument.addField("id", copilotDocument.id());
     }
 
 }

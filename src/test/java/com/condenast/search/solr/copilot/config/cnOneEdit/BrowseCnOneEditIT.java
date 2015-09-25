@@ -41,7 +41,7 @@ public class BrowseCnOneEditIT extends AbstractIT {
     @Test
     public void testHasFacets() throws Exception {
         assertHasFacetsFor("brandName_s");
-        assertHasFacetsFor("collectionName_s");
+        assertHasFacetsFor("docType_s");
         assertHasFacetsFor("tags_ss");
     }
 

@@ -1,9 +1,7 @@
 package com.condenast.search.solr.copilot.mapper;
 
-import org.json.JSONException;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
@@ -11,13 +9,15 @@ import static org.junit.Assert.assertEquals;
 public class SearchSchemaMappingTest extends AbstractMappingTest {
 
     @Test
-    public void testMap() throws JSONException, IOException {
+    public void testMap() {
         searchSchemaMapping.map(copilotDocument, solrInputDocument);
-        assertEquals(10, solrInputDocument.size());
+        assertEquals(22, solrInputDocument.size());
 
-        assertEquals("Recipe: Vegan Anjeer Barfi to Celebrate Diwali", solrInputDocument.getFieldValue("hed_en"));
+        System.out.println(solrInputDocument);
 
-        assertEquals(Arrays.asList("secondaryChannels1", "secondaryChannels2"), solrInputDocument.getFieldValues("secondaryChannels_ss"));
+        assertEquals("Hôtel du Cap-Eden-Roc", solrInputDocument.getFieldValue("name_s"));
+
+        assertEquals(Arrays.asList("a", "b", "c"), solrInputDocument.getFieldValues("tags_ss"));
 
     }
 

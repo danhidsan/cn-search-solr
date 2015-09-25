@@ -4,8 +4,8 @@ import com.condenast.search.corpus.utils.copilot.visitor.AbstractVisitor;
 import com.condenast.search.corpus.utils.copilot.walker.BrandWalker;
 import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
 import com.condenast.search.corpus.utils.copilot.walker.CorporaWalker;
+import com.condenast.search.solr.copilot.mapper.CommonMapping;
 import com.condenast.search.solr.copilot.mapper.DocMapper;
-import com.condenast.search.solr.copilot.mapper.GlobalMapping;
 import com.condenast.search.solr.copilot.mapper.SearchSchemaMapping;
 import org.apache.commons.lang.Validate;
 import org.apache.solr.common.SolrInputDocument;
@@ -81,7 +81,7 @@ public class Importer extends AbstractVisitor {
     @Override
     protected void processDocument(CopilotDocument copilotDocument) {
         currentCopilotDocument = copilotDocument;
-        currentSolrInputDocument = DocMapper.map(currentCopilotDocument, searchSchemaMapping, GlobalMapping.INSTANCE);
+        currentSolrInputDocument = DocMapper.map(currentCopilotDocument, searchSchemaMapping, CommonMapping.INSTANCE);
         for (ImporterListener listener : listeners) {
             listener.onDocument(currentCopilotDocument, currentSolrInputDocument);
         }
@@ -90,8 +90,8 @@ public class Importer extends AbstractVisitor {
     }
 
     @Override
-    protected void processDocumentSearchSchema(CopilotDocument copilotDocument) {
-        this.searchSchemaMapping = new SearchSchemaMapping(copilotDocument.toJson());
+    protected void processDocumentSearchSchema(CopilotDocument searchSchemaDocument) {
+        this.searchSchemaMapping = new SearchSchemaMapping(searchSchemaDocument.toJson());
     }
 
     @Override

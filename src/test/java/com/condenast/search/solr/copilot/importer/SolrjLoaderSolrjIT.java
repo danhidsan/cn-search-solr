@@ -19,7 +19,7 @@ public class SolrjLoaderSolrjIT extends AbstractSolrjIT {
     @Test
     public void testLoadAllTestCorpus() throws SolrServerException, IOException {
         runSolrjImporter();
-        assertNumFoundAndReturnQueryResponse("id:*", 720);
+        assertNumFoundAndReturnQueryResponse("id:*", 722);
     }
 
     @Ignore
@@ -28,7 +28,7 @@ public class SolrjLoaderSolrjIT extends AbstractSolrjIT {
         File rootDir = new File("/Users/arau/copilotCorpus/20150828/prod");
         assertTrue(rootDir.exists());
         corporaWalkerFS_Test = new CorporaWalkerFS(rootDir);
-        solrJListener = new SolrjLoader(super.server, SolrjParams.FAST_INDEXING);
+        solrJListener = new SolrjLoader(server, SolrjParams.FAST_INDEXING);
         Importer solrCopilotImporter = Importer.withCorporaWalker(corporaWalkerFS_Test).andListeners(solrJListener).build();
         solrCopilotImporter.run();
     }

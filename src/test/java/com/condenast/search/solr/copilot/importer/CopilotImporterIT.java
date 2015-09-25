@@ -51,7 +51,7 @@ public class CopilotImporterIT extends AbstractIT {
         assertTrue(testSolrListener.solrInputDocumentList.size() > 0);
         String id = testSolrListener.solrInputDocumentList.get(0).get("id").getValue().toString();
         assertQJNumFound("id:" + id, 1);
-        assertQJNumFound("id:*", 76);
+        assertQJNumFound("id:*", 77);
     }
 
     public static class TestSolrImporter implements ImporterListener {

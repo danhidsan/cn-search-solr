@@ -10,6 +10,7 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 
 import static org.junit.Assert.assertEquals;
@@ -27,7 +28,7 @@ public class CopilotSolrDocMapperTest {
     private CopilotDocument copilotDocument;
 
     @Before
-    public void setup() {
+    public void setup() throws IOException {
         URL dir = this.getClass().getResource("/");
         anArticleFile = new File(dir.getPath() + "/copilotCorpus//oneDocOneBrand/prod/cnt/articles/anArticle.json");
         copilotDocument = new CopilotDocumentFile(anArticleFile);
@@ -60,21 +61,21 @@ public class CopilotSolrDocMapperTest {
     }
 
     @Test
-    public void testMapOnlySearchMappings() {
+    public void testMapOnlySearchMappings() throws IOException {
         DocMapper mapper = new DocMapper(copilotDocument);
         SearchSchemaMapping searchSchemaMapping = new SearchSchemaMapping(searchSchemaFile);
         SolrInputDocument solrInputDocument = mapper.addMappings(searchSchemaMapping).map();
         assertNotNull(solrInputDocument);
-        assertEquals(10, solrInputDocument.size());
+        assertEquals(22, solrInputDocument.size());
     }
 
     @Test
-    public void testMapWithAll() {
+    public void testMapWithAll() throws IOException {
         DocMapper mapper = new DocMapper(copilotDocument);
         SearchSchemaMapping searchSchemaMapping = new SearchSchemaMapping(searchSchemaFile);
-        SolrInputDocument solrInputDocument = mapper.addMappings(searchSchemaMapping, new GlobalMapping()).map();
+        SolrInputDocument solrInputDocument = mapper.addMappings(searchSchemaMapping, new CommonMapping()).map();
         assertNotNull(solrInputDocument);
-        assertEquals(13, solrInputDocument.size());
+        assertEquals(23, solrInputDocument.size());
     }
 
 

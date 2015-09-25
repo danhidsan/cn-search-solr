@@ -21,7 +21,8 @@
 #elseif($doc.getFieldValue('resourcename'))
   #set($url = "file:///$doc.getFieldValue('resourcename')")
 #else
-  #set($url = "http://$doc.getFieldValue('brandName_s')-api.aws.conde.io/$doc.getFieldValue('collectionName_s')/$doc.getFieldValue('id')")
+  #set($url = "http://$doc.getFieldValue('brandName_s')-api.aws.conde.io/$doc.getFieldValue('docType_s')/$doc
+  .getFieldValue('id')")
 #end
 
 ## Sort out Mime-Type
@@ -72,7 +73,7 @@
 
 ## Row 2?: ID / URL
 <div>
-  #field('brandName_s') > #field('collectionName_s') > #field('id')
+  #field('brandName_s') > #field('docType_s') > #field('id')
 </div>
 
 ## Resource Name
@@ -123,7 +124,7 @@
         <li>
           <div>
             <span class="field-name">
-              $mltHit.getFieldValue('brandName_s') >  $mltHit.getFieldValue('collectionName_s') >             <a href="#url_for_home?q=id:$mltId">
+              $mltHit.getFieldValue('brandName_s') >  $mltHit.getFieldValue('docType_s') >             <a href="#url_for_home?q=id:$mltId">
               $mltId</a>
             </span>
           </div>

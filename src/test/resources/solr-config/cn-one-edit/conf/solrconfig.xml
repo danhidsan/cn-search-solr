@@ -673,14 +673,14 @@
             <!-- Faceting defaults -->
             <str name="facet">on</str>
             <str name="facet.field">brandName_s</str>
-            <str name="facet.field">collectionName_s</str>
+            <str name="facet.field">docType_s</str>
             <str name="facet.field">tags_ss</str>
             <str name="facet.field">channel_s</str>
             <str name="facet.field">subChannel_s</str>
             <str name="facet.field">source_s</str>
             <!-- <str name="facet.query">GB</str> -->
             <str name="facet.mincount">1</str>
-            <str name="facet.pivot">brandName_s,collectionName_s</str>
+            <str name="facet.pivot">brandName_s,docType_s</str>
             <!--        <str name="facet.range.other">after</str>
                    <str name="facet.range">price</str>
                    <int name="f.price.facet.range.start">0</int>

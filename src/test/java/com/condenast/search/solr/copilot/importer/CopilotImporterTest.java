@@ -32,7 +32,7 @@ public class CopilotImporterTest {
         copilotImporter.run();
         assertEquals(1, testListener.solrInputDocuments.size());
         SolrInputDocument solrInputDocument = testListener.solrInputDocuments.get(0);
-        assertEquals(13, solrInputDocument.size());
+        assertEquals(23, solrInputDocument.size());
     }
 
 }
