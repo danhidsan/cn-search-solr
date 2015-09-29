@@ -29,8 +29,6 @@ public class Importer extends AbstractVisitor {
 
     private CorporaWalker corporaWalker;
 
-    private BrandWalker brandWalker;
-
     public static IListeners withCorporaWalker(CorporaWalker walker) {
         return new Builder(walker);
     }
