@@ -16,16 +16,23 @@ public class BrowseCnOneEditIT extends AbstractIT {
     @BeforeClass
     public static void beforeClass() throws Exception {
         initCnOneEditIdx();
-        ensureIndexHasSomething();
-        browseHomePage();
+        ensureCnOneEditIdxHasSomething();
     }
 
-    private static void browseHomePage() throws Exception {
+    private static void browseHomePage() {
+        browseRequest("");
+    }
+
+    private static void browseRequest(String request) {
         lrf.qtype = "/browse";
         lrf.args.put(CommonParams.WT, "velocity");
         lrf.args.put("v.template", "browse");
         lrf.args.put("v.layout", "layout");
-        html = h.query(lrf.makeRequest(""));
+        try {
+            html = h.query(lrf.makeRequest(request));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @AfterClass
@@ -35,18 +42,21 @@ public class BrowseCnOneEditIT extends AbstractIT {
 
     @Test
     public void testBrowseIsHtml() throws Exception {
+        browseHomePage();
         assertIsHtmlResponse();
     }
 
     @Test
     public void testHasFacets() throws Exception {
+        browseHomePage();
         assertHasFacetsFor("brandName_s");
         assertHasFacetsFor("docType_s");
         assertHasFacetsFor("tags_ss");
     }
 
     @Test
-    public void testHasMLT() throws Exception {
+    public void testHasMLT() {
+        browseHomePage();
         assertHasMLT();
     }
 

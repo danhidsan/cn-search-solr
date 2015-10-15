@@ -8,11 +8,13 @@ import static org.junit.Assert.assertTrue;
 public class SolrConfigTestHelper {
 
     public static final String CN_ONE_EDIT = "cn-one-edit";
+    public static final String CN_META = "cn-meta";
 
     public static URL solrConfigURL() {
         return SolrConfigTestHelper.class.getResource("/solr-config");
     }
 
+    // --- CN ONE
     public static File cnOneConfigHome() {
         return new File(solrConfigURL().getPath(), "/" + CN_ONE_EDIT + "/conf/");
     }
@@ -23,6 +25,19 @@ public class SolrConfigTestHelper {
 
     public static String cnOneEditConfigXml() {
         return cnOneConfigHome().getAbsolutePath() + "/solrconfig.xml";
+    }
+
+    // --- CN META
+    public static File cnMetaHome() {
+        return new File(solrConfigURL().getPath(), "/" + CN_META + "/conf/");
+    }
+
+    public static String cnMetaSchemaXml() {
+        return cnMetaHome().getAbsolutePath() + "/schema.xml";
+    }
+
+    public static String cnMetaConfigXml() {
+        return cnMetaHome().getAbsolutePath() + "/solrconfig.xml";
     }
 
 

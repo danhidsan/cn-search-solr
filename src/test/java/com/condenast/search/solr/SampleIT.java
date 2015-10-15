@@ -87,6 +87,7 @@ public class SampleIT extends AbstractIT {
         assertU(commit());
         assertU(optimize());
 
+
         assertQJNumFound("id:4732", 1);
 
     }

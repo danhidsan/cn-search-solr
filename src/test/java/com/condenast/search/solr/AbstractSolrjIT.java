@@ -2,9 +2,11 @@ package com.condenast.search.solr;
 
 import com.condenast.search.corpus.utils.copilot.walker.CorporaWalker;
 import com.condenast.search.corpus.utils.copilot.walker.fs.CorporaWalkerFS;
-import com.condenast.search.solr.copilot.importer.Importer;
-import com.condenast.search.solr.copilot.importer.SolrjLoader;
-import com.condenast.search.solr.copilot.importer.SolrjParams;
+import com.condenast.search.solr.copilot.indexer.Importer;
+import com.condenast.search.solr.copilot.indexer.SolrjLoader;
+import com.condenast.search.solr.copilot.indexer.SolrjParams;
+import com.condenast.search.solr.copilot.mapper.CommonMapping;
+import com.condenast.search.solr.copilot.mapper.tigercat.TigercatMapping;
 import org.apache.commons.io.FileUtils;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.embedded.EmbeddedSolrServer;
@@ -77,8 +79,10 @@ public abstract class AbstractSolrjIT {
     protected void runSolrjImporter(int maxDocsPerCollection) {
         CorporaWalker corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
         SolrjLoader solrjLoader = new SolrjLoader(server, SolrjParams.FAST_INDEXING);
-        Importer copilotImporter = Importer.withCorporaWalker(corporaWalker).andListeners(solrjLoader).andMaxDocs(maxDocsPerCollection).build();
-        copilotImporter.run();
+        Importer tigercatImporter = Importer.withCorporaWalker(corporaWalker).andDocMappers(new TigercatMapping()
+                , CommonMapping.INSTANCE).andListeners
+                (solrjLoader).andMaxDocs(maxDocsPerCollection).build();
+        tigercatImporter.run();
     }
 
 

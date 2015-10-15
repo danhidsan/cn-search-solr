@@ -1,18 +1,17 @@
-package com.condenast.search.solr.copilot.mapper;
+package com.condenast.search.solr.copilot.mapper.tigercat;
 
 import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
+import com.condenast.search.solr.copilot.mapper.DocMapperBase;
 import org.apache.solr.common.SolrInputDocument;
 
 /**
- * Created by arau on 9/9/15.
+ * Created by arau on 9/25/15.
  */
-public class CommonMapping extends DocMapperBase {
-
-    public static final CommonMapping INSTANCE = new CommonMapping();
+public class TigercatMapping extends DocMapperBase {
 
     @Override
     public void map(CopilotDocument copilotDocument, CopilotDocument searchSchema, SolrInputDocument solrInputDocument) {
-        solrInputDocument.addField("brandName_s", copilotDocument.brandName());
+        TigercatJsStub.mapSolrInputDocument(solrInputDocument, copilotDocument.toJson(), searchSchema.toJson());
         successor(copilotDocument, searchSchema, solrInputDocument);
     }
 

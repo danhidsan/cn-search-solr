@@ -1,13 +1,10 @@
 package com.condenast.search.solr;
 
-import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
-import com.condenast.search.corpus.utils.copilot.walker.CorporaWalker;
 import com.condenast.search.corpus.utils.copilot.walker.fs.CorporaWalkerFS;
-import com.condenast.search.solr.copilot.importer.Importer;
-import com.condenast.search.solr.copilot.importer.ImporterListener;
+import com.condenast.search.solr.copilot.indexer.Importer;
+import com.condenast.search.solr.copilot.mapper.CnOneMapping;
 import org.apache.solr.SolrTestCaseJ4;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.common.params.CommonParams;
 import org.junit.experimental.categories.Category;
 import org.noggit.ObjectBuilder;
@@ -36,40 +33,23 @@ public abstract class AbstractIT extends SolrTestCaseJ4 {
         initCore(cnOneEditConfigXml(), cnOneEditSchemaXml(), solrConfigURL().getPath(), CN_ONE_EDIT);
     }
 
-    protected static void ensureIndexHasSomething() throws SolrServerException {
+    protected static void initCnMetaIdx() throws Exception {
+        initCore(cnMetaConfigXml(), cnMetaSchemaXml(), solrConfigURL().getPath(), CN_META);
+    }
+
+    protected static void ensureCnOneEditIdxHasSomething() throws SolrServerException {
         if (numFound(queryAndResponseJsonLHM("id:*")) == 0) {
-            runImporter(1);
+            runCnOneImporter(1);
         }
     }
 
-    protected static void runImporter(int maxDocsToImportPerCollection) {
-        CorporaWalker corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
-        Importer copilotImporter = Importer.withCorporaWalker(corporaWalker).andListeners(ADocLoader.INSTANCE).andMaxDocs(maxDocsToImportPerCollection).build();
-        copilotImporter.run();
-    }
-
-    static class ADocLoader implements ImporterListener {
-
-        public final static ADocLoader INSTANCE = new ADocLoader();
-
-        @Override
-        public void onDocument(CopilotDocument copilotDocument, SolrInputDocument solrInputDocument) {
-            assertU(adoc(solrInputDocument));
-        }
-
-        @Override
-        public void onError(Exception e, CopilotDocument currentCopilotDocument, SolrInputDocument currentSolrInputDocument) {
-            throw new RuntimeException(e);
-        }
-
-        @Override
-        public void onStart(Importer importer) {
-        }
-
-        @Override
-        public void onEnd(Importer importer) {
-            assertU(commit());
-        }
+    protected static void runCnOneImporter(int maxDocsToImportPerCollection) {
+        Importer cnOneImporter = Importer.
+                withCorporaWalker(new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir())).
+                andDocMappers(CnOneMapping.build()).
+                andListeners(ADocLoader.INSTANCE).
+                andMaxDocs(maxDocsToImportPerCollection).build();
+        cnOneImporter.run();
     }
 
     protected static String queryAndJsonResponse(String query) {
@@ -92,7 +72,7 @@ public abstract class AbstractIT extends SolrTestCaseJ4 {
         assertEquals("query search numFound are not equals", expectedNum, numFound(jsonLHM));
     }
 
-    static int numFound(JsonLHM rootJsonLHM) {
+    protected static int numFound(JsonLHM rootJsonLHM) {
         return rootJsonLHM.obj("response").asInt("numFound");
     }
 

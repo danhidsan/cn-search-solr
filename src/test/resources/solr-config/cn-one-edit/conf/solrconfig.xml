@@ -467,67 +467,67 @@
         </lst>
     </requestHandler>
 
-    <searchComponent class="solr.SpellCheckComponent" name="tags_suggest">
-        <lst name="spellchecker">
-            <str name="name">tags_suggest</str>
-            <str name="classname">org.apache.solr.spelling.suggest.Suggester</str>
-            <str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookupFactory</str>
-            <!-- Alternatives to lookupImpl:
-                 org.apache.solr.spelling.suggest.fst.FSTLookupFactory   [finite state automaton]
-                 org.apache.solr.spelling.suggest.fst.WFSTLookupFactory [weighted finite state automaton]
-                 org.apache.solr.spelling.suggest.jaspell.JaspellLookupFactory [default, jaspell-based]
-                 org.apache.solr.spelling.suggest.tst.TSTLookupFactory   [ternary trees]
-            -->
-            <str name="field">tags_suggest</str>
-            <!-- the indexed field to derive suggestions from -->
-            <!-- <float name="threshold">0.005</float> -->
-            <str name="buildOnCommit">true</str>
-        </lst>
-    </searchComponent>
+    <!--<searchComponent class="solr.SpellCheckComponent" name="tags_suggest">-->
+    <!--<lst name="spellchecker">-->
+    <!--<str name="name">tags_suggest</str>-->
+    <!--<str name="classname">org.apache.solr.spelling.suggest.Suggester</str>-->
+    <!--<str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookupFactory</str>-->
+    <!--&lt;!&ndash; Alternatives to lookupImpl:-->
+    <!--org.apache.solr.spelling.suggest.fst.FSTLookupFactory   [finite state automaton]-->
+    <!--org.apache.solr.spelling.suggest.fst.WFSTLookupFactory [weighted finite state automaton]-->
+    <!--org.apache.solr.spelling.suggest.jaspell.JaspellLookupFactory [default, jaspell-based]-->
+    <!--org.apache.solr.spelling.suggest.tst.TSTLookupFactory   [ternary trees]-->
+    <!--&ndash;&gt;-->
+    <!--<str name="field">tags_suggest</str>-->
+    <!--&lt;!&ndash; the indexed field to derive suggestions from &ndash;&gt;-->
+    <!--&lt;!&ndash; <float name="threshold">0.005</float> &ndash;&gt;-->
+    <!--<str name="buildOnCommit">true</str>-->
+    <!--</lst>-->
+    <!--</searchComponent>-->
 
-    <searchComponent class="solr.SpellCheckComponent" name="geotags_suggest">
-        <lst name="spellchecker">
-            <str name="name">geotags_suggest</str>
-            <str name="classname">org.apache.solr.spelling.suggest.Suggester</str>
-            <str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookupFactory</str>
-            <!-- Alternatives to lookupImpl:
-                 org.apache.solr.spelling.suggest.fst.FSTLookupFactory   [finite state automaton]
-                 org.apache.solr.spelling.suggest.fst.WFSTLookupFactory [weighted finite state automaton]
-                 org.apache.solr.spelling.suggest.jaspell.JaspellLookupFactory [default, jaspell-based]
-                 org.apache.solr.spelling.suggest.tst.TSTLookupFactory   [ternary trees]
-            -->
-            <str name="field">geoTags_suggest</str>
-            <!-- the indexed field to derive suggestions from -->
-            <!-- <float name="threshold">0.005</float> -->
-            <str name="buildOnCommit">true</str>
-        </lst>
-    </searchComponent>
+    <!--<searchComponent class="solr.SpellCheckComponent" name="geotags_suggest">-->
+    <!--<lst name="spellchecker">-->
+    <!--<str name="name">geotags_suggest</str>-->
+    <!--<str name="classname">org.apache.solr.spelling.suggest.Suggester</str>-->
+    <!--<str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookupFactory</str>-->
+    <!--&lt;!&ndash; Alternatives to lookupImpl:-->
+    <!--org.apache.solr.spelling.suggest.fst.FSTLookupFactory   [finite state automaton]-->
+    <!--org.apache.solr.spelling.suggest.fst.WFSTLookupFactory [weighted finite state automaton]-->
+    <!--org.apache.solr.spelling.suggest.jaspell.JaspellLookupFactory [default, jaspell-based]-->
+    <!--org.apache.solr.spelling.suggest.tst.TSTLookupFactory   [ternary trees]-->
+    <!--&ndash;&gt;-->
+    <!--<str name="field">geoTags_suggest</str>-->
+    <!--&lt;!&ndash; the indexed field to derive suggestions from &ndash;&gt;-->
+    <!--&lt;!&ndash; <float name="threshold">0.005</float> &ndash;&gt;-->
+    <!--<str name="buildOnCommit">true</str>-->
+    <!--</lst>-->
+    <!--</searchComponent>-->
 
-    <requestHandler name="tags_suggest" class="org.apache.solr.handler.component.SearchHandler">
-        <lst name="defaults">
-            <str name="spellcheck">true</str>
-            <str name="spellcheck.dictionary">tags_suggest</str>
-            <str name="spellcheck.onlyMorePopular">true</str>
-            <str name="spellcheck.count">10</str>
-            <str name="spellcheck.collate">false</str>
-        </lst>
-        <arr name="components">
-            <str>tags_suggest</str>
-        </arr>
-    </requestHandler>
+    <!--<requestHandler name="tags_suggest" class="org.apache.solr.handler.component.SearchHandler">-->
+    <!--<lst name="defaults">-->
+    <!--<str name="spellcheck">true</str>-->
+    <!--<str name="spellcheck.dictionary">tags_suggest</str>-->
+    <!--<str name="spellcheck.onlyMorePopular">true</str>-->
+    <!--<str name="spellcheck.count">10</str>-->
+    <!--<str name="spellcheck.collate">false</str>-->
+    <!--</lst>-->
+    <!--<arr name="components">-->
+    <!--<str>tags_suggest</str>-->
+    <!--</arr>-->
+    <!--</requestHandler>-->
 
-    <requestHandler name="geotags_suggest" class="org.apache.solr.handler.component.SearchHandler">
-        <lst name="defaults">
-            <str name="spellcheck">true</str>
-            <str name="spellcheck.dictionary">geotags_suggest</str>
-            <str name="spellcheck.onlyMorePopular">true</str>
-            <str name="spellcheck.count">10</str>
-            <str name="spellcheck.collate">false</str>
-        </lst>
-        <arr name="components">
-            <str>geotags_suggest</str>
-        </arr>
-    </requestHandler>
+    <!--<requestHandler name="geotags_suggest" class="org.apache.solr.handler.component.SearchHandler">-->
+    <!--<lst name="defaults">-->
+    <!--<str name="spellcheck">true</str>-->
+    <!--<str name="spellcheck.dictionary">geotags_suggest</str>-->
+    <!--<str name="spellcheck.onlyMorePopular">true</str>-->
+    <!--<str name="spellcheck.count">10</str>-->
+    <!--<str name="spellcheck.collate">false</str>-->
+    <!--</lst>-->
+    <!--<arr name="components">-->
+    <!--<str>geotags_suggest</str>-->
+    <!--</arr>-->
+    <!--</requestHandler>-->
     <!-- copilot custom handlers END -->
 
     <requestHandler name="standard" class="solr.SearchHandler">
@@ -656,10 +656,10 @@
             <!-- Query settings -->
             <str name="defType">edismax</str>
             <str name="qf">
-                tags_ss^1.8 dek_en^1.5 title^1.5 caption_en^1.5 body_en^1.0 prefixmatch^1.0 filename^2.0
+                tags_ss^1.8 dek_en^1.5 title^1.5 caption_en^1.5 body_en^1.0 prefixmatch^1.0 filename^1.5
             </str>
             <str name="df">textall</str>
-            <str name="mm">2&lt;-1 5&lt;-2 6&lt;90%</str>
+            <!--<str name="mm">2&lt;-1 5&lt;-2 6&lt;90%</str>-->
             <str name="q.alt">*:*</str>
             <str name="rows">10</str>
             <str name="fl">*,score</str>
@@ -713,6 +713,8 @@
                   <str name="f.content.hl.maxAlternateFieldLength">750</str> -->
 
             <!-- Spell checking defaults -->
+            <str name="spellcheck.dictionary">default</str>
+            <str name="spellcheck.dictionary">wordbreak</str>
             <str name="spellcheck">on</str>
             <str name="spellcheck.extendedResults">false</str>
             <str name="spellcheck.count">5</str>
@@ -732,7 +734,7 @@
 
     <searchComponent name="spellcheck" class="solr.SpellCheckComponent">
 
-        <str name="queryAnalyzerFieldType">textSpell</str>
+        <str name="queryAnalyzerFieldType">text_general_ascii</str>
 
         <!-- Multiple "Spell Checkers" can be declared and used by this
              component
@@ -748,9 +750,9 @@
             <!-- minimum accuracy needed to be considered a valid spellcheck suggestion -->
             <float name="accuracy">0.5</float>
             <!-- the maximum #edits we consider when enumerating terms: can be 1 or 2 -->
-            <int name="maxEdits">2</int>
+            <int name="maxEdits">1</int>
             <!-- the minimum shared prefix when enumerating terms -->
-            <int name="minPrefix">1</int>
+            <int name="minPrefix">2</int>
             <!-- maximum number of inspections per result. -->
             <int name="maxInspections">5</int>
             <!-- minimum length of a query term to be considered for correction -->
@@ -766,10 +768,10 @@
         <lst name="spellchecker">
             <str name="name">wordbreak</str>
             <str name="classname">solr.WordBreakSolrSpellChecker</str>
-            <str name="field">name</str>
+            <str name="field">textall</str>
             <str name="combineWords">true</str>
             <str name="breakWords">true</str>
-            <int name="maxChanges">10</int>
+            <int name="maxChanges">1</int>
         </lst>
 
         <!-- a spellchecker that uses a different distance measure -->
@@ -826,7 +828,7 @@
       -->
     <requestHandler name="/spell" class="solr.SearchHandler" startup="lazy">
         <lst name="defaults">
-            <str name="df">text</str>
+            <!--<str name="df">prefixmatch</str>-->
             <!-- Solr will use suggestions from both the 'default' spellchecker
                  and from the 'wordbreak' spellchecker and combine them.
                  collations (re-written queries) can include a combination of
@@ -852,7 +854,7 @@
 
     <requestHandler name="/tvrh" class="solr.SearchHandler" startup="lazy">
         <lst name="defaults">
-            <str name="df">text</str>
+            <str name="df">prefixmatch</str>
             <bool name="tv">true</bool>
         </lst>
         <arr name="last-components">

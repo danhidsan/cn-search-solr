@@ -18,7 +18,7 @@ public class CommonMappingTest extends AbstractMappingTest {
 
     @Test
     public void testMap() throws Exception {
-        mapping.map(copilotDocument, solrInputDocument);
+        mapping.map(copilotDocument, searchSchema, solrInputDocument);
         assertEquals(1, solrInputDocument.size());
         assertEquals("cnt", solrInputDocument.get("brandName_s").getValue());
     }

@@ -6,7 +6,7 @@
     <groupId>com.condenast.search</groupId>
     <artifactId>cn-search-solr</artifactId>
     <packaging>jar</packaging>
-    <version>0.2</version>
+    <version>0.3</version>
     <properties>
         <solr-version>5.3.0</solr-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,7 +37,7 @@
             <version>${solr-version}</version>
             <scope>provided</scope>
         </dependency>
-
+        
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.condenast.search</groupId>
             <artifactId>cn-search-corpus-utils</artifactId>
-            <version>2.3.0</version>
+            <version>2.3.1</version>
         </dependency>
 
         <!-- ***** TEST SCOPE ****** -->

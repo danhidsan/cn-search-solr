@@ -2,7 +2,6 @@ package com.condenast.search.solr.copilot.mapper;
 
 import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
 import com.condenast.search.corpus.utils.copilot.walker.fs.CopilotDocumentFile;
-import org.apache.commons.io.FileUtils;
 import org.apache.solr.common.SolrInputDocument;
 import org.junit.Before;
 
@@ -17,20 +16,20 @@ import static org.junit.Assert.assertTrue;
  */
 public abstract class AbstractMappingTest {
 
-    protected SearchSchemaMapping searchSchemaMapping;
     protected CopilotDocument copilotDocument;
-    protected File searchSchemaFile;
     protected File anArticleFile;
-    protected SolrInputDocument solrInputDocument = new SolrInputDocument();
+    protected SolrInputDocument solrInputDocument;
+    protected CopilotDocument searchSchema;
 
     @Before
     public void setup() throws IOException {
         URL dir = this.getClass().getResource("/");
         anArticleFile = new File(dir.getPath() + "/copilotCorpus/oneDocOneBrand/prod/cnt/articles/anArticle.json");
         copilotDocument = new CopilotDocumentFile(anArticleFile);
-        searchSchemaFile = new File(dir.getPath() + "/copilotCorpus/oneDocOneBrand/prod/cnt/articles/searchSchema.json");
+        File searchSchemaFile = new File(dir.getPath() + "/copilotCorpus/oneDocOneBrand/prod/cnt/articles/searchSchema.json");
         assertTrue(searchSchemaFile.exists());
         assertTrue(anArticleFile.exists());
-        searchSchemaMapping = new SearchSchemaMapping(FileUtils.readFileToString(searchSchemaFile));
+        searchSchema = new CopilotDocumentFile(searchSchemaFile);
+        solrInputDocument = new SolrInputDocument();
     }
 }
