@@ -37,7 +37,7 @@
             <version>${solr-version}</version>
             <scope>provided</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -60,6 +60,27 @@
             <artifactId>cn-search-corpus-utils</artifactId>
             <version>2.3.1</version>
         </dependency>
+
+        <!-- NLP -->
+        <dependency>
+            <groupId>org.apache.opennlp</groupId>
+            <artifactId>opennlp-tools</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.opennlp</groupId>
+            <artifactId>opennlp-maxent</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>uimafit-core</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <!-- End NLP -->
+
 
         <!-- ***** TEST SCOPE ****** -->
 

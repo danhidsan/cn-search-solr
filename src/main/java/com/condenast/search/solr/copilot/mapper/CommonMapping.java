@@ -8,8 +8,6 @@ import org.apache.solr.common.SolrInputDocument;
  */
 public class CommonMapping extends DocMapperBase {
 
-    public static final CommonMapping INSTANCE = new CommonMapping();
-
     @Override
     public void map(CopilotDocument copilotDocument, CopilotDocument searchSchema, SolrInputDocument solrInputDocument) {
         solrInputDocument.addField("brandName_s", copilotDocument.brandName());
