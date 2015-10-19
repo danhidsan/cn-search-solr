@@ -7,10 +7,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-public class NERTest {
+public class NERAnalyzerTest {
 
     @Test
-    public void testFind() throws Exception {
+    public void testAnalyze() throws Exception {
 
         String text = "Former first lady Nancy Reagan was taken to a " +
                 "suburban Los Angeles " +
@@ -23,7 +23,7 @@ public class NERTest {
                 "Drake, chief of staff for the Reagan Foundation.";
 
         AnalysisContext context = new AnalysisContext(text);
-        Analyzer nerOpenNLP = new NER(context);
+        Analyzer nerOpenNLP = new NERAnalyzer(context);
         nerOpenNLP.analyze();
         assertNotNull(nerOpenNLP.myAnnotations());
         System.out.println(nerOpenNLP.myAnnotations());

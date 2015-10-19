@@ -2,14 +2,10 @@ package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
 import com.condenast.nlp.Analyzer;
-import com.condenast.nlp.NLPException;
 import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
 import opennlp.tools.util.Span;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -20,46 +16,17 @@ import static java.util.Collections.unmodifiableList;
 /**
  * Created by arau on 10/15/15.
  */
-public class SentenceDetector extends Analyzer {
+public class SentenceDetectorAnalyzer extends Analyzer {
 
     public static final String SENTENCE_TYPE = "SENTENCE";
     private static final String MODEL_NAME = "en-sent.bin";
     private final SentenceDetectorME sentenceDetectorME;
-    private static SentenceModel model;
     private final static List<String> myTypes = unmodifiableList(Arrays.asList(SENTENCE_TYPE));
 
-    public SentenceDetector(AnalysisContext analysisContext) {
+    public SentenceDetectorAnalyzer(AnalysisContext analysisContext) {
         super(analysisContext);
-        try {
-            initModelIfNeeded();
-            sentenceDetectorME = new SentenceDetectorME(model);
-        } catch (IOException e) {
-            throw new NLPException(e);
-        }
+        sentenceDetectorME = new SentenceDetectorME(ModelUtil.modelFor(MODEL_NAME, SentenceModel.class));
     }
-
-    private static void initModelIfNeeded() throws IOException {
-        if (model == null) {
-            InputStream modelInputStream = null;
-            try {
-                modelInputStream = new FileInputStream(ModelUtil.fileOf(MODEL_NAME));
-                model = new SentenceModel(modelInputStream);
-            } finally {
-                close(modelInputStream);
-            }
-        }
-    }
-
-    private static void close(InputStream modelIn) {
-        if (modelIn != null) {
-            try {
-                modelIn.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
 
     @Override
     public void analyze() {

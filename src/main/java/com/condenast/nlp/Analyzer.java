@@ -1,10 +1,12 @@
 package com.condenast.nlp;
 
+import com.condenast.nlp.opennlp.SentenceDetectorAnalyzer;
 import org.apache.commons.lang.Validate;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_TYPE;
 import static java.util.Collections.unmodifiableList;
 
 /**
@@ -32,5 +34,16 @@ public abstract class Analyzer {
     public abstract List<String> myTypes();
 
     public abstract void analyze();
+
+    protected List<String> detectSentences() {
+        List<String> sentences = context().annotationTextFor(SENTENCE_TYPE);
+        if (sentences.isEmpty()) {
+            SentenceDetectorAnalyzer sentenceDetectorAnalyzer = new SentenceDetectorAnalyzer(context);
+            sentenceDetectorAnalyzer.analyze();
+            sentences = context().annotationTextFor(SENTENCE_TYPE);
+        }
+        return sentences;
+    }
+
 
 }
