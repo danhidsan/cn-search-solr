@@ -1,8 +1,7 @@
 package com.condenast.nlp.opennlp;
 
-import com.condenast.nlp.AnalysisContext;
-import com.condenast.nlp.Analyzer;
-import com.condenast.nlp.NLPException;
+import com.condenast.nlp.*;
+import com.condenast.nlp.opennlp.lemmatizer.SimpleLemmatizer;
 import opennlp.tools.chunker.ChunkerME;
 import opennlp.tools.chunker.ChunkerModel;
 import opennlp.tools.cmdline.parser.ParserTool;
@@ -12,11 +11,15 @@ import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.util.Span;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_TYPE;
 import static java.util.Arrays.asList;
 import static java.util.Collections.unmodifiableList;
+import static java.util.stream.Collectors.toList;
 
 /**
  * Created by arau on 10/16/15.
@@ -24,6 +27,7 @@ import static java.util.Collections.unmodifiableList;
 public class NPExtractorAnalyzer extends Analyzer {
 
     public static final String NP_ANNOTATION = "NP_TAG";
+    public static final String NP_LEMMATIZED_NGRAMS = "NP_LEMMATIZED_NGRAMS";
     public static final List<String> myTypes = unmodifiableList(asList(NP_ANNOTATION));
     public static final String EN_CHUNKER_MODEL_FILENAME = "en-chunker.bin";
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
@@ -32,6 +36,7 @@ public class NPExtractorAnalyzer extends Analyzer {
     private int currentSentenceNr = 0;
     private List<String> sentences;
     private int currentOffset;
+    SimpleLemmatizer lemmatizer = new SimpleLemmatizer();
 
     public NPExtractorAnalyzer(AnalysisContext context) {
         super(context);
@@ -68,17 +73,46 @@ public class NPExtractorAnalyzer extends Analyzer {
 
     private void possiblyAddAnnotation(Parse chunk) {
         if (!chunk.getType().equals("NP")) return;
-        Parse[] chunkParts = chunk.getChildren();
-        int startIdx = 0;
-        if (startsWithDeterminer(chunkParts)) startIdx = 1;
-        int startOffset = currentOffset + chunkParts[startIdx].getSpan().getStart();
-        int endOffset = currentOffset + chunkParts[chunk.getChildren().length - 1].getSpan().getEnd();
+
+        List<Parse> chunkParts = new ArrayList(asList(chunk.getChildren()));
+        if (isPronounOrDeterminer(chunkParts.get(0))) chunkParts.remove(0);
+        if (chunkParts.isEmpty() || chunkParts.stream().filter(isNoun()).collect(toList()).isEmpty()) return;
+
+        int startOffset = currentOffset + chunkParts.get(0).getSpan().getStart();
+        int endOffset = currentOffset + chunkParts.get(chunkParts.size() - 1).getSpan().getEnd();
         Span span = new Span(startOffset, endOffset);
-        context.addAnnotation(NP_ANNOTATION, span, chunk.getProb()).putFeature(NP_PARTS, chunkParts);
+        Annotation npAnnotation = context.addAnnotation(NP_ANNOTATION, span, chunk.getProb());
+        npAnnotation.putFeature(NP_PARTS, chunkParts);
+        labelWithLemmas(npAnnotation);
+        generateLemmatizedNGramsFeature(npAnnotation);
     }
 
-    private boolean startsWithDeterminer(Parse[] parts) {
-        return parts[0].getType().equals(DETERMINER);
+    private void generateLemmatizedNGramsFeature(Annotation npAnnotation) {
+        List<Parse> chunkParts = npPartsFeature(npAnnotation);
+        final String lemmatizedChunkLabel = chunkParts.stream().map(Parse::getLabel).collect(Collectors.joining(" "));
+        List<String> ngrams = NGramsHelper.generate(lemmatizedChunkLabel, Math.min(chunkParts.size(), 3), Integer.MAX_VALUE);
+        npAnnotation.putFeature(NP_LEMMATIZED_NGRAMS, ngrams);
+    }
+
+    private boolean isPronounOrDeterminer(Parse chunkPart) {
+        return (chunkPart.getType().equals(DETERMINER) ||
+                chunkPart.getType().startsWith("P") ||
+                chunkPart.getType().startsWith("W"));
+    }
+
+    private Predicate<? super Parse> isNoun() {
+        return chunkPart -> chunkPart.getType().startsWith("N");
+    }
+
+    protected void labelWithLemmas(Annotation npAnnotation) {
+        npPartsFeature(npAnnotation).forEach(p -> {
+            String lemmatizedText = lemmatizer.lemmatize(p.getCoveredText(), p.getType());
+            p.setLabel(lemmatizedText);
+        });
+    }
+
+    private List<Parse> npPartsFeature(Annotation npAnnotation) {
+        return ((List<Parse>) npAnnotation.getFeature(NP_PARTS));
     }
 
     @Override

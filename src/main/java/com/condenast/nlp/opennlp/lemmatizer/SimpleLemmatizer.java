@@ -43,7 +43,7 @@ public class SimpleLemmatizer implements DictionaryLemmatizer {
         loadDictionary(dictionaryName);
     }
 
-    private void loadDictionary(String dictionaryName) {
+    private synchronized void loadDictionary(String dictionaryName) {
         Validate.notEmpty(dictionaryName);
         if (cacheDictMap.containsKey(dictionaryName)) {
             dictMap = cacheDictMap.get(dictionaryName);
