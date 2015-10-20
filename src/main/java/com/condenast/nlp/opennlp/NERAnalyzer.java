@@ -15,6 +15,7 @@ import java.util.List;
 import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_TYPE;
 import static java.util.Collections.sort;
 import static java.util.Collections.unmodifiableList;
+import static org.apache.commons.collections.CollectionUtils.isEmpty;
 
 /**
  * Created by arau on 10/15/15.
@@ -22,14 +23,20 @@ import static java.util.Collections.unmodifiableList;
 public class NERAnalyzer extends Analyzer {
 
     private final NameFinderME[] finders;
-    private final List<String> myTypes = unmodifiableList(Arrays.asList("person", "location", "date"));
+    private final List<String> defaultNerTypes = unmodifiableList(Arrays.asList("person", "location", "organization", "money", "time", "date", "percentage"));
+    private List<String> myTypes;
 
     public NERAnalyzer(AnalysisContext context) {
+        this(context, null);
+    }
+
+    public NERAnalyzer(AnalysisContext context, List<String> nerTypes) {
         super(context);
+        myTypes = isEmpty(nerTypes) ? defaultNerTypes : nerTypes;
         finders = new NameFinderME[myTypes.size()];
         for (int mi = 0; mi < myTypes.size(); mi++) {
             String modelFileName = modelName(myTypes.get(mi));
-            finders[mi] = new NameFinderME(ModelUtil.modelFor(modelFileName, PooledTokenNameFinderModel.class));
+            finders[mi] = new NameFinderME(ResourceUtil.modelOf(modelFileName, PooledTokenNameFinderModel.class));
         }
     }
 
@@ -55,7 +62,7 @@ public class NERAnalyzer extends Analyzer {
                     allAnnotations.add(new Annotation(context, myTypes.get(fi), span, probs[ni]));
                 }
             }
-            offset += context.annotations(SENTENCE_TYPE).get(si).getSpan().getEnd() + 1;
+            offset = context.annotations(SENTENCE_TYPE).get(si).getSpan().getEnd() + 1;
         }
         removeConflicts(allAnnotations);
         context().addAnnotations(allAnnotations);

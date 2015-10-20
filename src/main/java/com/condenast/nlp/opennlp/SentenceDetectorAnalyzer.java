@@ -25,7 +25,7 @@ public class SentenceDetectorAnalyzer extends Analyzer {
 
     public SentenceDetectorAnalyzer(AnalysisContext analysisContext) {
         super(analysisContext);
-        sentenceDetectorME = new SentenceDetectorME(ModelUtil.modelFor(MODEL_NAME, SentenceModel.class));
+        sentenceDetectorME = new SentenceDetectorME(ResourceUtil.modelOf(MODEL_NAME, SentenceModel.class));
     }
 
     @Override

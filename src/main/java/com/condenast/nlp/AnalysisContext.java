@@ -32,9 +32,10 @@ public class AnalysisContext {
         return unmodifiableList(annotations);
     }
 
-    public void addAnnotation(String type, Span span, double prob) {
+    public Annotation addAnnotation(String type, Span span, double prob) {
         Annotation annotation = new Annotation(this, type, span, prob);
         annotations.add(annotation);
+        return annotation;
     }
 
     public List<Annotation> annotations(String type) {
@@ -50,6 +51,7 @@ public class AnalysisContext {
     }
 
     public void addAnnotations(List<Annotation> allAnnotations) {
+        Validate.notNull(allAnnotations);
         annotations.addAll(allAnnotations);
     }
 }

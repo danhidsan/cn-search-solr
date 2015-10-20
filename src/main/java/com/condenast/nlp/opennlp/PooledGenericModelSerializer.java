@@ -40,7 +40,7 @@ public class PooledGenericModelSerializer extends GenericModelSerializer {
       InvalidFormatException {
     return new PooledGenericModelReader(new BinaryFileDataReader(in)).getModel();
   }
-  
+
   @SuppressWarnings("rawtypes")
   public static void register(Map<String, ArtifactSerializer> factories) {
     factories.put("model", new PooledGenericModelSerializer());
