@@ -2,10 +2,7 @@ package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
 import com.condenast.nlp.Analyzer;
-import com.condenast.nlp.Annotation;
 import org.junit.Test;
-
-import java.util.List;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
@@ -29,7 +26,6 @@ public class NERAnalyzerTest {
         AnalysisContext context = new AnalysisContext(text);
         Analyzer nerOpenNLP = new NERAnalyzer(context, asList("person", "location", "date"));
         nerOpenNLP.analyze();
-        List<Annotation> annotations = nerOpenNLP.myAnnotations();
         assertNotNull(nerOpenNLP.myAnnotations());
         System.out.println(nerOpenNLP.myAnnotations());
         assertEquals(4, context.annotations("person").size());

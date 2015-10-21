@@ -21,7 +21,7 @@ public abstract class Analyzer {
         this.context = context;
     }
 
-    public AnalysisContext context() {
+    public AnalysisContext analysis() {
         return context;
     }
 
@@ -36,11 +36,11 @@ public abstract class Analyzer {
     public abstract void analyze();
 
     protected List<String> detectSentences() {
-        List<String> sentences = context().annotationTextFor(SENTENCE_TYPE);
+        List<String> sentences = analysis().annotationTextFor(SENTENCE_TYPE);
         if (sentences.isEmpty()) {
             SentenceDetectorAnalyzer sentenceDetectorAnalyzer = new SentenceDetectorAnalyzer(context);
             sentenceDetectorAnalyzer.analyze();
-            sentences = context().annotationTextFor(SENTENCE_TYPE);
+            sentences = analysis().annotationTextFor(SENTENCE_TYPE);
         }
         return sentences;
     }

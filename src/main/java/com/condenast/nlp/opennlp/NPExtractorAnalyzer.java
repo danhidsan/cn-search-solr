@@ -33,6 +33,7 @@ public class NPExtractorAnalyzer extends Analyzer {
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
     public static final String DETERMINER = "DT";
     public static final String NP_PARTS = "NP_PARTS";
+    public static final int MIN_LEMMATIZED_NGRAMS_SIZE = 2;
     private int currentSentenceNr = 0;
     private List<String> sentences;
     private int currentOffset;
@@ -72,25 +73,36 @@ public class NPExtractorAnalyzer extends Analyzer {
     }
 
     private void possiblyAddAnnotation(Parse chunk) {
-        if (!chunk.getType().equals("NP")) return;
-
-        List<Parse> chunkParts = new ArrayList(asList(chunk.getChildren()));
-        if (isPronounOrDeterminer(chunkParts.get(0))) chunkParts.remove(0);
-        if (chunkParts.isEmpty() || chunkParts.stream().filter(isNoun()).collect(toList()).isEmpty()) return;
-
-        int startOffset = currentOffset + chunkParts.get(0).getSpan().getStart();
-        int endOffset = currentOffset + chunkParts.get(chunkParts.size() - 1).getSpan().getEnd();
-        Span span = new Span(startOffset, endOffset);
+        if (notNounPhrase(chunk)) return;
+        List<Parse> npChunkParts = filterStartOfNounPhraseIfNeeded(chunk);
+        if (npChunkParts.isEmpty() || npChunkParts.stream().filter(isNoun()).collect(toList()).isEmpty()) return;
+        Span span = determineNpChunkSpan(npChunkParts);
         Annotation npAnnotation = context.addAnnotation(NP_ANNOTATION, span, chunk.getProb());
-        npAnnotation.putFeature(NP_PARTS, chunkParts);
+        npAnnotation.putFeature(NP_PARTS, npChunkParts);
         labelWithLemmas(npAnnotation);
         generateLemmatizedNGramsFeature(npAnnotation);
+    }
+
+    private Span determineNpChunkSpan(List<Parse> npChunkParts) {
+        int startOffset = currentOffset + npChunkParts.get(0).getSpan().getStart();
+        int endOffset = currentOffset + npChunkParts.get(npChunkParts.size() - 1).getSpan().getEnd();
+        return new Span(startOffset, endOffset);
+    }
+
+    private List<Parse> filterStartOfNounPhraseIfNeeded(Parse chunk) {
+        List<Parse> chunkParts = new ArrayList(asList(chunk.getChildren()));
+        if (isPronounOrDeterminer(chunkParts.get(0))) chunkParts.remove(0);
+        return chunkParts;
+    }
+
+    private boolean notNounPhrase(Parse chunk) {
+        return !chunk.getType().equals("NP");
     }
 
     private void generateLemmatizedNGramsFeature(Annotation npAnnotation) {
         List<Parse> chunkParts = npPartsFeature(npAnnotation);
         final String lemmatizedChunkLabel = chunkParts.stream().map(Parse::getLabel).collect(Collectors.joining(" "));
-        List<String> ngrams = NGramsHelper.generate(lemmatizedChunkLabel, Math.min(chunkParts.size(), 3), Integer.MAX_VALUE);
+        List<String> ngrams = NGramsHelper.generate(lemmatizedChunkLabel, Math.min(chunkParts.size(), MIN_LEMMATIZED_NGRAMS_SIZE), Integer.MAX_VALUE);
         npAnnotation.putFeature(NP_LEMMATIZED_NGRAMS, ngrams);
     }
 

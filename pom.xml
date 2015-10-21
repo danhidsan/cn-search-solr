@@ -72,6 +72,18 @@
             <artifactId>opennlp-maxent</artifactId>
             <version>3.0.3</version>
         </dependency>
+        <!-- Markdown to HTML -->
+        <dependency>
+            <groupId>org.pegdown</groupId>
+            <artifactId>pegdown</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <dependency>
+            <!-- jsoup HTML parser library @ http://jsoup.org/ -->
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.8.3</version>
+        </dependency>
         <!-- End NLP -->
 
 

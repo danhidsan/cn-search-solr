@@ -65,7 +65,7 @@ public class NERAnalyzer extends Analyzer {
             offset = context.annotations(SENTENCE_TYPE).get(si).getSpan().getEnd() + 1;
         }
         removeConflicts(allAnnotations);
-        context().addAnnotations(allAnnotations);
+        analysis().addAnnotations(allAnnotations);
     }
 
 

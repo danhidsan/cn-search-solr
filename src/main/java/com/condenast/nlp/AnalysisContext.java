@@ -2,6 +2,8 @@ package com.condenast.nlp;
 
 import opennlp.tools.util.Span;
 import org.apache.commons.lang.Validate;
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,5 +55,10 @@ public class AnalysisContext {
     public void addAnnotations(List<Annotation> allAnnotations) {
         Validate.notNull(allAnnotations);
         annotations.addAll(allAnnotations);
+    }
+
+    @Override
+    public String toString() {
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE).append(text).append(annotations).toString();
     }
 }

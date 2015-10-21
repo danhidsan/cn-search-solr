@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
 import static java.util.stream.Collectors.toList;
@@ -49,16 +48,11 @@ public class NGramsHelper {
                 it.next();
             }
         }
-        return ngrams.stream().filter(matchMinNgramSize(minGramSize)).map(cleanText()).collect(toList());
+        return ngrams.stream().filter(matchMinNgramSize(minGramSize)).map(TextHelper::fullTrim).collect(toList());
     }
 
     private static Predicate<String> matchMinNgramSize(int minGramSize) {
         return ngram -> ngram.split(W).length >= minGramSize;
     }
-
-    private static Function<String, String> cleanText() {
-        return s -> s.trim().replaceAll("\\s+", " ");
-    }
-
 
 }
