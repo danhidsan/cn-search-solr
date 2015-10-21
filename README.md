@@ -1,9 +1,15 @@
-CN Search and SOLR
+CN NLP, Search and SOLR
 ============
 
-Maven project for SOLR custom configuration and code TDD and CI. Contains:
+Maven project for SOLR custom configuration and code TDD and CI. 
 
-- JUnit unit and integration tests of custom configuration and code.
+I have put also NLP tasks in there for now but another project / service only for text analysis is highly reccomanded to diminuish the number of concerns of this project.
+
+Contains:
+
+- NLP analyzer framework and implementation for Copilot and OpenNLP.
+ 
+- JUnit unit and integration solr tests also of custom configuration and code.
 
 - Importer package to import a downloaded Copilot Corpus from the FS (using the [cn-search-corpus-utils]
 (https://github.com/CondeNast/cn-search-corpus-utils)
