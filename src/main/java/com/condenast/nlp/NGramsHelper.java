@@ -51,25 +51,51 @@ public class NGramsHelper {
     }
 
     public static List<String> generateNGramsFromChunking(List<Parse> chunkParts, int minGramSize, int maxGramSize) {
-        if (isEmpty(chunkParts) || chunkParts.size() < minGramSize) return Collections.emptyList();
-        List<String> ngrams = new ArrayList<>();
-        for (int head = 0; head < chunkParts.size(); head++) {
-            if (chunkParts.size() - head < minGramSize) break;
-            if (chunkParts.size() - head > maxGramSize) continue;
-            StringBuilder sb = new StringBuilder();
-            boolean hasNounOrVerb = addToken(chunkParts, head, sb);
-            for (int current = head + 1; current < chunkParts.size(); current++) {
-                hasNounOrVerb = addToken(chunkParts, current, sb) || hasNounOrVerb;
-            }
-            if (hasNounOrVerb) ngrams.add(TextHelper.fullTrim(sb.toString()));
-        }
-        return ngrams;
+        return new ChunkPartsNGram(chunkParts, minGramSize, maxGramSize).generate();
     }
 
-    private static boolean addToken(List<Parse> chunkParts, int pos, StringBuilder sb) {
-        Parse part = chunkParts.get(pos);
-        sb.append(part.getLabel()).append(" ");
-        return isNounOrVerbPOS(part);
+    static class ChunkPartsNGram {
+
+        private List<Parse> chunkParts;
+        private int minGramSize;
+        private int maxGramSize;
+        private int ngramSize = 1;
+        private boolean hasNounOrVerb;
+        private StringBuilder sb;
+        private ArrayList<String> ngrams;
+
+        ChunkPartsNGram(List<Parse> chunkParts, int minGramSize, int maxGramSize) {
+            this.minGramSize = minGramSize;
+            this.maxGramSize = maxGramSize;
+            this.chunkParts = chunkParts;
+        }
+
+        public List<String> generate() {
+            if (isEmpty(chunkParts) || chunkParts.size() < minGramSize) return Collections.emptyList();
+            ngrams = new ArrayList<>();
+            for (int head = 0; head < chunkParts.size(); head++) {
+                if (chunkParts.size() - head < minGramSize) break;
+                if (chunkParts.size() - head > maxGramSize) continue;
+                sb = new StringBuilder();
+                ngramSize = 0;
+                addToken(head);
+                for (int current = head + 1; current < chunkParts.size(); current++) {
+                    addToken(current);
+                }
+            }
+            return ngrams;
+        }
+
+        private void addToken(int pos) {
+            Parse part = chunkParts.get(pos);
+            sb.append(part.getLabel()).append(" ");
+            ngramSize++;
+            hasNounOrVerb = hasNounOrVerb || isNounOrVerbPOS(part);
+            if (hasNounOrVerb && ngramSize >= minGramSize && ngramSize <= maxGramSize) {
+                ngrams.add(TextHelper.fullTrim(sb.toString()));
+            }
+        }
+
     }
 
     private static boolean isNounOrVerbPOS(Parse part) {

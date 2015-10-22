@@ -30,7 +30,7 @@ public class NGramsHelperTest {
     public void testGenerateNGramsFromChunks() throws Exception {
 
         AnalysisContext context = new AnalysisContext("Ciccio's super-mega fancy hotels rooms are fantastic");
-        Analyzer chunkingAnalyzer = new ChunkingAnalyzer(context);
+        ChunkingAnalyzer chunkingAnalyzer = new ChunkingAnalyzer(context);
         chunkingAnalyzer.analyze();
 
         assertNotNull(context.annotations(ChunkingAnalyzer.NP_ANNOTATION));
@@ -39,7 +39,7 @@ public class NGramsHelperTest {
         List<String> actualNgrams = (List<String>) annotation.getFeature(ChunkingAnalyzer.LEMMATIZED_NGRAMS_FEATURE);
         System.out.println(actualNgrams);
 
-        List<String> expectedNGrams = asList("Ciccio's super-mega fancy hotel room", "super-mega fancy hotel room", "fancy hotel room", "hotel room");
+        List<String> expectedNGrams = asList("Ciccio's super-mega", "Ciccio's super-mega fancy", "Ciccio's super-mega" + " fancy hotel", "Ciccio's super-mega fancy hotel room", "super-mega fancy", "super-mega fancy hotel", "super-mega fancy hotel room", "fancy hotel", "fancy hotel room", "hotel room");
 
         assertNgrams(expectedNGrams, actualNgrams);
     }

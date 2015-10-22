@@ -10,6 +10,7 @@ import opennlp.tools.parser.Parser;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.util.Span;
+import org.apache.commons.lang.Validate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +38,9 @@ public class ChunkingAnalyzer extends Analyzer {
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
     public static final String DETERMINER = "DT";
 
-    public static final int MIN_LEMMATIZED_NGRAMS_SIZE = 2;
+    public static final int MIN_NGRAMS_SIZE = 2;
+
+    private int minNGramsSize = MIN_NGRAMS_SIZE;
 
     private int currentSentenceNr = 0;
     private List<String> sentences;
@@ -89,6 +92,11 @@ public class ChunkingAnalyzer extends Analyzer {
         generateLemmatizedNGramsFeature(annotation);
     }
 
+    public void setMinNGramsSize(int minNGramsSize) {
+        Validate.isTrue(minNGramsSize > 0, "minNGramsSize must be > 0");
+        this.minNGramsSize = minNGramsSize;
+    }
+
     private Span determineChunkSpan(List<Parse> npChunkParts) {
         int startOffset = currentOffset + npChunkParts.get(0).getSpan().getStart();
         int endOffset = currentOffset + npChunkParts.get(npChunkParts.size() - 1).getSpan().getEnd();
@@ -111,7 +119,7 @@ public class ChunkingAnalyzer extends Analyzer {
 
     private void generateLemmatizedNGramsFeature(Annotation annotation) {
         List<Parse> chunkParts = partsFeature(annotation);
-        List<String> ngrams = NGramsHelper.generateNGramsFromChunking(chunkParts, Math.min(chunkParts.size(), MIN_LEMMATIZED_NGRAMS_SIZE), Integer.MAX_VALUE);
+        List<String> ngrams = NGramsHelper.generateNGramsFromChunking(chunkParts, Math.min(chunkParts.size(), minNGramsSize), Integer.MAX_VALUE);
         annotation.putFeature(LEMMATIZED_NGRAMS_FEATURE, ngrams);
     }
 
