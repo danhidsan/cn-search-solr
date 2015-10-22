@@ -53,7 +53,7 @@ public class CopilotCorpusAnnotatorTest {
                 "T2\tperson 0 11\tAdam Levine\n" +
                 "T3\tlocation 14 29\tHollywood Hills\n" +
                 "T4\tNP_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
-                "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s Hollywood, Levine’s Hollywood Hills, Adam Levine’s Hollywood Hills, Hollywood Hills Home, Levine’s Hollywood Hills Home, Adam Levine’s Hollywood Hills Home]\n" +
+                "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s Hollywood Hills Home, Levine’s Hollywood Hills Home, Hollywood Hills Home, Hills Home]\n" +
                 "#6\tAnnotatorNotes T4\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n" +
                 "\n";
         Assert.assertEquals(expectedAnn, hedAnn);

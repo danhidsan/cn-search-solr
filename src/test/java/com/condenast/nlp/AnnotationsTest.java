@@ -22,7 +22,7 @@ public class AnnotationsTest {
 
         Annotation a = new Annotation(analysisContext, ChunkingAnalyzer.NP_ANNOTATION, new Span(1, 20), 1.0);
         List<String> features = Arrays.asList("foo", "baz");
-        a.putFeature(ChunkingAnalyzer.LEMMATIZED_NGRAMS, features);
+        a.putFeature(ChunkingAnalyzer.LEMMATIZED_NGRAMS_FEATURE, features);
         annotationList.add(a);
         annotationList.add(new Annotation(analysisContext, "TEST", new Span(1, 20), 1.0));
         String actual = Annotations.toBratFormat(annotationList);

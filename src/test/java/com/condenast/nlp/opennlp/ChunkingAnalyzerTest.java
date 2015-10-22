@@ -10,7 +10,7 @@ import org.junit.Test;
 import java.util.List;
 
 import static com.condenast.nlp.opennlp.ChunkingAnalyzer.NP_ANNOTATION;
-import static com.condenast.nlp.opennlp.ChunkingAnalyzer.PARTS;
+import static com.condenast.nlp.opennlp.ChunkingAnalyzer.PARTS_FEATURE;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -44,14 +44,14 @@ public class ChunkingAnalyzerTest {
 
         Annotation npAnnotation = npAnnotations.get(0);
         assertEquals("Former first lady Nancy Reagan", npAnnotation.text());
-        assertNotNull(npAnnotation.getFeature(PARTS));
-        List<Parse> npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS);
+        assertNotNull(npAnnotation.getFeature(PARTS_FEATURE));
+        List<Parse> npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS_FEATURE);
         assertEquals(5, npPartsFeature.size());
 
         npAnnotation = npAnnotations.get(13);
         assertEquals("Doctors", npAnnotation.text());
-        assertNotNull(npAnnotation.getFeature(PARTS));
-        npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS);
+        assertNotNull(npAnnotation.getFeature(PARTS_FEATURE));
+        npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS_FEATURE);
         assertEquals(1, npPartsFeature.size());
 
         assertIsLemmatized(npAnnotation);
@@ -60,6 +60,6 @@ public class ChunkingAnalyzerTest {
     }
 
     private void assertIsLemmatized(Annotation npAnnotation) {
-        assertEquals("doctor", ((List<Parse>) npAnnotation.getFeature(PARTS)).get(0).getLabel());
+        assertEquals("doctor", ((List<Parse>) npAnnotation.getFeature(PARTS_FEATURE)).get(0).getLabel());
     }
 }

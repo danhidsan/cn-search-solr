@@ -11,6 +11,7 @@ public class TextHelper {
     public static final String SPACE_REGEX = "\\s+";
     public static final String ONE_SPACE = " ";
     public static final String VIEW_SLIDESHOW = "View Slideshow";
+    public static final String VIEW_SLIDESHOW_MD = "[View Slideshow]";
 
     public static String fullTrim(final String text) {
         if (null == text) return text;
@@ -33,7 +34,8 @@ public class TextHelper {
         if (null == text) return text;
         final String mdHtmlCleaned = cleanMarkdownAndHtml(text);
         String copilotCleaned = mdHtmlCleaned;
-        if (mdHtmlCleaned.startsWith(VIEW_SLIDESHOW)) copilotCleaned = mdHtmlCleaned.substring(VIEW_SLIDESHOW.length());
+        if (text.startsWith(VIEW_SLIDESHOW_MD) && mdHtmlCleaned.startsWith(VIEW_SLIDESHOW))
+            copilotCleaned = mdHtmlCleaned.substring(VIEW_SLIDESHOW.length());
         return copilotCleaned;
     }
 

@@ -1,18 +1,17 @@
 package com.condenast.nlp;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListIterator;
+import opennlp.tools.parser.Parse;
+
+import java.util.*;
 import java.util.function.Predicate;
 
 import static java.util.stream.Collectors.toList;
+import static org.apache.commons.collections.CollectionUtils.isEmpty;
 
 /**
  * Created by arau on 10/19/15.
  */
 public class NGramsHelper {
-
 
     private static final String W = " ";
 
@@ -49,6 +48,32 @@ public class NGramsHelper {
             }
         }
         return ngrams.stream().filter(matchMinNgramSize(minGramSize)).map(TextHelper::fullTrim).collect(toList());
+    }
+
+    public static List<String> generateNGramsFromChunking(List<Parse> chunkParts, int minGramSize, int maxGramSize) {
+        if (isEmpty(chunkParts) || chunkParts.size() < minGramSize) return Collections.emptyList();
+        List<String> ngrams = new ArrayList<>();
+        for (int head = 0; head < chunkParts.size(); head++) {
+            if (chunkParts.size() - head < minGramSize) break;
+            if (chunkParts.size() - head > maxGramSize) continue;
+            StringBuilder sb = new StringBuilder();
+            boolean hasNounOrVerb = addToken(chunkParts, head, sb);
+            for (int current = head + 1; current < chunkParts.size(); current++) {
+                hasNounOrVerb = addToken(chunkParts, current, sb) || hasNounOrVerb;
+            }
+            if (hasNounOrVerb) ngrams.add(TextHelper.fullTrim(sb.toString()));
+        }
+        return ngrams;
+    }
+
+    private static boolean addToken(List<Parse> chunkParts, int pos, StringBuilder sb) {
+        Parse part = chunkParts.get(pos);
+        sb.append(part.getLabel()).append(" ");
+        return isNounOrVerbPOS(part);
+    }
+
+    private static boolean isNounOrVerbPOS(Parse part) {
+        return part.getType().startsWith("N") || part.getType().startsWith("V");
     }
 
     private static Predicate<String> matchMinNgramSize(int minGramSize) {

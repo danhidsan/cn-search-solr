@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+import static com.condenast.nlp.opennlp.ResourceUtil.modelOf;
 import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
 import static java.util.Arrays.asList;
 import static java.util.Collections.unmodifiableList;
@@ -27,13 +28,17 @@ public class ChunkingAnalyzer extends Analyzer {
 
     public static final String NP_ANNOTATION = "NP_ANNOTATION";
     public static final String VP_ANNOTATION = "VP_ANNOTATION";
-    public static final String LEMMATIZED_NGRAMS = "LEMMATIZED_NGRAMS";
+    public static final String LEMMATIZED_NGRAMS_FEATURE = "LEMMATIZED_NGRAMS";
+    public static final String PARTS_FEATURE = "PARTS";
+
     public static final List<String> myTypes = unmodifiableList(asList(NP_ANNOTATION, VP_ANNOTATION));
+
     public static final String EN_CHUNKER_MODEL_FILENAME = "en-chunker.bin";
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
     public static final String DETERMINER = "DT";
-    public static final String PARTS = "PARTS";
-    public static final int MIN_LEMMATIZED_NGRAMS_SIZE = 3;
+
+    public static final int MIN_LEMMATIZED_NGRAMS_SIZE = 2;
+
     private int currentSentenceNr = 0;
     private List<String> sentences;
     private int currentOffset;
@@ -61,8 +66,8 @@ public class ChunkingAnalyzer extends Analyzer {
     }
 
     private Parser tryCreateParser() {
-        ChunkerME chunker = new ChunkerME(ResourceUtil.modelOf(EN_CHUNKER_MODEL_FILENAME, ChunkerModel.class));
-        POSTaggerME tagger = new POSTaggerME(ResourceUtil.modelOf(EN_POS_MAXENT_MODEL_FILENAME, POSModel.class));
+        ChunkerME chunker = new ChunkerME(modelOf(EN_CHUNKER_MODEL_FILENAME, ChunkerModel.class));
+        POSTaggerME tagger = new POSTaggerME(modelOf(EN_POS_MAXENT_MODEL_FILENAME, POSModel.class));
         Parser parser;
         try {
             parser = new ChunkParser(chunker, tagger);
@@ -79,8 +84,8 @@ public class ChunkingAnalyzer extends Analyzer {
         Span span = determineChunkSpan(chunkParts);
         String annotationType = notNounPhrase(chunk) ? VP_ANNOTATION : NP_ANNOTATION;
         Annotation annotation = context.addAnnotation(annotationType, span, chunk.getProb());
-        annotation.putFeature(PARTS, chunkParts);
-        labelWithLemmas(annotation);
+        annotation.putFeature(PARTS_FEATURE, chunkParts);
+        labelPartsWithLemmas(annotation);
         generateLemmatizedNGramsFeature(annotation);
     }
 
@@ -106,8 +111,8 @@ public class ChunkingAnalyzer extends Analyzer {
 
     private void generateLemmatizedNGramsFeature(Annotation annotation) {
         List<Parse> chunkParts = partsFeature(annotation);
-        List<String> ngrams = NGramsHelper.generate(annotation.text(), Math.min(chunkParts.size(), MIN_LEMMATIZED_NGRAMS_SIZE), Integer.MAX_VALUE);
-        annotation.putFeature(LEMMATIZED_NGRAMS, ngrams);
+        List<String> ngrams = NGramsHelper.generateNGramsFromChunking(chunkParts, Math.min(chunkParts.size(), MIN_LEMMATIZED_NGRAMS_SIZE), Integer.MAX_VALUE);
+        annotation.putFeature(LEMMATIZED_NGRAMS_FEATURE, ngrams);
     }
 
     private boolean isPronounOrDeterminer(Parse chunkPart) {
@@ -120,7 +125,7 @@ public class ChunkingAnalyzer extends Analyzer {
         return chunkPart -> chunkPart.getType().startsWith("N") || chunkPart.getType().startsWith("V");
     }
 
-    protected void labelWithLemmas(Annotation annotation) {
+    protected void labelPartsWithLemmas(Annotation annotation) {
         partsFeature(annotation).forEach(p -> {
             String lemmatizedText = lemmatizer.lemmatize(p.getCoveredText(), p.getType());
             p.setLabel(lemmatizedText);
@@ -128,7 +133,7 @@ public class ChunkingAnalyzer extends Analyzer {
     }
 
     private List<Parse> partsFeature(Annotation npAnnotation) {
-        return ((List<Parse>) npAnnotation.getFeature(PARTS));
+        return ((List<Parse>) npAnnotation.getFeature(PARTS_FEATURE));
     }
 
     @Override
