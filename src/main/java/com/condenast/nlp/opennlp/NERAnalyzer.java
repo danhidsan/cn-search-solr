@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_TYPE;
+import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
 import static java.util.Collections.sort;
 import static java.util.Collections.unmodifiableList;
 import static org.apache.commons.collections.CollectionUtils.isEmpty;
@@ -23,7 +23,8 @@ import static org.apache.commons.collections.CollectionUtils.isEmpty;
 public class NERAnalyzer extends Analyzer {
 
     private final NameFinderME[] finders;
-    private final List<String> defaultNerTypes = unmodifiableList(Arrays.asList("person", "location", "organization", "money", "time", "date", "percentage"));
+    public final List<String> defaultNerTypes = unmodifiableList(Arrays.asList("person", "location", "organization"));
+    public final List<String> allAvailableNerTypes = unmodifiableList(Arrays.asList("person", "location", "organization", "money", "time", "date", "percentage"));
     private List<String> myTypes;
 
     public NERAnalyzer(AnalysisContext context) {
@@ -62,7 +63,7 @@ public class NERAnalyzer extends Analyzer {
                     allAnnotations.add(new Annotation(context, myTypes.get(fi), span, probs[ni]));
                 }
             }
-            offset = context.annotations(SENTENCE_TYPE).get(si).getSpan().getEnd() + 1;
+            offset = context.annotations(SENTENCE_ANNOTATION).get(si).getSpan().getEnd() + 1;
         }
         removeConflicts(allAnnotations);
         analysis().addAnnotations(allAnnotations);

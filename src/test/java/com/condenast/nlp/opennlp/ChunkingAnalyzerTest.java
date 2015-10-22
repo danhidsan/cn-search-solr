@@ -9,11 +9,12 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static com.condenast.nlp.opennlp.NPExtractorAnalyzer.*;
+import static com.condenast.nlp.opennlp.ChunkingAnalyzer.NP_ANNOTATION;
+import static com.condenast.nlp.opennlp.ChunkingAnalyzer.PARTS;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-public class NPExtractorAnalyzerTest {
+public class ChunkingAnalyzerTest {
 
     @Before
     public void setUp() throws Exception {
@@ -33,36 +34,32 @@ public class NPExtractorAnalyzerTest {
                 "Drake, chief of staff for the Reagan Foundation. The Doctors are confident about his recovery.";
 
         AnalysisContext context = new AnalysisContext(text);
-        Analyzer tagExtractorAnalyzer = new NPExtractorAnalyzer(context);
-        tagExtractorAnalyzer.analyze();
-        assertNotNull(tagExtractorAnalyzer.myAnnotations());
+        Analyzer chunkingAnalyzer = new ChunkingAnalyzer(context);
+        chunkingAnalyzer.analyze();
+
+        assertNotNull(chunkingAnalyzer.myAnnotations());
         List<Annotation> npAnnotations = context.annotations(NP_ANNOTATION);
         System.out.println(npAnnotations);
         assertEquals(15, npAnnotations.size());
 
         Annotation npAnnotation = npAnnotations.get(0);
         assertEquals("Former first lady Nancy Reagan", npAnnotation.text());
-        assertNotNull(npAnnotation.getFeature(NP_PARTS));
-        List<Parse> npPartsFeature = (List<Parse>) npAnnotation.getFeature(NP_PARTS);
+        assertNotNull(npAnnotation.getFeature(PARTS));
+        List<Parse> npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS);
         assertEquals(5, npPartsFeature.size());
 
         npAnnotation = npAnnotations.get(13);
         assertEquals("Doctors", npAnnotation.text());
-        assertNotNull(npAnnotation.getFeature(NP_PARTS));
-        npPartsFeature = (List<Parse>) npAnnotation.getFeature(NP_PARTS);
+        assertNotNull(npAnnotation.getFeature(PARTS));
+        npPartsFeature = (List<Parse>) npAnnotation.getFeature(PARTS);
         assertEquals(1, npPartsFeature.size());
 
         assertIsLemmatized(npAnnotation);
 
-        npAnnotations.forEach(a -> {
-            System.out.println(a.text());
-            System.out.println(a.getFeature(NP_LEMMATIZED_NGRAMS));
-            System.out.println("------\n");
-        });
 
     }
 
     private void assertIsLemmatized(Annotation npAnnotation) {
-        assertEquals("doctor", ((List<Parse>) npAnnotation.getFeature(NP_PARTS)).get(0).getLabel());
+        assertEquals("doctor", ((List<Parse>) npAnnotation.getFeature(PARTS)).get(0).getLabel());
     }
 }

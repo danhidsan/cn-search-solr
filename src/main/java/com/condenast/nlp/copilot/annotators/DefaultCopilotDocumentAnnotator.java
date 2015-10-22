@@ -27,13 +27,20 @@ public class DefaultCopilotDocumentAnnotator implements CopilotDocumentAnnotator
     protected CopilotDocument copilotDocument;
     protected AnnotatedCopilotDocumentImpl annotatedCopilotDocument;
 
+    public DefaultCopilotDocumentAnnotator() {
+    }
+
+    public DefaultCopilotDocumentAnnotator(final CopilotDocument copilotDocument) {
+        this.setCopilotDocument(copilotDocument);
+    }
+
     @Override
     public void setCopilotDocument(final CopilotDocument copilotDocument) {
         Validate.notNull(copilotDocument);
         this.copilotDocument = copilotDocument;
         this.annotatedCopilotDocument = new AnnotatedCopilotDocumentImpl(copilotDocument);
         this.model = JsonObj.fromJson(copilotDocument.toJson()).obj("model");
-        Validate.notNull(this.model, "CopilotDocument model cannot be null: " + copilotDocument.toJson());
+        Validate.notNull(this.model, "CopilotDocument model is null for copilotDocument.toJson: " + copilotDocument.toJson());
     }
 
     @Override
@@ -43,20 +50,20 @@ public class DefaultCopilotDocumentAnnotator implements CopilotDocumentAnnotator
 
     @Override
     public void annotate() {
-        annotableModelFields.stream().filter(fieldIsNotBlank()).forEach(this::annotate);
+        annotableModelFields.stream().filter(fieldContentIsNotBlank()).forEach(this::annotateModel);
     }
 
-    private Predicate<String> fieldIsNotBlank() {
+    private Predicate<String> fieldContentIsNotBlank() {
         return annotableModelField -> StringUtils.isNotBlank(model.string(annotableModelField));
     }
 
-    private void annotate(String annotableField) {
+    private void annotateModel(String annotableField) {
         String annotableFieldContent = model.string(annotableField);
         String cleanedAnnotableFieldContent = TextHelper.cleanCopilotField(annotableFieldContent);
         if (StringUtils.isBlank(cleanedAnnotableFieldContent)) return;
         AnalyzerPipeline pipeline = DefaultOpenNlpPipeline.withText(cleanedAnnotableFieldContent);
         pipeline.analyze();
-        annotatedCopilotDocument.addAnalysis(annotableField, pipeline.analysis());
+        annotatedCopilotDocument.addAnalysis("model." + annotableField, pipeline.analysis());
     }
 
 }

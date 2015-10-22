@@ -1,6 +1,5 @@
 package com.condenast.nlp;
 
-import com.condenast.nlp.NGramsHelper;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -13,7 +12,6 @@ public class NGramsHelperTest {
 
     @Test
     public void testGenerateTriGram() throws Exception {
-
         String test = "former first lady Nancy Reagan";
         List<String> ngrams = NGramsHelper.generate(test, 3, Integer.MAX_VALUE);
         System.out.println(ngrams);

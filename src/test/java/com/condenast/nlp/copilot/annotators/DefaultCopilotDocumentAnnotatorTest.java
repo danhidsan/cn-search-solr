@@ -29,17 +29,17 @@ public class DefaultCopilotDocumentAnnotatorTest {
     }
 
     @Test
-    public void testAnnotate() throws Exception {
+    public void testAnnotateArticle() throws Exception {
         System.out.println(annotatedCopilotDocument.analyses());
         assertNotNull(annotatedCopilotDocument);
         assertNotNull(annotatedCopilotDocument.analyses());
         assertEquals(3, annotatedCopilotDocument.analyses().size());
-        DefaultCopilotDocumentAnnotator.annotableModelFields.stream().forEach(field -> assertNotNull(annotatedCopilotDocument.analysisOf(field)));
+        DefaultCopilotDocumentAnnotator.annotableModelFields.stream().forEach(field -> assertNotNull(annotatedCopilotDocument.analysisOf("model." + field)));
     }
 
     @Test
     public void testTextCleaned() {
-        String text = annotatedCopilotDocument.analysisOf("body").text();
+        String text = annotatedCopilotDocument.analysisOf("model.body").text();
         assertNotNull(text);
         assertFalse("Text has not been cleaned from markup", text.contains("[View Slideshow](http://www" +
                 ".architecturaldigest" +

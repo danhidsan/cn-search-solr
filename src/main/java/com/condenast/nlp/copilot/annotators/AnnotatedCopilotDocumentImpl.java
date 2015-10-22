@@ -19,7 +19,7 @@ public class AnnotatedCopilotDocumentImpl implements AnnotatedCopilotDocument {
 
     private final CopilotDocument copilotDocument;
 
-    AnnotatedCopilotDocumentImpl(CopilotDocument copilotDocument) {
+    public AnnotatedCopilotDocumentImpl(CopilotDocument copilotDocument) {
         Validate.notNull(copilotDocument);
         this.copilotDocument = copilotDocument;
     }

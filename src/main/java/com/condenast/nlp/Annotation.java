@@ -6,12 +6,16 @@ import org.apache.commons.lang.Validate;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by arau on 10/15/15.
  */
 public class Annotation implements Comparable<Annotation> {
 
+    public static final String ANNOTATOR_NOTES = "AnnotatorNotes";
+    public static final String BRAT_NOTES_TEMLPATE = "%s\t%s %s\t%s: %s\n";
+    public static final String BRAT_TEXT_TEMPLATE = "%s\t%s %s %s\t%s";
     private Span span;
     private String type;
     private double prob;
@@ -73,4 +77,24 @@ public class Annotation implements Comparable<Annotation> {
     public String toString() {
         return "type=" + type + " span=" + span + " prob=" + prob + " text=" + text();
     }
+
+    public String toBratFormat(AtomicInteger id) {
+        StringBuilder stringBuilder = new StringBuilder();
+        String textNotesId = "T" + id.getAndIncrement();
+        String brat = String.format(BRAT_TEXT_TEMPLATE, textNotesId, getType(), getSpan().getStart(), getSpan().getEnd(), text());
+        stringBuilder.append(brat);
+        toBratFormatFeatures(id, stringBuilder, textNotesId);
+        return stringBuilder.toString();
+    }
+
+    private void toBratFormatFeatures(AtomicInteger id, StringBuilder stringBuilder, String textNotesId) {
+        if (features().isEmpty()) return;
+        stringBuilder.append("\n");
+        features().forEach((k, v) -> {
+            String annNotesId = "#" + id.getAndIncrement();
+            String brat = String.format(BRAT_NOTES_TEMLPATE, annNotesId, ANNOTATOR_NOTES, textNotesId, k, v);
+            stringBuilder.append(brat);
+        });
+    }
+
 }

@@ -1,7 +1,7 @@
 package com.condenast.nlp.opennlp.lemmatizer;
 
 import com.condenast.nlp.opennlp.ResourceUtil;
-import com.condenast.nlp.opennlp.NPExtractorAnalyzer;
+import com.condenast.nlp.opennlp.ChunkingAnalyzer;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 import org.junit.Test;
@@ -19,7 +19,7 @@ public class SimpleLemmatizerTest {
     public void testLemmatize() throws Exception {
         SimpleLemmatizer lemmatizer = new SimpleLemmatizer();
         String tokens[] = new String[]{"Most", "large", "cities", "in", "the", "US", "had", "morning", "and", "afternoon", "newspapers", "."};
-        POSTaggerME tagger = new POSTaggerME(ResourceUtil.modelOf(NPExtractorAnalyzer.EN_POS_MAXENT_MODEL_FILENAME, POSModel.class));
+        POSTaggerME tagger = new POSTaggerME(ResourceUtil.modelOf(ChunkingAnalyzer.EN_POS_MAXENT_MODEL_FILENAME, POSModel.class));
         String posTags[] = tagger.tag(tokens);
         List<String> lemmas = new ArrayList<>();
         for (int i = 0; i < tokens.length; i++) {

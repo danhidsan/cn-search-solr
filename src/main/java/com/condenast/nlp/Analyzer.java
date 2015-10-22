@@ -6,7 +6,7 @@ import org.apache.commons.lang.Validate;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_TYPE;
+import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
 import static java.util.Collections.unmodifiableList;
 
 /**
@@ -36,11 +36,11 @@ public abstract class Analyzer {
     public abstract void analyze();
 
     protected List<String> detectSentences() {
-        List<String> sentences = analysis().annotationTextFor(SENTENCE_TYPE);
+        List<String> sentences = analysis().annotationTextFor(SENTENCE_ANNOTATION);
         if (sentences.isEmpty()) {
             SentenceDetectorAnalyzer sentenceDetectorAnalyzer = new SentenceDetectorAnalyzer(context);
             sentenceDetectorAnalyzer.analyze();
-            sentences = analysis().annotationTextFor(SENTENCE_TYPE);
+            sentences = analysis().annotationTextFor(SENTENCE_ANNOTATION);
         }
         return sentences;
     }

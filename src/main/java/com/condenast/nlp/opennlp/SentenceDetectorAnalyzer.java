@@ -18,10 +18,10 @@ import static java.util.Collections.unmodifiableList;
  */
 public class SentenceDetectorAnalyzer extends Analyzer {
 
-    public static final String SENTENCE_TYPE = "SENTENCE";
+    public static final String SENTENCE_ANNOTATION = "SENTENCE_ANNOTATION";
     private static final String MODEL_NAME = "en-sent.bin";
     private final SentenceDetectorME sentenceDetectorME;
-    private final static List<String> myTypes = unmodifiableList(Arrays.asList(SENTENCE_TYPE));
+    private final static List<String> myTypes = unmodifiableList(Arrays.asList(SENTENCE_ANNOTATION));
 
     public SentenceDetectorAnalyzer(AnalysisContext analysisContext) {
         super(analysisContext);
@@ -32,7 +32,7 @@ public class SentenceDetectorAnalyzer extends Analyzer {
     public void analyze() {
         Span[] spans = sentenceDetectorME.sentPosDetect(context.text());
         AtomicInteger idx = new AtomicInteger(0);
-        asList(spans).forEach(span -> context.addAnnotation(SENTENCE_TYPE, span, prob(idx)));
+        asList(spans).forEach(span -> context.addAnnotation(SENTENCE_ANNOTATION, span, prob(idx)));
     }
 
     @Override

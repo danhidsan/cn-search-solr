@@ -14,7 +14,7 @@ import static java.util.stream.Collectors.toList;
 public class NGramsHelper {
 
 
-    private static final String W = "[\\W+]";
+    private static final String W = " ";
 
     public static List<String> generate(String str, int minGramSize, int maxGramSize) {
 

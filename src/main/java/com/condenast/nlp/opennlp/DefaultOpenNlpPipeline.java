@@ -10,7 +10,7 @@ import static java.util.Arrays.asList;
 public class DefaultOpenNlpPipeline {
 
     public static AnalyzerPipeline withText(String text) {
-        return AnalyzerPipeline.assemble(text, asList(NERAnalyzer.class, NPExtractorAnalyzer.class));
+        return AnalyzerPipeline.assemble(text, asList(NERAnalyzer.class, ChunkingAnalyzer.class));
     }
 
 }
