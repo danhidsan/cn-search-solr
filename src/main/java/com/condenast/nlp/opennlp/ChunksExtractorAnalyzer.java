@@ -4,9 +4,7 @@ import com.condenast.nlp.*;
 import com.condenast.nlp.opennlp.lemmatizer.SimpleLemmatizer;
 import opennlp.tools.chunker.ChunkerME;
 import opennlp.tools.chunker.ChunkerModel;
-import opennlp.tools.cmdline.parser.ParserTool;
 import opennlp.tools.parser.Parse;
-import opennlp.tools.parser.Parser;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.util.Span;
@@ -25,7 +23,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by arau on 10/16/15.
  */
-public class ChunkingAnalyzer extends Analyzer {
+public class ChunksExtractorAnalyzer extends Analyzer {
 
     public static final String NP_ANNOTATION = "NP_ANNOTATION";
     public static final String VP_ANNOTATION = "VP_ANNOTATION";
@@ -38,16 +36,19 @@ public class ChunkingAnalyzer extends Analyzer {
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
     public static final String DETERMINER = "DT";
 
-    public static final int MIN_NGRAMS_SIZE = 2;
+    public static final int DEFAULT_MIN_NGRAMS_SIZE = 2;
+    public static final int DEFAULT_MAX_NGRAMS_SIZE = 3;
+    public static final int DEFAULT_NUM_PARSES = 5;
 
-    private int minNGramsSize = MIN_NGRAMS_SIZE;
+    private int minNGramsSize = DEFAULT_MIN_NGRAMS_SIZE;
+    private int maxNGramsSize = DEFAULT_MAX_NGRAMS_SIZE;
 
     private int currentSentenceNr = 0;
     private List<String> sentences;
     private int currentOffset;
     SimpleLemmatizer lemmatizer = new SimpleLemmatizer();
 
-    public ChunkingAnalyzer(AnalysisContext context) {
+    public ChunksExtractorAnalyzer(AnalysisContext context) {
         super(context);
     }
 
@@ -62,16 +63,16 @@ public class ChunkingAnalyzer extends Analyzer {
 
     private void analyzeCurrentSentence() {
         String currentSentence = sentences.get(currentSentenceNr);
-        Parser parser = tryCreateParser();
-        Parse[] results = ParserTool.parseLine(currentSentence, parser, 1);
+        ChunkParser parser = tryCreateParser();
+        Parse[] results = parser.parseLine(currentSentence, DEFAULT_NUM_PARSES);
         asList(results[0].getChildren()).forEach(this::possiblyAddAnnotation);
         currentOffset = context.annotations(SENTENCE_ANNOTATION).get(currentSentenceNr).getSpan().getEnd() + 1;
     }
 
-    private Parser tryCreateParser() {
+    private ChunkParser tryCreateParser() {
         ChunkerME chunker = new ChunkerME(modelOf(EN_CHUNKER_MODEL_FILENAME, ChunkerModel.class));
         POSTaggerME tagger = new POSTaggerME(modelOf(EN_POS_MAXENT_MODEL_FILENAME, POSModel.class));
-        Parser parser;
+        ChunkParser parser;
         try {
             parser = new ChunkParser(chunker, tagger);
         } catch (Exception e) {
@@ -92,14 +93,11 @@ public class ChunkingAnalyzer extends Analyzer {
         generateLemmatizedNGramsFeature(annotation);
     }
 
-    public void setMinNGramsSize(int minNGramsSize) {
-        Validate.isTrue(minNGramsSize > 0, "minNGramsSize must be > 0");
-        this.minNGramsSize = minNGramsSize;
-    }
-
     private Span determineChunkSpan(List<Parse> npChunkParts) {
-        int startOffset = currentOffset + npChunkParts.get(0).getSpan().getStart();
-        int endOffset = currentOffset + npChunkParts.get(npChunkParts.size() - 1).getSpan().getEnd();
+        Parse firstPOS = npChunkParts.get(0);
+        int startOffset = currentOffset + firstPOS.getSpan().getStart();
+        Parse lastPOS = npChunkParts.get(npChunkParts.size() - 1);
+        int endOffset = currentOffset + lastPOS.getSpan().getEnd();
         return new Span(startOffset, endOffset);
     }
 
@@ -119,7 +117,9 @@ public class ChunkingAnalyzer extends Analyzer {
 
     private void generateLemmatizedNGramsFeature(Annotation annotation) {
         List<Parse> chunkParts = partsFeature(annotation);
-        List<String> ngrams = NGramsHelper.generateNGramsFromChunking(chunkParts, Math.min(chunkParts.size(), minNGramsSize), Integer.MAX_VALUE);
+        int localMinNGramSize = Math.min(chunkParts.size(), minNGramsSize);
+        int localMaxNGramSize = Math.max(minNGramsSize, maxNGramsSize);
+        List<String> ngrams = NGramsHelper.generateNGramsFromChunking(chunkParts, localMinNGramSize, localMaxNGramSize);
         annotation.putFeature(LEMMATIZED_NGRAMS_FEATURE, ngrams);
     }
 
@@ -147,6 +147,25 @@ public class ChunkingAnalyzer extends Analyzer {
     @Override
     public List<String> myTypes() {
         return myTypes;
+    }
+
+    public int getMaxNGramsSize() {
+        return maxNGramsSize;
+    }
+
+    public void setMaxNGramsSize(int maxNGramsSize) {
+        Validate.isTrue(maxNGramsSize > 0, "maxNGramsSize must be > 0");
+        Validate.isTrue(maxNGramsSize >= minNGramsSize, "maxNGramsSize must be >= minNGramsSize");
+        this.maxNGramsSize = maxNGramsSize;
+    }
+
+    public int getMinNGramsSize() {
+        return minNGramsSize;
+    }
+
+    public void setMinNGramsSize(int minNGramsSize) {
+        Validate.isTrue(minNGramsSize > 0, "minNGramsSize must be > 0");
+        this.minNGramsSize = minNGramsSize;
     }
 
 }

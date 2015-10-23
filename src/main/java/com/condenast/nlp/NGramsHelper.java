@@ -75,9 +75,9 @@ public class NGramsHelper {
             ngrams = new ArrayList<>();
             for (int head = 0; head < chunkParts.size(); head++) {
                 if (chunkParts.size() - head < minGramSize) break;
-                if (chunkParts.size() - head > maxGramSize) continue;
                 sb = new StringBuilder();
                 ngramSize = 0;
+                hasNounOrVerb = false;
                 addToken(head);
                 for (int current = head + 1; current < chunkParts.size(); current++) {
                     addToken(current);

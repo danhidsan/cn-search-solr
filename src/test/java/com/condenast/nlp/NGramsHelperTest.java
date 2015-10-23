@@ -1,6 +1,6 @@
 package com.condenast.nlp;
 
-import com.condenast.nlp.opennlp.ChunkingAnalyzer;
+import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
 import org.junit.Test;
 
 import java.util.List;
@@ -30,16 +30,18 @@ public class NGramsHelperTest {
     public void testGenerateNGramsFromChunks() throws Exception {
 
         AnalysisContext context = new AnalysisContext("Ciccio's super-mega fancy hotels rooms are fantastic");
-        ChunkingAnalyzer chunkingAnalyzer = new ChunkingAnalyzer(context);
-        chunkingAnalyzer.analyze();
+        ChunksExtractorAnalyzer chunksExtractorAnalyzer = new ChunksExtractorAnalyzer(context);
+        chunksExtractorAnalyzer.setMinNGramsSize(2);
+        chunksExtractorAnalyzer.setMaxNGramsSize(3);
+        chunksExtractorAnalyzer.analyze();
 
-        assertNotNull(context.annotations(ChunkingAnalyzer.NP_ANNOTATION));
+        assertNotNull(context.annotations(ChunksExtractorAnalyzer.NP_ANNOTATION));
 
-        Annotation annotation = context.annotations(ChunkingAnalyzer.NP_ANNOTATION).get(0);
-        List<String> actualNgrams = (List<String>) annotation.getFeature(ChunkingAnalyzer.LEMMATIZED_NGRAMS_FEATURE);
+        Annotation annotation = context.annotations(ChunksExtractorAnalyzer.NP_ANNOTATION).get(0);
+        List<String> actualNgrams = (List<String>) annotation.getFeature(ChunksExtractorAnalyzer.LEMMATIZED_NGRAMS_FEATURE);
         System.out.println(actualNgrams);
 
-        List<String> expectedNGrams = asList("Ciccio's super-mega", "Ciccio's super-mega fancy", "Ciccio's super-mega" + " fancy hotel", "Ciccio's super-mega fancy hotel room", "super-mega fancy", "super-mega fancy hotel", "super-mega fancy hotel room", "fancy hotel", "fancy hotel room", "hotel room");
+        List<String> expectedNGrams = asList("Ciccio's super-mega", "Ciccio's super-mega fancy", "super-mega fancy hotel", "fancy hotel", "fancy hotel room", "hotel room");
 
         assertNgrams(expectedNGrams, actualNgrams);
     }

@@ -1,6 +1,8 @@
 package com.condenast.nlp.copilot.annotators;
 
+import com.condenast.nlp.AnalyzerPipeline;
 import com.condenast.nlp.copilot.AnnotatedCopilotDocument;
+import com.condenast.nlp.opennlp.DefaultOpenNlpPipeline;
 import com.condenast.search.corpus.utils.copilot.walker.fs.CopilotDocumentFile;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -27,6 +29,19 @@ public class DefaultCopilotDocumentAnnotatorTest {
         defaultCopilotDocumentAnnotator.annotate();
         annotatedCopilotDocument = defaultCopilotDocumentAnnotator.getAnnotatedCopilotDocument();
     }
+
+    @Test
+    public void testFixwrongOffsetPutByParserTool() throws Exception {
+        AnalyzerPipeline pipeline = DefaultOpenNlpPipeline.withText("In an exclusive collaboration with Vanity " +
+                "Fair, " +
+                "artist Meagan Morrison " +
+                "(@travelwritedraw) is illustrating front-row fixtures, those sometimes unlikely pairings of " +
+                "celebrities and fashion insiders, from New York Fashion Week’s biggest shows.");
+        pipeline.analyze();
+        System.out.println(pipeline.analysis());
+        assertNotNull(pipeline.analysis());
+    }
+
 
     @Test
     public void testAnnotateArticle() throws Exception {

@@ -9,12 +9,12 @@ import org.junit.Test;
 
 import java.util.List;
 
-import static com.condenast.nlp.opennlp.ChunkingAnalyzer.NP_ANNOTATION;
-import static com.condenast.nlp.opennlp.ChunkingAnalyzer.PARTS_FEATURE;
+import static com.condenast.nlp.opennlp.ChunksExtractorAnalyzer.NP_ANNOTATION;
+import static com.condenast.nlp.opennlp.ChunksExtractorAnalyzer.PARTS_FEATURE;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-public class ChunkingAnalyzerTest {
+public class ChunksExtractorAnalyzerTest {
 
     @Before
     public void setUp() throws Exception {
@@ -34,7 +34,7 @@ public class ChunkingAnalyzerTest {
                 "Drake, chief of staff for the Reagan Foundation. The Doctors are confident about his recovery.";
 
         AnalysisContext context = new AnalysisContext(text);
-        Analyzer chunkingAnalyzer = new ChunkingAnalyzer(context);
+        Analyzer chunkingAnalyzer = new ChunksExtractorAnalyzer(context);
         chunkingAnalyzer.analyze();
 
         assertNotNull(chunkingAnalyzer.myAnnotations());

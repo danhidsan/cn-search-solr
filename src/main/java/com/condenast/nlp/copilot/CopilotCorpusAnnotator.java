@@ -28,6 +28,7 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
 
     @Override
     protected void processDocument(CopilotDocument copilotDocument) {
+        System.out.println(">>>>>>>>>>>>>> " + copilotDocument.id());
         CopilotDocumentAnnotator documentAnnotator = CopilodDocumentAnnotatorFactory.buildFor(copilotDocument);
         documentAnnotator.annotate();
         writeAnnotations(documentAnnotator.getAnnotatedCopilotDocument());

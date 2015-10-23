@@ -20,10 +20,16 @@
 package com.condenast.nlp.opennlp;
 
 import opennlp.tools.chunker.ChunkerME;
+import opennlp.tools.parser.AbstractBottomUpParser;
 import opennlp.tools.parser.Parse;
 import opennlp.tools.parser.Parser;
 import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.util.Span;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Finds flat chunks instead of a tree structure using a simpler model.
@@ -64,7 +70,7 @@ public class ChunkParser implements Parser {
         for (int ci = 0, cn = chunks.length; ci < cn; ci++) {
             if (ci > 0 && !chunks[ci].startsWith("I-") && !chunks[ci - 1].equals("O")) {
                 Span span = new Span(children[chunkStart].getSpan().getStart(), children[ci - 1].getSpan().getEnd());
-                tokens.insert(new Parse(tokens.getText(), span, chunkType, logProb, children[ci - 1]));
+                tokens.insert(new Parse(tokens.getText(), span, chunkType, Math.exp(logProb), children[ci - 1]));
                 logProb = 0;
             }
             if (chunks[ci].startsWith("B-")) {
@@ -76,7 +82,7 @@ public class ChunkParser implements Parser {
         if (!chunks[chunks.length - 1].equals("O")) {
             int ci = chunks.length;
             Span span = new Span(children[chunkStart].getSpan().getStart(), children[ci - 1].getSpan().getEnd());
-            tokens.insert(new Parse(tokens.getText(), span, chunkType, logProb, children[ci - 1]));
+            tokens.insert(new Parse(tokens.getText(), span, chunkType, Math.exp(logProb), children[ci - 1]));
         }
         return tokens;
     }
@@ -86,5 +92,33 @@ public class ChunkParser implements Parser {
         //TODO: get multiple tag sequences and chunk each.
         return new Parse[]{parse(tokens)};
     }
+
+    public Parse[] parseLine(String line, int numParses) {
+        StringTokenizer str = new StringTokenizer(line);
+        StringBuilder sb = new StringBuilder();
+        List<String> tokens = new ArrayList<>();
+        while (str.hasMoreTokens()) {
+            String tok = str.nextToken();
+            tokens.add(tok);
+            sb.append(tok).append(" ");
+        }
+        String text = sb.substring(0, sb.length() - 1);
+        Parse p = new Parse(text, new Span(0, text.length()), AbstractBottomUpParser.INC_NODE, 0, 0);
+        int start = 0;
+        int i = 0;
+        for (Iterator<String> ti = tokens.iterator(); ti.hasNext(); i++) {
+            String tok = ti.next();
+            p.insert(new Parse(text, new Span(start, start + tok.length()), AbstractBottomUpParser.TOK_NODE, 0, i));
+            start += tok.length() + 1;
+        }
+        Parse[] parses;
+        if (numParses == 1) {
+            parses = new Parse[]{this.parse(p)};
+        } else {
+            parses = this.parse(p, numParses);
+        }
+        return parses;
+    }
+
 
 }

@@ -1,6 +1,6 @@
 package com.condenast.nlp;
 
-import com.condenast.nlp.opennlp.ChunkingAnalyzer;
+import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
 import opennlp.tools.util.Span;
 import org.junit.Test;
 
@@ -20,9 +20,9 @@ public class AnnotationsTest {
         annotationList.add(new Annotation(analysisContext, "TEST", new Span(1, 5), 1.0));
         annotationList.add(new Annotation(analysisContext, "TEST", new Span(10, 15), 1.0));
 
-        Annotation a = new Annotation(analysisContext, ChunkingAnalyzer.NP_ANNOTATION, new Span(1, 20), 1.0);
+        Annotation a = new Annotation(analysisContext, ChunksExtractorAnalyzer.NP_ANNOTATION, new Span(1, 20), 1.0);
         List<String> features = Arrays.asList("foo", "baz");
-        a.putFeature(ChunkingAnalyzer.LEMMATIZED_NGRAMS_FEATURE, features);
+        a.putFeature(ChunksExtractorAnalyzer.LEMMATIZED_NGRAMS_FEATURE, features);
         annotationList.add(a);
         annotationList.add(new Annotation(analysisContext, "TEST", new Span(1, 20), 1.0));
         String actual = Annotations.toBratFormat(annotationList);

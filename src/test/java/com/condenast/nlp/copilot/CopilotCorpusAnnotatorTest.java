@@ -6,7 +6,6 @@ import com.condenast.search.corpus.utils.copilot.walker.fs.CorporaWalkerFS;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -14,6 +13,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import static com.condenast.search.solr.SolrConfigTestHelper.testCopilotCorpus10DocsPerBrandPerCollectionRootDir;
+import static org.junit.Assert.assertEquals;
 
 public class CopilotCorpusAnnotatorTest {
 
@@ -43,7 +43,7 @@ public class CopilotCorpusAnnotatorTest {
         File expectedTxtFile = new File(testDir, copilotCorpusAnnotator.txtFileName("model.hed", "55e78aae302ba71f3017be76"));
         Assert.assertTrue("txt file '" + expectedTxtFile + "' has not been created", expectedTxtFile.exists());
         String hedTxt = FileUtils.readFileToString(expectedTxtFile);
-        Assert.assertEquals("Adam Levine’s Hollywood Hills Home", hedTxt);
+        assertEquals("Adam Levine’s Hollywood Hills Home", hedTxt);
 
         File expectedAnnFile = new File(testDir, copilotCorpusAnnotator.annFileName("model.hed", "55e78aae302ba71f3017be76"));
         Assert.assertTrue("ann file '" + expectedAnnFile + "' has not been created", expectedAnnFile.exists());
@@ -53,18 +53,21 @@ public class CopilotCorpusAnnotatorTest {
                 "T2\tperson 0 11\tAdam Levine\n" +
                 "T3\tlocation 14 29\tHollywood Hills\n" +
                 "T4\tNP_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
-                "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s, Adam Levine’s Hollywood, Adam Levine’s Hollywood Hills, Adam Levine’s Hollywood Hills Home, Levine’s Hollywood, Levine’s Hollywood Hills, Levine’s Hollywood Hills Home, Hollywood Hills, Hollywood Hills Home, Hills Home]\n" +
+                "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s, Adam Levine’s Hollywood, Levine’s Hollywood, Levine’s Hollywood Hills, Hollywood Hills, Hollywood Hills Home, Hills Home]\n" +
                 "#6\tAnnotatorNotes T4\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n" +
                 "\n";
-        Assert.assertEquals(expectedAnn, hedAnn);
+        assertEquals(expectedAnn, hedAnn);
     }
 
-    @Ignore
     @Test
     public void testAnnotateCorpus() throws Exception {
-        CopilotCorpusAnnotator copilotCorpusAnnotator = new CopilotCorpusAnnotator(new File("./bratAnnotationsTest"));
+        File outAnnotationDir = new File("./_bratAnnotationsTest_");
+        FileUtils.deleteDirectory(outAnnotationDir);
+        FileUtils.forceMkdir(outAnnotationDir);
+        CopilotCorpusAnnotator copilotCorpusAnnotator = new CopilotCorpusAnnotator(outAnnotationDir);
         CorporaWalkerFS corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
         corporaWalker.run(copilotCorpusAnnotator);
+        assertEquals(0, copilotCorpusAnnotator.counterErr());
     }
 
 }
