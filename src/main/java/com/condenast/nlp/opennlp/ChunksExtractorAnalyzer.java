@@ -58,6 +58,7 @@ public class ChunksExtractorAnalyzer extends Analyzer {
         currentOffset = 0;
         for (currentSentenceNr = 0; currentSentenceNr < sentences.size(); currentSentenceNr++) {
             analyzeCurrentSentence();
+            currentOffset = context.annotations(SENTENCE_ANNOTATION).get(currentSentenceNr).getSpan().getEnd() + 1;
         }
     }
 
@@ -66,7 +67,6 @@ public class ChunksExtractorAnalyzer extends Analyzer {
         ChunkParser parser = tryCreateParser();
         Parse[] results = parser.parseLine(currentSentence, DEFAULT_NUM_PARSES);
         asList(results[0].getChildren()).forEach(this::possiblyAddAnnotation);
-        currentOffset = context.annotations(SENTENCE_ANNOTATION).get(currentSentenceNr).getSpan().getEnd() + 1;
     }
 
     private ChunkParser tryCreateParser() {

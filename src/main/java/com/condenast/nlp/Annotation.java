@@ -1,12 +1,16 @@
 package com.condenast.nlp;
 
 
+import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
+import com.condenast.nlp.opennlp.SentenceDetectorAnalyzer;
 import opennlp.tools.util.Span;
 import org.apache.commons.lang.Validate;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
 
 /**
  * Created by arau on 10/15/15.

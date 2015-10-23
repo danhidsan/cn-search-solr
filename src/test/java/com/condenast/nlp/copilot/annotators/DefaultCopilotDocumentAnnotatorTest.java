@@ -49,7 +49,6 @@ public class DefaultCopilotDocumentAnnotatorTest {
         assertNotNull(annotatedCopilotDocument);
         assertNotNull(annotatedCopilotDocument.analyses());
         assertEquals(3, annotatedCopilotDocument.analyses().size());
-        DefaultCopilotDocumentAnnotator.annotableModelFields.stream().forEach(field -> assertNotNull(annotatedCopilotDocument.analysisOf("model." + field)));
     }
 
     @Test

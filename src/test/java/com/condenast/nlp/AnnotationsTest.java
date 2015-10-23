@@ -31,7 +31,6 @@ public class AnnotationsTest {
                 "T2\tTEST 10 15\tm dat\n" +
                 "T3\tNP_ANNOTATION 1 20\torem ipsum data foo\n" +
                 "#4\tAnnotatorNotes T3\tLEMMATIZED_NGRAMS: [foo, baz]\n" +
-                "\n" +
                 "T5\tTEST 1 20\torem ipsum data foo\n";
         assertEquals(expected, actual);
     }

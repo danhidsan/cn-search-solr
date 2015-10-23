@@ -21,7 +21,8 @@ import static java.util.Collections.unmodifiableList;
  */
 public class DefaultCopilotDocumentAnnotator implements CopilotDocumentAnnotator {
 
-    public static final List<String> annotableModelFields = unmodifiableList(asList("body", "dek", "hed"));
+    public static final List<String> annotableModelFields = unmodifiableList(asList("body", "dek", "hed", "caption", "description", "title"));
+
     private JsonObj model;
 
     protected CopilotDocument copilotDocument;

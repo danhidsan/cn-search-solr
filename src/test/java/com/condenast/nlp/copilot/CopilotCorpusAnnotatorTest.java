@@ -39,13 +39,13 @@ public class CopilotCorpusAnnotatorTest {
     public void testWriteAnnotations() throws Exception {
         CopilotCorpusAnnotator copilotCorpusAnnotator = new CopilotCorpusAnnotator(testDir);
         copilotCorpusAnnotator.writeAnnotations(annotatedCopilotDocument);
-
-        File expectedTxtFile = new File(testDir, copilotCorpusAnnotator.txtFileName("model.hed", "55e78aae302ba71f3017be76"));
+        File baseDir = copilotCorpusAnnotator.baseDirFile(annotatedCopilotDocument.copilotDocument());
+        File expectedTxtFile = new File(baseDir, copilotCorpusAnnotator.txtFileName(annotatedCopilotDocument.copilotDocument(), "model" + ".hed", "55e78aae302ba71f3017be76"));
         Assert.assertTrue("txt file '" + expectedTxtFile + "' has not been created", expectedTxtFile.exists());
         String hedTxt = FileUtils.readFileToString(expectedTxtFile);
         assertEquals("Adam Levine’s Hollywood Hills Home", hedTxt);
 
-        File expectedAnnFile = new File(testDir, copilotCorpusAnnotator.annFileName("model.hed", "55e78aae302ba71f3017be76"));
+        File expectedAnnFile = new File(baseDir, copilotCorpusAnnotator.annFileName(annotatedCopilotDocument.copilotDocument(), "model.hed", "55e78aae302ba71f3017be76"));
         Assert.assertTrue("ann file '" + expectedAnnFile + "' has not been created", expectedAnnFile.exists());
         String hedAnn = FileUtils.readFileToString(expectedAnnFile);
         System.out.println(hedAnn);
@@ -54,8 +54,7 @@ public class CopilotCorpusAnnotatorTest {
                 "T3\tlocation 14 29\tHollywood Hills\n" +
                 "T4\tNP_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
                 "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s, Adam Levine’s Hollywood, Levine’s Hollywood, Levine’s Hollywood Hills, Hollywood Hills, Hollywood Hills Home, Hills Home]\n" +
-                "#6\tAnnotatorNotes T4\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n" +
-                "\n";
+                "#6\tAnnotatorNotes T4\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n";
         assertEquals(expectedAnn, hedAnn);
     }
 
