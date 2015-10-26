@@ -32,11 +32,65 @@ public class TextHelper {
 
     public static String cleanCopilotField(final String text) {
         if (null == text) return text;
-        final String mdHtmlCleaned = cleanMarkdownAndHtml(text);
-        String copilotCleaned = mdHtmlCleaned;
-        if (text.startsWith(VIEW_SLIDESHOW_MD) && mdHtmlCleaned.startsWith(VIEW_SLIDESHOW))
-            copilotCleaned = mdHtmlCleaned.substring(VIEW_SLIDESHOW.length() + 1);
+        String copilotCleaned = cleanMarkdownAndHtml(text);
+        copilotCleaned = cleanSpecialSlideshowMD(text, copilotCleaned);
+        copilotCleaned = cleanSpecialBracketsMD(copilotCleaned);
+        copilotCleaned = cleanPipes(copilotCleaned);
         return copilotCleaned.trim();
+    }
+
+    private static String cleanSpecialSlideshowMD(String text, String copilotCleaned) {
+        if (text.startsWith(VIEW_SLIDESHOW_MD) && copilotCleaned.startsWith(VIEW_SLIDESHOW)) {
+            copilotCleaned = copilotCleaned.substring(VIEW_SLIDESHOW.length() + 1);
+        }
+        return copilotCleaned;
+    }
+
+    public static String cleanSpecialBracketsMD(final String text) {
+        String ret = text;
+        String tmp;
+        while (true) {
+            tmp = cleanSpecialBracketsMDInner(ret);
+            if (tmp == null) break;
+            ret = tmp;
+        }
+        return ret;
+    }
+
+    private static String cleanSpecialBracketsMDInner(String text) {
+        int start = text.indexOf("[#");
+        if (start < 0) return null;
+        int end = text.indexOf("]", start);
+        if (end < 0) return null;
+        String cleanedLeft = text.substring(0, start);
+        String cleanedRight = text.substring(end + 1);
+        String cleaned = cleanedLeft.concat(cleanedRight);
+        return cleaned.trim();
+    }
+
+    public static String cleanPipes(final String text) {
+        String ret = text;
+        String tmp;
+        while (true) {
+            tmp = cleanPipesInner(ret);
+            if (tmp == null) break;
+            ret = tmp;
+        }
+        return ret;
+    }
+
+    private static String cleanPipesInner(final String text) {
+        int startOfPipes = text.indexOf('|');
+        if (startOfPipes < 0) return null;
+        int endOfPipes;
+        for (endOfPipes = startOfPipes; endOfPipes < text.length(); endOfPipes++) {
+            if (text.charAt(endOfPipes) != '|') break;
+        }
+        if (endOfPipes - startOfPipes <= 1) return null;
+        String cleanedLeft = text.substring(0, startOfPipes).trim();
+        String cleanedRight = text.substring(endOfPipes);
+        String cleaned = cleanedLeft.concat(cleanedRight);
+        return cleaned.trim();
     }
 
 }
