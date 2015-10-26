@@ -16,6 +16,7 @@ public class ResourceUtil {
 
     private final static Map<String, BaseModel> modelCache = new HashMap<>();
     public static final String VISUAL_CONF_FILENAME = "visual.conf";
+    public static final String EN_TOKEN_MODEL_BIN = "en-token.bin";
 
     public static URL modelDirURL() {
         return ResourceUtil.class.getResource("./model/");
@@ -35,7 +36,7 @@ public class ResourceUtil {
         return file;
     }
 
-    public static File visualConfTemplateFile() {
+    public static File bratVisualConfTemplateFile() {
         File file = new File(bratDirURL().getPath(), VISUAL_CONF_FILENAME);
         Validate.isTrue(file.exists(), "Cannot find BRAT file: " + VISUAL_CONF_FILENAME + " in " + bratDirURL().getPath());
         return file;

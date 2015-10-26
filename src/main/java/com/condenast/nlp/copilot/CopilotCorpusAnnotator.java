@@ -15,8 +15,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
-import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
-
 /**
  * Created by arau on 10/20/15.
  */
@@ -36,16 +34,20 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
         analysisNameFileOrder.put("model.body", "003");
     }
 
+    private Predicate<? super Annotation> annotationFilter;
+
     private File outAnnotationDir;
 
     public CopilotCorpusAnnotator(final File outAnnotationDir) {
-        this(Integer.MAX_VALUE);
-        Validate.notNull(outAnnotationDir);
-        this.outAnnotationDir = outAnnotationDir;
+        this(outAnnotationDir, ALL_ANNOTATIONS());
     }
 
-    private CopilotCorpusAnnotator(int maxDocs) {
-        super(maxDocs);
+    public CopilotCorpusAnnotator(final File outAnnotationDir, Predicate<? super Annotation> annotationFilter) {
+        super(Integer.MAX_VALUE);
+        Validate.notNull(outAnnotationDir);
+        Validate.notNull(annotationFilter);
+        this.outAnnotationDir = outAnnotationDir;
+        this.annotationFilter = annotationFilter;
     }
 
     @Override
@@ -71,20 +73,27 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
             File txtFile = new File(baseDirFile, txtFileName(annotatedCopilotDocument.copilotDocument(), analysisName, uuid));
             tryWriteToFile(analysis.text(), txtFile);
             File annFile = new File(baseDirFile, annFileName(annotatedCopilotDocument.copilotDocument(), analysisName, uuid));
-            String bratAnnotations = Annotations.toBratFormat(analysis.annotations(), filterByPassedAnn());
+            String bratAnnotations = Annotations.toBratFormat(analysis.annotations(), this.annotationFilter);
             tryWriteToFile(bratAnnotations, annFile);
         });
     }
 
-    private Predicate<? super Annotation> filterByPassedAnn() {
-        return a -> !(a.getType().equals(SENTENCE_ANNOTATION) || a.getType().equals(ChunksExtractorAnalyzer.VP_ANNOTATION));
+    public static Predicate<? super Annotation> ALL_ANNOTATIONS() {
+        return a -> (true);
+    }
+
+    public static Predicate<? super Annotation> ONLY_NER_AND_NP() {
+        return a -> (a.getType().equals(ChunksExtractorAnalyzer.NP_ANNOTATION) ||
+                a.getType().equals("person") ||
+                a.getType().equals("location") ||
+                a.getType().equals("organization"));
     }
 
     private void copyVisualConfFileIfNotExists(File baseDirFile) {
         File destVisualConf = new File(baseDirFile, ResourceUtil.VISUAL_CONF_FILENAME);
         if (!destVisualConf.exists()) {
             try {
-                FileUtils.copyFile(ResourceUtil.visualConfTemplateFile(), destVisualConf);
+                FileUtils.copyFile(ResourceUtil.bratVisualConfTemplateFile(), destVisualConf);
             } catch (IOException e) {
                 log.warn("Cannot copy visual.conf to: " + destVisualConf.getAbsolutePath());
             }

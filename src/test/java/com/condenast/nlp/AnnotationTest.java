@@ -20,7 +20,8 @@ public class AnnotationTest {
         AnalysisContext analysisContext = new AnalysisContext("lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum");
         Annotation annotation = new Annotation(analysisContext, "TEST", new Span(10, 20), 1.0);
         String actual = annotation.toBratFormat(new AtomicInteger(1));
-        String expected = "T1\tTEST 10 20\tm lorem ip";
+        String expected = "T1\tTEST 10 20\tm lorem ip\n" + "#2\tAnnotatorNotes T1\tANNOTATION: type=TEST span=[10." +
+                ".20) prob=1.0 text=m lorem ip\n";
         Assert.assertEquals(expected, actual);
 
     }

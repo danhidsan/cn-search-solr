@@ -34,6 +34,7 @@ public class SimpleLemmatizer implements DictionaryLemmatizer {
     public final Set<String> constantTags = new HashSet<String>(Arrays.asList("NNP", "NP00000"));
     private HashMap<List<String>, String> dictMap;
     private static HashMap<String, HashMap<List<String>, String>> cacheDictMap = new HashMap<>();
+    private static final List<Character> UNDESIRED = Arrays.asList(',', '.', ';', '?', '!', '%', '"');
 
     public SimpleLemmatizer() {
         this(EN_LEMMATIZER_TXT);
@@ -79,7 +80,8 @@ public class SimpleLemmatizer implements DictionaryLemmatizer {
         return keys;
     }
 
-    public String lemmatize(String word, String postag) {
+    public String lemmatize(final String word, final String postag) {
+        //String normWord = normalize(word);
         String lemma;
         List<String> keys = getDictKeys(word, postag);
         String keyValue = dictMap.get(keys);
@@ -93,6 +95,15 @@ public class SimpleLemmatizer implements DictionaryLemmatizer {
             lemma = StringUtil.toLowerCase(word);
         }
         return lemma;
+    }
+
+    private String normalize(final String word) {
+        StringBuilder stringBuilder = new StringBuilder();
+        char[] chars = word.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (!UNDESIRED.contains(chars[i])) stringBuilder.append(chars[i]);
+        }
+        return stringBuilder.toString();
     }
 
 }

@@ -1,16 +1,12 @@
 package com.condenast.nlp;
 
 
-import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
-import com.condenast.nlp.opennlp.SentenceDetectorAnalyzer;
 import opennlp.tools.util.Span;
 import org.apache.commons.lang.Validate;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import static com.condenast.nlp.opennlp.SentenceDetectorAnalyzer.SENTENCE_ANNOTATION;
 
 /**
  * Created by arau on 10/15/15.
@@ -82,23 +78,37 @@ public class Annotation implements Comparable<Annotation> {
         return "type=" + type + " span=" + span + " prob=" + prob + " text=" + text();
     }
 
-    public String toBratFormat(AtomicInteger id) {
+    public String toBratFormat(AtomicInteger counter) {
         StringBuilder stringBuilder = new StringBuilder();
-        String textNotesId = "T" + id.getAndIncrement();
-        String brat = String.format(BRAT_TEXT_TEMPLATE, textNotesId, getType(), getSpan().getStart(), getSpan().getEnd(), text());
-        stringBuilder.append(brat);
-        toBratFormatFeatures(id, stringBuilder, textNotesId);
+        String textNotesId = toBratTextAnnotation(counter, stringBuilder);
+        toBratNotesFeatures(counter, stringBuilder, textNotesId);
+        toBratNotesAnnotationString(counter, stringBuilder, textNotesId);
         return stringBuilder.toString();
     }
 
-    private void toBratFormatFeatures(AtomicInteger id, StringBuilder stringBuilder, String textNotesId) {
+    private String toBratTextAnnotation(AtomicInteger counter, StringBuilder stringBuilder) {
+        String textNotesId = "T" + counter.getAndIncrement();
+        String brat = String.format(BRAT_TEXT_TEMPLATE, textNotesId, getType(), getSpan().getStart(), getSpan().getEnd(), text());
+        stringBuilder.append(brat);
+        return textNotesId;
+    }
+
+    private void toBratNotesAnnotationString(AtomicInteger counter, StringBuilder stringBuilder, String textNotesId) {
+        String annotationNote = String.format(BRAT_NOTES_TEMLPATE, annNotesId(counter), ANNOTATOR_NOTES, textNotesId, "ANNOTATION", this.toString());
+        stringBuilder.append("\n").append(annotationNote);
+    }
+
+    private void toBratNotesFeatures(AtomicInteger counter, StringBuilder stringBuilder, String textNotesId) {
         if (features().isEmpty()) return;
         stringBuilder.append("\n");
         features().forEach((k, v) -> {
-            String annNotesId = "#" + id.getAndIncrement();
-            String brat = String.format(BRAT_NOTES_TEMLPATE, annNotesId, ANNOTATOR_NOTES, textNotesId, k, v);
+            String brat = String.format(BRAT_NOTES_TEMLPATE, annNotesId(counter), ANNOTATOR_NOTES, textNotesId, k, v);
             stringBuilder.append(brat);
         });
+    }
+
+    private String annNotesId(AtomicInteger counter) {
+        return "#" + counter.getAndIncrement();
     }
 
 }

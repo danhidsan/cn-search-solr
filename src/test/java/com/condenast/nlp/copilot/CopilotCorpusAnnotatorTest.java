@@ -50,11 +50,16 @@ public class CopilotCorpusAnnotatorTest {
         String hedAnn = FileUtils.readFileToString(expectedAnnFile);
         System.out.println(hedAnn);
         String expectedAnn = "T1\tSENTENCE_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
-                "T2\tperson 0 11\tAdam Levine\n" +
-                "T3\tlocation 14 29\tHollywood Hills\n" +
-                "T4\tNP_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
-                "#5\tAnnotatorNotes T4\tLEMMATIZED_NGRAMS: [Adam Levine’s, Adam Levine’s Hollywood, Levine’s Hollywood, Levine’s Hollywood Hills, Hollywood Hills, Hollywood Hills Home, Hills Home]\n" +
-                "#6\tAnnotatorNotes T4\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n";
+                "#2\tAnnotatorNotes T1\tANNOTATION: type=SENTENCE_ANNOTATION span=[0..34) prob=1.0 text=Adam Levine’s Hollywood Hills Home\n" +
+                "T3\tperson 0 11\tAdam Levine\n" +
+                "#4\tAnnotatorNotes T3\tANNOTATION: type=person span=[0..11) prob=0.9457607245957048 text=Adam Levine\n" +
+                "T5\tlocation 14 29\tHollywood Hills\n" +
+                "#6\tAnnotatorNotes T5\tANNOTATION: type=location span=[14..29) prob=0.9024026176240991 text=Hollywood Hills\n" +
+                "T7\tNP_ANNOTATION 0 34\tAdam Levine’s Hollywood Hills Home\n" +
+                "#8\tAnnotatorNotes T7\tLEMMATIZED_NGRAMS: [Adam, Adam Levine’s, Adam Levine’s Hollywood, Adam Levine’s Hollywood Hills, Adam Levine’s Hollywood Hills Home, Levine’s, Levine’s Hollywood, Levine’s Hollywood Hills, Levine’s Hollywood Hills Home, Hollywood, Hollywood Hills, Hollywood Hills Home, Hills, Hills Home, Home]\n" +
+                "#9\tAnnotatorNotes T7\tPARTS: [(NNP Adam), (NNP Levine’s), (NNP Hollywood), (NNP Hills), (NNP Home)]\n" +
+                "#10\tAnnotatorNotes T7\tANNOTATION: type=NP_ANNOTATION span=[0..34) prob=0.8202670966236225 " +
+                "text=Adam Levine’s Hollywood Hills Home\n";
         assertEquals(expectedAnn, hedAnn);
     }
 
@@ -63,10 +68,10 @@ public class CopilotCorpusAnnotatorTest {
         File outAnnotationDir = new File("./_bratAnnotationsTest_");
         FileUtils.deleteDirectory(outAnnotationDir);
         FileUtils.forceMkdir(outAnnotationDir);
-        CopilotCorpusAnnotator copilotCorpusAnnotator = new CopilotCorpusAnnotator(outAnnotationDir);
+        CopilotCorpusAnnotator annotator = new CopilotCorpusAnnotator(outAnnotationDir, CopilotCorpusAnnotator.ALL_ANNOTATIONS());
         CorporaWalkerFS corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
-        corporaWalker.run(copilotCorpusAnnotator);
-        assertEquals(0, copilotCorpusAnnotator.counterErr());
+        corporaWalker.run(annotator);
+        assertEquals(0, annotator.counterErr());
     }
 
 }

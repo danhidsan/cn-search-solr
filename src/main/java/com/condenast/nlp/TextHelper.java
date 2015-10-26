@@ -35,8 +35,8 @@ public class TextHelper {
         final String mdHtmlCleaned = cleanMarkdownAndHtml(text);
         String copilotCleaned = mdHtmlCleaned;
         if (text.startsWith(VIEW_SLIDESHOW_MD) && mdHtmlCleaned.startsWith(VIEW_SLIDESHOW))
-            copilotCleaned = mdHtmlCleaned.substring(VIEW_SLIDESHOW.length());
-        return copilotCleaned;
+            copilotCleaned = mdHtmlCleaned.substring(VIEW_SLIDESHOW.length() + 1);
+        return copilotCleaned.trim();
     }
 
 }

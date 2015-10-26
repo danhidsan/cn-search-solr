@@ -23,7 +23,7 @@ public class AnalyzerPipelineTest {
     public void testAnalyze() throws Exception {
         AnalyzerPipeline pipeLine = AnalyzerPipeline.assemble(testText, asList(NERAnalyzer.class, ChunksExtractorAnalyzer.class));
         pipeLine.analyze();
-        assertEquals(7, pipeLine.analysis().annotations().size());
+        assertEquals(10, pipeLine.analysis().annotations().size());
         assertEquals(1, pipeLine.analysis().annotations(SentenceDetectorAnalyzer.SENTENCE_ANNOTATION).size());
         assertEquals(1, pipeLine.analysis().annotations("location").size());
         assertEquals(3, pipeLine.analysis().annotations(ChunksExtractorAnalyzer.NP_ANNOTATION).size());

@@ -25,10 +25,10 @@ public class TextHelperTest {
     @Test
     public void testCleanCopilotField() throws Exception {
         String test = "[View Slideshow](http://www.architecturaldigest" +
-                ".com/gallery/adam-levine-hollywood-hills-home-slideshow)\\n\\n\\n\\nAs anyone who has watched even a" +
+                ".com/gallery/adam-levine-hollywood-hills-home-slideshow) As anyone who has watched even a" +
                 " <b>little</b> MTV knows";
         String actual = TextHelper.cleanCopilotField(test);
-        String expected = "\\n\\n\\n\\nAs anyone who has watched even a little MTV knows";
+        String expected = "As anyone who has watched even a little MTV knows";
         assertEquals(expected, actual);
     }
 

@@ -24,12 +24,17 @@ import opennlp.tools.parser.AbstractBottomUpParser;
 import opennlp.tools.parser.Parse;
 import opennlp.tools.parser.Parser;
 import opennlp.tools.postag.POSTaggerME;
+import opennlp.tools.tokenize.TokenizerME;
+import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.Span;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.StringTokenizer;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import static com.condenast.nlp.opennlp.ResourceUtil.EN_TOKEN_MODEL_BIN;
+import static com.condenast.nlp.opennlp.ResourceUtil.modelOf;
+import static java.util.Arrays.asList;
 
 /**
  * Finds flat chunks instead of a tree structure using a simpler model.
@@ -40,6 +45,11 @@ public class ChunkParser implements Parser {
 
     private ChunkerME chunker;
     private POSTaggerME tagger;
+    public static final List<String> POSSESSIVES = asList("'s", "’s");
+    public static final List<String> APOS = asList("'", "’");
+
+    protected ChunkParser() {
+    }
 
     public ChunkParser(ChunkerME chunker, POSTaggerME tagger) {
         this.chunker = chunker;
@@ -93,31 +103,47 @@ public class ChunkParser implements Parser {
         return new Parse[]{parse(tokens)};
     }
 
-    public Parse[] parseLine(String line, int numParses) {
-        StringTokenizer str = new StringTokenizer(line);
-        StringBuilder sb = new StringBuilder();
-        List<String> tokens = new ArrayList<>();
-        while (str.hasMoreTokens()) {
-            String tok = str.nextToken();
-            tokens.add(tok);
-            sb.append(tok).append(" ");
-        }
-        String text = sb.substring(0, sb.length() - 1);
-        Parse p = new Parse(text, new Span(0, text.length()), AbstractBottomUpParser.INC_NODE, 0, 0);
-        int start = 0;
-        int i = 0;
-        for (Iterator<String> ti = tokens.iterator(); ti.hasNext(); i++) {
-            String tok = ti.next();
-            p.insert(new Parse(text, new Span(start, start + tok.length()), AbstractBottomUpParser.TOK_NODE, 0, i));
-            start += tok.length() + 1;
-        }
+    public Parse[] parseLine(final String line, int numParses) {
+        Parse parent = tokenize(line);
         Parse[] parses;
         if (numParses == 1) {
-            parses = new Parse[]{this.parse(p)};
+            parses = new Parse[]{this.parse(parent)};
         } else {
-            parses = this.parse(p, numParses);
+            parses = this.parse(parent, numParses);
         }
         return parses;
+    }
+
+    protected Parse tokenize(String line) {
+        TokenizerME tokenizerME = new TokenizerME(modelOf(EN_TOKEN_MODEL_BIN, TokenizerModel.class));
+        Span[] tokenSpan = tokenizerME.tokenizePos(line);
+        List<Span> normTokenSpan = reuniteApos_s_Tokens(tokenSpan, Span.spansToStrings(tokenSpan, line));
+        Parse parent = new Parse(line, new Span(0, line.length()), AbstractBottomUpParser.INC_NODE, 0, 0);
+        AtomicInteger counter = new AtomicInteger();
+        normTokenSpan.forEach(ts -> {
+            Parse constituent = new Parse(line, ts, AbstractBottomUpParser.TOK_NODE, 0, counter.getAndIncrement());
+            parent.insert(constituent);
+        });
+        return parent;
+    }
+
+    private List<Span> reuniteApos_s_Tokens(Span[] tokenSpan, String[] tokenSpanText) {
+        List<Span> normTokenSpan = new ArrayList<>();
+        for (int i = 0; i < tokenSpan.length; i++) {
+            Span normSpan = tokenSpan[i];
+            String spanText = tokenSpanText[i];
+            boolean isPossessiveThisToken = POSSESSIVES.contains(spanText.toLowerCase());
+            boolean isPossessiveThisAndNextToken = APOS.contains(spanText.toLowerCase()) && (i + 1 < tokenSpan.length) && tokenSpanText[i + 1].equalsIgnoreCase("s");
+            if (i > 0 && isPossessiveThisToken || isPossessiveThisAndNextToken) {
+                normSpan = new Span(tokenSpan[i - 1].getStart(), tokenSpan[i - 1].getEnd() + 2);
+                normTokenSpan.remove(normTokenSpan.size() - 1);
+                if (isPossessiveThisAndNextToken) {
+                    i++;
+                }
+            }
+            normTokenSpan.add(normSpan);
+        }
+        return normTokenSpan;
     }
 
 

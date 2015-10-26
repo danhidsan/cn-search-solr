@@ -28,10 +28,14 @@ public class AnnotationsTest {
         String actual = Annotations.toBratFormat(annotationList);
         assertNotNull(actual);
         String expected = "T1\tTEST 1 5\torem\n" +
-                "T2\tTEST 10 15\tm dat\n" +
-                "T3\tNP_ANNOTATION 1 20\torem ipsum data foo\n" +
-                "#4\tAnnotatorNotes T3\tLEMMATIZED_NGRAMS: [foo, baz]\n" +
-                "T5\tTEST 1 20\torem ipsum data foo\n";
+                "#2\tAnnotatorNotes T1\tANNOTATION: type=TEST span=[1..5) prob=1.0 text=orem\n" +
+                "T3\tTEST 10 15\tm dat\n" +
+                "#4\tAnnotatorNotes T3\tANNOTATION: type=TEST span=[10..15) prob=1.0 text=m dat\n" +
+                "T5\tNP_ANNOTATION 1 20\torem ipsum data foo\n" +
+                "#6\tAnnotatorNotes T5\tLEMMATIZED_NGRAMS: [foo, baz]\n" +
+                "#7\tAnnotatorNotes T5\tANNOTATION: type=NP_ANNOTATION span=[1..20) prob=1.0 text=orem ipsum data foo\n" +
+                "T8\tTEST 1 20\torem ipsum data foo\n" +
+                "#9\tAnnotatorNotes T8\tANNOTATION: type=TEST span=[1..20) prob=1.0 text=orem ipsum data foo\n";
         assertEquals(expected, actual);
     }
 }

@@ -36,9 +36,9 @@ public class ChunksExtractorAnalyzer extends Analyzer {
     public static final String EN_POS_MAXENT_MODEL_FILENAME = "en-pos-maxent.bin";
     public static final String DETERMINER = "DT";
 
-    public static final int DEFAULT_MIN_NGRAMS_SIZE = 2;
-    public static final int DEFAULT_MAX_NGRAMS_SIZE = 3;
-    public static final int DEFAULT_NUM_PARSES = 5;
+    public static final int DEFAULT_MIN_NGRAMS_SIZE = 1;
+    public static final int DEFAULT_MAX_NGRAMS_SIZE = 5;
+    public static final int DEFAULT_NUM_PARSES = 1;
 
     private int minNGramsSize = DEFAULT_MIN_NGRAMS_SIZE;
     private int maxNGramsSize = DEFAULT_MAX_NGRAMS_SIZE;
@@ -82,11 +82,10 @@ public class ChunksExtractorAnalyzer extends Analyzer {
     }
 
     private void possiblyAddAnnotation(Parse chunk) {
-        if (notNounPhrase(chunk) && notVerbalPhrase(chunk)) return;
         List<Parse> chunkParts = normalizeChunkIfNeeded(chunk);
-        if (chunkParts.isEmpty() || chunkParts.stream().filter(isNounOrVerb()).collect(toList()).isEmpty()) return;
+        if (chunkParts.isEmpty()) return;
         Span span = determineChunkSpan(chunkParts);
-        String annotationType = notNounPhrase(chunk) ? VP_ANNOTATION : NP_ANNOTATION;
+        String annotationType = chunk.getType() + "_ANNOTATION";
         Annotation annotation = context.addAnnotation(annotationType, span, chunk.getProb());
         annotation.putFeature(PARTS_FEATURE, chunkParts);
         labelPartsWithLemmas(annotation);
