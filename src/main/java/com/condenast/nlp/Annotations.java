@@ -1,5 +1,7 @@
 package com.condenast.nlp;
 
+import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
+
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Predicate;
@@ -20,4 +22,15 @@ public class Annotations {
         return builder.toString().replaceAll("\n\n", "\n");
     }
 
+    public static Predicate<? super Annotation> ALL_ANNOTATIONS_FILTER() {
+        return a -> (true);
+    }
+
+    public static Predicate<? super Annotation> ONLY_NER_AND_NP_FILTER() {
+        return a -> (a.getType().equals(ChunksExtractorAnalyzer.NP_ANNOTATION) ||
+                a.getType().equals("person") ||
+                a.getType().equals("location") ||
+                a.getType().equals("organization"));
+    }
+    
 }

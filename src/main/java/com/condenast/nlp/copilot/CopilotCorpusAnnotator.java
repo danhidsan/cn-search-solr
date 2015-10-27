@@ -2,7 +2,6 @@ package com.condenast.nlp.copilot;
 
 import com.condenast.nlp.Annotation;
 import com.condenast.nlp.Annotations;
-import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
 import com.condenast.search.corpus.utils.copilot.visitor.AbstractVisitor;
 import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
 import org.apache.commons.io.FileUtils;
@@ -14,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
+import static com.condenast.nlp.Annotations.ALL_ANNOTATIONS_FILTER;
 import static com.condenast.nlp.opennlp.ResourceUtil.copyBratConfigFilesIfNotExist;
 
 /**
@@ -40,7 +40,7 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
     private File outAnnotationDir;
 
     public CopilotCorpusAnnotator(final File outAnnotationDir) {
-        this(outAnnotationDir, ALL_ANNOTATIONS());
+        this(outAnnotationDir, ALL_ANNOTATIONS_FILTER());
     }
 
     public CopilotCorpusAnnotator(final File outAnnotationDir, Predicate<? super Annotation> annotationFilter) {
@@ -79,18 +79,6 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
             tryWriteToFile(bratAnnotations, annFile);
         });
     }
-
-    public static Predicate<? super Annotation> ALL_ANNOTATIONS() {
-        return a -> (true);
-    }
-
-    public static Predicate<? super Annotation> ONLY_NER_AND_NP() {
-        return a -> (a.getType().equals(ChunksExtractorAnalyzer.NP_ANNOTATION) ||
-                a.getType().equals("person") ||
-                a.getType().equals("location") ||
-                a.getType().equals("organization"));
-    }
-
 
     protected String annFileName(CopilotDocument copilotDocument, String analysisName, String uuid) {
         return baseFileName(copilotDocument, analysisName, uuid).concat(".ann");
