@@ -2,10 +2,15 @@ package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.NLPException;
 import opennlp.tools.util.model.BaseModel;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.Validate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,16 +19,17 @@ import java.util.Map;
  */
 public class ResourceUtil {
 
+    protected static transient Logger log = LoggerFactory.getLogger(ResourceUtil.class);
+
     private final static Map<String, BaseModel> modelCache = new HashMap<>();
-    public static final String VISUAL_CONF_FILENAME = "visual.conf";
     public static final String EN_TOKEN_MODEL_BIN = "en-token.bin";
 
     public static URL modelDirURL() {
         return ResourceUtil.class.getResource("./model/");
     }
 
-    public static URL bratDirURL() {
-        return ResourceUtil.class.getResource("./brat/");
+    public static Path bratDirPath() {
+        return new File(ResourceUtil.class.getResource("./brat/").getPath()).toPath();
     }
 
     public static URL dictionaryDirURL() {
@@ -33,12 +39,6 @@ public class ResourceUtil {
     private static File modelFileOf(String name) {
         File file = new File(modelDirURL().getPath(), name);
         Validate.isTrue(file.exists(), "Cannot find model: " + name + " in " + modelDirURL().getPath());
-        return file;
-    }
-
-    public static File bratVisualConfTemplateFile() {
-        File file = new File(bratDirURL().getPath(), VISUAL_CONF_FILENAME);
-        Validate.isTrue(file.exists(), "Cannot find BRAT file: " + VISUAL_CONF_FILENAME + " in " + bratDirURL().getPath());
         return file;
     }
 
@@ -83,6 +83,23 @@ public class ResourceUtil {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    public static void copyBratConfigFilesIfNotExist(File baseDirFile) {
+        try {
+            Files.newDirectoryStream(bratDirPath()).forEach(p -> {
+                File destVisualConf = new File(baseDirFile, p.getFileName().toString());
+                if (!destVisualConf.exists()) {
+                    try {
+                        FileUtils.copyFile(p.toFile(), destVisualConf);
+                    } catch (IOException e) {
+                        log.warn("Cannot copy conf file from: " + p.toAbsolutePath() + " to: " + destVisualConf.getAbsolutePath(), e);
+                    }
+                }
+            });
+        } catch (IOException e) {
+            log.error(e.getMessage(), e);
         }
     }
 

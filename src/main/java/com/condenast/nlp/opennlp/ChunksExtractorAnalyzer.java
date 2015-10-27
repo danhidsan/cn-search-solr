@@ -89,7 +89,7 @@ public class ChunksExtractorAnalyzer extends Analyzer {
         Annotation annotation = context.addAnnotation(annotationType, span, chunk.getProb());
         annotation.putFeature(PARTS_FEATURE, chunkParts);
         labelPartsWithLemmas(annotation);
-        generateLemmatizedNGramsFeature(annotation);
+        if (nounPhrase(chunk) || verbalPhrase(chunk)) generateLemmatizedNGramsFeature(annotation);
     }
 
     private Span determineChunkSpan(List<Parse> npChunkParts) {
@@ -106,11 +106,11 @@ public class ChunksExtractorAnalyzer extends Analyzer {
         return chunkParts.stream().map(ShowableParse::new).collect(toList());
     }
 
-    private boolean notNounPhrase(Parse chunk) {
+    private boolean nounPhrase(Parse chunk) {
         return !chunk.getType().equals("NP");
     }
 
-    private boolean notVerbalPhrase(Parse chunk) {
+    private boolean verbalPhrase(Parse chunk) {
         return !chunk.getType().equals("VP");
     }
 

@@ -68,7 +68,7 @@ public class CopilotCorpusAnnotatorTest {
         File outAnnotationDir = new File("./_bratAnnotationsTest_");
         FileUtils.deleteDirectory(outAnnotationDir);
         FileUtils.forceMkdir(outAnnotationDir);
-        CopilotCorpusAnnotator annotator = new CopilotCorpusAnnotator(outAnnotationDir, CopilotCorpusAnnotator.ALL_ANNOTATIONS());
+        CopilotCorpusAnnotator annotator = new CopilotCorpusAnnotator(outAnnotationDir, CopilotCorpusAnnotator.ONLY_NER_AND_NP());
         CorporaWalkerFS corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
         corporaWalker.run(annotator);
         assertEquals(0, annotator.counterErr());

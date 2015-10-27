@@ -3,7 +3,6 @@ package com.condenast.nlp.copilot;
 import com.condenast.nlp.Annotation;
 import com.condenast.nlp.Annotations;
 import com.condenast.nlp.opennlp.ChunksExtractorAnalyzer;
-import com.condenast.nlp.opennlp.ResourceUtil;
 import com.condenast.search.corpus.utils.copilot.visitor.AbstractVisitor;
 import com.condenast.search.corpus.utils.copilot.walker.CopilotDocument;
 import org.apache.commons.io.FileUtils;
@@ -14,6 +13,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
+
+import static com.condenast.nlp.opennlp.ResourceUtil.copyBratConfigFilesIfNotExist;
 
 /**
  * Created by arau on 10/20/15.
@@ -59,17 +60,18 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
 
     @Override
     public void onError(Exception e) {
+        if (currentDocument != null) {
+            String cdInfo = String.format(">%s.%s.%s< | uri=%s", currentDocument.brandName(), currentDocument.collectionName(), currentDocument.id(), currentDocument.uri());
+            log.error(e.getMessage() + " | CurrentDocument Error Context: " + cdInfo);
+        }
         super.onError(e);
-        if (currentDocument == null) return;
-        String cdInfo = String.format(">%s.%s.%s< | uri=%s", currentDocument.brandName(), currentDocument.collectionName(), currentDocument.id(), currentDocument.uri());
-        log.error(e.getMessage() + " | CurrentDocument Error Context: " + cdInfo);
     }
 
     protected void writeAnnotations(AnnotatedCopilotDocument annotatedCopilotDocument) {
         annotatedCopilotDocument.analyses().forEach((analysisName, analysis) -> {
             String uuid = annotatedCopilotDocument.copilotDocument().id();
             File baseDirFile = baseDirFile(annotatedCopilotDocument.copilotDocument());
-            copyVisualConfFileIfNotExists(baseDirFile);
+            copyBratConfigFilesIfNotExist(baseDirFile);
             File txtFile = new File(baseDirFile, txtFileName(annotatedCopilotDocument.copilotDocument(), analysisName, uuid));
             tryWriteToFile(analysis.text(), txtFile);
             File annFile = new File(baseDirFile, annFileName(annotatedCopilotDocument.copilotDocument(), analysisName, uuid));
@@ -89,16 +91,6 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
                 a.getType().equals("organization"));
     }
 
-    private void copyVisualConfFileIfNotExists(File baseDirFile) {
-        File destVisualConf = new File(baseDirFile, ResourceUtil.VISUAL_CONF_FILENAME);
-        if (!destVisualConf.exists()) {
-            try {
-                FileUtils.copyFile(ResourceUtil.bratVisualConfTemplateFile(), destVisualConf);
-            } catch (IOException e) {
-                log.warn("Cannot copy visual.conf to: " + destVisualConf.getAbsolutePath());
-            }
-        }
-    }
 
     protected String annFileName(CopilotDocument copilotDocument, String analysisName, String uuid) {
         return baseFileName(copilotDocument, analysisName, uuid).concat(".ann");
