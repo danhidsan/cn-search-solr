@@ -23,7 +23,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by arau on 10/16/15.
  */
-public class ChunksExtractorAnalyzer extends Analyzer {
+public class ChunksExtractorAnalyzer extends AbstractAnalyzer {
 
     public static final String NP_ANNOTATION = "NP_ANNOTATION";
     public static final String VP_ANNOTATION = "VP_ANNOTATION";

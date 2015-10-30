@@ -1,7 +1,7 @@
 package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
-import com.condenast.nlp.Analyzer;
+import com.condenast.nlp.AbstractAnalyzer;
 import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
 import opennlp.tools.util.Span;
@@ -16,7 +16,7 @@ import static java.util.Collections.unmodifiableList;
 /**
  * Created by arau on 10/15/15.
  */
-public class SentenceDetectorAnalyzer extends Analyzer {
+public class SentenceDetectorAnalyzer extends AbstractAnalyzer {
 
     public static final String SENTENCE_ANNOTATION = "SENTENCE_ANNOTATION";
     private static final String MODEL_NAME = "en-sent.bin";

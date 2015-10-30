@@ -1,7 +1,7 @@
 package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
-import com.condenast.nlp.Analyzer;
+import com.condenast.nlp.AbstractAnalyzer;
 import org.junit.Test;
 
 import static java.util.Arrays.asList;
@@ -24,7 +24,7 @@ public class NERAnalyzerTest {
                 "Drake, chief of staff for the Reagan Foundation.";
 
         AnalysisContext context = new AnalysisContext(text);
-        Analyzer nerOpenNLP = new NERAnalyzer(context, asList("person", "location", "date"));
+        AbstractAnalyzer nerOpenNLP = new NERAnalyzer(context, asList("person", "location", "date"));
         nerOpenNLP.analyze();
         assertNotNull(nerOpenNLP.myAnnotations());
         System.out.println(nerOpenNLP.myAnnotations());

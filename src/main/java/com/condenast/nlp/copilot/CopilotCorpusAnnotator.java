@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
 
-import static com.condenast.nlp.Annotations.ALL_ANNOTATIONS_FILTER;
+import static com.condenast.nlp.Annotations.ALL_ANNOTATIONS_PREDICATE;
 import static com.condenast.nlp.opennlp.ResourceUtil.copyBratConfigFilesIfNotExist;
 
 /**
@@ -40,7 +40,7 @@ public class CopilotCorpusAnnotator extends AbstractVisitor {
     private File outAnnotationDir;
 
     public CopilotCorpusAnnotator(final File outAnnotationDir) {
-        this(outAnnotationDir, ALL_ANNOTATIONS_FILTER());
+        this(outAnnotationDir, ALL_ANNOTATIONS_PREDICATE());
     }
 
     public CopilotCorpusAnnotator(final File outAnnotationDir, Predicate<? super Annotation> annotationFilter) {

@@ -12,7 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-import static com.condenast.nlp.Annotations.ONLY_NER_AND_NP_FILTER;
+import static com.condenast.nlp.Annotations.ONLY_NER_AND_NP_PREDICATE;
 import static com.condenast.search.solr.SolrConfigTestHelper.testCopilotCorpus10DocsPerBrandPerCollectionRootDir;
 import static org.junit.Assert.assertEquals;
 
@@ -69,7 +69,7 @@ public class CopilotCorpusAnnotatorTest {
         File outAnnotationDir = new File("./_bratAnnotationsTest_");
         FileUtils.deleteDirectory(outAnnotationDir);
         FileUtils.forceMkdir(outAnnotationDir);
-        CopilotCorpusAnnotator annotator = new CopilotCorpusAnnotator(outAnnotationDir, ONLY_NER_AND_NP_FILTER());
+        CopilotCorpusAnnotator annotator = new CopilotCorpusAnnotator(outAnnotationDir, ONLY_NER_AND_NP_PREDICATE());
         CorporaWalkerFS corporaWalker = new CorporaWalkerFS(testCopilotCorpus10DocsPerBrandPerCollectionRootDir());
         corporaWalker.run(annotator);
         assertEquals(0, annotator.counterErr());

@@ -1,7 +1,7 @@
 package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
-import com.condenast.nlp.Analyzer;
+import com.condenast.nlp.AbstractAnalyzer;
 import com.condenast.nlp.Annotation;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.tokenize.SimpleTokenizer;
@@ -20,7 +20,7 @@ import static org.apache.commons.collections.CollectionUtils.isEmpty;
 /**
  * Created by arau on 10/15/15.
  */
-public class NERAnalyzer extends Analyzer {
+public class NERAnalyzer extends AbstractAnalyzer {
 
     private final NameFinderME[] finders;
     public final List<String> defaultNerTypes = unmodifiableList(Arrays.asList("person", "location", "organization"));

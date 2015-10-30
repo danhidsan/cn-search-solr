@@ -11,15 +11,15 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by arau on 10/20/15.
  */
-public class AnalyzerPipeline extends Analyzer {
+public class AnalyzerPipeline extends AbstractAnalyzer {
 
-    private List<Analyzer> pipeLine;
+    private List<AbstractAnalyzer> pipeLine;
 
     private AnalyzerPipeline(AnalysisContext context) {
         super(context);
     }
 
-    public static AnalyzerPipeline assemble(String text, List<Class<? extends Analyzer>> analyzerClasses) {
+    public static AnalyzerPipeline assemble(String text, List<Class<? extends AbstractAnalyzer>> analyzerClasses) {
         Validate.notEmpty(analyzerClasses);
         Validate.notEmpty(text);
         AnalysisContext analysisContext = new AnalysisContext(text);
@@ -28,11 +28,11 @@ public class AnalyzerPipeline extends Analyzer {
         return instance;
     }
 
-    private static Function<Class<? extends Analyzer>, ? extends Analyzer> instantiateAnalyzerFunc(AnalysisContext analysisContext) {
+    private static Function<Class<? extends AbstractAnalyzer>, ? extends AbstractAnalyzer> instantiateAnalyzerFunc(AnalysisContext analysisContext) {
         return ac -> tryInstantiateAnalyzer(analysisContext, ac);
     }
 
-    private static Analyzer tryInstantiateAnalyzer(AnalysisContext analysisContext, Class<? extends Analyzer> ac) {
+    private static AbstractAnalyzer tryInstantiateAnalyzer(AnalysisContext analysisContext, Class<? extends AbstractAnalyzer> ac) {
         try {
             return ac.getConstructor(AnalysisContext.class).newInstance(analysisContext);
         } catch (Exception e) {
@@ -49,7 +49,7 @@ public class AnalyzerPipeline extends Analyzer {
 
     @Override
     public void analyze() {
-        pipeLine.forEach(Analyzer::analyze);
+        pipeLine.forEach(AbstractAnalyzer::analyze);
     }
 
 }

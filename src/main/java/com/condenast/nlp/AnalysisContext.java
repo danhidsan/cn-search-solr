@@ -18,12 +18,23 @@ import static java.util.stream.Collectors.toList;
  */
 public class AnalysisContext {
 
+    public static final String DEFAULT_NAME = "DEFAULT";
     private final String text;
     private List<Annotation> annotations = new ArrayList<>();
+    private final String name;
+    private final int level;
+
+    public AnalysisContext(final String text, String name, int level) {
+        Validate.notEmpty(text);
+        Validate.notEmpty(name);
+        Validate.isTrue(level > 0, "level must be > 0");
+        this.name = name;
+        this.level = level;
+        this.text = text;
+    }
 
     public AnalysisContext(final String text) {
-        Validate.notEmpty(text);
-        this.text = text;
+        this(text, DEFAULT_NAME, 1);
     }
 
     public String text() {
@@ -60,5 +71,10 @@ public class AnalysisContext {
     @Override
     public String toString() {
         return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE).append(text).append(annotations).toString();
+    }
+
+    public void addAnnotation(Annotation annotation) {
+        Validate.notNull(annotation);
+        annotations.add(annotation);
     }
 }

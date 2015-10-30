@@ -56,6 +56,7 @@ public class NGramsHelper {
 
     static class ChunkPartsNGram {
 
+        private boolean muted = false;
         private List<Parse> chunkParts;
         private int minGramSize;
         private int maxGramSize;
@@ -73,27 +74,72 @@ public class NGramsHelper {
         public List<String> generate() {
             if (isEmpty(chunkParts) || chunkParts.size() < minGramSize) return Collections.emptyList();
             ngrams = new ArrayList<>();
-            for (int head = 0; head < chunkParts.size(); head++) {
-                if (chunkParts.size() - head < minGramSize) break;
+            for (int startPart = 0; startPart < chunkParts.size(); startPart++) {
+                if (chunkParts.size() - startPart < minGramSize) break;
+                if (shouldSkipFirstOrLast(chunkParts.get(startPart))) continue;
                 sb = new StringBuilder();
                 ngramSize = 0;
                 hasNounOrVerb = false;
-                addToken(head);
-                for (int current = head + 1; current < chunkParts.size(); current++) {
-                    addToken(current);
+                addToken(startPart);
+                for (int currentPart = startPart + 1; currentPart < chunkParts.size(); currentPart++) {
+                    addToken(currentPart);
                 }
             }
             return ngrams;
         }
 
-        private void addToken(int pos) {
-            Parse part = chunkParts.get(pos);
+        private boolean shouldSkipFirstOrLast(Parse part) {
+            if (muted(part)) return true;
+            return muted ||
+                    part.getType().startsWith("CC") ||
+                    part.getType().startsWith("RB") ||
+                    part.getType().startsWith("EX") ||
+                    part.getType().startsWith("IN");
+
+        }
+
+        private boolean parenthesisStart(Parse part) {
+            return part.getCoveredText().startsWith("(") ||
+                    part.getCoveredText().startsWith("[") ||
+                    part.getCoveredText().startsWith("{") ||
+                    part.getType().startsWith("-L");
+        }
+
+        private boolean parenthesisEnd(Parse part) {
+            return part.getCoveredText().startsWith(")") ||
+                    part.getCoveredText().startsWith("]") ||
+                    part.getCoveredText().startsWith("}") ||
+                    part.getType().startsWith("-R");
+        }
+
+        private void addToken(int position) {
+            Parse part = chunkParts.get(position);
+            if (filter(part)) return;
             sb.append(part.getLabel()).append(" ");
             ngramSize++;
             hasNounOrVerb = hasNounOrVerb || isNounOrVerbPOS(part);
-            if (hasNounOrVerb && ngramSize >= minGramSize && ngramSize <= maxGramSize) {
-                ngrams.add(TextHelper.fullTrim(sb.toString()));
+            if (!shouldSkipFirstOrLast(part) && hasNounOrVerb && ngramSize >= minGramSize && ngramSize <= maxGramSize) {
+                String ngram = TextHelper.fullTrim(sb.toString());
+                if (!ngrams.contains(ngram)) ngrams.add(ngram);
             }
+        }
+
+        String filterable = ".,:;\"”“'’?!|()[]{}";
+
+        private boolean filter(Parse part) {
+            if (muted(part)) return true;
+            return muted || part.getCoveredText().trim().length() <= 2 || filterable.contains(part.getCoveredText().trim().substring(0, 1));
+        }
+
+        private boolean muted(Parse part) {
+            if (parenthesisStart(part)) {
+                muted = true;
+            }
+            if (parenthesisEnd(part)) {
+                muted = false;
+                return true;
+            }
+            return muted;
         }
 
     }

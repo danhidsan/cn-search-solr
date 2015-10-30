@@ -22,15 +22,15 @@ public class Annotations {
         return builder.toString().replaceAll("\n\n", "\n");
     }
 
-    public static Predicate<? super Annotation> ALL_ANNOTATIONS_FILTER() {
+    public static Predicate<? super Annotation> ALL_ANNOTATIONS_PREDICATE() {
         return a -> (true);
     }
 
-    public static Predicate<? super Annotation> ONLY_NER_AND_NP_FILTER() {
+    public static Predicate<? super Annotation> ONLY_NER_AND_NP_PREDICATE() {
         return a -> (a.getType().equals(ChunksExtractorAnalyzer.NP_ANNOTATION) ||
                 a.getType().equals("person") ||
                 a.getType().equals("location") ||
                 a.getType().equals("organization"));
     }
-    
+
 }

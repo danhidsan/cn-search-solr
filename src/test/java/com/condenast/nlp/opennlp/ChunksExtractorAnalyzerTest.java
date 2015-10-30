@@ -1,7 +1,7 @@
 package com.condenast.nlp.opennlp;
 
 import com.condenast.nlp.AnalysisContext;
-import com.condenast.nlp.Analyzer;
+import com.condenast.nlp.AbstractAnalyzer;
 import com.condenast.nlp.Annotation;
 import opennlp.tools.parser.Parse;
 import org.junit.Before;
@@ -26,7 +26,7 @@ public class ChunksExtractorAnalyzerTest {
     @Test
     public void testPunctBug() throws Exception {
         AnalysisContext context = new AnalysisContext(testPunctBug);
-        Analyzer chunkingAnalyzer = new ChunksExtractorAnalyzer(context);
+        AbstractAnalyzer chunkingAnalyzer = new ChunksExtractorAnalyzer(context);
         chunkingAnalyzer.analyze();
 
         List<Annotation> annotations = context.annotations();
@@ -42,7 +42,7 @@ public class ChunksExtractorAnalyzerTest {
         String text = "The House of Deputies is full.";
 
         AnalysisContext context = new AnalysisContext(text);
-        Analyzer chunkingAnalyzer = new ChunksExtractorAnalyzer(context);
+        AbstractAnalyzer chunkingAnalyzer = new ChunksExtractorAnalyzer(context);
         chunkingAnalyzer.analyze();
 
         List<Annotation> ppAnnotations = context.annotations("PP_ANNOTATION");
